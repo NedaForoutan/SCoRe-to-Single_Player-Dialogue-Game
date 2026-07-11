@@ -1,0 +1,3 @@
+[submodule "playpen/clembench"]
+	path = playpen/clembench
+	url = https://github.com
