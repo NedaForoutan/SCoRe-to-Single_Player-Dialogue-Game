@@ -1,0 +1,11 @@
+{
+  "game_name": "textmapworld_specificroom",
+  "description": "Exploring a map to find a specific room.",
+  "main_game": "textmapworld",
+  "players": 1,
+  "image": "none",
+  "languages": ["en"],
+  "benchmark": ["2.0", "3.0"],
+  "regression": "large",
+  "roles": ["Describer"]
+}

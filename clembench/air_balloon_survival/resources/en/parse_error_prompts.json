@@ -1,0 +1,6 @@
+{
+    "no_sr_prompt": "Your response did not start with the proper strategic reasoning tag at the very beginning of your response. The very first structured format must be of the form STRATEGIC REASONING: {...}. Try again.",
+    "no_argument_prompt": "Your response did not contain an argument. You must include the structured format ARGUMENT: {...} somewhere in your response. Try again",
+    "untagged_sequence_prompt": "Your response contained an untagged sequence or you used STRATEGIC REASONING more than once. You may only use the structured formats as explained in the initial message. They must all be of the form TAG: {...}",
+    "only_sr_prompt": "Your response only contained a strategic reasoning tag. You must at least include one more valid tag in your response, so that the other player receives a message. Try again."
+}

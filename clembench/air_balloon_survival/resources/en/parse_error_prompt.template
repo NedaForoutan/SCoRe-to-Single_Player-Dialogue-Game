@@ -1,0 +1,21 @@
+Your response did not adhere to the structured formats and/or content requirements! 
+
+You may only use the following structured formats in your responses:
+PROPOSAL: {'A', 'B', 'C', …}
+Propose keeping exactly those items.
+REFUSE: {'A', 'B', 'C', …}
+Explicitly reject opponent's proposal.
+ARGUMENT: {'...'}
+Defend your last proposal or argue against the player's proposal.
+AGREE: {'A', 'B', 'C', …}
+Accept the opponent's proposal which ends the game.
+$STRATEGIC_REASONING_FORMAT$
+
+The content of your response which can be handed to the other player has to be non-empty.
+$REQUIRE_ARGUMENT$
+
+$STRATEGIC_REASONING_RULE$
+A tag in a structured format must be followed by colon and whitespace. The argument must be a python set containing 0 or more strings.
+So, it must be of the form TAG: {...}
+
+Now try again.

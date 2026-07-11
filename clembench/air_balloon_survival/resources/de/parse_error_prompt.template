@@ -1,0 +1,21 @@
+Deine Antwort entsprach nicht den Formatvorgaben und/oder den Inhaltsanforderungen!
+
+Du darfst in deinen Antworten nur die folgenden Schlagwort-Argument Strukturen verwenden:
+VORSCHLAG: {'A', 'B', 'C', …}
+Schlage einen Deal mit genau diesen Gegenstände vor.
+ABLEHNUNG: {'A', 'B', 'C', …}
+Lehne den Vorschlag des Gegenspielers ausdrücklich ab.
+ARGUMENT: {'...'}
+Verteidige deinen letzten Vorschlag oder argumentiere gegen den Vorschlag des Gegenspielers.
+ZUSTIMMUNG: {'A', 'B', 'C', …}
+Akzeptiere den Vorschlag des Gegenspielers, wodurch das Spiel endet.
+$STRATEGIC_REASONING_FORMAT$
+
+Der Inhalt deiner Antwort, der dem anderen Spieler übergeben werden kann, darf nicht leer sein.
+$REQUIRE_ARGUMENT$
+
+$STRATEGIC_REASONING_RULE$
+Ein Tag in einem strukturierten Format muss von einem Doppelpunkt und einem Leerzeichen gefolgt sein. Das Argument muss eine Python-Menge (set) sein.
+Es muss also die Form SCHLAGWORT: {...} haben.
+
+Versuche es noch einmal.

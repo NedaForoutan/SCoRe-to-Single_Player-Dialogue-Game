@@ -1,0 +1,11 @@
+{
+  "game_name": "imagegame",
+  "description": "Image Game simulation to generate referring expressions and fill a grid accordingly",
+  "main_game": "imagegame",
+  "players": 2,
+  "image": "none",
+  "languages": ["en"],
+  "benchmark": ["0.9", "1.0", "1.5", "2.0", "3.0"],
+  "regression": "small",
+  "roles": ["Instruction Giver", "Instruction Follower"]
+}

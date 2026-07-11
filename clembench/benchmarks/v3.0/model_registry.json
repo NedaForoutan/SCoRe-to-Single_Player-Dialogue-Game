@@ -1,0 +1,533 @@
+[
+    {
+        "model_name": "deepseek-v3.2",
+        "model_id": "deepseek/deepseek-v3.2",
+        "backend": "openrouter",
+        "release_date": "2025-09-23",
+        "open_weight": true,
+        "parameters": "685B",
+        "languages": [
+            "en", "zh"
+        ],
+        "context_size": "160k",
+        "license": {
+            "name": "MIT",
+            "url": "https://choosealicense.com/licenses/mit/"
+        },
+        "model_config": {
+            "extra_body": {
+                "reasoning": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    {
+        "model_name": "deepseek-v3.2-without-reasoning",
+        "model_id": "deepseek/deepseek-v3.2",
+        "backend": "openrouter",
+        "release_date": "2025-09-23",
+        "open_weight": true,
+        "parameters": "685B",
+        "languages": [
+            "en", "zh"
+        ],
+        "context_size": "160k",
+        "license": {
+            "name": "MIT",
+            "url": "https://choosealicense.com/licenses/mit/"
+        },
+        "model_config": {
+            "extra_body": {
+                "reasoning": {
+                    "enabled": false
+                }
+            }
+        }
+    },
+    {
+        "model_name": "qwen3-max",
+        "model_id": "qwen/qwen3-max",
+        "backend": "openrouter",
+        "release_date": "2025-09-23",
+        "open_weight": false,
+        "parameters": "1000B",
+        "languages": [
+            "en", "zh"
+        ],
+        "context_size": "256k",
+        "license": {
+            "name": "",
+            "url": ""
+        },
+        "model_config": {
+            "extra_body": {
+            }
+        }
+    },
+    {
+        "model_name": "gpt-oss-120b",
+        "model_id": "openai/gpt-oss-120b",
+        "backend": "openrouter",
+        "release_date": "2025-11-06",
+        "open_weight": true,
+        "parameters": "357B",
+        "languages": [
+            "en", "zh"
+        ],
+        "context_size": "256k",
+        "license": {
+            "name": "moonshotai",
+            "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE"
+        },
+        "model_config": {
+            "reasoning_model": true,
+            "extra_body": {
+                "reasoning": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    {
+        "model_name": "kimi-k2-thinking",
+        "model_id": "moonshotai/kimi-k2-thinking",
+        "backend": "openrouter",
+        "release_date": "2025-11-06",
+        "open_weight": true,
+        "parameters": "357B",
+        "languages": [
+            "en", "zh"
+        ],
+        "context_size": "256k",
+        "license": {
+            "name": "moonshotai",
+            "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE"
+        },
+        "model_config": {
+            "reasoning_model": true,
+            "extra_body": {
+                "reasoning": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    {
+        "model_name": "kimi-k2.5",
+        "model_id": "moonshotai/kimi-k2.5",
+        "backend": "openrouter",
+        "release_date": "2025-11-06",
+        "open_weight": true,
+        "parameters": "357B",
+        "languages": [
+            "en", "zh"
+        ],
+        "context_size": "256k",
+        "license": {
+            "name": "moonshotai",
+            "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE"
+        },
+        "model_config": {
+            "reasoning_model": true,
+            "extra_body": {
+                "reasoning": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    {
+        "model_name": "kimi-k2.5-without-reasoning",
+        "model_id": "moonshotai/kimi-k2.5",
+        "backend": "openrouter",
+        "release_date": "2025-11-06",
+        "open_weight": true,
+        "parameters": "357B",
+        "languages": [
+            "en", "zh"
+        ],
+        "context_size": "256k",
+        "license": {
+            "name": "moonshotai",
+            "url": "https://huggingface.co/moonshotai/Kimi-K2-Thinking/blob/main/LICENSE"
+        },
+        "model_config": {
+            "reasoning_model": true,
+            "extra_body": {
+                "reasoning": {
+                    "enabled": false
+                }
+            }
+        }
+    },
+    {
+        "model_name": "glm-4.6",
+        "model_id": "z-ai/glm-4.6",
+        "backend": "openrouter",
+        "release_date": "2025-11-05",
+        "open_weight": true,
+        "parameters": "357B",
+        "languages": [
+            "en", "fr"
+        ],
+        "context_size": "256k",
+        "license": {
+            "name": "MIT",
+            "url": "https://choosealicense.com/licenses/mit/"
+        },
+        "model_config": {
+            "reasoning_model": true,
+            "extra_body": {
+                "reasoning": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    {
+        "model_name": "glm-4.7",
+        "model_id": "z-ai/glm-4.7",
+        "backend": "openrouter",
+        "release_date": "2025-11-05",
+        "open_weight": true,
+        "parameters": "357B",
+        "languages": [
+            "en", "fr"
+        ],
+        "context_size": "256k",
+        "license": {
+            "name": "MIT",
+            "url": "https://choosealicense.com/licenses/mit/"
+        },
+        "model_config": {
+            "reasoning_model": true,
+            "extra_body": {
+                "reasoning": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    {
+        "model_name": "minimax-m2.5",
+        "model_id": "minimax/minimax-m2.5",
+        "backend": "openrouter",
+        "release_date": "2025-11-05",
+        "open_weight": true,
+        "parameters": "357B",
+        "languages": [
+            "en", "fr"
+        ],
+        "context_size": "256k",
+        "license": {
+            "name": "MIT",
+            "url": "https://choosealicense.com/licenses/mit/"
+        },
+        "model_config": {
+            "reasoning_model": true,
+            "extra_body": {
+                "reasoning": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    {
+        "model_name": "glm-5-without-reasoning",
+        "model_id": "z-ai/glm-5",
+        "backend": "openrouter",
+        "release_date": "2025-11-05",
+        "open_weight": true,
+        "parameters": "357B",
+        "languages": [
+            "en", "fr"
+        ],
+        "context_size": "256k",
+        "license": {
+            "name": "MIT",
+            "url": "https://choosealicense.com/licenses/mit/"
+        },
+        "model_config": {
+            "reasoning_model": true,
+            "extra_body": {
+                "reasoning": {
+                    "enabled": false
+                }
+            }
+        }
+    },
+    {
+        "model_name": "glm-5",
+        "model_id": "z-ai/glm-5",
+        "backend": "openrouter",
+        "release_date": "2025-11-05",
+        "open_weight": true,
+        "parameters": "357B",
+        "languages": [
+            "en", "fr"
+        ],
+        "context_size": "256k",
+        "license": {
+            "name": "MIT",
+            "url": "https://choosealicense.com/licenses/mit/"
+        },
+        "model_config": {
+            "reasoning_model": true,
+            "extra_body": {
+                "reasoning": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    {
+        "model_name": "mistral-3-large-2512",
+        "model_id": "mistralai/mistral-large-2512",
+        "backend": "openrouter",
+        "release_date": "2025-12-02",
+        "open_weight": true,
+        "parameters": "675B",
+        "languages": [
+            "en", "fr"
+        ],
+        "context_size": "256k",
+        "license": {
+            "name": "Mistral",
+            "url": "https://www.llama.com/llama3/license/"
+        },
+        "model_config": {
+            "extra_body": {
+            }
+        }
+    },
+    {
+        "model_name": "gemini-3-flash",
+        "model_id": "gemini-3-flash-preview",
+        "backend": "google",
+        "release_date": "2025-12-10",
+        "open_weight": false,
+        "parameters": "1000B",
+        "languages": [
+            
+        ],
+        "context_size": "1000k",
+        "license": {
+            "name": "Meta",
+            "url": "https://www.llama.com/llama3/license/"
+        },
+        "model_config": {
+            "multimodality": {
+                "single_image": true,
+                "multiple_images": true,
+                "audio": true,
+                "video": true
+            },
+            "reasoning_model": true,
+            "reasoning_budget": 400,
+            "include_thoughts": true
+        }
+    },
+    {
+        "model_name": "gemini-3-pro",
+        "model_id": "gemini-3-pro-preview",
+        "backend": "google",
+        "release_date": "2025-11-15",
+        "open_weight": false,
+        "parameters": "1000B",
+        "languages": [
+            
+        ],
+        "context_size": "1000k",
+        "license": {
+            "name": "Meta",
+            "url": "https://www.llama.com/llama3/license/"
+        },
+        "model_config": {
+            "multimodality": {
+                "single_image": true,
+                "multiple_images": true,
+                "audio": true,
+                "video": true
+            },
+            "reasoning_model": true,
+            "reasoning_budget": 400,
+            "include_thoughts": true
+        }
+    },
+    {
+        "model_name": "claude-sonnet-4-5-20250929",
+        "model_id": "claude-sonnet-4-5-20250929",
+        "backend": "anthropic",
+        "release_date": "2025-09-29",
+        "open_weight": false,
+        "parameters": "",
+        "languages": [
+        ],
+        "context_size": "200k",
+        "license": {
+            "name": "Anthropic",
+            "url": "https://www.anthropic.com/legal/commercial-terms"
+        },
+        "model_config": {
+            "multimodality": {
+                "single_image": true,
+                "multiple_images": true,
+                "audio": false,
+                "video": false
+            },
+            "thinking_mode": true,
+            "thinking_budget": 1024
+        }
+    },
+    {
+        "model_name": "gpt-5.2-2025-12-11",
+        "model_id": "gpt-5.2-2025-12-11",
+        "backend": "openai",
+        "release_date": "2025-12-11",
+        "open_weight": false,
+        "parameters": "",
+        "languages": [
+            "en"
+        ],
+        "context_size": "400k",
+        "license": {
+            "name": "OpenAI",
+            "url": "https://openai.com/policies/row-terms-of-use/"
+        },
+        "model_config": {
+            "reasoning_model": true,
+            "reasoning_effort": "low",
+            "multimodality": {
+                "single_image": true,
+                "multiple_images": true,
+                "audio": false,
+                "video": false
+            }
+        }
+    },
+    {
+        "model_name": "claude-sonnet-4-5-azure-high",
+        "model_id": "claude-sonnet-4-5",
+        "backend": "azure",
+        "release_date": "2024-12-18",
+        "open_weight": false,
+        "parameters": "",
+        "languages": [
+            "en"
+        ],
+        "context_size": "200k",
+        "license": {
+            "name": "Apache 2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        },
+        "model_config": {
+            "thinking_mode": true,
+            "thinking_budget": 8192,
+            "multimodality": {
+                "single_image": true,
+                "multiple_images": true,
+                "audio": false,
+                "video": false
+            }
+        }
+    },
+    {
+        "model_name": "claude-sonnet-4-5-azure-low",
+        "model_id": "claude-sonnet-4-5",
+        "backend": "azure",
+        "release_date": "2024-12-18",
+        "open_weight": false,
+        "parameters": "",
+        "languages": [
+            "en"
+        ],
+        "context_size": "200k",
+        "license": {
+            "name": "Apache 2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        },
+        "model_config": {
+            "thinking_mode": true,
+            "thinking_budget": 1024,
+            "multimodality": {
+                "single_image": true,
+                "multiple_images": true,
+                "audio": false,
+                "video": false
+            }
+        }
+    },
+    {
+        "model_name": "gpt-5.2-azure-high",
+        "model_id": "gpt-5.2",
+        "backend": "azure",
+        "release_date": "2024-12-18",
+        "open_weight": false,
+        "parameters": "",
+        "languages": [
+            "en"
+        ],
+        "context_size": "200k",
+        "license": {
+            "name": "Apache 2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        },
+        "model_config": {
+            "reasoning_model": true,
+            "reasoning_effort": "high",
+            "multimodality": {
+                "single_image": true,
+                "multiple_images": true,
+                "audio": false,
+                "video": false
+            }
+        }
+    },
+    {
+        "model_name": "gpt-5.2-azure-medium",
+        "model_id": "gpt-5.2",
+        "backend": "azure",
+        "release_date": "2024-12-18",
+        "open_weight": false,
+        "parameters": "",
+        "languages": [
+            "en"
+        ],
+        "context_size": "200k",
+        "license": {
+            "name": "Apache 2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        },
+        "model_config": {
+            "reasoning_model": true,
+            "reasoning_effort": "medium",
+            "multimodality": {
+                "single_image": true,
+                "multiple_images": true,
+                "audio": false,
+                "video": false
+            }
+        }
+    },
+    {
+        "model_name": "gpt-5.2-azure-minimal",
+        "model_id": "gpt-5.2",
+        "backend": "azure",
+        "release_date": "2024-12-18",
+        "open_weight": false,
+        "parameters": "",
+        "languages": [
+            "en"
+        ],
+        "context_size": "200k",
+        "license": {
+            "name": "Apache 2.0",
+            "url": "https://www.apache.org/licenses/LICENSE-2.0"
+        },
+        "model_config": {
+            "reasoning_model": true,
+            "reasoning_effort": "minimal"
+        }
+    }
+]

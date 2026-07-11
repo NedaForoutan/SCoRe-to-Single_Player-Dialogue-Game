@@ -1,0 +1,7 @@
+{
+    "refuse_error_prompt": "You refused a proposal which is not active. Proposals are only active if they have been logged by the other player via PROPOSAL and have not been deactivated by you via REFUSE. Try again.",
+    "agreement_ambiguous_prompt": "You made more than one agreement. Final deals cannot be ambiguous. Try again",
+    "agreement_non_active_prompt": "You agreed to a proposal which is not active. Proposals are only active if they have been logged by the other player via PROPOSAL and have not been deactivated by you via REFUSE. Try again.",
+    "proposal_error_prompt": "Your proposal includes items which are not in the game. Try again",
+    "invalid_python_set_error": "You used a PROPOSAL tag, but did not provide a valid python set containing strings as arguments, e.g. {'A', 'B', 'C', ...}. Try again."
+}

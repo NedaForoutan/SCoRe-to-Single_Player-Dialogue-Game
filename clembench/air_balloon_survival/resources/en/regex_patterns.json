@@ -1,0 +1,7 @@
+{
+    "agree_tag": "AGREE:\\s*\\{.*?\\}",
+    "refusal_tag": "REFUSE:\\s*\\{.*?\\}",
+    "proposal_tag": "PROPOSAL:\\s*\\{.*?\\}",
+    "argument_tag": "ARGUMENT:\\s*\\{(?:[^{}]|\\{[^{}]*\\})*\\}",
+    "strategic_reasoning_tag": "^\\s*STRATEGIC REASONING:\\s*\\{(?:[^{}]|\\{[^{}]*\\})*\\}"
+}

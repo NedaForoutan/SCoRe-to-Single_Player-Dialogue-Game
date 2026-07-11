@@ -1,0 +1,13 @@
+{
+    "game_name": "dond",
+    "description": "Deal Or No Deal game between two agents that have to agree on how to divide a set of items between them.",
+    "main_game": "dond",
+    "players": 2,
+    "image": "none",
+    "languages": [
+        "en",
+        "it",
+        "de"
+    ],
+    "benchmark": ["3.0"]
+}

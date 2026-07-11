@@ -1,0 +1,9 @@
+{
+  "game_name": "hot_air_balloon",
+  "description": "There might be a game here in the future.",
+  "main_game": "hot_air_balloon",
+  "players": 2,
+  "image": "none",
+  "languages": ["en", "de", "it"],
+  "benchmark": ["3.0"]
+}

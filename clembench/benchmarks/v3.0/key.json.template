@@ -1,0 +1,8 @@
+{
+  "openai": {"organisation": "", "api_key": ""},
+  "azure_gpt": {"api_key": "", "base_url": ""},
+  "azure_claude": {"api_key": "", "base_url": ""},
+  "anthropic": {"api_key": ""},
+  "openrouter": {"api_key":"", "base_url": "https://openrouter.ai/api/v1"},
+  "google": {"api_key":"", "base_url": "https://generativelanguage.googleapis.com/v1beta/openai/"}
+}

@@ -1,0 +1,7 @@
+{
+    "refuse_error_prompt": "Du hast einen Vorschlag abgelehnt, der nicht aktiv ist. Vorschläge sind nur dann aktiv, wenn sie vom anderen Spieler mit VORSCHLAG eingebracht wurden und nicht von dir mit ABLEHNUNG deaktiviert wurden. Versuche es noch einmal.",
+    "agreement_ambiguous_prompt": "Du hast mehr als eine Zustimmung abgegeben. Endgültige Einigungen dürfen nicht mehrdeutig sein. Versuche es noch einmal.",
+    "agreement_non_active_prompt": "Du hast einem Vorschlag zugestimmt, der nicht aktiv ist. Vorschläge sind nur dann aktiv, wenn sie vom anderen Spieler mit VORSCHLAG eingebracht wurden und nicht von dir mit ABLEHNUNG deaktiviert wurden. Versuche es noch einmal.", 
+    "proposal_error_prompt": "Dein Vorschlag enthält Gegenstände, die nicht Teil des Spiels sind. Versuche es noch einmal.",
+    "invalid_python_set_error": "Du hast das VORSCHLAG Schlagwort verwendet, aber kein valides Python set, das strings enthält als Argument angegeben. Korrekt wäre z.B. {'A', 'B', 'C', ...}. Versuche es noch einmal."
+}

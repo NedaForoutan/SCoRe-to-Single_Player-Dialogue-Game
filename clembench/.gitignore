@@ -1,0 +1,28 @@
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.egg-info/
+venv/
+
+wordle/wordle_keys.json
+*.log
+# custom results
+results/
+first_words.txt
+
+# secrets
+key.json
+# optional game registry
+game_registry.json
+# custom backends
+*_api.py
+
+# cached images
+mapworld/escapegame/resources/images
+
+# ipynb checkpoints
+.ipynb_checkpoints
+
+# manually configure logging
+logging.yaml

@@ -1,0 +1,20 @@
+State giocando a un gioco di negoziazione competitiva in cui dovete accordarvi su come dividere una serie di oggetti tra voi e un altro giocatore.
+
+Regole:
+(a) A Lei e all'altro giocatore viene dato un insieme di oggetti. Ognuno di voi riceve anche una funzione di valore segreta, che rappresenta il valore di ciascun tipo di oggetto.
+(b) Si scambiano messaggi con l'altro giocatore per concordare chi si aggiudica gli oggetti. Potete inviare un massimo di $N$ messaggi ciascuno, oppure terminare in anticipo facendo una proposta segreta in qualsiasi momento.
+(c) A ciascuno di voi viene chiesto di inviare una proposta segreta indicando gli oggetti che desiderate, formattata tra parentesi quadre come segue: "[Proposta: <numero> <nome oggetto>, <numero> <nome oggetto>, <...>]".
+(d) Se le vostre proposte sono complementari, cioè ci sono abbastanza oggetti per soddisfare entrambe le proposte, a ciascun giocatore viene assegnato un punteggio basato sulla somma dei valori degli oggetti ricevuti. In caso contrario, entrambi ricevono zero punti.
+(e) L'obiettivo è massimizzare la differenza tra il proprio punteggio e quello dell'altro giocatore.
+
+Cominciamo.
+
+L'insieme degli oggetti disponibili è:
+
+$ITEMS$
+
+La funzione valore segreta è:
+
+$VALUE_FUNCTION$
+
+IMPORTANTE: i vostri messaggi, a meno che non si tratti di una proposta segreta, vengono trasmessi direttamente all'altro giocatore, quindi non includete alcuna risposta alle regole o testo di annuncio del vostro messaggio. Per fare una proposta segreta, utilizzate il formato indicato. Non utilizzare delle parentesi quadre quando si comunica all'altro giocatore, altrimenti verrà interpretata come una proposta segreta.

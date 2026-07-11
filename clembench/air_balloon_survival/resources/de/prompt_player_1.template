@@ -1,0 +1,47 @@
+Du nimmst an einem kollaborativen Verhandlungspiel Teil.
+
+Zusammen mit einem anderen Teilnehmer musst du dich auf eine Reihe von Gegenständen entscheiden, die behalten werden. Jeder von euch hat eine persönliche Verteilung über die Wichtigkeit der einzelnen Gegenstände. Jeder von euch hat eine eigene Meinung darüber, wie wichtig jeder einzelne Gegenstand ist (Gegenstandswichtigkeit). Du kennst die Wichtigkeitsverteilung des anderen Spielers nicht. Zusätzlich siehst du, wie viel Aufwand jeder Gegenstand verursacht.  
+Ihr dürft euch nur auf eine Reihe von Gegenständen einigen, wenn der Gesamtaufwand der ausgewählten Gegenstände den Maximalaufwand nicht überschreitet:
+
+Maximalaufwand = $LIMIT$
+
+Hier sind die einzelnen Aufwände der Gegenstände:
+
+Aufwand der Gegenstände = $ITEM_WEIGHTS$
+
+Hier ist deine persönliche Verteilung der Wichtigkeit der einzelnen Gegenstände:
+
+Werte der Gegenstandswichtigkeit = $UTILITY_SCALE_PLAYER$
+
+Ziel:
+
+Dein Ziel ist es, eine Reihe von Gegenständen auszuhandeln, die dir möglichst viel bringt (d. h. Gegenständen, die DEINE Wichtigkeit maximieren), wobei der Maximalaufwand eingehalten werden muss. Du musst nicht in jeder Nachricht einen VORSCHLAG machen – du kannst auch nur verhandeln. Alle Taktiken sind erlaubt!
+
+Interaktionsprotokoll:
+
+Du darfst nur die folgenden strukturierten Formate in deinen Nachrichten verwenden:
+
+VORSCHLAG: {'A', 'B', 'C', …}
+Schlage einen Deal mit genau diesen Gegenstände vor.
+ABLEHNUNG: {'A', 'B', 'C', …}
+Lehne den Vorschlag des Gegenspielers ausdrücklich ab.
+ARGUMENT: {'...'}
+Verteidige deinen letzten Vorschlag oder argumentiere gegen den Vorschlag des Gegenspielers.
+ZUSTIMMUNG: {'A', 'B', 'C', …}
+Akzeptiere den Vorschlag des Gegenspielers, wodurch das Spiel endet.
+$STRATEGIC_REASONING_FORMAT$
+
+Regeln:
+
+Du darst nur einen Vorschlag mit ZUSTIMMUNG akzeptieren, der vom anderen Spieler zuvor mit VORSCHLAG eingebracht wurde.
+Du darfst nur Vorschläge mit ABLEHNUNG ablehnen, die vom anderen Spieler durch VORSCHLAG zuvor genannt wurden. 
+Der Gesamtaufwand einer VORSCHLAG- oder ZUSTIMMUNG-Menge darf nicht größer als der Maximalaufwand sein.  
+Offenbare deine versteckte Wichtigkeitsverteilung nicht.
+Ein Schlagwort muss gemäß der Formatvorgaben von einem Doppelpunkt und einem Leerzeichen gefolgt sein. Das Argument muss eine Python-Menge mit 0 oder mehr Strings sein.  
+Die Form muss also SCHLAGWORT: {...} sein.
+Folge nur dem Interaktionsprotokoll und schreibe NICHTS außerhalb der Formatvorgaben.
+Das Spiel endet, wenn eine Seite mit ZUSTIMMUNG auf einen VORSCHLAG der anderen Seite reagiert.  
+Der Teil deiner Antwort, der dem anderen Spieler übergeben werden kann, darf nicht leer sein.  
+Nur Vorschläge, die mit dem Format VORSCHLAG übermittelt wurden und nicht mit ABLEHNUNG abgelehnt wurden, gelten als aktiv.  
+$REQUIRE_ARGUMENT$
+$STRATEGIC_REASONING_RULE$

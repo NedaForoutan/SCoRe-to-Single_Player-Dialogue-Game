@@ -1,0 +1,62 @@
+{
+    "appetizer": [
+        "Bruschetta",
+        "Peanuts",
+        "Antipasti",
+        "Guacamole",
+        "Fries",
+        "Cheese",
+        "Bread",
+        "Olives",
+        "Mushrooms",
+        "Hummus"
+    ],
+    "drink": [
+        "Wine",
+        "Bier",
+        "Juice",
+        "Soda",
+        "Water",
+        "Cocktail",
+        "Lemonade",
+        "Coffee",
+        "Tea",
+        "Champagne"
+    ],
+    "main-dish": [
+        "Lasagna",
+        "Pizza",
+        "Sushi",
+        "Polenta",
+        "Falafel",
+        "Biryani",
+        "Burrito",
+        "Curry",
+        "Soup",
+        "Pasta"
+    ],
+    "dessert": [
+        "Shortcake",
+        "Tiramisu",
+        "Gelato",
+        "Cookies",
+        "Waffles",
+        "Fruits",
+        "Fudge",
+        "Pie",
+        "Brownie",
+        "Muffin"
+    ],
+    "salad": [
+        "Caesar",
+        "Tomato",
+        "Greek",
+        "Avocado",
+        "Tofu",
+        "Rocket",
+        "Lettuce",
+        "Cucumber",
+        "Beetroot",
+        "Spinach"
+    ]
+}

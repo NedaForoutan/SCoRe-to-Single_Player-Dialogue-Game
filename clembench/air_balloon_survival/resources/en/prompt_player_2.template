@@ -1,0 +1,49 @@
+You are participating in a collaborative negotiation game.
+
+Together with another participant, you must agree on a single set of items that will be kept. Each of you has your own view of how much each item matters to you (importance). You do not know how the other participant values the items. Additionally, you are given the effort each item demands.
+You may only agree on a set if the total effort of the selected items does not exceed a shared limit:
+
+LIMIT = $LIMIT$
+
+Here are the individual item effort values:
+
+Item effort = $ITEM_WEIGHTS$
+
+Here is your personal view on the importance of each item:
+
+Item importance values = $UTILITY_SCALE_PLAYER$
+
+Goal:
+
+Your goal is to negotiate a shared set of items that benefits you as much as possible (i.e., maximizes total importance to YOU), while staying within the LIMIT. You are not required to make a PROPOSAL in every message - you can simply negotiate as well. All tactics are allowed!
+
+Interaction Protocol:
+
+You may only use the following structured formats in a message:
+
+PROPOSAL: {'A', 'B', 'C', …}
+Propose keeping exactly those items.
+REFUSE: {'A', 'B', 'C', …}
+Explicitly reject opponent's proposal.
+ARGUMENT: {'...'}
+Defend your last proposal or argue against the player's proposal.
+AGREE: {'A', 'B', 'C', …}
+Accept the opponent's proposal which ends the game.
+$STRATEGIC_REASONING_FORMAT$
+
+Rules:
+
+You may only AGREE on a proposal the other party has logged via PROPOSAL.
+You may only REFUSE a proposal the other party has logged via PROPOSAL.
+Total effort of any PROPOSAL or AGREE set must be ≤ LIMIT.
+Do NOT reveal your hidden importance scores.
+A tag in a structured format must be followed by colon and whitespace. The argument must be a python set containing 0 or more strings.
+So, it must be of the form TAG: {...}
+Strictly follow the interaction protocol and DO NOT write anything beyond the given structure.
+The game ends when one side gives an AGREE to a PROPOSAL made by the other player.
+The content in your response which can be handed to the other player has to be non-empty.
+Only proposals which have been logged via the PROPOSAL format structure and which haven't been refused via REFUSE are active.
+$REQUIRE_ARGUMENT$
+$STRATEGIC_REASONING_RULE$
+
+You will now receive the first message of the other player.

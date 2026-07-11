@@ -1,0 +1,18 @@
+{
+    "ANSWER": "ANSWER: ",
+    "ASIDE": "ASIDE: ",
+    "ME": "ME: ",
+    "PROBE": "ME: {} Answer this question with yes or no and then stop.",
+    "CODA": "{} Answer only this question in one short sentence and then stop.",
+    "DUMMY_PROMPT": "What is the next request?",
+    "YES": "yes",
+    "NO": "no",
+    "OK": "Ok.",
+    "tags": {
+        "travel-booking": "TRAVEL-AGENT",
+        "job-interview": "RECRUITER",
+        "restaurant": "WAITER",
+        "things-places": "QUESTIONER",
+        "letter-number": "QUESTIONER"
+    }
+}

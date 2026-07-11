@@ -1,0 +1,6 @@
+{
+    "no_sr_prompt": "Deine Antwort entsprach nicht mit dem korrekten Format für strategische Überlegungen entsprochen. Das erste strukturierte Format muss folgende Form haben: STRATEGISCHE ÜBERLEGUNGEN: {...}. Versuche es erneut.",
+    "no_argument_prompt": "Deine Antwort hat kein argument enthalten. Du muss das strukturierte Format ARGUMENT: {...} irgendwo in theiner Antwort verwenden. Versuche es erneut",
+    "untagged_sequence_prompt": "Deine Antwort hat eine unmarkierte Sequenz enthalten oder Du hast STRATEGIC REASONING mehr als ein mal verwendet. Du darfst nur die strukturierten Formate verwenden, die in der ersten Nachricht an dch beschrieben wurden. Alles muss die Form SCHLAGWORT: {...} haben. Versuche es erneut.",
+    "only_sr_prompt": "Deine Antwort hat nur ein strukturiertes format für strategische Überlegungen enthalten. Du musst mindestens ein weiteres sturkuriertes Format in deiner Antwort verwenden, sodass dein Mitspieler eine Nachricht erhält. Versuche es erneut."
+}
