@@ -4,7 +4,6 @@ build
 venv
 *.egg-info
 *.log
-clembench
 clembench-runs
 **/__pycache__
 **/.DS_Store
