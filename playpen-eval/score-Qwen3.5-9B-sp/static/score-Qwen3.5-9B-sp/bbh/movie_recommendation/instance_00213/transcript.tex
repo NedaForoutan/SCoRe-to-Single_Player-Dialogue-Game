@@ -1,0 +1,102 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `bbh', experiment `movie\_recommendation', episode 213 with score{-}Qwen3.5{-}9B{-}sp.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \texttt{Recommend movies similar to the given list of movies.} \\
+\\ 
+\texttt{Q: Find a movie similar to Star Wars Episode IV {-} A New Hope, Indiana Jones and the Last Crusade, Star Wars Episode V {-} The Empire Strikes Back, The Big Lebowski:} \\
+\texttt{Options:} \\
+\texttt{(A) Tetsuo} \\
+\texttt{(B) the Ironman} \\
+\texttt{(C) The Princess Bride} \\
+\texttt{(D) The Barkley Marathons The Race That Eats Its Young} \\
+\texttt{(E) Bug} \\
+\texttt{A: (C)} \\
+\\ 
+\texttt{Q: Find a movie similar to Twister, The Silence of the Lambs, Independence Day, Braveheart:} \\
+\texttt{Options:} \\
+\texttt{(A) They Shoot Horses} \\
+\texttt{(B) Don't They} \\
+\texttt{(C) Forrest Gump} \\
+\texttt{(D) The Salton Sea} \\
+\texttt{(E) Extreme Days} \\
+\texttt{A: (C)} \\
+\\ 
+\texttt{Q: Find a movie similar to Minority Report, Total Recall, Inside Out, Forrest Gump:} \\
+\texttt{Options:} \\
+\texttt{(A) Phenomena} \\
+\texttt{(B) Lilting} \\
+\texttt{(C) Catwoman} \\
+\texttt{(D) Edge of Tomorrow} \\
+\texttt{A: (D)} \\
+\\ 
+\texttt{Q: Find a movie similar to Raiders of the Lost Ark, The Matrix, Léon The Professional, Star Wars Episode V {-} The Empire Strikes Back:} \\
+\texttt{Options:} \\
+\texttt{(A) The Meyerowitz Stories} \\
+\texttt{(B) Saw} \\
+\texttt{(C) Star Wars Episode IV {-} A New Hope} \\
+\texttt{(D) Josie and the Pussycats} \\
+\texttt{A:} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{(C)} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Target: (C)} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = LOSE} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

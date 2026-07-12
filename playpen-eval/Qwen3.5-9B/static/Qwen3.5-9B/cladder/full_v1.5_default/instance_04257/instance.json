@@ -1,0 +1,5 @@
+{
+  "game_id": 4257,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Kidney stone size has a direct effect on treatment and lip thickness. Treatment has a direct effect on lip thickness. The overall probability of receives treatment is 48%. For patients not receiving treatment, the probability of thick lips is 64%. For patients receiving treatment, the probability of thick lips is 29%. Is thick lips more likely than thin lips overall?",
+  "target": "no"
+}

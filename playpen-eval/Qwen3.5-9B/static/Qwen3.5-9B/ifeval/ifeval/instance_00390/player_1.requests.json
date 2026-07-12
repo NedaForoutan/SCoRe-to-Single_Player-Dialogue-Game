@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 390,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:44:33.462135",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite a creative and persuasive startup pitch for a business that helps people with chronic illnesses find and manage in-home care. Your pitch should be less than 7 sentences and contain exactly 1 bullet point in markdown.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite a creative and persuasive startup pitch for a business that helps people with chronic illnesses find and manage in-home care. Your pitch should be less than 7 sentences and contain exactly 1 bullet point in markdown.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nImagine a world where chronic illness no longer dictates your freedom, but rather becomes a manageable chapter in your life. Our startup, CareSync, bridges the critical gap between medical need and reliable in-home support by leveraging AI-driven matching and real-time caregiver monitoring. We eliminate the exhausting cycle of endless phone calls and unverified agencies, ensuring you receive compassionate, vetted care exactly when you need it. By integrating directly with your health data, we provide a seamless ecosystem that empowers you to stay in the comfort of your own home.\n*   Our proprietary algorithm matches patients with caregivers based on specific medical competencies, personality compatibility, and real-time availability to guarantee peace of mind.\nWe are not just building a service; we are restoring dignity and independence to millions who deserve to live fully, not just survive. Join us in revolutionizing home care and making every day a step forward, not a struggle.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:44:28.937215",
+            "call_duration": "0:00:04.524876",
+            "response": "Imagine a world where chronic illness no longer dictates your freedom, but rather becomes a manageable chapter in your life. Our startup, CareSync, bridges the critical gap between medical need and reliable in-home support by leveraging AI-driven matching and real-time caregiver monitoring. We eliminate the exhausting cycle of endless phone calls and unverified agencies, ensuring you receive compassionate, vetted care exactly when you need it. By integrating directly with your health data, we provide a seamless ecosystem that empowers you to stay in the comfort of your own home.\n*   Our proprietary algorithm matches patients with caregivers based on specific medical competencies, personality compatibility, and real-time availability to guarantee peace of mind.\nWe are not just building a service; we are restoring dignity and independence to millions who deserve to live fully, not just survive. Join us in revolutionizing home care and making every day a step forward, not a struggle.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

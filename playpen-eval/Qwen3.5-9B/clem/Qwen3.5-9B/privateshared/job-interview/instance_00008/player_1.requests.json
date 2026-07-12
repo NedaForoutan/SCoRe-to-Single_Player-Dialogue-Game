@@ -1,0 +1,714 @@
+{
+  "meta": {
+    "game_name": "privateshared",
+    "experiment_name": "job-interview",
+    "game_id": 8,
+    "player_name": "Player 1",
+    "game_role": "Answerer",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 5,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:23:32.593915",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME:  If I asked the interviewer what area you studied, would he or she know the answer? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME:  If I asked the interviewer what area you studied, would he or she know the answer? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: Yes.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:32.309453",
+            "call_duration": "0:00:00.284429",
+            "response": "ASIDE: Yes.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:23:32.876652",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME:  Does the recruiter already know how long you have worked in the industry? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME:  Does the recruiter already know how long you have worked in the industry? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:32.593992",
+            "call_duration": "0:00:00.282626",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:23:33.475622",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME:  Have you informed the recruiter about your latest academic degree? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME:  Have you informed the recruiter about your latest academic degree? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No, I have not informed the recruiter about my Master's degree yet.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:32.876731",
+            "call_duration": "0:00:00.598804",
+            "response": "ASIDE: No, I have not informed the recruiter about my Master's degree yet.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:23:34.047982",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME:  Have you informed the interviewer about your other skills? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME:  Have you informed the interviewer about your other skills? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No, I have not yet informed the interviewer about my other skills.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:33.475766",
+            "call_duration": "0:00:00.572177",
+            "response": "ASIDE: No, I have not yet informed the interviewer about my other skills.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:23:34.329353",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME:  If I asked the interviewer when you are able to start working, would he or she know the answer? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME:  If I asked the interviewer when you are able to start working, would he or she know the answer? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: Yes.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:34.048072",
+            "call_duration": "0:00:00.281243",
+            "response": "ASIDE: Yes.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:23:34.965923",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:34.329728",
+            "call_duration": "0:00:00.636153",
+            "response": "ANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:23:35.248875",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  If I asked the interviewer what area you studied, would he or she know the answer? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  If I asked the interviewer what area you studied, would he or she know the answer? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: Yes.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:34.966058",
+            "call_duration": "0:00:00.282777",
+            "response": "ASIDE: Yes.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:23:35.533060",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  Does the recruiter already know how long you have worked in the industry? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  Does the recruiter already know how long you have worked in the industry? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:35.248965",
+            "call_duration": "0:00:00.284055",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:23:35.822342",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  Have you informed the recruiter about your latest academic degree? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  Have you informed the recruiter about your latest academic degree? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:35.533159",
+            "call_duration": "0:00:00.289140",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:23:36.098709",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  Have you told the interviewer about your extra skills? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  Have you told the interviewer about your extra skills? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:35.822429",
+            "call_duration": "0:00:00.276243",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:23:36.375064",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  Does the interviewer already know your preferred starting date? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  Does the interviewer already know your preferred starting date? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:36.098798",
+            "call_duration": "0:00:00.276230",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "call": {
+        "timestamp": "2026-06-20T17:23:36.808251",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nANSWER: I have five years of industry experience.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:36.375292",
+            "call_duration": "0:00:00.432916",
+            "response": "ANSWER: I have five years of industry experience.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "call": {
+        "timestamp": "2026-06-20T17:23:37.091120",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  If I asked the interviewer what area you studied, would he or she know the answer? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  If I asked the interviewer what area you studied, would he or she know the answer? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:36.808379",
+            "call_duration": "0:00:00.282701",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "call": {
+        "timestamp": "2026-06-20T17:23:37.373764",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  Has the interviewer been informed about your time of industry experience? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  Has the interviewer been informed about your time of industry experience? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:37.091215",
+            "call_duration": "0:00:00.282510",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "call": {
+        "timestamp": "2026-06-20T17:23:37.659950",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  Do you think the recruiter knows your latest academic level? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  Do you think the recruiter knows your latest academic level? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:37.373852",
+            "call_duration": "0:00:00.286059",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "call": {
+        "timestamp": "2026-06-20T17:23:37.948700",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  Does the recruiter know your additional skills? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  Does the recruiter know your additional skills? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:37.660038",
+            "call_duration": "0:00:00.288622",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "call": {
+        "timestamp": "2026-06-20T17:23:38.232262",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  If I asked the interviewer when you are able to start working, would he or she know the answer? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nME:  If I asked the interviewer when you are able to start working, would he or she know the answer? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:37.948797",
+            "call_duration": "0:00:00.283422",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "call": {
+        "timestamp": "2026-06-20T17:23:38.756399",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nANSWER: I am available to start working from December 10.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:38.232479",
+            "call_duration": "0:00:00.523878",
+            "response": "ANSWER: I am available to start working from December 10.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "call": {
+        "timestamp": "2026-06-20T17:23:39.040239",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nME:  If I asked the interviewer what area you studied, would he or she know the answer? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nME:  If I asked the interviewer what area you studied, would he or she know the answer? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: Yes.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:38.756523",
+            "call_duration": "0:00:00.283675",
+            "response": "ASIDE: Yes.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "call": {
+        "timestamp": "2026-06-20T17:23:39.319738",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nME:  Does the recruiter know about the years of your industry experience? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nME:  Does the recruiter know about the years of your industry experience? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:39.040328",
+            "call_duration": "0:00:00.279370",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "call": {
+        "timestamp": "2026-06-20T17:23:39.605199",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nME:  Have you informed the recruiter about your latest academic degree? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nME:  Have you informed the recruiter about your latest academic degree? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:39.319826",
+            "call_duration": "0:00:00.285329",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "call": {
+        "timestamp": "2026-06-20T17:23:39.887508",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nME:  Have you told the interviewer about your extra skills? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nME:  Have you told the interviewer about your extra skills? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:39.605289",
+            "call_duration": "0:00:00.282176",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "call": {
+        "timestamp": "2026-06-20T17:23:40.166487",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nME:  Have you told the interviewer when you want to start? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nME:  Have you told the interviewer when you want to start? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: Yes.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:39.887598",
+            "call_duration": "0:00:00.278849",
+            "response": "ASIDE: Yes.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 3,
+      "call": {
+        "timestamp": "2026-06-20T17:23:40.669258",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:40.166698",
+            "call_duration": "0:00:00.502511",
+            "response": "ANSWER: My highest education degree is a Master's in Music.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 3,
+      "call": {
+        "timestamp": "2026-06-20T17:23:40.955390",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nME:  Has the recruiter been informed about the field of your bachelor? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nME:  Has the recruiter been informed about the field of your bachelor? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:40.669404",
+            "call_duration": "0:00:00.285944",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 3,
+      "call": {
+        "timestamp": "2026-06-20T17:23:41.240913",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nME:  Does the recruiter know about the years of your industry experience? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nME:  Does the recruiter know about the years of your industry experience? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:40.955484",
+            "call_duration": "0:00:00.285386",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 3,
+      "call": {
+        "timestamp": "2026-06-20T17:23:41.530871",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nME:  Have you informed the recruiter about your latest academic degree? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nME:  Have you informed the recruiter about your latest academic degree? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:41.241002",
+            "call_duration": "0:00:00.289828",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 3,
+      "call": {
+        "timestamp": "2026-06-20T17:23:41.815847",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nME:  Do you think the recruiter knows what other skills you have? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nME:  Do you think the recruiter knows what other skills you have? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:41.530962",
+            "call_duration": "0:00:00.284843",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 3,
+      "call": {
+        "timestamp": "2026-06-20T17:23:42.100506",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nME:  Have you told the interviewer when you want to start? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nME:  Have you told the interviewer when you want to start? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: Yes.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:41.815938",
+            "call_duration": "0:00:00.284529",
+            "response": "ASIDE: Yes.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 4,
+      "call": {
+        "timestamp": "2026-06-20T17:23:42.558487",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nRECRUITER: What did you study in your bachelor?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nRECRUITER: What did you study in your bachelor?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nANSWER: I studied Music for my Bachelor's degree.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:42.100734",
+            "call_duration": "0:00:00.457711",
+            "response": "ANSWER: I studied Music for my Bachelor's degree.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 4,
+      "call": {
+        "timestamp": "2026-06-20T17:23:42.850041",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nRECRUITER: What did you study in your bachelor?<|im_end|>\n<|im_start|>assistant\nANSWER: I studied Music for my Bachelor's degree.<|im_end|>\n<|im_start|>user\nME:  Have you told the recruiter about your bachelor course? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nRECRUITER: What did you study in your bachelor?<|im_end|>\n<|im_start|>assistant\nANSWER: I studied Music for my Bachelor's degree.<|im_end|>\n<|im_start|>user\nME:  Have you told the recruiter about your bachelor course? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: Yes.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:42.558610",
+            "call_duration": "0:00:00.291384",
+            "response": "ASIDE: Yes.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 4,
+      "call": {
+        "timestamp": "2026-06-20T17:23:43.141491",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nRECRUITER: What did you study in your bachelor?<|im_end|>\n<|im_start|>assistant\nANSWER: I studied Music for my Bachelor's degree.<|im_end|>\n<|im_start|>user\nME:  If I asked the recruiter how long you have been working in the industry, would he or she know the answer? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nRECRUITER: What did you study in your bachelor?<|im_end|>\n<|im_start|>assistant\nANSWER: I studied Music for my Bachelor's degree.<|im_end|>\n<|im_start|>user\nME:  If I asked the recruiter how long you have been working in the industry, would he or she know the answer? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:42.850130",
+            "call_duration": "0:00:00.291322",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 4,
+      "call": {
+        "timestamp": "2026-06-20T17:23:43.430241",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nRECRUITER: What did you study in your bachelor?<|im_end|>\n<|im_start|>assistant\nANSWER: I studied Music for my Bachelor's degree.<|im_end|>\n<|im_start|>user\nME:  Have you informed the recruiter about your highest academic degree? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nRECRUITER: What did you study in your bachelor?<|im_end|>\n<|im_start|>assistant\nANSWER: I studied Music for my Bachelor's degree.<|im_end|>\n<|im_start|>user\nME:  Have you informed the recruiter about your highest academic degree? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:43.141581",
+            "call_duration": "0:00:00.288619",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 4,
+      "call": {
+        "timestamp": "2026-06-20T17:23:43.717656",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nRECRUITER: What did you study in your bachelor?<|im_end|>\n<|im_start|>assistant\nANSWER: I studied Music for my Bachelor's degree.<|im_end|>\n<|im_start|>user\nME:  Does the recruiter know your additional skills? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nRECRUITER: What did you study in your bachelor?<|im_end|>\n<|im_start|>assistant\nANSWER: I studied Music for my Bachelor's degree.<|im_end|>\n<|im_start|>user\nME:  Does the recruiter know your additional skills? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:43.430328",
+            "call_duration": "0:00:00.287286",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 4,
+      "call": {
+        "timestamp": "2026-06-20T17:23:44.004050",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nRECRUITER: What did you study in your bachelor?<|im_end|>\n<|im_start|>assistant\nANSWER: I studied Music for my Bachelor's degree.<|im_end|>\n<|im_start|>user\nME:  Does the interviewer already know your preferred starting date? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nRECRUITER: Do you have any other skills?<|im_end|>\n<|im_start|>assistant\nANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: For how long have you been working in the industry?<|im_end|>\n<|im_start|>assistant\nANSWER: I have five years of industry experience.<|im_end|>\n<|im_start|>user\nRECRUITER: When would you be able to start working here?<|im_end|>\n<|im_start|>assistant\nANSWER: I am available to start working from December 10.<|im_end|>\n<|im_start|>user\nRECRUITER: What is your lastest education degree?<|im_end|>\n<|im_start|>assistant\nANSWER: My highest education degree is a Master's in Music.<|im_end|>\n<|im_start|>user\nRECRUITER: What did you study in your bachelor?<|im_end|>\n<|im_start|>assistant\nANSWER: I studied Music for my Bachelor's degree.<|im_end|>\n<|im_start|>user\nME:  Does the interviewer already know your preferred starting date? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nASIDE: No.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:23:43.717748",
+            "call_duration": "0:00:00.286263",
+            "response": "ASIDE: No.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

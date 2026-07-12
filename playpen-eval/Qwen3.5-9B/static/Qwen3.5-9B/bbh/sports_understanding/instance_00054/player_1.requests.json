@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "bbh",
+    "experiment_name": "sports_understanding",
+    "game_id": 54,
+    "player_name": "Player 1",
+    "game_role": "Answerer",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:33:49.485767",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nDetermine whether an artificially constructed sentence relating to sports is plausible or not.\n\nQ: Is the following sentence plausible? \"Bam Adebayo scored a reverse layup in the Western Conference Finals.\"\nA: yes\n\nQ: Is the following sentence plausible? \"Santi Cazorla scored a touchdown.\"\nA: no\n\nQ: Is the following sentence plausible? \"DeMar DeRozan was called for the goal tend.\"\nA: yes\n\nQ: Is the following sentence plausible? \"Ryan Tannehill hit a triple.\"\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nDetermine whether an artificially constructed sentence relating to sports is plausible or not.\n\nQ: Is the following sentence plausible? \"Bam Adebayo scored a reverse layup in the Western Conference Finals.\"\nA: yes\n\nQ: Is the following sentence plausible? \"Santi Cazorla scored a touchdown.\"\nA: no\n\nQ: Is the following sentence plausible? \"DeMar DeRozan was called for the goal tend.\"\nA: yes\n\nQ: Is the following sentence plausible? \"Ryan Tannehill hit a triple.\"\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nno<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:33:49.304157",
+            "call_duration": "0:00:00.181576",
+            "response": "no\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

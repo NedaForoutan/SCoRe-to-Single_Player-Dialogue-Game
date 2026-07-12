@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "game_name": "mmlu_pro",
+    "experiment_name": "mmlu_pro_business",
+    "game_id": 107,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "score-Qwen3.5-9B-sp"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:51:23.631329",
+        "action": {
+          "type": "send message",
+          "content": "The following are multiple choice questions (with answers) about business. Answer only with \"The answer is (X)\" where X is the correct letter choice.\n\nQuestion:\nIn contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nOptions:\nA. Boycotts, Buyalls, Blockchain technology, Increased Sales\nB. Buycotts, Boycotts, Digital technology, Decreased Sales\nC. Boycotts, Buycotts, Digital technology, Decreased Sales\nD. Buycotts, Boycotts, Blockchain technology, Charitable donations\nE. Boycotts, Buyalls, Blockchain technology, Charitable donations\nF. Boycotts, Buycotts, Digital technology, Increased Sales\nG. Buycotts, Boycotts, Digital technology, Increased Sales\nH. Boycotts, Buycotts, Physical technology, Increased Sales\nI. Buycotts, Buyalls, Blockchain technology, Charitable donations\nJ. Boycotts, Buycotts, Blockchain technology, Decreased Sales\nThe answer is (F)\n\nQuestion:\n_______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nOptions:\nA. Operational management\nB. Corporate governance\nC. Environmental management\nD. Business ethics management\nE. Sustainability\nF. Stakeholder management\nG. Social marketing\nH. Human resource management\nI. N/A\nJ. N/A\nThe answer is (D)\n\nQuestion:\nHow can organisational structures that are characterised by democratic and inclusive styles of management be described?\nOptions:\nA. Flat\nB. Bureaucratic\nC. Autocratic\nD. Hierarchical\nE. Functional\nF. Decentralized\nG. Matrix\nH. Network\nI. Divisional\nJ. Centralized\nThe answer is (A)\n\nQuestion:\nAlthough the content and quality can be as controlled as direct mail, response rates of this medium are lower because of the lack of a personal address mechanism. This media format is known as:\nOptions:\nA. Online banners.\nB. Television advertising.\nC. Email marketing.\nD. Care lines.\nE. Direct mail.\nF. Inserts.\nG. Door to door.\nH. Radio advertising.\nI. Billboards.\nJ. Social media advertising.\nThe answer is (G)\n\nQuestion:\nIn an organization, the group of people tasked with buying decisions is referred to as the _______________.\nOptions:\nA. Procurement centre.\nB. Chief executive unit.\nC. Resources allocation group.\nD. Marketing department.\nE. Purchasing department.\nF. Supply chain management team.\nG. Outsourcing unit.\nH. Decision-making unit.\nI. Operations unit.\nJ. Financial management team.\nThe answer is (H)\n\nQuestion:\nMr. Howard owns a house worth $16,500 which is assessed at the rate of 22%. His tax rates are as follows: $.41 per $100 for a local college fund $.02 per $100 for special education $.001 per $100 for health and welfare $.089 per $100 for community construction How much tax does Mr. Howard pay for each of these needs? What was the total tax?\nOptions:\nA. $3.23\nB. $21.43\nC. $18.88\nD. $20.00\nE. $17.65\nF. $22.50\nG. $19.76\nH. $16.34\nI. $15.47\nJ. $14.88\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:51:23.631340",
+        "action": {
+          "type": "get message",
+          "content": "The answer is (G)\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:51:23.631492",
+        "action": {
+          "type": "parsed",
+          "content": "G"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:51:23.631506",
+        "action": {
+          "type": "target",
+          "content": "C"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:51:23.631513",
+        "action": {
+          "type": "wrong answer",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

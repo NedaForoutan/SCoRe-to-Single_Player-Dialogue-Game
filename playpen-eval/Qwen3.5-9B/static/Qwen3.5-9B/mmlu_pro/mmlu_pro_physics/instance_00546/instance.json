@@ -1,0 +1,5 @@
+{
+  "game_id": 546,
+  "input": "Question:\nThe electric field in a certain region of Earth's atmosphere is directed vertically down. At an altitude of $300 \\mathrm{~m}$ the field has magnitude $60.0 \\mathrm{~N} / \\mathrm{C}$; at an altitude of $200 \\mathrm{~m}$, the magnitude is $100 \\mathrm{~N} / \\mathrm{C}$. Find the net amount of charge contained in a cube $100 \\mathrm{~m}$ on edge, with horizontal faces at altitudes of 200 and $300 \\mathrm{~m}$.\nOptions:\nA. $8.45 \\mu \\mathrm{C}$\nB. $5.98$$\\mu \\mathrm{C}$\nC.  $3.54$$\\mu \\mathrm{C}$ \nD. $4.90 \\mu \\mathrm{C}$\nE. $6.00 \\mu \\mathrm{C}$\nF. $2.67$$\\mu \\mathrm{C}$\nG. $2.00 \\mu \\mathrm{C}$\nH. $4.36$$\\mu \\mathrm{C}$\nI. $1.20 \\mu \\mathrm{C}$\nJ. $7.25 \\mu \\mathrm{C}$\n",
+  "target": "C"
+}

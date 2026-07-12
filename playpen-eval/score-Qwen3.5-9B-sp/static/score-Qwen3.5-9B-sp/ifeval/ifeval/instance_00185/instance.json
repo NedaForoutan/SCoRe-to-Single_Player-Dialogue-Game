@@ -1,0 +1,11 @@
+{
+  "game_id": 185,
+  "input": "Write a story from a perspective of a man. Include some conversation in the story. Avoid using the letter i more than twice.",
+  "target": {
+    "keywords:letter_frequency": {
+      "let_relation": "less than",
+      "letter": "i",
+      "let_frequency": 3
+    }
+  }
+}

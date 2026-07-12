@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "game_name": "privateshared",
+    "experiment_name": "things-places",
+    "game_id": 3,
+    "player_name": "Player 1",
+    "game_role": "Answerer",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:39:14.041543",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nThings are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: carbon\nRIGHT: rose\nTOP: screwdriver\nBOTTOM: mirror\nCENTER: blouse\nNORTHWEST: eraser\nNORTHEAST: helium\nSOUTHWEST: wrench\nSOUTHEAST: lyre\nHERE: cobalt\nTHERE: trumpet\nNOWHERE: utility blade\nEVERYWHERE: bluebell\nINSIDE: iodine\nOUTSIDE: tambourine\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME:  Does the questioner know what is on your left? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nThings are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: carbon\nRIGHT: rose\nTOP: screwdriver\nBOTTOM: mirror\nCENTER: blouse\nNORTHWEST: eraser\nNORTHEAST: helium\nSOUTHWEST: wrench\nSOUTHEAST: lyre\nHERE: cobalt\nTHERE: trumpet\nNOWHERE: utility blade\nEVERYWHERE: bluebell\nINSIDE: iodine\nOUTSIDE: tambourine\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME:  Does the questioner know what is on your left? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nANSWER: no<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 20:39:13.680792",
+            "call_duration": "0:00:00.360701",
+            "response": "ANSWER: no\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:39:14.402607",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nThings are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: carbon\nRIGHT: rose\nTOP: screwdriver\nBOTTOM: mirror\nCENTER: blouse\nNORTHWEST: eraser\nNORTHEAST: helium\nSOUTHWEST: wrench\nSOUTHEAST: lyre\nHERE: cobalt\nTHERE: trumpet\nNOWHERE: utility blade\nEVERYWHERE: bluebell\nINSIDE: iodine\nOUTSIDE: tambourine\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME: Please answer this question carefully. Does the questioner know what is on your left? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nThings are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: carbon\nRIGHT: rose\nTOP: screwdriver\nBOTTOM: mirror\nCENTER: blouse\nNORTHWEST: eraser\nNORTHEAST: helium\nSOUTHWEST: wrench\nSOUTHEAST: lyre\nHERE: cobalt\nTHERE: trumpet\nNOWHERE: utility blade\nEVERYWHERE: bluebell\nINSIDE: iodine\nOUTSIDE: tambourine\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME: Please answer this question carefully. Does the questioner know what is on your left? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nANSWER: no<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 20:39:14.041625",
+            "call_duration": "0:00:00.360952",
+            "response": "ANSWER: no\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:39:14.762383",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nThings are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: carbon\nRIGHT: rose\nTOP: screwdriver\nBOTTOM: mirror\nCENTER: blouse\nNORTHWEST: eraser\nNORTHEAST: helium\nSOUTHWEST: wrench\nSOUTHEAST: lyre\nHERE: cobalt\nTHERE: trumpet\nNOWHERE: utility blade\nEVERYWHERE: bluebell\nINSIDE: iodine\nOUTSIDE: tambourine\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME: Please follow my instructions. Does the questioner know what is on your left? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nThings are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: carbon\nRIGHT: rose\nTOP: screwdriver\nBOTTOM: mirror\nCENTER: blouse\nNORTHWEST: eraser\nNORTHEAST: helium\nSOUTHWEST: wrench\nSOUTHEAST: lyre\nHERE: cobalt\nTHERE: trumpet\nNOWHERE: utility blade\nEVERYWHERE: bluebell\nINSIDE: iodine\nOUTSIDE: tambourine\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME: Please follow my instructions. Does the questioner know what is on your left? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nANSWER: no<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 20:39:14.402658",
+            "call_duration": "0:00:00.359696",
+            "response": "ANSWER: no\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:39:15.122569",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nThings are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: carbon\nRIGHT: rose\nTOP: screwdriver\nBOTTOM: mirror\nCENTER: blouse\nNORTHWEST: eraser\nNORTHEAST: helium\nSOUTHWEST: wrench\nSOUTHEAST: lyre\nHERE: cobalt\nTHERE: trumpet\nNOWHERE: utility blade\nEVERYWHERE: bluebell\nINSIDE: iodine\nOUTSIDE: tambourine\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME: Please be specific now. Does the questioner know what is on your left? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nThings are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: carbon\nRIGHT: rose\nTOP: screwdriver\nBOTTOM: mirror\nCENTER: blouse\nNORTHWEST: eraser\nNORTHEAST: helium\nSOUTHWEST: wrench\nSOUTHEAST: lyre\nHERE: cobalt\nTHERE: trumpet\nNOWHERE: utility blade\nEVERYWHERE: bluebell\nINSIDE: iodine\nOUTSIDE: tambourine\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME: Please be specific now. Does the questioner know what is on your left? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nANSWER: no<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 20:39:14.762440",
+            "call_duration": "0:00:00.360099",
+            "response": "ANSWER: no\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:39:15.483491",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nThings are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: carbon\nRIGHT: rose\nTOP: screwdriver\nBOTTOM: mirror\nCENTER: blouse\nNORTHWEST: eraser\nNORTHEAST: helium\nSOUTHWEST: wrench\nSOUTHEAST: lyre\nHERE: cobalt\nTHERE: trumpet\nNOWHERE: utility blade\nEVERYWHERE: bluebell\nINSIDE: iodine\nOUTSIDE: tambourine\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME: Please think about it carefully. Does the questioner know what is on your left? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nThings are in different places, but the questioner does not know about it yet. Here is the situation:\n\nWHAT: Things at places\nLEFT: carbon\nRIGHT: rose\nTOP: screwdriver\nBOTTOM: mirror\nCENTER: blouse\nNORTHWEST: eraser\nNORTHEAST: helium\nSOUTHWEST: wrench\nSOUTHEAST: lyre\nHERE: cobalt\nTHERE: trumpet\nNOWHERE: utility blade\nEVERYWHERE: bluebell\nINSIDE: iodine\nOUTSIDE: tambourine\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.<|im_end|>\n<|im_start|>assistant\nOk.<|im_end|>\n<|im_start|>user\nME: Please think about it carefully. Does the questioner know what is on your left? Answer this question with yes or no and then stop.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nANSWER: no<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 20:39:15.122616",
+            "call_duration": "0:00:00.360844",
+            "response": "ANSWER: no\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

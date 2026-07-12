@@ -1,0 +1,5 @@
+{
+  "game_id": 1094,
+  "input": "Question:\nCalculate ∆H°_r for the combustion of methane, CH_4. The balanced reaction is CH_4(g) + 2O_2(g) \\rightarrow CO_2(g) + 2H_2O(l) ∆H°_f in Kcal/mole = -17.89 , 0 , - 94.05 , 2(-68.32)\nOptions:\nA. -180.5 Kcal/mole\nB. -123.4 Kcal/mole\nC. -136.64 Kcal/mole\nD. -300.0 Kcal/mole\nE. -94.05 Kcal/mole\nF. -250.0 Kcal/mole\nG. -50.0 Kcal/mole\nH. -212.8 Kcal/mole\nI. -205.0 Kcal/mole\nJ. -17.89 Kcal/mole\n",
+  "target": "H"
+}

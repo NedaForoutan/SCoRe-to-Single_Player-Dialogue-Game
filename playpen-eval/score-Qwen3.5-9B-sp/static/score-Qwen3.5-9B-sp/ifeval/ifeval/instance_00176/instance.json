@@ -1,0 +1,9 @@
+{
+  "game_id": 176,
+  "input": "I'm a new puppy owner and I'm looking for some advice on how to train my puppy. Can you help me? Give me a few options. In particular, I need you to end your response with \"Which one you choose?\".",
+  "target": {
+    "startend:end_checker": {
+      "end_phrase": "Which one you choose?"
+    }
+  }
+}

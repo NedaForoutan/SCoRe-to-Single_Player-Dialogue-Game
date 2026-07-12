@@ -1,0 +1,80 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `bbh', experiment `word\_sorting', episode 199 with Qwen3.5{-}9B.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \texttt{Sort a list of words.} \\
+\\ 
+\texttt{Q: Sort the following words alphabetically: List: oven costume counterpart} \\
+\texttt{A: costume counterpart oven} \\
+\\ 
+\texttt{Q: Sort the following words alphabetically: List: hypochlorite ponderosa phone credulity} \\
+\texttt{A: credulity hypochlorite phone ponderosa} \\
+\\ 
+\texttt{Q: Sort the following words alphabetically: List: newt arson parthia seismography mugho aspect census} \\
+\texttt{A: arson aspect census mugho newt parthia seismography} \\
+\\ 
+\texttt{Q: Sort the following words alphabetically: List: rowley midshipman saline furl geld locomote exhumation anarchic bstj gradual riddance j liniment pantheist elution profess} \\
+\texttt{A:} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{anarchic aspect bstj census elution exhumation furl geld gradual j liniment locomote midshipman mugho newt parthia ponderosa phone professo rowley saline seismography} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Target: anarchic bstj elution exhumation furl geld gradual j liniment locomote midshipman pantheist profess riddance rowley saline} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = LOSE} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

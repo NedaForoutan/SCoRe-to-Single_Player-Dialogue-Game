@@ -1,0 +1,84 @@
+{
+  "name": "ifeval",
+  "meta": {
+    "task": "playschool_ifeval",
+    "dataset_path": "google/IFEval",
+    "output_type": "generate_until",
+    "test_split": "train",
+    "doc_to_text": "prompt",
+    "doc_to_target": "instruction_id_list",
+    "generation_kwargs": {
+      "until": [],
+      "do_sample": false,
+      "temperature": 0.0,
+      "max_gen_toks": 1280
+    },
+    "process_results": "utils.process_results",
+    "metric_list": [
+      {
+        "metric": "prompt_level_strict_acc",
+        "aggregation": "mean",
+        "higher_is_better": true
+      },
+      {
+        "metric": "inst_level_strict_acc",
+        "aggregation": "utils.agg_inst_level_acc",
+        "higher_is_better": true
+      },
+      {
+        "metric": "prompt_level_loose_acc",
+        "aggregation": "mean",
+        "higher_is_better": true
+      },
+      {
+        "metric": "inst_level_loose_acc",
+        "aggregation": "utils.agg_inst_level_acc",
+        "higher_is_better": true
+      }
+    ],
+    "metadata": {
+      "version": 4.0
+    }
+  },
+  "timestamp": "2026-07-06T21:06:55.717708",
+  "game_name": "ifeval",
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 1280
+      }
+    }
+  }
+}

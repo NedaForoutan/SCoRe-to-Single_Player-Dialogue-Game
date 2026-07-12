@@ -1,0 +1,5 @@
+{
+  "game_id": 3344,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Full moon has a direct effect on sprinkler and weather. Weather has a direct effect on ground. Sprinkler has a direct effect on ground. The overall probability of full moon is 16%. For situations where there is no full moon, the probability of wet ground is 56%. For situations where there is a full moon, the probability of wet ground is 54%. Is wet ground more likely than dry ground overall?",
+  "target": "yes"
+}

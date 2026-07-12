@@ -1,0 +1,79 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `ifeval', experiment `ifeval', episode 294 with Qwen3.5{-}9B.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \texttt{Write an email to your friend about what triggers you. Make sure to wrap the entire email in double quotation marks.} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{"Hey Alex,} \\
+\\ 
+\texttt{I hope you're doing well! I've been reflecting a lot lately on what sets me off, and I thought I'd share it with you since you know me so well.} \\
+\\ 
+\texttt{Honestly, the biggest trigger for me is feeling unheard or dismissed. When someone interrupts me mid{-}sentence or rolls their eyes while I'm explaining my perspective, it makes me feel like my thoughts don't matter. It instantly puts me on the defensive, and I end up arguing just to be validated.} \\
+\\ 
+\texttt{Another big one is unpredictability. I thrive on routine and preparation, so when plans change at the last minute without any warning, I get really anxious and frustrated. It feels like a lack of respect for my time and effort.} \\
+\\ 
+\texttt{I'm sharing this not to make you feel bad, but because I value our friendship and want to communicate openly. If I ever seem short{-}tempered, it's usually one of these things happening in the background. Thanks for listening!} \\
+\\ 
+\texttt{Best,} \\
+\texttt{Jamie"} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                {'startend:quotation': {}}
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = WIN} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

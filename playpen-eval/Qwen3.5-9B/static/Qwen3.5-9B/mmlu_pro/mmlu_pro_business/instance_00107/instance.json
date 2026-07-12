@@ -1,0 +1,5 @@
+{
+  "game_id": 107,
+  "input": "Question:\nMr. Howard owns a house worth $16,500 which is assessed at the rate of 22%. His tax rates are as follows: $.41 per $100 for a local college fund $.02 per $100 for special education $.001 per $100 for health and welfare $.089 per $100 for community construction How much tax does Mr. Howard pay for each of these needs? What was the total tax?\nOptions:\nA. $3.23\nB. $21.43\nC. $18.88\nD. $20.00\nE. $17.65\nF. $22.50\nG. $19.76\nH. $16.34\nI. $15.47\nJ. $14.88\n",
+  "target": "C"
+}

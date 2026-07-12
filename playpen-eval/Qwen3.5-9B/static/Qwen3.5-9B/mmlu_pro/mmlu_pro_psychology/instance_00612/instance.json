@@ -1,0 +1,5 @@
+{
+  "game_id": 612,
+  "input": "Question:\nDiscuss the variables which determine whether transfer will be positive or negative.\nOptions:\nA. The duration of the tasks affects the type of transfer\nB. Transfer is dependent on the time of day the tasks are performed\nC. Positive or negative transfer is determined solely by the age of the individual\nD. The physical environment where the tasks are performed, such as indoors or outdoors, determines the nature of transfer\nE. The number of participants involved in the tasks affects the transfer outcome\nF. The degree of similarity of the stimuli and responses in two tasks determines whether transfer will be positive or negative.\nG. The type of transfer is determined by the difficulty level of the tasks\nH. The presence of background noise during task execution dictates the transfer type\nI. The complexity of the tasks determines positive or negative transfer\nJ. The emotional state of the individual during task performance influences the direction of transfer\n",
+  "target": "F"
+}

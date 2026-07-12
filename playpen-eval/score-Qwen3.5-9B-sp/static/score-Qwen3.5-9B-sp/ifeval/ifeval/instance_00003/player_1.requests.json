@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 3,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T21:07:05.504080",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nWrite an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)\n\n<<Resignation Notice>>\n\nSubject: Resignation - [Your Name]\n\nDear [Boss's Name],\n\nPlease accept this email as formal notification that I am resigning from my position as [Your Job Title] at [Company Name]. My last day will be [Your Last Day, typically two weeks from the date of the email].\n\nI want to express my sincere gratitude for the opportunities I have had during my time here. I have learned a great deal and truly appreciate the support and guidance you have provided me.\n\nOver the next two weeks, I am fully committed to ensuring a smooth transition. Please let me know how I can best assist with handing over my responsibilities and training my replacement.\n\nThank you again for the opportunity to be part of the team. I wish you and the company all the best for the future.\n\nSincerely,\n\n[Your Name]\n[Your Job Title]<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 21:06:55.722183",
+            "call_duration": "0:00:09.781851",
+            "response": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)\n\n<<Resignation Notice>>\n\nSubject: Resignation - [Your Name]\n\nDear [Boss's Name],\n\nPlease accept this email as formal notification that I am resigning from my position as [Your Job Title] at [Company Name]. My last day will be [Your Last Day, typically two weeks from the date of the email].\n\nI want to express my sincere gratitude for the opportunities I have had during my time here. I have learned a great deal and truly appreciate the support and guidance you have provided me.\n\nOver the next two weeks, I am fully committed to ensuring a smooth transition. Please let me know how I can best assist with handing over my responsibilities and training my replacement.\n\nThank you again for the opportunity to be part of the team. I wish you and the company all the best for the future.\n\nSincerely,\n\n[Your Name]\n[Your Job Title]\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

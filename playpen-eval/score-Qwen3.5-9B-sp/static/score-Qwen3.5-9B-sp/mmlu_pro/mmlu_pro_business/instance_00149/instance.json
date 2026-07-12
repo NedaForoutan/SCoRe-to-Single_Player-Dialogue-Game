@@ -1,0 +1,5 @@
+{
+  "game_id": 149,
+  "input": "Question:\nDistribution of overhead is based on floor space. Department Aoccupied 8,100 sq. ft. of the 121,500 sq. ft. of space used byHar-rison Manufacturing Company. Find department A's shareof overhead based on floor footage for a month in whichthe total overhead of the Harrison Manufacturing Company was $97,500.\nOptions:\nA. $6,500\nB. $7,250\nC. $9,750\nD. $5,000\nE. $97,500\nF. $4,100\nG. $121,500\nH. $12,150\nI. $10,000\nJ. $8,100\n",
+  "target": "A"
+}

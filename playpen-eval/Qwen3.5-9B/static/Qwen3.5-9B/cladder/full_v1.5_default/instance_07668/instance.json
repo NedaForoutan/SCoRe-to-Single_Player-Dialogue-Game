@@ -1,0 +1,5 @@
+{
+  "game_id": 7668,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Hwax has a direct effect on kraz and pexu. Pexu has a direct effect on rukz. Kraz has a direct effect on rukz. The overall probability of pexu is 41%. For those who are not pexu, the probability of rukz is 66%. For those who are pexu, the probability of rukz is 22%. Is rukz more likely than not rukz overall?",
+  "target": "no"
+}

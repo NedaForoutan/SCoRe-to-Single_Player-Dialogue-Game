@@ -1,0 +1,5 @@
+{
+  "game_id": 9436,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Rixq has a direct effect on zuph and xevu. Swoy has a direct effect on zuph and xevu. Zuph has a direct effect on xevu. Swoy is unobserved. We know that rixq or swoy causes zuph. rixq and swoy and zuph causes xevu. We observed an individual is not swoy. Would an individual is xevu if rixq instead of not rixq?",
+  "target": "no"
+}

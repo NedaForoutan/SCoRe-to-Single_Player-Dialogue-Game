@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <style>
+        /* This CSS is based on a stack overflow answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */ 
+
+* {margin: 0; box-sizing: border-box;}
+
+body {
+  background-color: rgb(157, 152, 150);
+}
+
+.top-info {
+	text-align: center;
+	font: 1.25rem/1.5 sans-serif;
+	display: flex;
+	flex-direction: column;
+	padding: 1.25em;
+	width: 80%;
+  max-width: 1200px;
+	margin: auto;
+	background: #3f3e3e;
+	color: #fff;
+}
+
+.chat {
+  --rad: 1.5rem;
+  --rad-sm: .3rem;
+  font: 1rem/1.5 sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+}
+
+.msg {
+  position: relative;
+  padding: .6rem 1.2rem;
+  margin-inline: 1rem;
+  margin-block: 2rem;
+}
+
+.game-round {
+  padding: 1.5rem 0 1.5rem 0;
+  background-color: #f0f8ff; /* light background for content */
+  position: relative; /* Important to position the badge */
+  border-radius: 1rem;
+  margin: 1rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+/* Badge in top-right corner */
+.game-round::before {
+  content: "Round " attr(data-round);
+  position: absolute;
+  top: .35rem;
+  right: 1.5rem;
+  color: #c4c3c3;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* For fenced code/monospace blocks */
+pre {
+  background: #e0e0e0;
+  border-left: .2rem solid #f36d33;
+  border-radius: .2rem;
+  color: #666;
+  font-family: monospace;
+  line-height: 1.0;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  max-width: 100%;
+  overflow: auto;
+  padding: 0.5rem 0.2rem;
+}/* This CSS is based on a stack overflow answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */
+/* Player colors are assigned according to number of players */
+
+.msg.player-gm {
+  border-radius: var(--rad-sm) var(--rad) var(--rad) var(--rad-sm);
+  color: #fff;
+  margin-right: 30%;
+}
+
+.msg.gm-player {
+  border-radius: var(--rad) var(--rad-sm) var(--rad-sm) var(--rad);
+  background: #c4c3c3;
+  color: #0c0c0c;
+  margin-left: 30%;
+}
+
+.msg.gm-gm {
+  border-radius: var(--rad-sm) var(--rad-sm) var(--rad-sm) var(--rad-sm);
+  background: #f1f1f1;
+  color: #373636;
+  margin-left: 50%;
+  margin-right: 10%;
+  font-size: 0.8rem;
+}
+
+.msg::before {
+  left: 1rem;
+  content: attr(speaker);
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 100%;
+  color: #888;
+  white-space: nowrap;
+}.msg.player-gm.p1 { background: darkseagreen; }
+
+    </style>
+</head>
+<body>
+
+<br/>
+
+<div class="top-info">
+    <p>Interaction Transcript for game 'ifeval', experiment 'ifeval', episode 332 with Qwen3.5-9B.</p>
+</div>
+
+<br/>
+
+<div class="chat">
+<div class="game-round" data-round="0">
+    <div speaker="GM (Game Master) to Player 1 (InstructionFollower)" class="msg gm-player p1" style="">
+        <p>Write a description for the Pixel 3A smartphone with at least 400 words. Wrap your entire response with double quotation marks.</p>
+    </div>
+
+    <div speaker="Player 1 (InstructionFollower) to GM (Game Master)" class="msg player-gm p1" style="">
+        <p>&quot;Google&#x27;s Pixel 3A stands as a testament to the company&#x27;s philosophy that premium smartphone experiences do not necessarily require a premium price tag. Released as a more affordable sibling to the flagship Pixel 3 series, this device successfully bridges the gap between budget-conscious consumers and those demanding the latest in artificial intelligence and camera technology. At its core, the Pixel 3A is powered by the Qualcomm Snapdragon 670 processor, a chipset that, while not the most powerful on the market, delivers smooth performance for everyday tasks, social media browsing, and media consumption without excessive heat generation. It is paired with 4GB of RAM, which ensures that apps remain responsive and that the user can switch between tasks with minimal lag, although heavy multitasking or demanding 3D gaming might still push the system to its limits.<br/><br/>The true soul of the Pixel 3A lies in its camera system, which Google has famously tuned to rival devices costing twice as much. The rear setup features a single 12.2-megapixel sensor that excels in low-light conditions, a hallmark of the Pixel lineage. Through the use of advanced computational photography, the phone captures stunning detail and vibrant colors even in dimly lit environments, often outperforming competitors with larger sensors. The front-facing 8-megapixel camera is equally impressive, offering clear video calls and selfies that benefit from real-time face tuning and portrait mode capabilities. The camera app itself is intuitive, providing manual controls for enthusiasts while maintaining an automatic mode that is accessible to everyone.<br/><br/>Design-wise, the Pixel 3A adopts a sleek, modern aesthetic with a glass back and a metal frame, available in a variety of vibrant colors including Just Peachy, Charcoal, and Lilac. It features a 5.6-inch Full HD+ OLED display with a 19.5:9 aspect ratio, delivering deep blacks and vivid colors that make media consumption a pleasure. The device is water-resistant to a depth of 1.5 meters for up to 30 minutes, providing peace of mind against accidental spills, though it is not fully waterproof. Battery life is a mixed bag; the 3,000mAh cell is sufficient for a full day of moderate use, but heavy users may find themselves needing a charge by evening. Charging is handled via a USB-C port, supporting fast charging up to 18 watts, which allows the battery to reach a significant percentage in under an hour.<br/><br/>Perhaps the most compelling argument for the Pixel 3A is its software. It launched with Android 9 Pie and received updates directly from Google, ensuring a clean, bloatware-free interface packed with exclusive features like Call Screen, Now Playing, and Live Translate. Although it eventually reached the end of its major update cycle, the experience during its prime was unmatched in terms of optimization and feature richness. The inclusion of Google Assistant, which is deeply integrated into the OS, further enhances productivity and convenience. In summary, the Pixel 3A is a remarkable device that prioritizes software excellence and photographic prowess over raw hardware specifications, making it an ideal choice for users who value a pure Android experience and exceptional camera quality without breaking the bank.&quot;<br/></p>
+    </div>
+
+    <div speaker="Game Master: target" class="msg gm-gm" style="">
+        <p>{&#x27;length_constraints:number_words&#x27;: {&#x27;relation&#x27;: &#x27;at least&#x27;, &#x27;num_words&#x27;: 400}, &#x27;startend:quotation&#x27;: {}}</p>
+    </div>
+
+    <div speaker="Game Master: followed all instructions" class="msg gm-gm" style="">
+        <p>game_result = WIN</p>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

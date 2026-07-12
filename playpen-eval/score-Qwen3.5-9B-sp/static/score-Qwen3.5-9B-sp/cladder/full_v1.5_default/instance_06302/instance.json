@@ -1,0 +1,5 @@
+{
+  "game_id": 6302,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Zuph has a direct effect on rixq and xevu. Rixq has a direct effect on xevu. For those who are not zuph and are not rixq, the probability of xevu is 15%. For those who are not zuph and are rixq, the probability of xevu is 50%. For those who are zuph and are not rixq, the probability of xevu is 32%. For those who are zuph and are rixq, the probability of xevu is 85%. The overall probability of zuph is 84%. Will rixq increase the chance of xevu?",
+  "target": "yes"
+}

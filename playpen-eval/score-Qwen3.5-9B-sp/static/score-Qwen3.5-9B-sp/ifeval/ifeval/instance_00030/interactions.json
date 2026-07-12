@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 30,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "score-Qwen3.5-9B-sp"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T21:07:35.490236",
+        "action": {
+          "type": "send message",
+          "content": "Write a social media post for students of Islamic history about the hajj pilgrimage. Use all lowercase letters and include the word story at least twice.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:07:35.490246",
+        "action": {
+          "type": "get message",
+          "content": "for students of islamic history, the hajj is more than just a ritual; it is a living story that connects us to the prophets of old. every step taken in mecca rewrites the personal story of faith, reminding us that our journey is part of a much larger, timeless narrative.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:07:35.490259",
+        "action": {
+          "type": "target",
+          "content": {
+            "change_case:english_lowercase": {},
+            "keywords:frequency": {
+              "relation": "at least",
+              "keyword": "story",
+              "frequency": 2
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:07:35.793980",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 4,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Husband has a direct effect on wife and alarm clock. Wife has a direct effect on alarm clock. For husbands that don't set the alarm and wives that don't set the alarm, the probability of ringing alarm is 11%. For husbands that don't set the alarm and wives that set the alarm, the probability of ringing alarm is 60%. For husbands that set the alarm and wives that don't set the alarm, the probability of ringing alarm is 46%. For husbands that set the alarm and wives that set the alarm, the probability of ringing alarm is 92%. For husbands that don't set the alarm, the probability of alarm set by wife is 61%. For husbands that set the alarm, the probability of alarm set by wife is 1%. Does husband positively affect alarm clock through wife?",
+  "target": "no"
+}

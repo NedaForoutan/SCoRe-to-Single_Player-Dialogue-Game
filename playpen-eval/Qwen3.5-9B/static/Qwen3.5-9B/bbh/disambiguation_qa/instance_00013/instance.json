@@ -1,0 +1,5 @@
+{
+  "game_id": 13,
+  "input": "In the following sentences, explain the antecedent of the pronoun (which thing the pronoun refers to), or state that it is ambiguous.\nSentence: This story could not be published without the writer and their friends' support.\nOptions:\n(A) They were the writer's friends\n(B) They were the friends' friends\n(C) They were the story's friends\n(D) Ambiguous",
+  "target": "(A)"
+}

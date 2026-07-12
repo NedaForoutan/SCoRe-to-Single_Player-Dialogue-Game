@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 212,
+    "results_folder": "Qwen3.5-9B",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:42:33.007998",
+        "action": {
+          "type": "send message",
+          "content": "Plan a 12-day trip to Italy for professionals in finance, including Rome, Florence, and Venice. Make it in a format of a list with at least one placeholder, such as [address]. The response must be in English and all lowercase letters.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:42:33.008009",
+        "action": {
+          "type": "get message",
+          "content": "1. day 1: arrive at [rome airport] and check into a luxury hotel near the financial district.\n2. day 2: visit the bank of italy headquarters and attend a morning networking breakfast in trastevere.\n3. day 3: explore the roman forum and the vatican museums while reviewing market trends on a tablet.\n4. day 4: take a high-speed train to florence and settle into a boutique hotel near the duomo.\n5. day 5: tour the uffizi gallery and meet with local art consultants for a potential investment discussion.\n6. day 6: enjoy a private wine tasting in chianti and network with regional business leaders.\n7. day 7: travel to venice and check into a canal-side hotel with a private elevator.\n8. day 8: visit the grand canal and the venice stock exchange for a guided historical overview.\n9. day 9: attend a gala dinner at the palazzo venier and connect with international finance executives.\n10. day 10: explore the laguna islands and finalize partnership agreements over lunch at a private club.\n11. day 11: return to rome for a final strategy session at a co-working space in monti.\n12. day 12: depart from [rome airport] after a farewell aperitivo with the local finance community.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:42:33.008024",
+        "action": {
+          "type": "target",
+          "content": {
+            "detectable_content:number_placeholders": {
+              "num_placeholders": 1
+            },
+            "change_case:english_lowercase": {}
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:42:33.013323",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

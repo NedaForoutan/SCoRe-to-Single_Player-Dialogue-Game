@@ -1,0 +1,92 @@
+{
+  "name": "sports_understanding",
+  "meta": {
+    "dataset_path": "lukaemon/bbh",
+    "output_type": "generate_until",
+    "test_split": "test",
+    "doc_to_target": "{{target}}",
+    "metric_list": [
+      {
+        "metric": "exact_match",
+        "aggregation": "mean",
+        "higher_is_better": true
+      }
+    ],
+    "generation_kwargs": {
+      "until": [
+        "</s>",
+        "Q",
+        "\n\n"
+      ],
+      "do_sample": false,
+      "temperature": 0.0
+    },
+    "num_fewshot": 3,
+    "metadata": {
+      "version": 2.0
+    },
+    "dataset_name": "sports_understanding",
+    "description": "Determine whether an artificially constructed sentence relating to sports is plausible or not.\n\n",
+    "doc_to_text": "Q: {{input}}\nA:",
+    "fewshot_config": {
+      "sampler": "first_n",
+      "samples": [
+        {
+          "input": "Is the following sentence plausible? \"Bam Adebayo scored a reverse layup in the Western Conference Finals.\"",
+          "target": "yes"
+        },
+        {
+          "input": "Is the following sentence plausible? \"Santi Cazorla scored a touchdown.\"",
+          "target": "no"
+        },
+        {
+          "input": "Is the following sentence plausible? \"DeMar DeRozan was called for the goal tend.\"",
+          "target": "yes"
+        }
+      ]
+    },
+    "task": "playschool_bbh_fewshot_sports_understanding"
+  },
+  "initial_prompt": "Determine whether an artificially constructed sentence relating to sports is plausible or not.\n\nQ: Is the following sentence plausible? \"Bam Adebayo scored a reverse layup in the Western Conference Finals.\"\nA: yes\n\nQ: Is the following sentence plausible? \"Santi Cazorla scored a touchdown.\"\nA: no\n\nQ: Is the following sentence plausible? \"DeMar DeRozan was called for the goal tend.\"\nA: yes\n\nQ: {{input}}\nA:",
+  "timestamp": "2026-06-20T17:33:49.094999",
+  "game_name": "bbh",
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  }
+}

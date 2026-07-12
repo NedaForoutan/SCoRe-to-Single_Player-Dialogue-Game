@@ -1,0 +1,5 @@
+{
+  "game_id": 624,
+  "input": "Question:\nCompute the double integrals over indicated rectangles $\\iint\\limits_{R}{{2x - 4{y^3}\\,dA}}$, $R = [-5,4] \\times [0, 3]\nOptions:\nA. -1024\nB. 650\nC. 0\nD. 504\nE. -756\nF. -504\nG. -650\nH. 1024\nI. 756\n",
+  "target": "E"
+}

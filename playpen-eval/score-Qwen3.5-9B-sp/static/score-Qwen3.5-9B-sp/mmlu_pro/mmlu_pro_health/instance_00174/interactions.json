@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "game_name": "mmlu_pro",
+    "experiment_name": "mmlu_pro_health",
+    "game_id": 174,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "score-Qwen3.5-9B-sp"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:51:54.105857",
+        "action": {
+          "type": "send message",
+          "content": "The following are multiple choice questions (with answers) about health. Answer only with \"The answer is (X)\" where X is the correct letter choice.\n\nQuestion:\nWhich of the following is the body cavity that contains the pituitary gland?\nOptions:\nA. Ventral\nB. Dorsal\nC. Buccal\nD. Thoracic\nE. Pericardial\nF. Abdominal\nG. Spinal\nH. Pelvic\nI. Pleural\nJ. Cranial\nThe answer is (J)\n\nQuestion:\nWhat is the embryological origin of the hyoid bone?\nOptions:\nA. The third and fourth pharyngeal arches\nB. The fourth pharyngeal arch\nC. The third pharyngeal arch\nD. The second pharyngeal arch\nE. The second, third and fourth pharyngeal arches\nF. The first pharyngeal arch\nG. The second and third pharyngeal arches\nH. The first and third pharyngeal arches\nI. The first, second and third pharyngeal arches\nJ. The first and second pharyngeal arches\nThe answer is (G)\n\nQuestion:\nWhat is the difference between a male and a female catheter?\nOptions:\nA. Female catheters are used more frequently than male catheters.\nB. Male catheters are bigger than female catheters.\nC. Male catheters are more flexible than female catheters.\nD. Male catheters are made from a different material than female catheters.\nE. Female catheters are longer than male catheters.\nF. Male catheters are longer than female catheters.\nG. Female catheters are bigger than male catheters.\nH. Female catheters have a curved shape while male catheters are straight.\nI. Male and female catheters are different colours.\nJ. Male catheters have a smaller diameter than female catheters.\nThe answer is (F)\n\nQuestion:\nHow many attempts should you make to cannulate a patient before passing the job on to a senior colleague, according to the medical knowledge of 2020?\nOptions:\nA. 1\nB. Unlimited attempts\nC. 5\nD. 0, always pass on to a senior colleague\nE. 7\nF. 2\nG. 4\nH. 6\nI. 3\nJ. 8\nThe answer is (F)\n\nQuestion:\nWhy are parvoviruses a highly impactful parasite?\nOptions:\nA. They are able to alter the host's DNA\nB. Because they have no nucleic acid\nC. They can survive in extreme temperatures\nD. Only replicate in dividing cells\nE. They can infect multiple species\nF. They don't require a host to survive\nG. Can integrate into host chromosomes\nH. N/A\nI. N/A\nJ. N/A\nThe answer is (B)\n\nQuestion:\nA 20-year-old man has had frequent upper respiratory tract infections over the past 4 years. He has daily purulent sputum and has noted decreased exercise tolerance over the past 2 years. He and his wife have been unable to conceive because of his low sperm count. Scattered expiratory wheezing and rhonchi are heard throughout both lung fields. An x-ray of the chest shows hyperinflation. Spirometry shows a decreased FEV1:FVC ratio. Which of the following is most likely to confirm the diagnosis? \nOptions:\nA. Chest CT scan\nB. Arterial blood gas analysis\nC. Tuberculin skin test\nD. Bronchoscopy\nE. Sweat chloride test\nF. Sputum cytology\nG. Examination of sputum for eosinophils\nH. Echocardiogram\nI. Spirometry repeat test\nJ. Complete blood count\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:51:54.105867",
+        "action": {
+          "type": "get message",
+          "content": "The answer is (E)\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:51:54.105934",
+        "action": {
+          "type": "parsed",
+          "content": "E"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:51:54.105944",
+        "action": {
+          "type": "target",
+          "content": "E"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:51:54.105951",
+        "action": {
+          "type": "correct answer",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 375,
+  "input": "Question:\nThe current price of gold is $412 per ounce. The storage cost is $2 per ounce per year, payable quaterly in advance. Assuming a constant intrest rate of 9% compounded quarterly, what is the theoretial forward price of gold for delivery in 9 months?\nOptions:\nA. 448.25\nB. 465.75\nC. 435.67\nD. 442.02\nE. 455.90\nF. 460.30\nG. 450.50\nH. 438.88\nI. 427.15\nJ. 470.10\n",
+  "target": "D"
+}

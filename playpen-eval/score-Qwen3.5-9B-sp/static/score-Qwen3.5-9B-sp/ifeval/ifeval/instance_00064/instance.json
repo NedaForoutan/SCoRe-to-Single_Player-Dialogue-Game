@@ -1,0 +1,10 @@
+{
+  "game_id": 64,
+  "input": "Write a funny article about why the dinosaurs went extinct and put double quotations marks around your whole response. Include exactly 8 bullet points in your response. The bullet points should be in the form of:\n* This is bullet 1\n* This is bullet 2\n...",
+  "target": {
+    "startend:quotation": {},
+    "detectable_format:number_bullet_lists": {
+      "num_bullets": 8
+    }
+  }
+}

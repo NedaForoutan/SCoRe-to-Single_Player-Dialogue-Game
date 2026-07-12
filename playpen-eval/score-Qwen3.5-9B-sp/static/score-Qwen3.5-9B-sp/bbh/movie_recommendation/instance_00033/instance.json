@@ -1,0 +1,5 @@
+{
+  "game_id": 33,
+  "input": "Find a movie similar to Braveheart, Dances with Wolves, Pulp Fiction, Schindler's List:\nOptions:\n(A) Tickling Giants\n(B) Shadow of the Vampire\n(C) The Usual Suspects\n(D) On the Town",
+  "target": "(C)"
+}

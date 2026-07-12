@@ -1,0 +1,5 @@
+{
+  "game_id": 4700,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: CEO has a direct effect on director and manager. Manager has a direct effect on foot size. Director has a direct effect on foot size. For CEOs who fire employees and managers who don't sign termination letters, the probability of large feet is 62%. For CEOs who fire employees and managers who sign termination letters, the probability of large feet is 15%. For CEOs who fire employees and managers who don't sign termination letters, the probability of large feet is 83%. For CEOs who fire employees and managers who sign termination letters, the probability of large feet is 35%. The overall probability of CEO's decision to fire the employee is 94%. Will manager signing the termination letter increase the chance of large feet?",
+  "target": "no"
+}

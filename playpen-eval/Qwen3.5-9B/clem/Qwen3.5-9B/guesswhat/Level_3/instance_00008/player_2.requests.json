@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "guesswhat",
+    "experiment_name": "Level_3",
+    "game_id": 8,
+    "player_name": "Player 2",
+    "game_role": "Answerer",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:25:26.716423",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nLet’s play a guessing game! Your task is to answer the other player's questions. Based on your knowledge of the word: Reverend, respond to the following questions or guesses. Limit your response to only 'yes' or 'no' with no explanation or other words. Never reveal the answer in your response.\n\nYou must reply using the format below and DO NOT ADD ANY TEXT OTHER THAN THIS:\n\nANSWER: <some text>\n\nTarget Word: Reverend\n\nQUESTION: Is the target word a title used in the Roman Catholic Church?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nLet’s play a guessing game! Your task is to answer the other player's questions. Based on your knowledge of the word: Reverend, respond to the following questions or guesses. Limit your response to only 'yes' or 'no' with no explanation or other words. Never reveal the answer in your response.\n\nYou must reply using the format below and DO NOT ADD ANY TEXT OTHER THAN THIS:\n\nANSWER: <some text>\n\nTarget Word: Reverend\n\nQUESTION: Is the target word a title used in the Roman Catholic Church?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nANSWER: no<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:25:26.455132",
+            "call_duration": "0:00:00.261254",
+            "response": "ANSWER: no\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

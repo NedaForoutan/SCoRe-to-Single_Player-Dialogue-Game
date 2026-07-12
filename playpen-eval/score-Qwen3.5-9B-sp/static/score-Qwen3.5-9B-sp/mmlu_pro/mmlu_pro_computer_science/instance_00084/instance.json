@@ -1,0 +1,5 @@
+{
+  "game_id": 84,
+  "input": "Question:\nLet l = [1,2,3,4]. What is min(l) in Python3?\nOptions:\nA. '1'\nB. 0\nC. -1\nD. 3\nE. [1,2,3,4]\nF. 1\nG. 2\nH. min(l) is not defined in Python3\nI. 4\nJ. 1.0\n",
+  "target": "F"
+}

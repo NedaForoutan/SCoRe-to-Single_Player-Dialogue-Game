@@ -1,0 +1,5 @@
+{
+  "game_id": 205,
+  "input": "Find a movie similar to The Shawshank Redemption, Pulp Fiction, The Fugitive, Stargate:\nOptions:\n(A) Guinevere\n(B) White Frog\n(C) Dances with Wolves\n(D) Benny & Joon",
+  "target": "(C)"
+}

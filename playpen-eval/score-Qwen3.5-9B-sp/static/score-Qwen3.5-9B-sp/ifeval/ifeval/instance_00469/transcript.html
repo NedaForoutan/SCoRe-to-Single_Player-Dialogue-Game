@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <style>
+        /* This CSS is based on a stack overflow answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */ 
+
+* {margin: 0; box-sizing: border-box;}
+
+body {
+  background-color: rgb(157, 152, 150);
+}
+
+.top-info {
+	text-align: center;
+	font: 1.25rem/1.5 sans-serif;
+	display: flex;
+	flex-direction: column;
+	padding: 1.25em;
+	width: 80%;
+  max-width: 1200px;
+	margin: auto;
+	background: #3f3e3e;
+	color: #fff;
+}
+
+.chat {
+  --rad: 1.5rem;
+  --rad-sm: .3rem;
+  font: 1rem/1.5 sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+}
+
+.msg {
+  position: relative;
+  padding: .6rem 1.2rem;
+  margin-inline: 1rem;
+  margin-block: 2rem;
+}
+
+.game-round {
+  padding: 1.5rem 0 1.5rem 0;
+  background-color: #f0f8ff; /* light background for content */
+  position: relative; /* Important to position the badge */
+  border-radius: 1rem;
+  margin: 1rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+/* Badge in top-right corner */
+.game-round::before {
+  content: "Round " attr(data-round);
+  position: absolute;
+  top: .35rem;
+  right: 1.5rem;
+  color: #c4c3c3;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* For fenced code/monospace blocks */
+pre {
+  background: #e0e0e0;
+  border-left: .2rem solid #f36d33;
+  border-radius: .2rem;
+  color: #666;
+  font-family: monospace;
+  line-height: 1.0;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  max-width: 100%;
+  overflow: auto;
+  padding: 0.5rem 0.2rem;
+}/* This CSS is based on a stack overflow answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */
+/* Player colors are assigned according to number of players */
+
+.msg.player-gm {
+  border-radius: var(--rad-sm) var(--rad) var(--rad) var(--rad-sm);
+  color: #fff;
+  margin-right: 30%;
+}
+
+.msg.gm-player {
+  border-radius: var(--rad) var(--rad-sm) var(--rad-sm) var(--rad);
+  background: #c4c3c3;
+  color: #0c0c0c;
+  margin-left: 30%;
+}
+
+.msg.gm-gm {
+  border-radius: var(--rad-sm) var(--rad-sm) var(--rad-sm) var(--rad-sm);
+  background: #f1f1f1;
+  color: #373636;
+  margin-left: 50%;
+  margin-right: 10%;
+  font-size: 0.8rem;
+}
+
+.msg::before {
+  left: 1rem;
+  content: attr(speaker);
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 100%;
+  color: #888;
+  white-space: nowrap;
+}.msg.player-gm.p1 { background: darkseagreen; }
+
+    </style>
+</head>
+<body>
+
+<br/>
+
+<div class="top-info">
+    <p>Interaction Transcript for game 'ifeval', experiment 'ifeval', episode 469 with score-Qwen3.5-9B-sp.</p>
+</div>
+
+<br/>
+
+<div class="chat">
+<div class="game-round" data-round="0">
+    <div speaker="GM (Game Master) to Player 1 (InstructionFollower)" class="msg gm-player p1" style="">
+        <p>Give me a 300+ word startup pitch for a company that provides a service that creates trusts for people online.</p>
+    </div>
+
+    <div speaker="Player 1 (InstructionFollower) to GM (Game Master)" class="msg player-gm p1" style="">
+        <p>**Introducing TrustFlow: The Future of Digital Legacy and Asset Protection**<br/><br/>Imagine a world where your most valuable assets—your digital life, your family&#x27;s future, and your hard-earned wealth—are not left to the chaotic delays of probate courts or the rigid limitations of traditional lawyers. Today, that world is here. We are **TrustFlow**, the first fully automated, blockchain-verified platform dedicated to creating legally binding trusts for individuals online, instantly, and at a fraction of the cost of traditional estate planning.<br/><br/>For decades, establishing a trust has been an exclusive club for the ultra-wealthy. The process is archaic, requiring expensive attorneys, physical paperwork, and months of waiting. By the time a standard trust is finalized, a family&#x27;s financial situation may have changed, or a loved one may have passed away without their wishes being honored. TrustFlow shatters these barriers. Our proprietary AI-driven engine guides users through a conversational, step-by-step wizard that analyzes their unique assets, family dynamics, and goals to draft a custom, legally compliant trust document in under ten minutes.<br/><br/>But we don&#x27;t just stop at the document. In an era where digital footprints are as valuable as physical real estate, TrustFlow offers a holistic solution. We integrate directly with your digital wallets, cloud storage, and social media accounts to create a seamless &quot;Digital Will.&quot; When you designate a beneficiary, TrustFlow uses smart contracts to ensure that upon your verified passing, your crypto assets, NFTs, and digital subscriptions are transferred automatically and securely, bypassing the often-insurmountable hurdles of digital inheritance.<br/><br/>Our platform is built on a foundation of transparency and security. Every trust created is hashed onto a private, permissioned blockchain, providing an immutable audit trail that courts and beneficiaries can verify instantly. This eliminates the &quot;black box&quot; nature of traditional estate planning and builds unshakeable trust with our users.<br/><br/>We are not just selling a service; we are democratizing financial freedom. Whether you are a young professional protecting a startup&#x27;s equity or a retiree securing a legacy for grandchildren, TrustFlow puts the power of asset protection in your hands. Join the revolution where legacy is no longer a burden, but a seamless, secure, and automated reality. Let&#x27;s build a future where everyone can leave a lasting impact. Welcome to TrustFlow.<br/></p>
+    </div>
+
+    <div speaker="Game Master: target" class="msg gm-gm" style="">
+        <p>{&#x27;length_constraints:number_words&#x27;: {&#x27;relation&#x27;: &#x27;at least&#x27;, &#x27;num_words&#x27;: 300}}</p>
+    </div>
+
+    <div speaker="Game Master: followed all instructions" class="msg gm-gm" style="">
+        <p>game_result = WIN</p>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

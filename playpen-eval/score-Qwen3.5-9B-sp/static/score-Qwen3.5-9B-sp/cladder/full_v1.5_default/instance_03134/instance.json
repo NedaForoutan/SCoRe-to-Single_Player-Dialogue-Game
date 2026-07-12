@@ -1,0 +1,5 @@
+{
+  "game_id": 3134,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Poverty has a direct effect on water quality and cholera. Water company has a direct effect on water quality. Water quality has a direct effect on cholera. Poverty is unobserved. We know that high poverty or global water company causes clean water. high poverty or clean water causes cholera contraction. We observed the person is served by a global water company and the region has low poverty. Would the person gets cholera if polluted water instead of clean water?",
+  "target": "no"
+}

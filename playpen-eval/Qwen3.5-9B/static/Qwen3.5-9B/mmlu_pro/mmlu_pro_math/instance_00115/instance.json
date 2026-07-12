@@ -1,0 +1,5 @@
+{
+  "game_id": 115,
+  "input": "Question:\nThe relation between the selling price of a car (in $1,000) and its age (in years) is estimated from a random sample of cars of a specific model. The relation is given by the following formula: Selling price = 15.9 – 0.983 (age) Which of the following can we conclude from this equation?\nOptions:\nA. For every year the car gets older, the selling price drops by approximately $983.\nB. A new car costs on the average $9,830.\nC. A new car costs on the average $15,900.\nD. For every year the car gets older, the selling price goes down by approximately 9.83 percent.\nE. For every year the car gets older, the selling price goes up by approximately $983.\nF. For every year the car gets older, the selling price drops by approximately $159.\nG. For every year the car gets older, the selling price goes up by approximately $1,590.\nH. A new car costs on the average $983.\nI. For every year the car gets older, the selling price remains the same.\nJ. For every year the car gets older, the selling price drops by approximately $1,590.\n",
+  "target": "A"
+}

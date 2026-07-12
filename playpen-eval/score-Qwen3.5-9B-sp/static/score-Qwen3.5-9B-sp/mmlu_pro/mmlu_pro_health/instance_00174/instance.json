@@ -1,0 +1,5 @@
+{
+  "game_id": 174,
+  "input": "Question:\nA 20-year-old man has had frequent upper respiratory tract infections over the past 4 years. He has daily purulent sputum and has noted decreased exercise tolerance over the past 2 years. He and his wife have been unable to conceive because of his low sperm count. Scattered expiratory wheezing and rhonchi are heard throughout both lung fields. An x-ray of the chest shows hyperinflation. Spirometry shows a decreased FEV1:FVC ratio. Which of the following is most likely to confirm the diagnosis? \nOptions:\nA. Chest CT scan\nB. Arterial blood gas analysis\nC. Tuberculin skin test\nD. Bronchoscopy\nE. Sweat chloride test\nF. Sputum cytology\nG. Examination of sputum for eosinophils\nH. Echocardiogram\nI. Spirometry repeat test\nJ. Complete blood count\n",
+  "target": "E"
+}

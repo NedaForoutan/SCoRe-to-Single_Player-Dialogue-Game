@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "game_name": "mmlu_pro",
+    "experiment_name": "mmlu_pro_other",
+    "game_id": 511,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "score-Qwen3.5-9B-sp"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:52:37.388544",
+        "action": {
+          "type": "send message",
+          "content": "The following are multiple choice questions (with answers) about other. Answer only with \"The answer is (X)\" where X is the correct letter choice.\n\nQuestion:\nAs of 2017, how many of the world’s 1-year-old children today have been vaccinated against some disease? *\nOptions:\nA. 30%\nB. 60%\nC. 10%\nD. 90%\nE. 80%\nF. 40%\nG. 100%\nH. 50%\nI. N/A\nJ. N/A\nThe answer is (E)\n\nQuestion:\nWhich one of the following items is an example of nonmaterial culture?\nOptions:\nA. A dove feather\nB. Dove symbol\nC. Dove body lotion\nD. Dove deodorant\nE. Dove soap\nF. Dove candy bar\nG. Dove conditioner\nH. A dove (bird).\nI. Dove chocolate\nJ. Dove shampoo\nThe answer is (B)\n\nQuestion:\nWhich of the following cases established the precedent that a defendant must be informed of the right to remain silent, the right to a lawyer, and protection from self-incrimination?\nOptions:\nA. Brown v. Board of Education\nB. Miranda v. Arizona\nC. Roe v. Wade\nD. Betts v. Brady\nE. Plessy v. Ferguson\nF. Dred Scott v. Sandford\nG. Weeks v. United States\nH. Gideon v. Wainwright\nI. Marbury v. Madison\nJ. Mapp v. Ohio\nThe answer is (B)\n\nQuestion:\nA woman who knows she has active herpes and untreated syphilis but continues to have sex without informing her partners of her condition has, in psychoanalytic terms:\nOptions:\nA. a weak conscious mind\nB. a strong conscious mind\nC. a weak id\nD. a weak ego\nE. a weak unconscious mind\nF. a strong id\nG. a strong ego\nH. a strong superego\nI. a strong preconscious mind\nJ. a weak superego\nThe answer is (J)\n\nQuestion:\nWhat place is named in the title of the 1979 live album by rock legends Cheap Trick?\nOptions:\nA. Brooklyn\nB. Beijing\nC. Budapest\nD. Boston\nE. Bhutan\nF. Barcelona\nG. Britain\nH. Brisbane\nI. Bruges\nJ. Budokan\nThe answer is (J)\n\nQuestion:\nWhich crop began the Third Agricultural Revolution?\nOptions:\nA. Wheat\nB. Quinoa\nC. Potatoes\nD. Corn\nE. Rye\nF. Oats\nG. Rice\nH. Millet\nI. Barley\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:52:37.388554",
+        "action": {
+          "type": "get message",
+          "content": "The answer is (D)\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:52:37.388619",
+        "action": {
+          "type": "parsed",
+          "content": "D"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:52:37.388629",
+        "action": {
+          "type": "target",
+          "content": "G"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:52:37.388636",
+        "action": {
+          "type": "wrong answer",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

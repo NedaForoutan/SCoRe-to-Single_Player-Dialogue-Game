@@ -1,0 +1,5 @@
+{
+  "game_id": 2303,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Smoking has a direct effect on effort and college admission. Effort has a direct effect on college admission. For nonsmokers, the probability of college admission is 67%. For smokers, the probability of college admission is 55%. For smokers, would it be less likely to see college admission if the student had been a nonsmoker?",
+  "target": "no"
+}

@@ -1,0 +1,13 @@
+{
+  "game_id": 153,
+  "input": "Can you write a poem about the pros and cons of playing a lot of video games? Please make sure it's at least 40 sentences long (don't forget to add punctuations). You must highlight some words or phrases in your response, like *highlighted phrase*.",
+  "target": {
+    "detectable_format:number_highlighted_sections": {
+      "num_highlights": 1
+    },
+    "length_constraints:number_sentences": {
+      "relation": "at least",
+      "num_sentences": 40
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 1263,
+  "input": "Question:\nIf the radius of the earth were to decrease by 1/2 percent what would be the change in the length of the day? Consider the earth to be a uniform sphere whose moment of inertia is I = 2/5 mR^2.\nOptions:\nA. 18.46 minutes\nB. 22.15 minutes\nC. 20.34 minutes\nD. 19.78 minutes\nE. 7.22 minutes\nF. 12.36 minutes\nG. 10.12 minutes\nH. 8.54 minutes\nI. 16.42 minutes\nJ. 14.28 minutes\n",
+  "target": "J"
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 406,
+  "input": "Question:\nA particle of mass $m$ and velocity $u_1$ makes a head-on collision with another particle of mass $2 m$ at rest. If the coefficient of restitution is such to make the loss of total kinetic energy a maximum, what are the velocities $v_1$ after the collision?\nOptions:\nA. $0$\nB.   $\\frac{1}{3}$$u_1$\nC. $\\frac{1}{2}$$u_1$\nD. $\\frac{2}{5}u_1$\nE. $\\frac{2}{3}$$u_1$\nF. $\\frac{3}{4}u_1$\nG. $-\\frac{1}{2}u_1$\nH. $-\\frac{1}{3}u_1$\nI. $u_1$\nJ. $\\frac{1}{4}u_1$\n",
+  "target": "B"
+}

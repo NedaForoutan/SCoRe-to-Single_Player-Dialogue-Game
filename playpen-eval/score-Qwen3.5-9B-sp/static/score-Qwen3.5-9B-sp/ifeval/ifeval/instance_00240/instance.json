@@ -1,0 +1,11 @@
+{
+  "game_id": 240,
+  "input": "Write a casual blog post about how the outer solar system is different from the inner solar system, and what that means for the possibility of life. Wrap your entire response with double quotation marks. Your response should contain 17 or more sentences.",
+  "target": {
+    "startend:quotation": {},
+    "length_constraints:number_sentences": {
+      "relation": "at least",
+      "num_sentences": 17
+    }
+  }
+}

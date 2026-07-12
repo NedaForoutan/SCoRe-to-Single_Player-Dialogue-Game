@@ -1,0 +1,107 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `bbh', experiment `penguins\_in\_a\_table', episode 93 with Qwen3.5{-}9B.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \texttt{Answer questions about a table of penguins and their attributes.} \\
+\\ 
+\texttt{Q: Here is a table where the first line is a header and each subsequent line is a penguin:  name, age, height (cm), weight (kg) Louis, 7, 50, 11 Bernard, 5, 80, 13 Vincent, 9, 60, 11 Gwen, 8, 70, 15  For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.  We now add a penguin to the table:} \\
+\texttt{James, 12, 90, 12} \\
+\texttt{How many penguins are less than 8 years old?} \\
+\texttt{Options:} \\
+\texttt{(A) 1} \\
+\texttt{(B) 2} \\
+\texttt{(C) 3} \\
+\texttt{(D) 4} \\
+\texttt{(E) 5} \\
+\texttt{A: (B)} \\
+\\ 
+\texttt{Q: Here is a table where the first line is a header and each subsequent line is a penguin:  name, age, height (cm), weight (kg) Louis, 7, 50, 11 Bernard, 5, 80, 13 Vincent, 9, 60, 11 Gwen, 8, 70, 15  For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.  Which is the youngest penguin?} \\
+\texttt{Options:} \\
+\texttt{(A) Louis} \\
+\texttt{(B) Bernard} \\
+\texttt{(C) Vincent} \\
+\texttt{(D) Gwen} \\
+\texttt{(E) James} \\
+\texttt{A: (B)} \\
+\\ 
+\texttt{Q: Here is a table where the first line is a header and each subsequent line is a penguin:  name, age, height (cm), weight (kg) Louis, 7, 50, 11 Bernard, 5, 80, 13 Vincent, 9, 60, 11 Gwen, 8, 70, 15  For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.  What is the name of the second penguin sorted by alphabetic order?} \\
+\texttt{Options:} \\
+\texttt{(A) Louis} \\
+\texttt{(B) Bernard} \\
+\texttt{(C) Vincent} \\
+\texttt{(D) Gwen} \\
+\texttt{(E) James} \\
+\texttt{A: (D)} \\
+\\ 
+\texttt{Q: Here is a table where the first line is a header and each subsequent line is a penguin:  name, age, height (cm), weight (kg) Louis, 7, 50, 11 Bernard, 5, 80, 13 Vincent, 9, 60, 11 Gwen, 8, 70, 15  For example: the age of Louis is 7, the weight of Gwen is 15 kg, the height of Bernard is 80 cm.  We then delete the penguin named Bernard from the table.} \\
+\texttt{What is the name of the last penguin?} \\
+\texttt{Options:} \\
+\texttt{(A) Louis} \\
+\texttt{(B) Bernard} \\
+\texttt{(C) Vincent} \\
+\texttt{(D) Gwen} \\
+\texttt{(E) James} \\
+\texttt{A:} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{(D)} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Target: (D)} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = LOSE} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

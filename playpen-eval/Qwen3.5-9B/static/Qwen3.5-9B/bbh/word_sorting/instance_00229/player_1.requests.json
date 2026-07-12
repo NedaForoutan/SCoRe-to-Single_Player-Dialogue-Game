@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "bbh",
+    "experiment_name": "word_sorting",
+    "game_id": 229,
+    "player_name": "Player 1",
+    "game_role": "Answerer",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:29:19.904194",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nSort a list of words.\n\nQ: Sort the following words alphabetically: List: oven costume counterpart\nA: costume counterpart oven\n\nQ: Sort the following words alphabetically: List: hypochlorite ponderosa phone credulity\nA: credulity hypochlorite phone ponderosa\n\nQ: Sort the following words alphabetically: List: newt arson parthia seismography mugho aspect census\nA: arson aspect census mugho newt parthia seismography\n\nQ: Sort the following words alphabetically: List: woebegone nimble complementary afternoon immaculate laughlin kind hesitate loire septuagenarian sandia toggle dixie horsepower sierra shuffleboard mechanism\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nSort a list of words.\n\nQ: Sort the following words alphabetically: List: oven costume counterpart\nA: costume counterpart oven\n\nQ: Sort the following words alphabetically: List: hypochlorite ponderosa phone credulity\nA: credulity hypochlorite phone ponderosa\n\nQ: Sort the following words alphabetically: List: newt arson parthia seismography mugho aspect census\nA: arson aspect census mugho newt parthia seismography\n\nQ: Sort the following words alphabetically: List: woebegone nimble complementary afternoon immaculate laughlin kind hesitate loire septuagenarian sandia toggle dixie horsepower sierra shuffleboard mechanism\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nafternoon aspect complementary credulity dixie hesitate hypochlorite immaculate kind laughlin loire mechanism mugho newt nimble parthia ponderosa phone seismography sandia sierra shuffleboard toggle woebegone<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:29:18.472382",
+            "call_duration": "0:00:01.431771",
+            "response": "afternoon aspect complementary credulity dixie hesitate hypochlorite immaculate kind laughlin loire mechanism mugho newt nimble parthia ponderosa phone seismography sandia sierra shuffleboard toggle woebegone\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

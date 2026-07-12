@@ -1,0 +1,5 @@
+{
+  "game_id": 216,
+  "input": "Today, William went to the coffee shop. Between what times could they have gone?\nWe know that:\nWilliam woke up at 7am.\nLisa saw William sitting on a rooftop from 9am to 11am.\nElizabeth saw William buying a bike at the bike shop from 11am to 1pm.\nRichard saw William working at the office from 1pm to 6pm.\nAndrew saw William waiting at the train station from 6pm to 10pm.\nThe coffee shop was closed after 10pm.\nBetween what times could William have gone to the coffee shop?\nOptions:\n(A) 11am to 1pm\n(B) 1pm to 6pm\n(C) 6pm to 10pm\n(D) 7am to 9am",
+  "target": "(D)"
+}

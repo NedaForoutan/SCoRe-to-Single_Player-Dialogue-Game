@@ -1,0 +1,5 @@
+{
+  "game_id": 390,
+  "input": "Question:\nWhich of the following parameters are seen on typical neurological observation charts?\nOptions:\nA. Hemoglobin levels.\nB. Central venous pressure.\nC. Temperature.\nD. Bicarbonate levels.\nE. Urine output.\n",
+  "target": "C"
+}

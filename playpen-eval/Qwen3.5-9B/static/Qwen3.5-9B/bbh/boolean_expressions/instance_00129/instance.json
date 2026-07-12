@@ -1,0 +1,5 @@
+{
+  "game_id": 129,
+  "input": "( True ) or True and not True is",
+  "target": "True"
+}

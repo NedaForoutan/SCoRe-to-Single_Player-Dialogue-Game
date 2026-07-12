@@ -1,0 +1,5 @@
+{
+  "game_id": 12,
+  "input": "Which of the following is a humorous edit of this artist or movie name: 'braveheart'?\nOptions:\n(A) bravehearts\n(B) graveheart\n(C) brasveheart\n(D) braveheafrt",
+  "target": "(B)"
+}

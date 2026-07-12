@@ -1,0 +1,5 @@
+{
+  "game_id": 270,
+  "input": "Question:\nWhat is the smallest positive integer $n$ such that $\\frac{1}{n}$ is a terminating decimal and $n$ contains the digit 9?\nOptions:\nA. 512\nB. 1024\nC. 128\nD. 72\nE. 32\nF. 256\nG. 2048\nH. 64\nI. 8192\nJ. 4096\n",
+  "target": "J"
+}

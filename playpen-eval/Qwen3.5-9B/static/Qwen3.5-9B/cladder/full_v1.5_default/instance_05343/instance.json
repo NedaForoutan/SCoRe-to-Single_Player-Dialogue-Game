@@ -1,0 +1,5 @@
+{
+  "game_id": 5343,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Drinking coffee has a direct effect on hospitalization status. Broken bones has a direct effect on hospitalization status. Method 1: We look directly at how drinking coffee correlates with broken bones in general. Method 2: We look at this correlation case by case according to hospitalization status. To understand how drinking coffee affects broken bones, is it more correct to use the Method 1 than Method 2?",
+  "target": "yes"
+}

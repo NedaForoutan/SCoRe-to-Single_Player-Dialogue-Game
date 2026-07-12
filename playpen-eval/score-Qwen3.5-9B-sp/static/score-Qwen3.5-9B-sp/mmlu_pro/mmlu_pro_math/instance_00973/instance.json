@@ -1,0 +1,5 @@
+{
+  "game_id": 973,
+  "input": "Question:\nThe appraised values of houses in a city have a mean of $125,000 with a standard deviation of $23,000. Because of a new teachers' contract, the school district needs an extra 10% in funds compared to the previous year. To raise this additional money, the city instructs the assessment office to raise all appraised house values by $5,000. What will be the new standard deviation of the appraised values of houses in the city?\nOptions:\nA. $29,000\nB. $26,000\nC. $25,300\nD. $24,500\nE. $28,000\nF. $27,500\nG. $32,500\nH. $23,000\nI. $31,000\nJ. $30,300\n",
+  "target": "H"
+}

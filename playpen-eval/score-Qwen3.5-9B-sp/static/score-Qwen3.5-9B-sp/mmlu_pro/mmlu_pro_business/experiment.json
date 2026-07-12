@@ -1,0 +1,113 @@
+{
+  "name": "mmlu_pro_business",
+  "meta": {
+    "dataset_path": "TIGER-Lab/MMLU-Pro",
+    "test_split": "test",
+    "fewshot_split": "validation",
+    "fewshot_config": {
+      "sampler": "first_n",
+      "doc_to_text": "utils.fewshot_to_text",
+      "doc_to_target": ""
+    },
+    "output_type": "generate_until",
+    "doc_to_text": "utils.doc_to_text",
+    "doc_to_target": "answer",
+    "doc_to_choices": "['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']",
+    "filter_list": [
+      {
+        "name": "custom-extract",
+        "filter": [
+          {
+            "function": "regex",
+            "regex_pattern": "answer is \\(?([ABCDEFGHIJ])\\)?"
+          },
+          {
+            "function": "take_first"
+          }
+        ]
+      }
+    ],
+    "generation_kwargs": {
+      "until": [
+        "</s>",
+        "Q:",
+        "<|im_end|>"
+      ],
+      "max_gen_toks": 2048,
+      "do_sample": false,
+      "temperature": 0.0
+    },
+    "num_fewshot": 5,
+    "metric_list": [
+      {
+        "metric": "exact_match",
+        "aggregation": "mean",
+        "higher_is_better": true,
+        "ignore_case": true,
+        "ignore_punctuation": true
+      }
+    ],
+    "metadata": {
+      "version": 2.1
+    },
+    "description": "The following are multiple choice questions (with answers) about business. Answer only with \"The answer is (X)\" where X is the correct letter choice.\n",
+    "task": "playschool_mmlu_pro_business",
+    "task_alias": "business",
+    "process_docs": "utils.process_business"
+  },
+  "initial_prompt": "The following are multiple choice questions (with answers) about business. Answer only with \"The answer is (X)\" where X is the correct letter choice.\n\nQuestion:\nIn contrast to _______, _______ aim to reward favourable behaviour by companies. The success of such campaigns have been heightened through the use of ___________, which allow campaigns to facilitate the company in achieving _________ .\nOptions:\nA. Boycotts, Buyalls, Blockchain technology, Increased Sales\nB. Buycotts, Boycotts, Digital technology, Decreased Sales\nC. Boycotts, Buycotts, Digital technology, Decreased Sales\nD. Buycotts, Boycotts, Blockchain technology, Charitable donations\nE. Boycotts, Buyalls, Blockchain technology, Charitable donations\nF. Boycotts, Buycotts, Digital technology, Increased Sales\nG. Buycotts, Boycotts, Digital technology, Increased Sales\nH. Boycotts, Buycotts, Physical technology, Increased Sales\nI. Buycotts, Buyalls, Blockchain technology, Charitable donations\nJ. Boycotts, Buycotts, Blockchain technology, Decreased Sales\nThe answer is (F)\n\nQuestion:\n_______ is the direct attempt to formally or informally manage ethical issues or problems, through specific policies, practices and programmes.\nOptions:\nA. Operational management\nB. Corporate governance\nC. Environmental management\nD. Business ethics management\nE. Sustainability\nF. Stakeholder management\nG. Social marketing\nH. Human resource management\nI. N/A\nJ. N/A\nThe answer is (D)\n\nQuestion:\nHow can organisational structures that are characterised by democratic and inclusive styles of management be described?\nOptions:\nA. Flat\nB. Bureaucratic\nC. Autocratic\nD. Hierarchical\nE. Functional\nF. Decentralized\nG. Matrix\nH. Network\nI. Divisional\nJ. Centralized\nThe answer is (A)\n\nQuestion:\nAlthough the content and quality can be as controlled as direct mail, response rates of this medium are lower because of the lack of a personal address mechanism. This media format is known as:\nOptions:\nA. Online banners.\nB. Television advertising.\nC. Email marketing.\nD. Care lines.\nE. Direct mail.\nF. Inserts.\nG. Door to door.\nH. Radio advertising.\nI. Billboards.\nJ. Social media advertising.\nThe answer is (G)\n\nQuestion:\nIn an organization, the group of people tasked with buying decisions is referred to as the _______________.\nOptions:\nA. Procurement centre.\nB. Chief executive unit.\nC. Resources allocation group.\nD. Marketing department.\nE. Purchasing department.\nF. Supply chain management team.\nG. Outsourcing unit.\nH. Decision-making unit.\nI. Operations unit.\nJ. Financial management team.\nThe answer is (H)\n\n{{input}}",
+  "choices": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J"
+  ],
+  "regex_pattern": "answer is \\(?([ABCDEFGHIJ])\\)?",
+  "timestamp": "2026-07-06T20:51:22.945103",
+  "game_name": "mmlu_pro",
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "game_id": 417,
+  "input": "Write a limerick about writing a limerick. Don't use any commas in your entire reply.",
+  "target": {
+    "punctuation:no_comma": {}
+  }
+}

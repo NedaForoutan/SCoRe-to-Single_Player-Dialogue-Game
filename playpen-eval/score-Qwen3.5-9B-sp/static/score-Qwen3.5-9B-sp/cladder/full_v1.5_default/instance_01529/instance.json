@@ -1,0 +1,5 @@
+{
+  "game_id": 1529,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: CEO has a direct effect on director and manager. Manager has a direct effect on employee. Director has a direct effect on employee. The overall probability of manager signing the termination letter is 35%. For managers who don't sign termination letters, the probability of employee being fired is 76%. For managers who sign termination letters, the probability of employee being fired is 42%. Is employee being fired more likely than employee not being fired overall?",
+  "target": "yes"
+}

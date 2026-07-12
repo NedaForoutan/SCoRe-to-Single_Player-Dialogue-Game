@@ -1,0 +1,5 @@
+{
+  "game_id": 299,
+  "input": "Question:\nStatement 1| The kernel density estimator is equivalent to performing kernel regression with the value Yi = 1/n at each point Xi in the original data set. Statement 2| The depth of a learned decision tree can be larger than the number of training examples used to create the tree.\nOptions:\nA. Both Statements are context-dependent\nB. True, True\nC. Statement 1 is True only for non-parametric Kernels, Statement 2 is False\nD. Both Statements are partially True\nE. False, False\nF. Statement 1 is True only for Gaussian Kernels, Statement 2 is False\nG. Statement 1 is False, Statement 2 is True only for Binary Decision Trees\nH. False, True\nI. True, False\nJ. Statement 1 is False, Statement 2 is True only for Multiclass Decision Trees\n",
+  "target": "E"
+}

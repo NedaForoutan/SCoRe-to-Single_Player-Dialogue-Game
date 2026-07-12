@@ -1,0 +1,9 @@
+{
+  "game_id": 376,
+  "input": "Write a funny poem for kids about a product that you would like to sell. The poem should have exactly 6 stanzas. Separated the stanzas using 3 asterisk markers: ***",
+  "target": {
+    "length_constraints:number_paragraphs": {
+      "num_paragraphs": 6
+    }
+  }
+}

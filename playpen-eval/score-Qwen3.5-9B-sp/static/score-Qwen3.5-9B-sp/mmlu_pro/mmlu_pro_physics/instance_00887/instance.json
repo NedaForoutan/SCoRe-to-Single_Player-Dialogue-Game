@@ -1,0 +1,5 @@
+{
+  "game_id": 887,
+  "input": "Question:\nA completely submerged object always displaces its own\nOptions:\nA. pressure of fluid.\nB. surface area of fluid.\nC. density of fluid.\nD. weight of fluid.\nE. depth of fluid.\nF. temperature of fluid.\nG. All of these.\nH. viscosity of fluid.\nI. mass of fluid.\nJ. volume of fluid.\n",
+  "target": "J"
+}

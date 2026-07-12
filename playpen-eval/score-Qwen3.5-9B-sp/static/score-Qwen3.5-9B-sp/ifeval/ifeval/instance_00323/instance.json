@@ -1,0 +1,7 @@
+{
+  "game_id": 323,
+  "input": "Write a cover letter for a job in Ventura that is funny and would be enjoyed by someone named Darius, wrap the entire response in double quotation marks.",
+  "target": {
+    "startend:quotation": {}
+  }
+}

@@ -1,0 +1,933 @@
+{
+  "meta": {
+    "game_name": "adventuregame",
+    "experiment_name": "new-words_created_basic_hard",
+    "game_id": 0,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 7,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Adventurer",
+      "model_name": "score-Qwen3.5-9B-sp"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:48:06.872980",
+        "action": {
+          "type": "send message",
+          "content": "You are playing a text adventure game. I will describe what you can perceive in the game. You write the single action you want to take in the game starting with >. Only reply with an action.\nFor example:\n> open cupboard\n\nIn addition to common actions, you can mator, unbal, gatic, remic, ratic and proar.\n\nYour goal for this game is: Make the inat mateny, the diale unsust and the subst dented.\n\nOnce you have achieved your goal, write \"> done\" to end the game.\n\nYou are in a cally now. There are a subst, a mical, a eness, a pante, a inat and a sness. There is a passage to a unree here.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:06.872992",
+        "action": {
+          "type": "get message",
+          "content": "> mator inat\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:06.873006",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 0"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:06.875280",
+        "action": {
+          "type": "action_info",
+          "content": {
+            "action_type": "mator",
+            "exploration_info": {
+              "action_epistemic": false,
+              "action_pragmatic": true,
+              "effective_epistemic_gain_amount": 0,
+              "known_entities": [
+                [
+                  "at",
+                  "eness1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "pante1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "sness1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "subst1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "inat1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "player1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "mical1",
+                  "cally1"
+                ]
+              ],
+              "known_entities_ratio": 0.4666666666666667,
+              "visited_rooms": [
+                "cally1"
+              ],
+              "visited_rooms_ratio": 0.25,
+              "known_goal_entities": [
+                [
+                  "at",
+                  "inat1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "subst1",
+                  "cally1"
+                ]
+              ],
+              "known_goal_entities_ratio": 0.6666666666666666
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:06.875323",
+        "action": {
+          "type": "goal_status",
+          "content": {
+            "goal_states_achieved": [],
+            "turn_goal_score": 0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:48:07.242341",
+        "action": {
+          "type": "send message",
+          "content": "The inat is now dented.\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:07.242353",
+        "action": {
+          "type": "get message",
+          "content": "> mator subst\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:07.242366",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 1"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:07.244642",
+        "action": {
+          "type": "action_info",
+          "content": {
+            "action_type": "mator",
+            "exploration_info": {
+              "action_epistemic": false,
+              "action_pragmatic": true,
+              "effective_epistemic_gain_amount": 0,
+              "known_entities": [
+                [
+                  "at",
+                  "eness1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "pante1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "sness1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "subst1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "inat1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "player1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "mical1",
+                  "cally1"
+                ]
+              ],
+              "known_entities_ratio": 0.4666666666666667,
+              "visited_rooms": [
+                "cally1"
+              ],
+              "visited_rooms_ratio": 0.25,
+              "known_goal_entities": [
+                [
+                  "at",
+                  "inat1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "subst1",
+                  "cally1"
+                ]
+              ],
+              "known_goal_entities_ratio": 0.6666666666666666
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:07.244686",
+        "action": {
+          "type": "goal_status",
+          "content": {
+            "goal_states_achieved": [
+              "dented(subst1)"
+            ],
+            "turn_goal_score": 1
+          }
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:48:07.651986",
+        "action": {
+          "type": "send message",
+          "content": "The subst is now dented.\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:07.651998",
+        "action": {
+          "type": "get message",
+          "content": "> mator diale\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:07.652011",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 2"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:07.654208",
+        "action": {
+          "type": "action_fail",
+          "content": {
+            "phase": "resolution",
+            "fail_type": "entity_not_accessible",
+            "arg": {
+              "failed_action_type": "mator",
+              "failed_precon_predicate": {
+                "predicate_tuple": [
+                  "at",
+                  "diale1",
+                  "cally1"
+                ],
+                "fulfilled": false,
+                "precon_idx": 1
+              }
+            },
+            "exploration_info": {
+              "action_epistemic": false,
+              "action_pragmatic": true,
+              "effective_epistemic_gain_amount": 0,
+              "known_entities": [
+                [
+                  "at",
+                  "eness1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "pante1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "sness1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "subst1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "inat1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "player1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "mical1",
+                  "cally1"
+                ]
+              ],
+              "known_entities_ratio": 0.4666666666666667,
+              "visited_rooms": [
+                "cally1"
+              ],
+              "visited_rooms_ratio": 0.25,
+              "known_goal_entities": [
+                [
+                  "at",
+                  "inat1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "subst1",
+                  "cally1"
+                ]
+              ],
+              "known_goal_entities_ratio": 0.6666666666666666
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:07.654260",
+        "action": {
+          "type": "goal_status",
+          "content": {
+            "goal_states_achieved": [
+              [
+                "dented",
+                "subst1"
+              ]
+            ],
+            "turn_goal_score": 0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:48:08.059188",
+        "action": {
+          "type": "send message",
+          "content": "You can't see a diale here.\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:08.059200",
+        "action": {
+          "type": "get message",
+          "content": "> unbal mical\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:08.059213",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 3"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:08.061494",
+        "action": {
+          "type": "action_info",
+          "content": {
+            "action_type": "unbal",
+            "exploration_info": {
+              "action_epistemic": false,
+              "action_pragmatic": true,
+              "effective_epistemic_gain_amount": 0,
+              "known_entities": [
+                [
+                  "at",
+                  "eness1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "pante1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "sness1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "subst1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "inat1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "player1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "mical1",
+                  "cally1"
+                ]
+              ],
+              "known_entities_ratio": 0.4666666666666667,
+              "visited_rooms": [
+                "cally1"
+              ],
+              "visited_rooms_ratio": 0.25,
+              "known_goal_entities": [
+                [
+                  "at",
+                  "inat1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "subst1",
+                  "cally1"
+                ]
+              ],
+              "known_goal_entities_ratio": 0.6666666666666666
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:08.061538",
+        "action": {
+          "type": "goal_status",
+          "content": {
+            "goal_states_achieved": [
+              "dented(subst1)"
+            ],
+            "turn_goal_score": 0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:48:08.477939",
+        "action": {
+          "type": "send message",
+          "content": "The mical is now exper.\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:08.477951",
+        "action": {
+          "type": "get message",
+          "content": "> proar mical\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:08.477964",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 4"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:08.480322",
+        "action": {
+          "type": "action_fail",
+          "content": {
+            "phase": "resolution",
+            "fail_type": "entity_state_mismatch",
+            "arg": {
+              "failed_action_type": "proar",
+              "failed_precon_predicate": {
+                "predicate_tuple": [
+                  "aphoned",
+                  "mical1"
+                ],
+                "fulfilled": false,
+                "precon_idx": 2
+              }
+            },
+            "exploration_info": {
+              "action_epistemic": false,
+              "action_pragmatic": true,
+              "effective_epistemic_gain_amount": 0,
+              "known_entities": [
+                [
+                  "at",
+                  "eness1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "pante1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "sness1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "subst1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "inat1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "player1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "mical1",
+                  "cally1"
+                ]
+              ],
+              "known_entities_ratio": 0.4666666666666667,
+              "visited_rooms": [
+                "cally1"
+              ],
+              "visited_rooms_ratio": 0.25,
+              "known_goal_entities": [
+                [
+                  "at",
+                  "inat1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "subst1",
+                  "cally1"
+                ]
+              ],
+              "known_goal_entities_ratio": 0.6666666666666666
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:08.480371",
+        "action": {
+          "type": "goal_status",
+          "content": {
+            "goal_states_achieved": [
+              [
+                "dented",
+                "subst1"
+              ]
+            ],
+            "turn_goal_score": 0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:48:08.898062",
+        "action": {
+          "type": "send message",
+          "content": "The mical is not aphoned.\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:08.898074",
+        "action": {
+          "type": "get message",
+          "content": "> gatic mical\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:08.898087",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 5"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:08.900512",
+        "action": {
+          "type": "action_info",
+          "content": {
+            "action_type": "gatic",
+            "exploration_info": {
+              "action_epistemic": false,
+              "action_pragmatic": true,
+              "effective_epistemic_gain_amount": 0,
+              "known_entities": [
+                [
+                  "at",
+                  "eness1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "pante1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "sness1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "subst1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "inat1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "player1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "mical1",
+                  "cally1"
+                ]
+              ],
+              "known_entities_ratio": 0.4666666666666667,
+              "visited_rooms": [
+                "cally1"
+              ],
+              "visited_rooms_ratio": 0.25,
+              "known_goal_entities": [
+                [
+                  "at",
+                  "inat1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "subst1",
+                  "cally1"
+                ]
+              ],
+              "known_goal_entities_ratio": 0.6666666666666666
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:08.900557",
+        "action": {
+          "type": "goal_status",
+          "content": {
+            "goal_states_achieved": [
+              "dented(subst1)"
+            ],
+            "turn_goal_score": 0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:48:09.218168",
+        "action": {
+          "type": "send message",
+          "content": "The mical is now unsust.\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:09.218178",
+        "action": {
+          "type": "get message",
+          "content": "> done\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:09.218190",
+        "action": {
+          "type": "metadata",
+          "content": "Round: 6"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:09.219719",
+        "action": {
+          "type": "action_info",
+          "content": {
+            "action_type": "done",
+            "exploration_info": {
+              "action_epistemic": false,
+              "action_pragmatic": true,
+              "effective_epistemic_gain_amount": 0,
+              "known_entities": [
+                [
+                  "at",
+                  "eness1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "pante1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "sness1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "subst1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "inat1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "player1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "mical1",
+                  "cally1"
+                ]
+              ],
+              "known_entities_ratio": 0.4666666666666667,
+              "visited_rooms": [
+                "cally1"
+              ],
+              "visited_rooms_ratio": 0.25,
+              "known_goal_entities": [
+                [
+                  "at",
+                  "inat1",
+                  "cally1"
+                ],
+                [
+                  "at",
+                  "subst1",
+                  "cally1"
+                ]
+              ],
+              "known_goal_entities_ratio": 0.6666666666666666
+            },
+            "done_action": true
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:09.219761",
+        "action": {
+          "type": "goal_status",
+          "content": {
+            "goal_states_achieved": [
+              "dented(subst1)"
+            ],
+            "turn_goal_score": 0
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:09.219776",
+        "action": {
+          "type": "model_done",
+          "content": "Model produced DONE action at turn 6, end episode."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:48:09.219797",
+        "action": {
+          "type": "game_result",
+          "content": {
+            "goal_states_achieved": [
+              "dented(subst1)"
+            ],
+            "game_successfully_finished": false
+          }
+        }
+      }
+    ]
+  ],
+  "adventure_info": {
+    "variant": "basic",
+    "max_turns": 50,
+    "optimal_turns": 6,
+    "goal_count": 3
+  }
+}

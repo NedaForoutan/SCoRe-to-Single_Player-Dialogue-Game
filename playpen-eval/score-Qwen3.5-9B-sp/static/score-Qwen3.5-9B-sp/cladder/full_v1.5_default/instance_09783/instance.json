@@ -1,0 +1,5 @@
+{
+  "game_id": 9783,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Qwiu has a direct effect on jyka and kwox. Jyka has a direct effect on yupt. Yupt has a direct effect on kwox. Qwiu is unobserved. We know that qwiu causes jyka. jyka causes not yupt. qwiu or yupt causes kwox. We observed an individual is qwiu. Would an individual is kwox if jyka instead of not jyka?",
+  "target": "yes"
+}

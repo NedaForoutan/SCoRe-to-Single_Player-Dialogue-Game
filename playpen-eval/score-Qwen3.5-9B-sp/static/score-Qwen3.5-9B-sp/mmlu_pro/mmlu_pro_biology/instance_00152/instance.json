@@ -1,0 +1,5 @@
+{
+  "game_id": 152,
+  "input": "Question:\nEven though there is no such thing as a \"typical cell\" - for there are too many diverse kinds of cells - biologists have determined that there are two basic cell types. What are these two types of cells?\nOptions:\nA. Single-celled and Multi-celled\nB. Animal and Plant cells\nC. Procaryotic and Eucaryotic\nD. Diploid and Haploid cells\nE. Photosynthetic and Non-photosynthetic cells\nF. Vascular and Non-vascular cells\nG. Prokaryotic and Eukaryotic\nH. Somatic and Germ cells\nI. Autotrophic and Heterotrophic cells\nJ. Aerobic and Anaerobic cells\n",
+  "target": "C"
+}

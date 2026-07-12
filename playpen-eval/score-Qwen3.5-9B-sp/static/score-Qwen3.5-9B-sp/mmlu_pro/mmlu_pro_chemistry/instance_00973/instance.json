@@ -1,0 +1,5 @@
+{
+  "game_id": 973,
+  "input": "Question:\nDetermine the H+(aq) concentration in 1.0 M phenol, C6H5OH, solution. (The Ka for phenol is 1 × 10^-10.)\nOptions:\nA. 1 × 10^-3 M\nB. 1 × 10^-7 M\nC. 1 × 10^-4 M\nD. 1 × 10^-6 M\nE. 1 × 10^-5 M\nF. 1 × 10^-8 M\nG. 1 × 10^-1 M\nH. 1 × 10^-9 M\nI. 1 × 10^-2 M\nJ. 1 × 10^-10 M\n",
+  "target": "E"
+}

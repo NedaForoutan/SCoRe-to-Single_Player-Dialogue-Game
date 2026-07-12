@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "taboo",
+    "experiment_name": "low_en",
+    "game_id": 18,
+    "player_name": "Player 2",
+    "game_role": "WordGuesser",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:38:20.231812",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are playing a collaborative word guessing game in which you have to guess a target word that another player describes to you.\n\nYou can make one guess at each trial. You win when you guess the target word. You lose when you cannot guess it in 3 tries.\n\nAfter each trial you will get a new hint from the other player which starts with CLUE.\n\nMake your guesses by just saying the word using the following form: GUESS: <a word>\n\nLet us start.\n\n\nCLUE: It's a small barrier used in cricket to stop the ball, often made of wood or wire mesh.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are playing a collaborative word guessing game in which you have to guess a target word that another player describes to you.\n\nYou can make one guess at each trial. You win when you guess the target word. You lose when you cannot guess it in 3 tries.\n\nAfter each trial you will get a new hint from the other player which starts with CLUE.\n\nMake your guesses by just saying the word using the following form: GUESS: <a word>\n\nLet us start.\n\n\nCLUE: It's a small barrier used in cricket to stop the ball, often made of wood or wire mesh.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nGUESS: Wicket<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 20:38:19.803911",
+            "call_duration": "0:00:00.427865",
+            "response": "GUESS: Wicket\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

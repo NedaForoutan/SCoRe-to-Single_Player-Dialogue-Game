@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 177,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "score-Qwen3.5-9B-sp"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T21:11:36.209922",
+        "action": {
+          "type": "send message",
+          "content": "My brother is trying to install a new toilet in his bathroom. Could you give me details of how-to? You don't need to show all details -- just the first 5 steps for now. Separated them with \"***\", such as:\nStep 1: ......\n***\nStep 2: ......\n***\n...\n\nEnd your whole response with the phrase \"Let me know how it works. I can give you next steps when you finish all steps above.\"",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:11:36.209933",
+        "action": {
+          "type": "get message",
+          "content": "Step 1: Turn off the water supply valve located behind the toilet and flush the tank to drain as much water as possible, then use a sponge or towel to remove the remaining water from the bowl and tank.\n***\nStep 2: Disconnect the water supply line from the bottom of the toilet tank and carefully lift the toilet straight up to break the wax seal, placing it on old towels to protect the floor.\n***\nStep 3: Scrape away any old wax residue and debris from the floor flange using a putty knife, and inspect the flange to ensure it is level and secure.\n***\nStep 4: Dry-fit the new toilet base onto the flange without tightening the bolts yet to check for proper alignment and levelness, adjusting the flange height if necessary.\n***\nStep 5: Place a fresh wax ring (or wax-free gasket) onto the flange, carefully lower the toilet onto it, and press down firmly to ensure a watertight seal before proceeding to secure the bolts.\n\nLet me know how it works. I can give you next steps when you finish all steps above.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:11:36.209947",
+        "action": {
+          "type": "target",
+          "content": {
+            "length_constraints:number_paragraphs": {
+              "num_paragraphs": 5
+            },
+            "startend:end_checker": {
+              "end_phrase": "Let me know how it works. I can give you next steps when you finish all steps above."
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:11:36.210025",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

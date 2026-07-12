@@ -1,0 +1,5 @@
+{
+  "game_id": 841,
+  "input": "Question:\nA house near a lake is kept warm by a heat engine. In winter, water from beneath the ice covering the lake is pumped through the heat engine. Heat is extracted until the water is on the point of freezing when it is ejected. The outside air is used as a sink. Assume that the air temperature is -15 °C and the temperature of the water from the lake is 2°C. Calculate the rate at which water must be pumped to the engine. The efficiency of the engine is one-fifth that of a Carnot engine and the house requires 10 kW.\nOptions:\nA. 125 liters/s\nB. 150 liters/s\nC. 90 liters/s\nD. 75 liters/s\nE. 102.4 liters/s\nF. 60 liters/s\nG. 250 liters/s\nH. 50 liters/s\nI. 180 liters/s\nJ. 200 liters/s\n",
+  "target": "E"
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 7911,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Rixq has a direct effect on zuph and xevu. Swoy has a direct effect on zuph and xevu. Zuph has a direct effect on xevu. Swoy is unobserved. The overall probability of rixq is 3%. The probability of not rixq and xevu is 78%. The probability of rixq and xevu is 2%. Is the chance of xevu larger when observing rixq?",
+  "target": "no"
+}

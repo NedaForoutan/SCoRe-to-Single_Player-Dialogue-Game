@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "game_name": "textmapworld_specificroom",
+    "experiment_name": "close",
+    "game_id": 17,
+    "results_folder": "Qwen3.5-9B",
+    "clem_version": "3.7.2",
+    "round_count": 2,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "PathGuesser",
+      "model_name": "Qwen3.5-9B"
+    },
+    "Player 2": {
+      "game_role": "PathDescriber",
+      "model_name": "programmatic"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:25:29.820207",
+        "action": {
+          "type": "send message",
+          "content": "Please help me with the following task. The goal is to explore rooms and find the target room. In each room, you need to decide the direction to go in. Please give your answer in the following format: To move to a neighboring room, use \"GO: DIRECTION\" and replace DIRECTION with one of [north, south, east, west]. Most importantly, once we have found the target room, answer with \"DONE\" instead. Omit any other text.\nHere is an example:\nThe target room is a Bedroom. You are in the Kitchen. Currently available directions: south, west. What is your next instruction?\nGO: west\nYou have made a step and entered a Lobby. Currently available directions: east, north. What is your next instruction?\nGO: north\n...\nYou have made a step and entered a Bedroom. Currently available directions: south. What is your next instruction?\nDONE\nLet us start. The target room is Exercise room. You are in the Home theater. Currently available directions: west. What is your next instruction?\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:25:29.820218",
+        "action": {
+          "type": "get message",
+          "content": "GO: west\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:25:29.820272",
+        "action": {
+          "type": "Valid format",
+          "content": "Continue"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:25:29.820285",
+        "action": {
+          "type": "parse",
+          "content": "GO: west"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:25:29.820434",
+        "action": {
+          "type": "send message",
+          "content": "GO: west",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:25:29.820442",
+        "action": {
+          "type": "get message",
+          "content": "You have made a step and entered Exercise room. Currently available directions: south, east. What is your next instruction?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:25:29.820451",
+        "action": {
+          "type": "Valid format",
+          "content": "Continue"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:25:29.820482",
+        "action": {
+          "type": "move",
+          "content": "{\"old\": \"Home theater\", \"new\": \"Exercise room\"}"
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:25:30.012403",
+        "action": {
+          "type": "send message",
+          "content": "You have made a step and entered Exercise room. Currently available directions: south, east. What is your next instruction?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:25:30.012414",
+        "action": {
+          "type": "get message",
+          "content": "DONE\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:25:30.012450",
+        "action": {
+          "type": "Valid format",
+          "content": "Continue"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:25:30.012461",
+        "action": {
+          "type": "parse",
+          "content": "DONE"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:25:30.012469",
+        "action": {
+          "type": "stop",
+          "content": "The guesser decided to stop the game"
+        }
+      }
+    ]
+  ]
+}

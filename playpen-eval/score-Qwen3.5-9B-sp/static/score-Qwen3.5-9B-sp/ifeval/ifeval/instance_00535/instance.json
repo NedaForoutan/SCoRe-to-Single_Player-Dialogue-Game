@@ -1,0 +1,7 @@
+{
+  "game_id": 535,
+  "input": "If a + b = 10. And a > b. Is a = 6? Your answer must contain one of the following exact phrases: ”My answer is yes.\", \"My answer is no.\", \"My answer is maybe.\"",
+  "target": {
+    "detectable_format:constrained_response": {}
+  }
+}

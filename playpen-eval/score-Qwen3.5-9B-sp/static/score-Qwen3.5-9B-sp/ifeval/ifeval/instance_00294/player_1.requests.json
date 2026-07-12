@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 294,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T21:14:14.517741",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite an email to your friend about what triggers you. Make sure to wrap the entire email in double quotation marks.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite an email to your friend about what triggers you. Make sure to wrap the entire email in double quotation marks.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n\"Hey Alex,\n\nI hope you're doing well! I've been reflecting a lot lately on what sets me off, and I thought I'd share it with you since you know me so well.\n\nHonestly, the biggest trigger for me is feeling unheard or dismissed. When someone interrupts me mid-sentence or rolls their eyes while I'm explaining my perspective, it makes me feel like my thoughts don't matter. It instantly puts me on the defensive, and I end up arguing just to be validated.\n\nAnother big one is unpredictability. I thrive on routine and preparation, so when plans change at the last minute without any warning, I get really anxious and frustrated. It feels like a lack of respect for my time and effort.\n\nI'm sharing this not to make you feel bad, but because I value our friendship and want to communicate openly. If I ever seem short-tempered, it's usually one of these things happening in the background. Thanks for listening!\n\nBest,\nJamie\"<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 21:14:06.874048",
+            "call_duration": "0:00:07.643648",
+            "response": "\"Hey Alex,\n\nI hope you're doing well! I've been reflecting a lot lately on what sets me off, and I thought I'd share it with you since you know me so well.\n\nHonestly, the biggest trigger for me is feeling unheard or dismissed. When someone interrupts me mid-sentence or rolls their eyes while I'm explaining my perspective, it makes me feel like my thoughts don't matter. It instantly puts me on the defensive, and I end up arguing just to be validated.\n\nAnother big one is unpredictability. I thrive on routine and preparation, so when plans change at the last minute without any warning, I get really anxious and frustrated. It feels like a lack of respect for my time and effort.\n\nI'm sharing this not to make you feel bad, but because I value our friendship and want to communicate openly. If I ever seem short-tempered, it's usually one of these things happening in the background. Thanks for listening!\n\nBest,\nJamie\"\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

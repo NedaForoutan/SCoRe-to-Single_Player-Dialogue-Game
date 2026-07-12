@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "game_name": "privateshared",
+    "experiment_name": "travel-booking",
+    "game_id": 9,
+    "player_name": "Player 2",
+    "game_role": "Questioner",
+    "model_name": "programmatic",
+    "round_count": 5,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:38:24.408241",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "Where do you want to depart from?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "call": {
+        "timestamp": "2026-07-06T20:38:27.893272",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "What is the destination of your trip?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "call": {
+        "timestamp": "2026-07-06T20:38:30.865628",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "Please let me know what kind of transport you want.",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 3,
+      "call": {
+        "timestamp": "2026-07-06T20:38:33.528947",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "What kind of class do you wish?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 4,
+      "call": {
+        "timestamp": "2026-07-06T20:38:36.201211",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "What is the date of departure?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    }
+  ]
+}

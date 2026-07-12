@@ -1,0 +1,10 @@
+{
+  "game_id": 469,
+  "input": "Give me a 300+ word startup pitch for a company that provides a service that creates trusts for people online.",
+  "target": {
+    "length_constraints:number_words": {
+      "relation": "at least",
+      "num_words": 300
+    }
+  }
+}

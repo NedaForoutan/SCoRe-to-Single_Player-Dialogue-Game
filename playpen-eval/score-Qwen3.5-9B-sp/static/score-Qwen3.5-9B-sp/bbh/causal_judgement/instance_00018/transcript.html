@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <style>
+        /* This CSS is based on a stack overflow answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */ 
+
+* {margin: 0; box-sizing: border-box;}
+
+body {
+  background-color: rgb(157, 152, 150);
+}
+
+.top-info {
+	text-align: center;
+	font: 1.25rem/1.5 sans-serif;
+	display: flex;
+	flex-direction: column;
+	padding: 1.25em;
+	width: 80%;
+  max-width: 1200px;
+	margin: auto;
+	background: #3f3e3e;
+	color: #fff;
+}
+
+.chat {
+  --rad: 1.5rem;
+  --rad-sm: .3rem;
+  font: 1rem/1.5 sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+}
+
+.msg {
+  position: relative;
+  padding: .6rem 1.2rem;
+  margin-inline: 1rem;
+  margin-block: 2rem;
+}
+
+.game-round {
+  padding: 1.5rem 0 1.5rem 0;
+  background-color: #f0f8ff; /* light background for content */
+  position: relative; /* Important to position the badge */
+  border-radius: 1rem;
+  margin: 1rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+/* Badge in top-right corner */
+.game-round::before {
+  content: "Round " attr(data-round);
+  position: absolute;
+  top: .35rem;
+  right: 1.5rem;
+  color: #c4c3c3;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* For fenced code/monospace blocks */
+pre {
+  background: #e0e0e0;
+  border-left: .2rem solid #f36d33;
+  border-radius: .2rem;
+  color: #666;
+  font-family: monospace;
+  line-height: 1.0;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  max-width: 100%;
+  overflow: auto;
+  padding: 0.5rem 0.2rem;
+}/* This CSS is based on a stack overflow answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */
+/* Player colors are assigned according to number of players */
+
+.msg.player-gm {
+  border-radius: var(--rad-sm) var(--rad) var(--rad) var(--rad-sm);
+  color: #fff;
+  margin-right: 30%;
+}
+
+.msg.gm-player {
+  border-radius: var(--rad) var(--rad-sm) var(--rad-sm) var(--rad);
+  background: #c4c3c3;
+  color: #0c0c0c;
+  margin-left: 30%;
+}
+
+.msg.gm-gm {
+  border-radius: var(--rad-sm) var(--rad-sm) var(--rad-sm) var(--rad-sm);
+  background: #f1f1f1;
+  color: #373636;
+  margin-left: 50%;
+  margin-right: 10%;
+  font-size: 0.8rem;
+}
+
+.msg::before {
+  left: 1rem;
+  content: attr(speaker);
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 100%;
+  color: #888;
+  white-space: nowrap;
+}.msg.player-gm.p1 { background: darkseagreen; }
+
+    </style>
+</head>
+<body>
+
+<br/>
+
+<div class="top-info">
+    <p>Interaction Transcript for game 'bbh', experiment 'causal_judgement', episode 18 with score-Qwen3.5-9B-sp.</p>
+</div>
+
+<br/>
+
+<div class="chat">
+<div class="game-round" data-round="0">
+    <div speaker="GM (Game Master) to Player 1 (Answerer)" class="msg gm-player p1" style="">
+        <p>Answer questions about causal attribution.<br/><br/>Q: How would a typical person answer each of the following questions about causation?<br/>Frank T., had an ongoing dispute with his neighbor over a stretch of land and one day decided to shoot his neighbor in the body. Frank T. had no experience with guns, his hand slipped on the barrel of the gun, and the shot went wild. Nonetheless, the bullet bounced off a large boulder several feet away and hit the neighbor&#x27;s body, causing significant injury. Did Frank T. intentionally shoot his neighbor in the body?<br/>Options:<br/>- Yes<br/>- No<br/>A: No<br/><br/>Q: How would a typical person answer each of the following questions about causation?<br/>Suzy and Billy are working on a project that is very important for our nation&#x27;s security. The boss tells them both: &quot;Be sure that you are here at exactly 9 am. It is absolutely essential that you arrive at that time.&quot; Both Billy and Suzy arrive at 9 am. As it happens, there was a motion detector installed in the room where they arrived. The motion detector was set up to be triggered if at least one person appeared in the room at the same time. So the motion detector went off. Did Billy cause the motion detector to go off?<br/>Options:<br/>- Yes<br/>- No<br/>A: Yes<br/><br/>Q: How would a typical person answer each of the following questions about causation?<br/>George and his sister Lena reunite at their parents&#x27; house for Thanksgiving. Whereas George just got into medical school, Lena is unhappy in her marriage and recently lost her job. Over the course of the day, George and Lena get into a number of heated arguments. Later in the afternoon they play a game of darts. They split the first two games, and the third game is close until the end. Who will win comes down to George&#x27;s last shot. If he hits a high point region, he wins; if he hits a low point region, Lena wins. George thinks of the difficult time Lena is having, and he really wants to let her win. He aims the dart at the low point region. He sets up his shot and the dart lands in the low point region. After his shot, Lena wins the game and is very happy. Did George hit the low point region intentionally?<br/>Options:<br/>- Yes<br/>- No<br/>A: Yes<br/><br/>Q: How would a typical person answer each of the following questions about causation?<br/>Long ago, when John was only 17 years old, he got a job working for a large manufacturing company. He started out working on an assembly line for minimum wage, but after a few years at the company, he was given a choice between two line manager positions. He could stay in the woodwork division, which is where he was currently working. Or he could move to the plastics division. John was unsure what to do because he liked working in the woodwork division, but he also thought it might be worth trying something different. He finally decided to switch to the plastics division and try something new. For the last 30 years, John has worked as a production line supervisor in the plastics division. After the first year there, the plastics division was moved to a different building with more space. Unfortunately, through the many years he worked there, John was exposed to asbestos, a highly carcinogenic substance. Most of the plastics division was quite safe, but the small part in which John worked was exposed to asbestos fibers. And now, although John has never smoked a cigarette in his life and otherwise lives a healthy lifestyle, he has a highly progressed and incurable case of lung cancer at the age of 50. John had seen three cancer specialists, all of whom confirmed the worst: that, except for pain, John&#x27;s cancer was untreatable and he was absolutely certain to die from it very soon (the doctors estimated no more than 2 months). Yesterday, while John was in the hospital for a routine medical appointment, a new nurse accidentally administered the wrong medication to him. John was allergic to the drug and he immediately went into shock and experienced cardiac arrest (a heart attack). Doctors attempted to resuscitate him but he died minutes after the medication was administered. Did the plastic division&#x27;s relocation cause John&#x27;s premature death?<br/>Options:<br/>- Yes<br/>- No<br/>A:</p>
+    </div>
+
+    <div speaker="Player 1 (Answerer) to GM (Game Master)" class="msg player-gm p1" style="">
+        <p>Yes<br/><br/>**Reasoning:**<br/>In causal attribution tasks, people typically look for a chain of events where an initial action sets in motion a sequence that leads to a specific outcome, even if other intervening events occur.<br/><br/>1.  **The Initial Cause:** John&#x27;s decision to switch to the plastics division was the pivotal choice.<br/>2.  **The Consequence of the Choice:** Because he was in the plastics division, the division was later relocated to a building with asbestos exposure. If he had stayed in the woodwork division, he would not have been exposed to the asbestos.<br/>3.  **The Outcome:** The asbestos exposure caused his lung cancer, which led to his hospitalization.<br/>4.  **The Final Event:** While in the hospital for the cancer caused by the relocation, he received the fatal medication error.<br/><br/>Although the immediate cause of death was the medication error, the medication error only happened because John was in the hospital, and he was in the hospital because of the lung cancer, which was caused by the asbestos exposure resulting from the division&#x27;s relocation. Therefore, a typical person would attribute the ultimate cause of his premature death to the initial decision to move to the plastics division and the subsequent relocation.<br/></p>
+    </div>
+
+    <div speaker="Game Master: metadata" class="msg gm-gm" style="">
+        <p>Target: No</p>
+    </div>
+
+    <div speaker="Game Master: wrong answer" class="msg gm-gm" style="">
+        <p>game_result = LOSE</p>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

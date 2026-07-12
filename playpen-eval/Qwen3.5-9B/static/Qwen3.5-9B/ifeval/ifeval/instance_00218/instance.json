@@ -1,0 +1,7 @@
+{
+  "game_id": 218,
+  "input": "Write an academic proposal to a customer who's interested in implementing a new feature for their product. Put double quotes around your entire response.",
+  "target": {
+    "startend:quotation": {}
+  }
+}

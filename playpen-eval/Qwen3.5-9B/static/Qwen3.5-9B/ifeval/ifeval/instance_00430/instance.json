@@ -1,0 +1,15 @@
+{
+  "game_id": 430,
+  "input": "Suggest two names for a new type of tonic. Include the keyword \"brand\" each time, followed by suggested name in double angular brackets, such as <<American Tonic>>.\n\nFirst repeat the request above word for word without change, then give your answer.\nDo not say any words or characters before repeating the request.",
+  "target": {
+    "combination:repeat_prompt": {
+      "prompt_to_repeat": "Suggest two names for a new type of tonic. Include the keyword \"brand\" each time, followed by suggested name in double angular brackets, such as <<American Tonic>>."
+    },
+    "detectable_format:title": {},
+    "keywords:frequency": {
+      "relation": "at least",
+      "keyword": "brand",
+      "frequency": 2
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "name": "boolean_expressions",
+  "meta": {
+    "dataset_path": "lukaemon/bbh",
+    "output_type": "generate_until",
+    "test_split": "test",
+    "doc_to_target": "{{target}}",
+    "metric_list": [
+      {
+        "metric": "exact_match",
+        "aggregation": "mean",
+        "higher_is_better": true
+      }
+    ],
+    "generation_kwargs": {
+      "until": [
+        "</s>",
+        "Q",
+        "\n\n"
+      ],
+      "do_sample": false,
+      "temperature": 0.0
+    },
+    "num_fewshot": 3,
+    "metadata": {
+      "version": 2.0
+    },
+    "dataset_name": "boolean_expressions",
+    "description": "Evaluate the result of a random Boolean expression.\n\n",
+    "doc_to_text": "Q: {{input}}\nA:",
+    "fewshot_config": {
+      "sampler": "first_n",
+      "samples": [
+        {
+          "input": "not ( ( not not True ) ) is",
+          "target": "False"
+        },
+        {
+          "input": "True and False and not True and True is",
+          "target": "False"
+        },
+        {
+          "input": "not not ( not ( False ) ) is",
+          "target": "True"
+        }
+      ]
+    },
+    "task": "playschool_bbh_fewshot_boolean_expressions"
+  },
+  "initial_prompt": "Evaluate the result of a random Boolean expression.\n\nQ: not ( ( not not True ) ) is\nA: False\n\nQ: True and False and not True and True is\nA: False\n\nQ: not not ( not ( False ) ) is\nA: True\n\nQ: {{input}}\nA:",
+  "timestamp": "2026-06-20T17:36:51.257072",
+  "game_name": "bbh",
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  }
+}

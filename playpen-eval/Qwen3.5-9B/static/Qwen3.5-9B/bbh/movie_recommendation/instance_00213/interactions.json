@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "game_name": "bbh",
+    "experiment_name": "movie_recommendation",
+    "game_id": 213,
+    "results_folder": "Qwen3.5-9B",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "Qwen3.5-9B"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:35:01.232259",
+        "action": {
+          "type": "send message",
+          "content": "Recommend movies similar to the given list of movies.\n\nQ: Find a movie similar to Star Wars Episode IV - A New Hope, Indiana Jones and the Last Crusade, Star Wars Episode V - The Empire Strikes Back, The Big Lebowski:\nOptions:\n(A) Tetsuo\n(B) the Ironman\n(C) The Princess Bride\n(D) The Barkley Marathons The Race That Eats Its Young\n(E) Bug\nA: (C)\n\nQ: Find a movie similar to Twister, The Silence of the Lambs, Independence Day, Braveheart:\nOptions:\n(A) They Shoot Horses\n(B) Don't They\n(C) Forrest Gump\n(D) The Salton Sea\n(E) Extreme Days\nA: (C)\n\nQ: Find a movie similar to Minority Report, Total Recall, Inside Out, Forrest Gump:\nOptions:\n(A) Phenomena\n(B) Lilting\n(C) Catwoman\n(D) Edge of Tomorrow\nA: (D)\n\nQ: Find a movie similar to Raiders of the Lost Ark, The Matrix, Léon The Professional, Star Wars Episode V - The Empire Strikes Back:\nOptions:\n(A) The Meyerowitz Stories\n(B) Saw\n(C) Star Wars Episode IV - A New Hope\n(D) Josie and the Pussycats\nA:",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:35:01.232270",
+        "action": {
+          "type": "get message",
+          "content": "(C)\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:35:01.232286",
+        "action": {
+          "type": "metadata",
+          "content": "Target: (C)"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:35:01.232292",
+        "action": {
+          "type": "wrong answer",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

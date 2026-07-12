@@ -1,0 +1,5 @@
+{
+  "game_id": 5055,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Unobserved confounders has a direct effect on having a sister and cholesterol level. Treatment assignment has a direct effect on having a sister. Having a sister has a direct effect on cholesterol level. Unobserved confounders is unobserved. The overall probability of having a sister is 20%. The probability of not having a sister and low cholesterol is 65%. The probability of having a sister and low cholesterol is 14%. Is the chance of low cholesterol larger when observing having a sister?",
+  "target": "no"
+}

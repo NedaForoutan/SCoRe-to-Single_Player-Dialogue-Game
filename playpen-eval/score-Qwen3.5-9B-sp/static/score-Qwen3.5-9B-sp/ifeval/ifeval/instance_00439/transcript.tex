@@ -1,0 +1,80 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `ifeval', experiment `ifeval', episode 439 with score{-}Qwen3.5{-}9B{-}sp.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \texttt{Students are travelling to UCI for 3 days. Create a hilarious itinerary for them. Do not use the word 'university'. Your entire response should have exactly 4 paragraphs.  Separate paragraphs with the markdown divider: ***} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{Welcome to the ultimate three{-}day survival guide for your intergalactic expedition to the campus of the University of California, Irvine, where the only thing more confusing than the parking situation is the sheer number of palm trees trying to outshine the sun. On Day One, you will immediately attempt to navigate the labyrinthine streets of the Student Union while wearing sunglasses indoors because the heat is officially a personality trait here. You will spend your morning trying to find a vending machine that doesn't require a PhD in economics to operate, followed by an afternoon of getting lost in the library stacks until you accidentally become a human bookmark for a very confused professor who thinks you are a lost pigeon.} \\
+\\ 
+\texttt{***} \\
+\\ 
+\texttt{Day Two is dedicated to the sacred ritual of the "Great Food Hunt," where you must locate the cafeteria that serves tacos that taste like they were cooked by a dragon and a wizard having a very friendly argument. You will participate in the annual tradition of sitting on the grass for six hours straight, staring at the sky, and debating whether the clouds look like ducks or just really sad white blankets. If you are lucky, you might stumble upon a group of students attempting to build a tower out of textbooks that defies the laws of physics, only to watch it collapse with the sound of a thousand tiny explosions.} \\
+\\ 
+\texttt{***} \\
+\\ 
+\texttt{By Day Three, you will have achieved a state of zen{-}like enlightenment known as "UCI Drift," where time seems to move at the speed of a sloth on a hot day. You will spend your final hours wandering through the art museum, trying to understand why everyone is laughing at paintings that look like they were created by a toddler with a crayon and a grudge. Before you leave, you must take a mandatory selfie with the iconic fountain, promising to return next year with a slightly better sense of direction and a stomach full of questionable smoothies that taste like liquid regret.} \\
+\\ 
+\texttt{***} \\
+\\ 
+\texttt{As you board your flight home, you will realize that you have successfully completed the most important task of all: surviving the three days without actually figuring out how the Wi{-}Fi works. You will carry with you the memories of getting lost, eating too much, and laughing until your sides hurt, all while avoiding the forbidden word that describes this incredible place. Remember, the journey is not about the destination or the academic rigor, but rather the hilarious chaos you will create while pretending to be students in a place that feels like a giant, sun{-}drenched playground for the confused and the brave.} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                {'length_constraints:number_paragraphs': {'num_paragraphs': 4}, 'keywords:forbidden_words': {'forbidden_words': ['university']}}
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = LOSE} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

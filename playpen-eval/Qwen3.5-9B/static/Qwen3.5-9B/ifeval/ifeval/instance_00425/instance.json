@@ -1,0 +1,9 @@
+{
+  "game_id": 425,
+  "input": "Rewrite and expand the following in Arabic. You can hallucinate a lot of details.\n\"The company is looking to expand its operations into new markets. It will create hundreds of jobs this year.\"\n\nOutside of Arabic, no other language is allowed throughout your entire response.",
+  "target": {
+    "language:response_language": {
+      "language": "ar"
+    }
+  }
+}

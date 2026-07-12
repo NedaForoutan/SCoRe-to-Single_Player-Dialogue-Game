@@ -1,0 +1,5 @@
+{
+  "game_id": 2340,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Eating citrus has a direct effect on vitmain C. Vitmain C has a direct effect on scurvy. For patients not consuming citrus, the probability of scurvy is 73%. For patients consuming citrus, the probability of scurvy is 54%. Does eating citrus positively affect scurvy through vitmain C?",
+  "target": "no"
+}

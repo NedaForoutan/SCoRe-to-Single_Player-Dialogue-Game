@@ -1,0 +1,5 @@
+{
+  "game_id": 610,
+  "input": "Question:\nIn how many ways can 10 distinct balls be placed into 4 identical boxes if each box must have at least 1 balls?\nOptions:\nA. 26335\nB. 32760\nC. 30000\nD. 8000\nE. 19500\nF. 12500\nG. 15000\nH. 210\nI. 5040\nJ. 12000\n",
+  "target": "A"
+}

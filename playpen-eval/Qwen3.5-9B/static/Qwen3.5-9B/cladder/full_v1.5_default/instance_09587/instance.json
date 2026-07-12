@@ -1,0 +1,5 @@
+{
+  "game_id": 9587,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Xevo has a direct effect on tijv and gyzp. Tijw has a direct effect on tijv and gyzp. Tijv has a direct effect on gyzp. Tijw is unobserved. We know that xevo or tijw causes tijv. xevo or tijw or tijv causes gyzp. We observed an individual is tijw. Would an individual is not gyzp if not xevo instead of xevo?",
+  "target": "no"
+}

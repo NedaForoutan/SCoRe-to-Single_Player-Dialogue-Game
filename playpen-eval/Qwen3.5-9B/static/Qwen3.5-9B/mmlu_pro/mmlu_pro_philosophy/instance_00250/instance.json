@@ -1,0 +1,5 @@
+{
+  "game_id": 250,
+  "input": "Question:\n Select the best English interpretation of the given proposition, using the following translation key: Ax: x is an apartment Hx: x is a house Lx: x is large Bxy: x is bigger than y (∃x)[(Ax • Lx) • (∃y)(Hy • Bxy)]\nOptions:\nA. All large apartments are bigger than some houses.\nB. Some small houses are smaller than some large apartments.\nC. All houses are smaller than some large apartments.\nD. Some houses are bigger than all large apartments.\nE. Some large apartments are bigger than some houses.\nF. Some houses are the same size as some large apartments.\nG. No large apartments are bigger than houses.\nH. Some houses are bigger thatn some large apartments.\nI. Some large houses are bigger than some apartments.\nJ. Some large apartments are smaller than some houses.\n",
+  "target": "E"
+}

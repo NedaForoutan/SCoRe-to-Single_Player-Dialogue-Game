@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "game_name": "textmapworld_graphreasoning",
+    "experiment_name": "large",
+    "game_id": 28,
+    "player_name": "Player 2",
+    "game_role": "PathDescriber",
+    "model_name": "programmatic",
+    "round_count": 5,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:24:42.416196",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "{\"action\":\"GO: west\",\"graph\":{\"nodes\":[\"Bedroom\"],\"edges\":{\"north\":[],\"south\":[],\"east\":[],\"west\":[]}}}"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Recreation room. Currently available directions: south, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "call": {
+        "timestamp": "2026-06-20T17:24:43.689491",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "{\"action\":\"GO: south\",\"graph\":{\"nodes\":[\"Bedroom\",\"Recreation room\"],\"edges\":{\"north\":[],\"south\":[],\"east\":[],\"west\":[(\"Bedroom\", \"Recreation room\")]}}}"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Home gym. Currently available directions: north, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "call": {
+        "timestamp": "2026-06-20T17:24:45.213063",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "{\"action\":\"GO: north\",\"graph\":{\"nodes\":[\"Bedroom\",\"Recreation room\",\"Home gym\"],\"edges\":{\"north\":[],\"south\":[],\"east\":[],\"west\":[(\"Bedroom\", \"Recreation room\"),(\"Recreation room\", \"Home gym\")]}}}"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Recreation room. Currently available directions: south, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 3,
+      "call": {
+        "timestamp": "2026-06-20T17:24:46.796091",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "{\"action\":\"GO: east\",\"graph\":{\"nodes\":[\"Bedroom\",\"Recreation room\",\"Home gym\"],\"edges\":{\"north\":[],\"south\":[],\"east\":[],\"west\":[(\"Bedroom\", \"Recreation room\"),(\"Recreation room\", \"Home gym\")]}}}"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Bedroom. Currently available directions: west, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    }
+  ]
+}

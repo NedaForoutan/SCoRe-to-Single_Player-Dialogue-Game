@@ -1,0 +1,5 @@
+{
+  "game_id": 346,
+  "input": "Question:\nA noninterest-bearing note with a face value of $600 and a term of 30 days dated April 5 was discounted April 15 at a rate of 5%. What were the proceeds?\nOptions:\nA. $597.50\nB. $599.33\nC. $596.67\nD. $595\nE. $604.17\nF. $601.67\nG. $598.33\nH. $600\nI. $603.33\nJ. $602.50\n",
+  "target": "G"
+}

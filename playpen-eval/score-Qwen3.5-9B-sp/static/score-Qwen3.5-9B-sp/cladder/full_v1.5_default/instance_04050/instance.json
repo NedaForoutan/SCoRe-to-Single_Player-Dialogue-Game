@@ -1,0 +1,5 @@
+{
+  "game_id": 4050,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Ability to speak english has a direct effect on diabetes and lifespan. Smoking has a direct effect on diabetes and lifespan. Diabetes has a direct effect on lifespan. Smoking is unobserved. For people who do not speak english, the probability of long lifespan is 77%. For people who speak english, the probability of long lifespan is 45%. Will speaking english decrease the chance of long lifespan?",
+  "target": "yes"
+}

@@ -1,0 +1,10 @@
+{
+  "game_id": 3,
+  "input": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>.\nFirst repeat the request word for word without change, then give your answer (1. do not say any words or characters before repeating the request; 2. the request you need to repeat does not include this sentence)",
+  "target": {
+    "combination:repeat_prompt": {
+      "prompt_to_repeat": "Write an email to my boss telling him that I am quitting. The email must contain a title wrapped in double angular brackets, i.e. <<title>>."
+    },
+    "detectable_format:title": {}
+  }
+}

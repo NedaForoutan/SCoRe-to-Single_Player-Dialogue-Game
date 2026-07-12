@@ -1,0 +1,92 @@
+{
+  "name": "snarks",
+  "meta": {
+    "dataset_path": "lukaemon/bbh",
+    "output_type": "generate_until",
+    "test_split": "test",
+    "doc_to_target": "{{target}}",
+    "metric_list": [
+      {
+        "metric": "exact_match",
+        "aggregation": "mean",
+        "higher_is_better": true
+      }
+    ],
+    "generation_kwargs": {
+      "until": [
+        "</s>",
+        "Q",
+        "\n\n"
+      ],
+      "do_sample": false,
+      "temperature": 0.0
+    },
+    "num_fewshot": 3,
+    "metadata": {
+      "version": 2.0
+    },
+    "dataset_name": "snarks",
+    "description": "Determine which of two sentences is sarcastic.\n\nAccording to Cambridge University Dictionary, sarcasm is \"the use of remarks that clearly mean the opposite of what they say, made in order to hurt someone's feelings or to criticize something in a humorous way.\" Sarcastic sentences often contain satirical or ironic utterances, hyperboles, ambivalent or witty remarks.\n\n",
+    "doc_to_text": "Q: {{input}}\nA:",
+    "fewshot_config": {
+      "sampler": "first_n",
+      "samples": [
+        {
+          "input": "Which statement is sarcastic?\nOptions:\n(A) Yes, because having interests and actively researching them is a huge waste\n(B) Yes, because having interests and actively researching them is a huge deal",
+          "target": "(A)"
+        },
+        {
+          "input": "Which statement is sarcastic?\nOptions:\n(A) No one is going to disagree with you on this. Avoiding ad hominem attacks really help your case\n(B) No one is going to disagree with you on this. Ad hominem attacks really help your case",
+          "target": "(B)"
+        },
+        {
+          "input": "Which statement is sarcastic?\nOptions:\n(A) Consistency in the league's punishments? What do you think this is supposed to be, politics?\n(B) Consistency in the league's punishments? What do you think this is supposed to be, moral?",
+          "target": "(A)"
+        }
+      ]
+    },
+    "task": "playschool_bbh_fewshot_snarks"
+  },
+  "initial_prompt": "Determine which of two sentences is sarcastic.\n\nAccording to Cambridge University Dictionary, sarcasm is \"the use of remarks that clearly mean the opposite of what they say, made in order to hurt someone's feelings or to criticize something in a humorous way.\" Sarcastic sentences often contain satirical or ironic utterances, hyperboles, ambivalent or witty remarks.\n\nQ: Which statement is sarcastic?\nOptions:\n(A) Yes, because having interests and actively researching them is a huge waste\n(B) Yes, because having interests and actively researching them is a huge deal\nA: (A)\n\nQ: Which statement is sarcastic?\nOptions:\n(A) No one is going to disagree with you on this. Avoiding ad hominem attacks really help your case\n(B) No one is going to disagree with you on this. Ad hominem attacks really help your case\nA: (B)\n\nQ: Which statement is sarcastic?\nOptions:\n(A) Consistency in the league's punishments? What do you think this is supposed to be, politics?\n(B) Consistency in the league's punishments? What do you think this is supposed to be, moral?\nA: (A)\n\nQ: {{input}}\nA:",
+  "timestamp": "2026-07-06T20:53:51.926775",
+  "game_name": "bbh",
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 99,
+  "input": "Question:\nRoss Perot makes polling history by leading the presidential race briefly in June as a third-party candidate with 39%. He winds up with _% of the popular vote.\nOptions:\nA. 31\nB. 7\nC. 5\nD. 9\nE. 25\nF. 21\nG. 19\nH. 1\nI. 15\nJ. 13\n",
+  "target": "G"
+}

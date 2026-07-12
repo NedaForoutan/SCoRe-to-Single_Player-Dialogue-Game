@@ -1,0 +1,126 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `eqbench', experiment `eq\_bench', episode 42 with Qwen3.5{-}9B.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \\ 
+\texttt{Your task is to predict the likely emotional responses of a character in this dialogue:} \\
+\\ 
+\texttt{James: I can't believe we're doing this again, Rachel. } \\
+\texttt{Rachel: What, the play? Or you mean us, playing lovers?} \\
+\texttt{James: Both, I guess. } \\
+\texttt{Rachel: Well, it's not like we have a choice. We were cast for these roles. } \\
+\texttt{James: Yeah, but it's... complicated.} \\
+\texttt{Rachel: Complicated? Are you still stuck on that scene from three years ago?} \\
+\texttt{James: I wouldn't say stuck. More like... haunted.} \\
+\texttt{Rachel: Haunted? That's a bit dramatic, even for you, James.} \\
+\texttt{James: Maybe, but it's the truth.} \\
+\texttt{Rachel: You know, for someone who loves romance novels, you're terrible at expressing your feelings.} \\
+\texttt{James: And you're too good at it. It's intimidating.} \\
+\texttt{Rachel: Intimidating? Me? You're the one who's always retreating into your shell.} \\
+\texttt{James: It's not like I do it on purpose, Rachel. It's just... hard.} \\
+\texttt{{[}End dialogue{]}} \\
+\\ 
+\texttt{At the end of this dialogue, James would feel...} \\
+\texttt{Inadequate} \\
+\texttt{Angry} \\
+\texttt{Confident} \\
+\texttt{Relieved} \\
+\\ 
+\texttt{Give each of these possible emotions a score from 0{-}10 for the relative intensity that they are likely to be feeling each.} \\
+\\ 
+\texttt{You must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:} \\
+\\ 
+\texttt{Inadequate: <score>} \\
+\texttt{Angry: <score>} \\
+\texttt{Confident: <score>} \\
+\texttt{Relieved: <score>} \\
+\\ 
+\\ 
+\texttt{{[}End of answer{]}} \\
+\\ 
+\texttt{Remember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.} \\
+\\ 
+\texttt{Your answer:} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{Inadequate: 8} \\
+\texttt{Angry: 2} \\
+\texttt{Confident: 1} \\
+\texttt{Relieved: 0} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Inadequate: 8} \\
+\texttt{Angry: 2} \\
+\texttt{Confident: 1} \\
+\texttt{Relieved: 0} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Inadequate: 8} \\
+\texttt{Angry: 0} \\
+\texttt{Confident: 0} \\
+\texttt{Relieved: 0} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = LOSE} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

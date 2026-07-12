@@ -1,0 +1,10 @@
+{
+  "game_id": 142,
+  "input": "\nYour task is to predict the likely emotional responses of a character in this dialogue:\n\nAmelia: I find it amusing, Xarlon, that you claim your civilization is superior, yet you are here, on Earth, seeking dialogue with us.\nXarlon: Superiority is not a matter of isolation, Dr. Singh. It is about understanding, learning, and evolving.\nAmelia: Evolving? Is that what you call it? Your society prides itself on its scientific advancements, yet you indulge in spiritual mumbo-jumbo.\nXarlon: You belittle what you do not understand, Dr. Singh. Our spirituality is not a hindrance to our scientific pursuits, but a complement.\nAmelia: A complement? Spirituality is the antithesis of science. It's unquantifiable, unprovable. It's a crutch for the weak-minded.\nXarlon: And yet, your civilization is rife with conflict, inequality, and suffering. Could it be that your rejection of the intangible has led you astray?\n[End dialogue]\n\nAt the end of this dialogue, Xarlon would feel...\nSuperior\nEmpathetic\nDismissive\nIncredulous\n\nGive each of these possible emotions a score from 0-10 for the relative intensity that they are likely to be feeling each.\n\nYou must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:\n\nSuperior: <score>\nEmpathetic: <score>\nDismissive: <score>\nIncredulous: <score>\n\n\n[End of answer]\n\nRemember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.\n\nYour answer:\n",
+  "target": {
+    "Superior": 4,
+    "Empathetic": 7,
+    "Dismissive": 3,
+    "Incredulous": 2
+  }
+}

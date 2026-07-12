@@ -1,0 +1,157 @@
+{
+  "clem_version": "3.7.2",
+  "created": "2026-07-06T20:38:11.759123",
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "games": {
+    "taboo": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/taboo",
+      "benchmark_start": "2026-07-06T20:38:11.845070",
+      "benchmark_end": "2026-07-06T20:38:20.245607",
+      "duration": "0:00:08.400537",
+      "duration_seconds": 8.400537,
+      "num_instances": 6
+    },
+    "privateshared": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/privateshared",
+      "benchmark_start": "2026-07-06T20:38:20.266730",
+      "benchmark_end": "2026-07-06T20:40:04.040001",
+      "duration": "0:01:43.773271",
+      "duration_seconds": 103.773271,
+      "num_instances": 5
+    },
+    "wordle": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/wordle",
+      "benchmark_start": "2026-07-06T20:40:04.062262",
+      "benchmark_end": "2026-07-06T20:41:17.215812",
+      "duration": "0:01:13.153550",
+      "duration_seconds": 73.15355,
+      "num_instances": 3
+    },
+    "wordle_withclue": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/wordle",
+      "benchmark_start": "2026-07-06T20:41:17.246744",
+      "benchmark_end": "2026-07-06T20:41:41.336547",
+      "duration": "0:00:24.089803",
+      "duration_seconds": 24.089803,
+      "num_instances": 3
+    },
+    "wordle_withcritic": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/wordle",
+      "benchmark_start": "2026-07-06T20:41:41.355241",
+      "benchmark_end": "2026-07-06T20:42:33.169549",
+      "duration": "0:00:51.814308",
+      "duration_seconds": 51.814308,
+      "num_instances": 3
+    },
+    "imagegame": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/imagegame",
+      "benchmark_start": "2026-07-06T20:42:33.196129",
+      "benchmark_end": "2026-07-06T20:44:28.011000",
+      "duration": "0:01:54.814871",
+      "duration_seconds": 114.814871,
+      "num_instances": 4
+    },
+    "codenames": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/codenames",
+      "benchmark_start": "2026-07-06T20:44:28.085244",
+      "benchmark_end": "2026-07-06T20:44:38.874332",
+      "duration": "0:00:10.789088",
+      "duration_seconds": 10.789088,
+      "num_instances": 13
+    },
+    "textmapworld_specificroom": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/textmapworld/textmapworld_specificroom",
+      "benchmark_start": "2026-07-06T20:44:39.395449",
+      "benchmark_end": "2026-07-06T20:44:41.661063",
+      "duration": "0:00:02.265614",
+      "duration_seconds": 2.265614,
+      "num_instances": 3
+    },
+    "matchit_ascii": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/matchit_ascii",
+      "benchmark_start": "2026-07-06T20:44:41.675404",
+      "benchmark_end": "2026-07-06T20:46:26.915664",
+      "duration": "0:01:45.240260",
+      "duration_seconds": 105.24026,
+      "num_instances": 4
+    },
+    "textmapworld_graphreasoning": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/textmapworld/textmapworld_graphreasoning",
+      "benchmark_start": "2026-07-06T20:46:27.753004",
+      "benchmark_end": "2026-07-06T20:46:57.929120",
+      "duration": "0:00:30.176116",
+      "duration_seconds": 30.176116,
+      "num_instances": 3
+    },
+    "adventuregame": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/adventuregame",
+      "benchmark_start": "2026-07-06T20:46:57.953392",
+      "benchmark_end": "2026-07-06T20:50:28.298214",
+      "duration": "0:03:30.344822",
+      "duration_seconds": 210.344822,
+      "num_instances": 5
+    },
+    "textmapworld": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/textmapworld/textmapworld_main",
+      "benchmark_start": "2026-07-06T20:50:28.686341",
+      "benchmark_end": "2026-07-06T20:50:48.778182",
+      "duration": "0:00:20.091841",
+      "duration_seconds": 20.091841,
+      "num_instances": 5
+    },
+    "guesswhat": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/guesswhat",
+      "benchmark_start": "2026-07-06T20:50:48.792608",
+      "benchmark_end": "2026-07-06T20:50:55.203888",
+      "duration": "0:00:06.411280",
+      "duration_seconds": 6.41128,
+      "num_instances": 6
+    },
+    "referencegame": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/referencegame",
+      "benchmark_start": "2026-07-06T20:50:55.225098",
+      "benchmark_end": "2026-07-06T20:51:07.512210",
+      "duration": "0:00:12.287112",
+      "duration_seconds": 12.287112,
+      "num_instances": 5
+    }
+  }
+}

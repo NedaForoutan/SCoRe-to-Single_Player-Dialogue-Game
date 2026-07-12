@@ -1,0 +1,9 @@
+{
+  "game_id": 73,
+  "input": "Write a planning doc for a software engineer task. Follow the exact format below:\n\nPart 1. Task Summary\n[put details here]\n***\nPart 2. Motivation\n[put details here]\n***\nPart 3. Milestone objectives\n[put details here]\n***\nPart 4. Timeline\n[put details here]\n***\nPart 5. Doc history\n[put details here]",
+  "target": {
+    "length_constraints:number_paragraphs": {
+      "num_paragraphs": 5
+    }
+  }
+}

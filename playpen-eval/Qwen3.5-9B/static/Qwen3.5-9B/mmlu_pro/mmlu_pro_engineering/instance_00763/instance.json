@@ -1,0 +1,5 @@
+{
+  "game_id": 763,
+  "input": "Question:\nThe latching current of SCR is 20 mA. Its holding current will be\nOptions:\nA. 5 mA.\nB. 23 mA.\nC. 25 mA.\nD. 20 mA.\nE. 30 mA.\nF. 40 mA.\nG. 50 mA.\nH. 10 mA.\nI. 60 mA.\nJ. 15 mA.\n",
+  "target": "H"
+}

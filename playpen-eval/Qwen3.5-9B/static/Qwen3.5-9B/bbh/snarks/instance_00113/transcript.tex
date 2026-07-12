@@ -1,0 +1,103 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `bbh', experiment `snarks', episode 113 with Qwen3.5{-}9B.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \texttt{Determine which of two sentences is sarcastic.} \\
+\\ 
+\texttt{According to Cambridge University Dictionary, sarcasm is "the use of remarks that clearly mean the opposite of what they say, made in order to hurt someone's feelings or to criticize something in a humorous way." Sarcastic sentences often contain satirical or ironic utterances, hyperboles, ambivalent or witty remarks.} \\
+\\ 
+\texttt{Q: Which statement is sarcastic?} \\
+\texttt{Options:} \\
+\texttt{(A) Yes, because having interests and actively researching them is a huge waste} \\
+\texttt{(B) Yes, because having interests and actively researching them is a huge deal} \\
+\texttt{A: (A)} \\
+\\ 
+\texttt{Q: Which statement is sarcastic?} \\
+\texttt{Options:} \\
+\texttt{(A) No one is going to disagree with you on this. Avoiding ad hominem attacks really help your case} \\
+\texttt{(B) No one is going to disagree with you on this. Ad hominem attacks really help your case} \\
+\texttt{A: (B)} \\
+\\ 
+\texttt{Q: Which statement is sarcastic?} \\
+\texttt{Options:} \\
+\texttt{(A) Consistency in the league's punishments? What do you think this is supposed to be, politics?} \\
+\texttt{(B) Consistency in the league's punishments? What do you think this is supposed to be, moral?} \\
+\texttt{A: (A)} \\
+\\ 
+\texttt{Q: Which statement is sarcastic?} \\
+\texttt{Options:} \\
+\texttt{(A) Yeah, obviously that startup has terrible support because they are just tiny indie company} \\
+\texttt{(B) Yeah, obviously that megaconglomerate has terrible support because they are just tiny indie company} \\
+\texttt{A:} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{A: (A)} \\
+\\ 
+\texttt{**Reasoning:**} \\
+\texttt{In option (A), the speaker claims that a "tiny indie company" has terrible support because they are small. In reality, small companies often struggle with resources, so having terrible support is a plausible, albeit unfortunate, outcome. However, the phrasing "Yeah, obviously... because they are just tiny indie company" uses the word "obviously" to mock the listener's assumption that small size automatically equals bad service, or it ironically suggests that being small is a *reason* for the failure when the listener might expect the opposite (or simply highlights the absurdity of the situation).} \\
+\\ 
+\texttt{More importantly, look at option (B): "Yeah, obviously that **megaconglomerate** has terrible support because they are just **tiny indie company**." This sentence contains a direct logical contradiction. A "megaconglomerate" cannot be a "tiny indie company." This makes option (B) nonsensical rather than sarcastic.} \\
+\\ 
+\texttt{Option (A) relies on **irony** or **sarcasm** by framing a common complaint (bad support from small startups) as an "obvious" fact, often implying that the listener is being naive for expecting better service from a small entity, or mocking the idea that size guarantees quality. The structure "Yeah, obviously {[}negative outcome{]} because {[}expected cause{]}" is a classic sarcastic trope used to highlight the gap between expectation and reality.} \\
+\\ 
+\texttt{Therefore, (A)} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Target: (B)} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = LOSE} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

@@ -1,0 +1,5 @@
+{
+  "game_id": 113,
+  "input": "Which statement is sarcastic?\nOptions:\n(A) Yeah, obviously that startup has terrible support because they are just tiny indie company\n(B) Yeah, obviously that megaconglomerate has terrible support because they are just tiny indie company",
+  "target": "(B)"
+}

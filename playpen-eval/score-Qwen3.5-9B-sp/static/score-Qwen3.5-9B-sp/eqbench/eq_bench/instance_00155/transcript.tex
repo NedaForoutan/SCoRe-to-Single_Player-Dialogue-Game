@@ -1,0 +1,131 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `eqbench', experiment `eq\_bench', episode 155 with score{-}Qwen3.5{-}9B{-}sp.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \\ 
+\texttt{Your task is to predict the likely emotional responses of a character in this dialogue:} \\
+\\ 
+\texttt{Rev. Montague: You see, Iris, faith is not a choice, but a divine gift. It's a beacon of light in a world often shrouded in darkness.} \\
+\texttt{Dr. LeGuin: A beacon of light, Luther? Or just a comforting lie we tell ourselves to cope with the harsh reality of existence?} \\
+\texttt{Rev. Montague: It's more than that. It's a guiding principle, a moral compass. It's what makes us human, Iris.} \\
+\texttt{Dr. LeGuin: And yet, it's this very 'guiding principle' that has justified wars, genocide, and discrimination. How human is that, Luther?} \\
+\texttt{Rev. Montague: Those are the failures of men, not faith. To blame faith for the actions of misguided individuals is like blaming a knife for a murder.} \\
+\texttt{Dr. LeGuin: A knife doesn't claim to be a moral compass, Luther. And it doesn't demand blind obedience.} \\
+\texttt{Rev. Montague: Faith doesn't demand blindness, Iris. It demands trust, surrender. It's a relationship, not a dictatorship.} \\
+\texttt{Dr. LeGuin: A relationship with a non{-}existent entity. How convenient. } \\
+\texttt{Rev. Montague: Just because you can't see something, doesn't mean it doesn't exist. Can you see your thoughts, Iris?} \\
+\texttt{Dr. LeGuin: That's a false equivalence, Luther. Thoughts can be measured, analyzed. Your God, on the other hand...} \\
+\texttt{Rev. Montague: Is beyond human comprehension. That's the point, Iris. We're not meant to understand everything.} \\
+\texttt{Dr. LeGuin: And there lies the crux of our disagreement, Luther. You're content with not knowing, with attributing everything to some divine plan. I, on the other hand, am not. } \\
+\texttt{Rev. Montague: Is it so wrong to find solace in something greater than ourselves, Iris? Is it so wrong to believe in hope, in love, in redemption?} \\
+\texttt{Dr. LeGuin: It's not wrong, Luther. It's just... futile. } \\
+\texttt{Rev. Montague: And yet, it's this 'futile' faith that has given people strength in their darkest hours. Can your logic do that, Iris?} \\
+\texttt{Dr. LeGuin: My logic doesn't offer false hope, Luther. It offers clarity, understanding. It offers truth.} \\
+\texttt{Rev. Montague: And what is truth, Iris? Your truth? My truth? Or some universal truth that we're all blindly searching for?} \\
+\texttt{Dr. LeGuin: There's no 'your truth' or 'my truth', Luther. There's just the truth. And it's not found in ancient texts or divine revelations. It's found in evidence, in reason.} \\
+\texttt{{[}End dialogue{]}} \\
+\\ 
+\texttt{At the end of this dialogue, At this point, Rev. Montague would feel...} \\
+\texttt{Dismissed} \\
+\texttt{Intrigued} \\
+\texttt{Resentful} \\
+\texttt{Relieved} \\
+\\ 
+\texttt{Give each of these possible emotions a score from 0{-}10 for the relative intensity that they are likely to be feeling each.} \\
+\\ 
+\texttt{You must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:} \\
+\\ 
+\texttt{Dismissed: <score>} \\
+\texttt{Intrigued: <score>} \\
+\texttt{Resentful: <score>} \\
+\texttt{Relieved: <score>} \\
+\\ 
+\\ 
+\texttt{{[}End of answer{]}} \\
+\\ 
+\texttt{Remember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.} \\
+\\ 
+\texttt{Your answer:} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{Dismissed: 9} \\
+\texttt{Intrigued: 1} \\
+\texttt{Resentful: 2} \\
+\texttt{Relieved: 0} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Dismissed: 9} \\
+\texttt{Intrigued: 1} \\
+\texttt{Resentful: 2} \\
+\texttt{Relieved: 0} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Dismissed: 7} \\
+\texttt{Intrigued: 0} \\
+\texttt{Resentful: 5} \\
+\texttt{Relieved: 0} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = LOSE} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

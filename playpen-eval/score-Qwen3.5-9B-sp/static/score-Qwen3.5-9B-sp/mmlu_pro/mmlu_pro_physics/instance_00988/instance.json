@@ -1,0 +1,5 @@
+{
+  "game_id": 988,
+  "input": "Question:\nIf the electrode spacing is 1 x 10^\\rule{1em}{1pt}3 m and the voltage is 1 × 10^4 V, how large is the Coulomb force that is respons-ible for the separation of dust particles from the air? Assume that the particle's charge is + 200 quanta.\nOptions:\nA. 2 × 10^2 N\nB. 6.4 × 10^8 N\nC. 5 × 10^5 N\nD. 7.2 × 10^12 N\nE. 2.8 × 10^6 N\nF. 1 × 10^7 N\nG. 4.5 × 10^11 N\nH. 1.6 × 10^19 N\nI. 3.2 × 10^10 N\nJ. 8.0 × 10^9 N\n",
+  "target": "I"
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 2151,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Gender has a direct effect on department competitiveness and admission status. Residency status has a direct effect on department competitiveness and admission status. Department competitiveness has a direct effect on admission status. Residency status is unobserved. The overall probability of male gender is 13%. For individuals who are not male, the probability of admission acceptance is 61%. For individuals who are male, the probability of admission acceptance is 65%. Is admission acceptance less likely than admission rejection overall?",
+  "target": "no"
+}

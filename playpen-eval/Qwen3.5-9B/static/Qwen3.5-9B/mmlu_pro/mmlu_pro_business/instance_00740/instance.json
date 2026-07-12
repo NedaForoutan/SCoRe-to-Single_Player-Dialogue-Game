@@ -1,0 +1,5 @@
+{
+  "game_id": 740,
+  "input": "Question:\nMary Redmond purchased a $28,500 home with 20% down and the balance to be paid by monthly payments over 10 years. In addition, a financing charge of 7% per year of the unpaid balance is to be added to each monthly payment. Calculate the total payment due for the first month.\nOptions:\nA. $305\nB. $190\nC. $171\nD. $285.50\nE. $399\nF. $323\nG. $5700\nH. $133\nI. $228\nJ. $256\n",
+  "target": "F"
+}

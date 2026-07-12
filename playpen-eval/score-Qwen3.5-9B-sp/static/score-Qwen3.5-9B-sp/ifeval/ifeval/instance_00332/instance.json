@@ -1,0 +1,11 @@
+{
+  "game_id": 332,
+  "input": "Write a description for the Pixel 3A smartphone with at least 400 words. Wrap your entire response with double quotation marks.",
+  "target": {
+    "length_constraints:number_words": {
+      "relation": "at least",
+      "num_words": 400
+    },
+    "startend:quotation": {}
+  }
+}

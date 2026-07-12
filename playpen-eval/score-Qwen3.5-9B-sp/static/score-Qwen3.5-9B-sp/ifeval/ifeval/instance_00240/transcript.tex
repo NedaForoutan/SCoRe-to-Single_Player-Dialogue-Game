@@ -1,0 +1,68 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `ifeval', experiment `ifeval', episode 240 with score{-}Qwen3.5{-}9B{-}sp.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \texttt{Write a casual blog post about how the outer solar system is different from the inner solar system, and what that means for the possibility of life. Wrap your entire response with double quotation marks. Your response should contain 17 or more sentences.} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{"Hey everyone, today we are going to take a quick trip out past our asteroid belt to see how the outer solar system really stacks up against the inner planets. If you look at Mercury, Venus, Earth, and Mars, you will notice they are mostly made of rock and metal, which makes them feel very solid under your feet. In contrast, the giants like Jupiter and Saturn are huge balls of gas and ice that you could never actually stand on. This big difference in composition is the first major clue that tells us these two regions of space are quite distinct from one another. The inner planets are also much closer to the Sun, which means they get plenty of heat and light to keep things warm. Out in the outer reaches, it is incredibly cold, with temperatures often dropping low enough to freeze nitrogen and methane right off the surface. Because of this freezing cold, the outer planets have massive rings of icy particles and many moons covered in frozen water. Now, when we talk about life, most scientists think it needs liquid water to survive and thrive, which is easy to find on Earth but tricky elsewhere. The rocky inner planets have had a better chance at keeping water in a liquid state because they are warmer, though Venus is a bit too hot and Mars is a bit too dry. However, the outer solar system offers a surprising twist because some of its moons are actually warmer than you might expect. Moons like Europa and Enceladus have thick layers of ice, but underneath that ice, there are vast oceans of liquid water kept warm by the gravitational pull of their giant neighbors. This means that while the outer planets themselves are unlikely to host life, their icy moons could potentially be hiding microbial ecosystems in their subsurface seas. We also know that the outer solar system is rich in organic compounds, which are the building blocks necessary for life as we know it. So, while the inner system gave us the stage for life to begin, the outer system might hold the secrets to where life could go next. It is fascinating to think that we might not be alone in our own backyard, even if that 'backyard' is a freezing, dark ocean miles beneath an ice shell. As we build better telescopes and send more probes out there, we are getting closer to answering the big question of whether life exists beyond Earth. The contrast between the rocky warmth of the inside and the icy potential of the outside makes our solar system truly unique and full of wonder. Keep your eyes on the stars, because the answers might just be hiding in those distant, frozen worlds waiting for us to find them."} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                {'startend:quotation': {}, 'length_constraints:number_sentences': {'relation': 'at least', 'num_sentences': 17}}
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = WIN} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

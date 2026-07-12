@@ -1,0 +1,5 @@
+{
+  "game_id": 1296,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Gender has a direct effect on smoking and lung cancer. Smoking has a direct effect on tar deposit. Tar deposit has a direct effect on lung cancer. Gender is unobserved. The overall probability of smoking is 12%. For nonsmokers, the probability of lung cancer is 58%. For smokers, the probability of lung cancer is 61%. Is lung cancer more likely than absence of lung cancer overall?",
+  "target": "yes"
+}

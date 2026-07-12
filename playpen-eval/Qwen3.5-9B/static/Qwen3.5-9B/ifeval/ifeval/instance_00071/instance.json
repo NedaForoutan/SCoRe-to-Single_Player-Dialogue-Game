@@ -1,0 +1,9 @@
+{
+  "game_id": 71,
+  "input": "Draft a blog post about Ripley's Aquarium. Make sure your blog post contains at least 7 placeholders represented by square brackets, such as [location].",
+  "target": {
+    "detectable_content:number_placeholders": {
+      "num_placeholders": 7
+    }
+  }
+}

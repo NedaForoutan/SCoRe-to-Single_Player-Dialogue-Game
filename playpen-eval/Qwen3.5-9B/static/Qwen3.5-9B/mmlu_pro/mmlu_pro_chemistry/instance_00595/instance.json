@@ -1,0 +1,5 @@
+{
+  "game_id": 595,
+  "input": "Question:\nUsing data from the accompanying table find the increase of enthalpy for 100 g of H_2 O going from ice at - 10°C to liquid water at + 15°C. Assume that the molar heat of fusion of ice is 6.02 kJ. Heat capacity in joules per mole-degree for various substances at the temperatures indicated H_2 O(s)at239°k33.30 H_2 O(s)at271°k37.78 H_2 O(l)at273°k75.86 H_2 O(l)at298°k75.23 H_2 O(l)at373°k75.90 H_2 O(g)at383°k36.28\nOptions:\nA. 35,000 J\nB. 28,000 J\nC. 45,000 J\nD. 55,000 J\nE. 50,000 J\nF. 38,000 J\nG. 48,500 J\nH. 41,800 J\nI. 30,000 J\nJ. 25,000 J\n",
+  "target": "H"
+}

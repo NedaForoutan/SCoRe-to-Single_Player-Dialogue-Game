@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <style>
+        /* This CSS is based on a stack overflow answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */ 
+
+* {margin: 0; box-sizing: border-box;}
+
+body {
+  background-color: rgb(157, 152, 150);
+}
+
+.top-info {
+	text-align: center;
+	font: 1.25rem/1.5 sans-serif;
+	display: flex;
+	flex-direction: column;
+	padding: 1.25em;
+	width: 80%;
+  max-width: 1200px;
+	margin: auto;
+	background: #3f3e3e;
+	color: #fff;
+}
+
+.chat {
+  --rad: 1.5rem;
+  --rad-sm: .3rem;
+  font: 1rem/1.5 sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+}
+
+.msg {
+  position: relative;
+  padding: .6rem 1.2rem;
+  margin-inline: 1rem;
+  margin-block: 2rem;
+}
+
+.game-round {
+  padding: 1.5rem 0 1.5rem 0;
+  background-color: #f0f8ff; /* light background for content */
+  position: relative; /* Important to position the badge */
+  border-radius: 1rem;
+  margin: 1rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+/* Badge in top-right corner */
+.game-round::before {
+  content: "Round " attr(data-round);
+  position: absolute;
+  top: .35rem;
+  right: 1.5rem;
+  color: #c4c3c3;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* For fenced code/monospace blocks */
+pre {
+  background: #e0e0e0;
+  border-left: .2rem solid #f36d33;
+  border-radius: .2rem;
+  color: #666;
+  font-family: monospace;
+  line-height: 1.0;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  max-width: 100%;
+  overflow: auto;
+  padding: 0.5rem 0.2rem;
+}/* This CSS is based on a stack overflow answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */
+/* Player colors are assigned according to number of players */
+
+.msg.player-gm {
+  border-radius: var(--rad-sm) var(--rad) var(--rad) var(--rad-sm);
+  color: #fff;
+  margin-right: 30%;
+}
+
+.msg.gm-player {
+  border-radius: var(--rad) var(--rad-sm) var(--rad-sm) var(--rad);
+  background: #c4c3c3;
+  color: #0c0c0c;
+  margin-left: 30%;
+}
+
+.msg.gm-gm {
+  border-radius: var(--rad-sm) var(--rad-sm) var(--rad-sm) var(--rad-sm);
+  background: #f1f1f1;
+  color: #373636;
+  margin-left: 50%;
+  margin-right: 10%;
+  font-size: 0.8rem;
+}
+
+.msg::before {
+  left: 1rem;
+  content: attr(speaker);
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 100%;
+  color: #888;
+  white-space: nowrap;
+}.msg.player-gm.p1 { background: darkseagreen; }
+
+    </style>
+</head>
+<body>
+
+<br/>
+
+<div class="top-info">
+    <p>Interaction Transcript for game 'ifeval', experiment 'ifeval', episode 153 with score-Qwen3.5-9B-sp.</p>
+</div>
+
+<br/>
+
+<div class="chat">
+<div class="game-round" data-round="0">
+    <div speaker="GM (Game Master) to Player 1 (InstructionFollower)" class="msg gm-player p1" style="">
+        <p>Can you write a poem about the pros and cons of playing a lot of video games? Please make sure it&#x27;s at least 40 sentences long (don&#x27;t forget to add punctuations). You must highlight some words or phrases in your response, like *highlighted phrase*.</p>
+    </div>
+
+    <div speaker="Player 1 (InstructionFollower) to GM (Game Master)" class="msg player-gm p1" style="">
+        <p>The screen glows bright with colors that can **captivate the soul**.<br/>We press a button and a world begins to **unfold before our eyes**.<br/>Heroes rise to fight the dark in battles that are **never truly lost**.<br/>Our fingers dance across the keys with **speed and rhythmic grace**.<br/>It feels like magic when we **defeat the boss** after hours of pain.<br/>The stories told within the game are **more vivid than reality**.<br/>We can travel to lands where dragons **roam the skies above**.<br/>This digital escape offers **a safe haven from the stress** of daily life.<br/>Friends gather online to **laugh and share their victories** together.<br/>The sense of achievement is **powerful and deeply satisfying** for us.<br/>We can learn new skills or **master complex strategies** in no time.<br/>The graphics are so real they **blur the line between art and life**.<br/>Sometimes the music swells to **make our hearts beat faster** with joy.<br/>It is a place where **imagination knows no bounds or limits**.<br/>We can be anyone we wish to **be in this virtual space**.<br/>The convenience of playing anytime is **a gift for busy minds**.<br/>We can pause the chaos of the world and **focus on just one task**.<br/>The community support can be **incredibly warm and welcoming** to strangers.<br/>Progress is saved so we can **return to our adventures** whenever we want.<br/>The challenges presented test our **patience and problem-solving abilities** daily.<br/>We can experience history or **fantasy worlds that never existed**.<br/>The variety of genres ensures there is **always something new to try**.<br/>It can be a great way to **relax after a long hard day**.<br/>The competitive spirit pushes us to **improve our skills constantly**.<br/>We can connect with people from **all corners of the globe**.<br/>The immersion is so deep we **forget the passage of time**.<br/>It offers a unique form of **creative expression for gamers**.<br/>We can customize our characters to **reflect our own unique styles**.<br/>The replay value of many games is **truly endless and vast**.<br/>We can solve puzzles that **stretch our logical thinking** to the max.<br/>The sound design creates an **atmosphere that feels almost alive**.<br/>It provides a sense of **control in a chaotic world**.<br/>We can explore every nook and cranny of a **massive open world**.<br/>The achievements unlocked give us a **tangible sense of progress**.<br/>It can be a source of **great comfort during difficult times**.<br/>The social aspect helps build **strong bonds with fellow players**.<br/>We can witness epic moments that **stay in our memory forever**.<br/>The technology continues to **advance with every new release**.<br/>It allows us to **dream of impossible feats and wonders**.<br/>However, the hours spent sitting still can **hurt our physical bodies**.<br/>Our eyes may strain from **staring at the glowing rectangle**.<br/>We might neglect our **real-world responsibilities and duties**.<br/>Social isolation can creep in when **we prefer the screen to people**.<br/>Sleep patterns often get **disrupted by late-night gaming sessions**.<br/>The cost of new releases can **strain our family budgets**.<br/>Addiction is a real risk that **can consume our entire lives**.<br/>We may lose touch with **friends who are not online**.<br/>Physical exercise often gets **replaced by sedentary habits**.<br/>The pressure to win can **cause unnecessary anxiety and stress**.<br/>We might ignore **important calls or messages from loved ones**.<br/>The repetitive nature of some games can **lead to mental fatigue**.<br/>We risk developing **unhealthy coping mechanisms for real problems**.<br/>The illusion of control can **distort our view of reality**.<br/>We might forget to **eat properly or drink enough water**.<br/>The constant notifications can **interrupt our focus and flow**.<br/>We may develop **a dependency on instant gratification**.<br/>The lack of sunlight can **affect our mood and health**.<br/>We might miss out on **building real-world skills and connections**.<br/>The fear of missing out on **new content can be overwhelming**.<br/>We could lose track of **time passing by too quickly**.<br/>The need to spend money on **microtransactions can be dangerous**.<br/>We might neglect our **personal hygiene and grooming**.<br/>The competitive environment can **breed toxicity and anger**.<br/>We risk losing our **sense of balance in life**.<br/>The virtual world cannot replace **the warmth of human touch**.<br/>We might find ourselves **trapped in a cycle of play**.<br/>The potential for addiction is **a shadow that follows us**.<br/>We must remember that **games are meant to be fun**.<br/>Balance is key to **enjoying the hobby without harm**.<br/>We should set limits to **protect our health and relationships**.<br/>The pros and cons are **two sides of the same coin**.<br/>We must choose wisely how we **integrate gaming into our lives**.<br/>The screen is a tool that **can build or break us**.<br/>Let us play with **mindfulness and intention always**.<br/>The journey through pixels is **worth it if we stay grounded**.<br/>We can enjoy the magic while **keeping our feet on the earth**.<br/>The story of gaming is **one we write together**.<br/>We must ensure the game **serves us and not the other way around**.<br/>The future of play depends on **our ability to manage it well**.<br/>Let us find the sweet spot where **fun meets responsibility**.<br/>The balance between virtual and real **is the true challenge ahead**.<br/>We can have the best of both worlds **if we play our part**.<br/>The screen fades when we **choose to look up and live**.<br/>The game ends when we **decide to put it down**.<br/>Life is the ultimate game **with no save points or reloads**.<br/>We must play it with **heart and courage every day**.<br/>The lessons learned in games **can apply to real life too**.<br/>We can carry the spirit of adventure **into our daily routines**.<br/>The pros and cons are **part of the human experience**.<br/>We must navigate them with **wisdom and</p>
+    </div>
+
+    <div speaker="Game Master: target" class="msg gm-gm" style="">
+        <p>{&#x27;detectable_format:number_highlighted_sections&#x27;: {&#x27;num_highlights&#x27;: 1}, &#x27;length_constraints:number_sentences&#x27;: {&#x27;relation&#x27;: &#x27;at least&#x27;, &#x27;num_sentences&#x27;: 40}}</p>
+    </div>
+
+    <div speaker="Game Master: followed all instructions" class="msg gm-gm" style="">
+        <p>game_result = WIN</p>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

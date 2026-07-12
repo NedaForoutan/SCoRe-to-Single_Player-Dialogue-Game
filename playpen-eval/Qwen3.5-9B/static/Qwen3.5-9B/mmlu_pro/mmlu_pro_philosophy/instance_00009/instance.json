@@ -1,0 +1,5 @@
+{
+  "game_id": 9,
+  "input": "Question:\n Ashford's article is meant to address a particular paralysis in the face of\nOptions:\nA. the daunting task of solving worldwide economic imbalance.\nB. the impossibility of meeting everyone's basic needs.\nC. having to give up so much of our own wealth in light of Singer's arguments.\nD. having to choose between addressing immediate harm and addressing structural injustice.\nE. reconciling conflict moral theories.\nF. the difficult task of prioritizing multiple global issues.\nG. the challenge of implementing sustainable solutions to poverty.\nH. the sheer scope of global poverty.\nI. the overwhelming responsibility of addressing world hunger.\nJ. the complexity of addressing environmental issues globally.\n",
+  "target": "H"
+}

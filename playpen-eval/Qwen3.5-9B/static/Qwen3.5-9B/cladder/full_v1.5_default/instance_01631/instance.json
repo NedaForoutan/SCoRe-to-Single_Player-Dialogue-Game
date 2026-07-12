@@ -1,0 +1,5 @@
+{
+  "game_id": 1631,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Season has a direct effect on sprinkler and weather. Weather has a direct effect on ground. Sprinkler has a direct effect on ground. For people in the dry season, the probability of wet ground is 40%. For in the rainy season, the probability of wet ground is 50%. Will rainy season increase the chance of wet ground?",
+  "target": "yes"
+}

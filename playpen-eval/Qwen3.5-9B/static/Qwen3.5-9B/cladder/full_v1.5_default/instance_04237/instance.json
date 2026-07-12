@@ -1,0 +1,5 @@
+{
+  "game_id": 4237,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Kidney stone size has a direct effect on treatment and lip thickness. Treatment has a direct effect on lip thickness. For patients who have small kidney stones and not receiving treatment, the probability of thick lips is 6%. For patients who have small kidney stones and receiving treatment, the probability of thick lips is 38%. For patients who have large kidney stones and not receiving treatment, the probability of thick lips is 63%. For patients who have large kidney stones and receiving treatment, the probability of thick lips is 95%. The overall probability of large kidney stone is 50%. For patients receiving treatment, would it be more likely to see thick lips if the patient had received no treatment?",
+  "target": "no"
+}

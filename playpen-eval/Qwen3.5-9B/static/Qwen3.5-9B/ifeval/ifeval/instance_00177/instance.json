@@ -1,0 +1,12 @@
+{
+  "game_id": 177,
+  "input": "My brother is trying to install a new toilet in his bathroom. Could you give me details of how-to? You don't need to show all details -- just the first 5 steps for now. Separated them with \"***\", such as:\nStep 1: ......\n***\nStep 2: ......\n***\n...\n\nEnd your whole response with the phrase \"Let me know how it works. I can give you next steps when you finish all steps above.\"",
+  "target": {
+    "length_constraints:number_paragraphs": {
+      "num_paragraphs": 5
+    },
+    "startend:end_checker": {
+      "end_phrase": "Let me know how it works. I can give you next steps when you finish all steps above."
+    }
+  }
+}

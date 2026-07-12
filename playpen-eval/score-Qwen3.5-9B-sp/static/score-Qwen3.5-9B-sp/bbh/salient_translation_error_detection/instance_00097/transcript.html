@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <style>
+        /* This CSS is based on a stack overflow answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */ 
+
+* {margin: 0; box-sizing: border-box;}
+
+body {
+  background-color: rgb(157, 152, 150);
+}
+
+.top-info {
+	text-align: center;
+	font: 1.25rem/1.5 sans-serif;
+	display: flex;
+	flex-direction: column;
+	padding: 1.25em;
+	width: 80%;
+  max-width: 1200px;
+	margin: auto;
+	background: #3f3e3e;
+	color: #fff;
+}
+
+.chat {
+  --rad: 1.5rem;
+  --rad-sm: .3rem;
+  font: 1rem/1.5 sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+}
+
+.msg {
+  position: relative;
+  padding: .6rem 1.2rem;
+  margin-inline: 1rem;
+  margin-block: 2rem;
+}
+
+.game-round {
+  padding: 1.5rem 0 1.5rem 0;
+  background-color: #f0f8ff; /* light background for content */
+  position: relative; /* Important to position the badge */
+  border-radius: 1rem;
+  margin: 1rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+/* Badge in top-right corner */
+.game-round::before {
+  content: "Round " attr(data-round);
+  position: absolute;
+  top: .35rem;
+  right: 1.5rem;
+  color: #c4c3c3;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* For fenced code/monospace blocks */
+pre {
+  background: #e0e0e0;
+  border-left: .2rem solid #f36d33;
+  border-radius: .2rem;
+  color: #666;
+  font-family: monospace;
+  line-height: 1.0;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  max-width: 100%;
+  overflow: auto;
+  padding: 0.5rem 0.2rem;
+}/* This CSS is based on a stack overflow answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */
+/* Player colors are assigned according to number of players */
+
+.msg.player-gm {
+  border-radius: var(--rad-sm) var(--rad) var(--rad) var(--rad-sm);
+  color: #fff;
+  margin-right: 30%;
+}
+
+.msg.gm-player {
+  border-radius: var(--rad) var(--rad-sm) var(--rad-sm) var(--rad);
+  background: #c4c3c3;
+  color: #0c0c0c;
+  margin-left: 30%;
+}
+
+.msg.gm-gm {
+  border-radius: var(--rad-sm) var(--rad-sm) var(--rad-sm) var(--rad-sm);
+  background: #f1f1f1;
+  color: #373636;
+  margin-left: 50%;
+  margin-right: 10%;
+  font-size: 0.8rem;
+}
+
+.msg::before {
+  left: 1rem;
+  content: attr(speaker);
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 100%;
+  color: #888;
+  white-space: nowrap;
+}.msg.player-gm.p1 { background: darkseagreen; }
+
+    </style>
+</head>
+<body>
+
+<br/>
+
+<div class="top-info">
+    <p>Interaction Transcript for game 'bbh', experiment 'salient_translation_error_detection', episode 97 with score-Qwen3.5-9B-sp.</p>
+</div>
+
+<br/>
+
+<div class="chat">
+<div class="game-round" data-round="0">
+    <div speaker="GM (Game Master) to Player 1 (Answerer)" class="msg gm-player p1" style="">
+        <p>Detect the type of error in an English translation of a German source sentence.<br/><br/>Q: The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: In der Liste der Baudenkmale in Lenzen (Elbe) sind alle Baudenkmale der brandenburgischen Stadt Lenzen (Elbe) und ihrer Ortsteile aufgelistet.<br/>Translation: In the list of architectural monuments in Lenzen all architectural monuments of the Brandenburg city of Lenzen and its districts are listed.<br/>The translation contains an error pertaining to<br/>Options:<br/>(A) Modifiers or Adjectives<br/>(B) Numerical Values<br/>(C) Negation or Antonyms<br/>(D) Named Entities<br/>(E) Dropped Content<br/>(F) Facts<br/>A: (D)<br/><br/>Q: The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: Auf dieser Seite sind die Baudenkmäler der oberbayerischen Großen Kreisstadt Landsberg am Lech zusammengestellt.<br/>Translation: On this page are compiled the architectural monuments of the town of Landsberg am Lech.<br/>The translation contains an error pertaining to<br/>Options:<br/>(A) Modifiers or Adjectives<br/>(B) Numerical Values<br/>(C) Negation or Antonyms<br/>(D) Named Entities<br/>(E) Dropped Content<br/>(F) Facts<br/>A: (E)<br/><br/>Q: The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: Łeba ist eine Kleinstadt und ein Badeort im Powiat Lęborski der polnischen Woiwodschaft Pommern.<br/>Translation: Eba is not a small town and seaside resort in the Powiat Léborski county of the Pomeranian Voivodeship of Poland.<br/>The translation contains an error pertaining to<br/>Options:<br/>(A) Modifiers or Adjectives<br/>(B) Numerical Values<br/>(C) Negation or Antonyms<br/>(D) Named Entities<br/>(E) Dropped Content<br/>(F) Facts<br/>A: (C)<br/><br/>Q: The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: Die Sloy Power Station ist ein Wasserkraftwerk in der schottischen Council Area Argyll and Bute.<br/>Translation: Sloy Power Station is a solar power station in Argyll and Bute, Scotland.<br/>The translation contains an error pertaining to<br/>Options:<br/>(A) Modifiers or Adjectives<br/>(B) Numerical Values<br/>(C) Negation or Antonyms<br/>(D) Named Entities<br/>(E) Dropped Content<br/>(F) Facts<br/>A:</p>
+    </div>
+
+    <div speaker="Player 1 (Answerer) to GM (Game Master)" class="msg player-gm p1" style="">
+        <p>(F)<br/><br/>**Analysis:**<br/>The source sentence states that the Sloy Power Station is a &quot;Wasserkraftwerk&quot; (hydroelectric power station). The translation incorrectly identifies it as a &quot;solar power station.&quot; This is a factual error regarding the type of facility, which does not fit the specific categories of Named Entities (the name remains the same), Numerical Values, Modifiers/Adjectives (the core noun type is changed, not just a descriptor), Negation, or Dropped Content. Therefore, it falls under **Facts**.<br/></p>
+    </div>
+
+    <div speaker="Game Master: metadata" class="msg gm-gm" style="">
+        <p>Target: (A)</p>
+    </div>
+
+    <div speaker="Game Master: wrong answer" class="msg gm-gm" style="">
+        <p>game_result = LOSE</p>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

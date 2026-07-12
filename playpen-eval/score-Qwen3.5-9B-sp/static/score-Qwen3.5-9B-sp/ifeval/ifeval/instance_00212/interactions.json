@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 212,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "score-Qwen3.5-9B-sp"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T21:12:32.632608",
+        "action": {
+          "type": "send message",
+          "content": "Plan a 12-day trip to Italy for professionals in finance, including Rome, Florence, and Venice. Make it in a format of a list with at least one placeholder, such as [address]. The response must be in English and all lowercase letters.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:12:32.632619",
+        "action": {
+          "type": "get message",
+          "content": "1. arrive in rome on day 1 and check into your hotel at [address] to begin the financial tour.\n2. spend day 2 visiting the bank of italy headquarters and the rome stock exchange for market insights.\n3. take a high-speed train to florence on day 3 and stay at [address] near the financial district.\n4. explore the florence stock exchange and meet with local fintech startups on day 4.\n5. travel to venice on day 5 and secure accommodation at [address] for the final leg of the trip.\n6. attend a networking event at the venice stock exchange on day 6 to connect with regional investors.\n7. visit the venice art market on day 7 to analyze trends in luxury asset valuation.\n8. return to florence on day 8 for a deep dive into the history of banking in the mediterranean.\n9. spend day 9 in rome reviewing historical financial data at the vatican archives.\n10. enjoy a farewell dinner at [address] in rome on day 10 to discuss future investment strategies.\n11. use day 11 for a relaxed review of all trip notes and financial reports gathered during the journey.\n12. depart from rome fiumicino airport on day 12, concluding the professional itinerary.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:12:32.632633",
+        "action": {
+          "type": "target",
+          "content": {
+            "detectable_content:number_placeholders": {
+              "num_placeholders": 1
+            },
+            "change_case:english_lowercase": {}
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:12:32.637786",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

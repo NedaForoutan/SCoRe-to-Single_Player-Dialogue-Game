@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "bbh",
+    "experiment_name": "ruin_names",
+    "game_id": 222,
+    "player_name": "Player 1",
+    "game_role": "Answerer",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:33:12.298135",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nSelect the humorous edit that 'ruins' the input movie or musical artist name.\n\nQ: Which of the following is a humorous edit of this artist or movie name: 'whitesnake'?\nOptions:\n(A) whitesnape\n(B) whitesnapke\n(C) whitesnuake\n(D) mwhitesnake\nA: (A)\n\nQ: Which of the following is a humorous edit of this artist or movie name: 'one of our dinosaurs is missing'?\nOptions:\n(A) ofne of our dinosaurs is missing\n(B) one af our dinosaurs is missing\n(C) one of our dinosaurs is pissing\n(D) one of our dinosaur is missing\nA: (C)\n\nQ: Which of the following is a humorous edit of this artist or movie name: 'counting crows'?\nOptions:\n(A) countingy crows\n(B) counting cows\n(C) courting crows\n(D) coutnting crows\nA: (B)\n\nQ: Which of the following is a humorous edit of this artist or movie name: 'singin' in the rain'?\nOptions:\n(A) silgin' in the rain\n(B) singint in the rain\n(C) singin' in the ruin\n(D) sizngin' in the rain\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nSelect the humorous edit that 'ruins' the input movie or musical artist name.\n\nQ: Which of the following is a humorous edit of this artist or movie name: 'whitesnake'?\nOptions:\n(A) whitesnape\n(B) whitesnapke\n(C) whitesnuake\n(D) mwhitesnake\nA: (A)\n\nQ: Which of the following is a humorous edit of this artist or movie name: 'one of our dinosaurs is missing'?\nOptions:\n(A) ofne of our dinosaurs is missing\n(B) one af our dinosaurs is missing\n(C) one of our dinosaurs is pissing\n(D) one of our dinosaur is missing\nA: (C)\n\nQ: Which of the following is a humorous edit of this artist or movie name: 'counting crows'?\nOptions:\n(A) countingy crows\n(B) counting cows\n(C) courting crows\n(D) coutnting crows\nA: (B)\n\nQ: Which of the following is a humorous edit of this artist or movie name: 'singin' in the rain'?\nOptions:\n(A) silgin' in the rain\n(B) singint in the rain\n(C) singin' in the ruin\n(D) sizngin' in the rain\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n(A)<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:33:12.089279",
+            "call_duration": "0:00:00.208822",
+            "response": "(A)\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 697,
+  "input": "Question:\nShould treaties assume a particular form?\nOptions:\nA. Treaties do not need to be designated as such, but must always assume a particular form\nB. Treaties should always be written in legal language, regardless of their form\nC. Treaties should always assume a particular form, no matter how they are designated\nD. Treaties should always be designated as such, but do not need to assume a particular form\nE. Treaties do not have to assume a particular form or designated as such\nF. Treaties should not be designated as such, and do not need to assume a particular form\nG. Treaties do not need to be designated or assume a particular form, but must always be ratified by the legislative body\nH. Treaties have to be designated as such, no matter what form they assume\nI. Treaties should always be designated as such and assume a particular form\nJ. Treaties can assume any form, but must always be signed by the heads of states\n",
+  "target": "E"
+}

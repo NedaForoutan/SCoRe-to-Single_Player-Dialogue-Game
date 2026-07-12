@@ -1,0 +1,11 @@
+{
+  "game_id": 179,
+  "input": "What are the uses of poppy seeds? Your answer should have exactly 7 paragraphs and the last paragraph must start with the word \"Summary\". Each paragraph should be separated by two new lines.",
+  "target": {
+    "length_constraints:nth_paragraph_first_word": {
+      "num_paragraphs": 7,
+      "first_word": "summary",
+      "nth_paragraph": 7
+    }
+  }
+}

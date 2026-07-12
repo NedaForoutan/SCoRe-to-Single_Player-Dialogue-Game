@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "eqbench",
+    "experiment_name": "eq_bench",
+    "game_id": 152,
+    "player_name": "Player 1",
+    "game_role": "Answerer",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T21:18:16.856931",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYour task is to predict the likely emotional responses of a character in this dialogue:\n\nDr. Rigby: You remind me of someone I used to know.\nEllie: Oh, yeah? Some loser you used to pity?\nDr. Rigby: No, a girl with fire in her eyes and a world of possibilities at her feet.\nEllie: Sounds like a fairy tale. No one's got a world of possibilities.\nDr. Rigby: Not with that attitude, no. But imagine, just for a moment, a different reality.\nEllie: I don't have time for your riddles, lady.\nDr. Rigby: It's not a riddle, it's a wormhole.\nEllie: A what?\nDr. Rigby: A wormhole. A shortcut through space and time. What if you could reach out and change your destiny?\nEllie: You're nuts.\nDr. Rigby: Perhaps. But what if I told you that the future is not set in stone? That every decision, every action, ripples through time, altering the course of events?\nEllie: And what? I'm supposed to believe that my shitty decisions matter?\nDr. Rigby: More than you can imagine. You have the power to shape your own future.\nEllie: And how would you know?\nDr. Rigby: Because I've seen it. I've lived it.\nEllie: You're full of shit.\nDr. Rigby: Maybe. But what if I'm not? What if you could build a future where you're not just surviving, but thriving?\nEllie: I don't need your pity or your cryptic bullshit.\nDr. Rigby: It's not pity, Ellie. It's hope.\nEllie: Keep it. I've got enough problems without adding your crazy to the mix.\nDr. Rigby: Ellie, please-\nEllie: No. I'm done here.\n[End dialogue]\n\nAt the end of this dialogue, Ellie would feel...\nRelieved\nIndifferent\nFrustrated\nIntrigued\n\nGive each of these possible emotions a score from 0-10 for the relative intensity that they are likely to be feeling each.\n\nYou must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:\n\nRelieved: <score>\nIndifferent: <score>\nFrustrated: <score>\nIntrigued: <score>\n\n\n[End of answer]\n\nRemember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.\n\nYour answer:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYour task is to predict the likely emotional responses of a character in this dialogue:\n\nDr. Rigby: You remind me of someone I used to know.\nEllie: Oh, yeah? Some loser you used to pity?\nDr. Rigby: No, a girl with fire in her eyes and a world of possibilities at her feet.\nEllie: Sounds like a fairy tale. No one's got a world of possibilities.\nDr. Rigby: Not with that attitude, no. But imagine, just for a moment, a different reality.\nEllie: I don't have time for your riddles, lady.\nDr. Rigby: It's not a riddle, it's a wormhole.\nEllie: A what?\nDr. Rigby: A wormhole. A shortcut through space and time. What if you could reach out and change your destiny?\nEllie: You're nuts.\nDr. Rigby: Perhaps. But what if I told you that the future is not set in stone? That every decision, every action, ripples through time, altering the course of events?\nEllie: And what? I'm supposed to believe that my shitty decisions matter?\nDr. Rigby: More than you can imagine. You have the power to shape your own future.\nEllie: And how would you know?\nDr. Rigby: Because I've seen it. I've lived it.\nEllie: You're full of shit.\nDr. Rigby: Maybe. But what if I'm not? What if you could build a future where you're not just surviving, but thriving?\nEllie: I don't need your pity or your cryptic bullshit.\nDr. Rigby: It's not pity, Ellie. It's hope.\nEllie: Keep it. I've got enough problems without adding your crazy to the mix.\nDr. Rigby: Ellie, please-\nEllie: No. I'm done here.\n[End dialogue]\n\nAt the end of this dialogue, Ellie would feel...\nRelieved\nIndifferent\nFrustrated\nIntrigued\n\nGive each of these possible emotions a score from 0-10 for the relative intensity that they are likely to be feeling each.\n\nYou must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:\n\nRelieved: <score>\nIndifferent: <score>\nFrustrated: <score>\nIntrigued: <score>\n\n\n[End of answer]\n\nRemember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.\n\nYour answer:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nRelieved: 0\nIndifferent: 0\nFrustrated: 9\nIntrigued: 1<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 21:18:15.548922",
+            "call_duration": "0:00:01.307968",
+            "response": "Relieved: 0\nIndifferent: 0\nFrustrated: 9\nIntrigued: 1\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

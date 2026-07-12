@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 64,
+    "results_folder": "Qwen3.5-9B",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:39:54.344414",
+        "action": {
+          "type": "send message",
+          "content": "Write a funny article about why the dinosaurs went extinct and put double quotations marks around your whole response. Include exactly 8 bullet points in your response. The bullet points should be in the form of:\n* This is bullet 1\n* This is bullet 2\n...",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:39:54.344424",
+        "action": {
+          "type": "get message",
+          "content": "\"\n* The asteroid didn't actually hit; it was just a really bad parking job by a rogue meteor that got lost on the way to the moon.\n* Dinosaurs were too busy arguing over who got the last fern to notice the sky turning a suspicious shade of orange.\n* A massive volcanic eruption in Iceland caused a global 'no smoking' policy that the T-Rexes refused to follow, leading to immediate eviction.\n* The climate change was actually just a very enthusiastic group of pterodactyls trying to start a new fashion trend with their wings.\n* Scientists forgot to update the dinosaur operating system, so when the 'Ice Age 2.0' patch dropped, their brains crashed.\n* A giant asteroid made of pure bad luck landed in the middle of the food chain, causing a ripple effect of existential dread.\n* The dinosaurs were simply too proud to admit that their favorite snack, the small mammals, were actually the real MVPs of survival.\n* In the end, it wasn't a tragedy; it was just the universe's way of saying, 'Sorry, no more room for giant lizards in this apartment complex.'\n\"\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:39:54.344440",
+        "action": {
+          "type": "target",
+          "content": {
+            "startend:quotation": {},
+            "detectable_format:number_bullet_lists": {
+              "num_bullets": 8
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:39:54.344700",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

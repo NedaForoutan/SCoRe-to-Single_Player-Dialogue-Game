@@ -1,0 +1,5 @@
+{
+  "game_id": 374,
+  "input": "Question:\nIn human, the M, MN, and N blood groups are determined by twocodominantalleles: L^m andL^n. In a population of 800 college students the following phenotypes were identified: Blood Group Number M 392 MN 336 N 72 800 Determine the frequency of the Lm and I\" alleles.\nOptions:\nA. 0.65 for L^m and 0.35 for L^n\nB. 0.60 for L^m and 0.40 for L^n\nC. 0.5 for both L^m and L^n\nD. 0.8 for L^m and 0.2 for L^n\nE. 0.75 for L^m and 0.25 for L^n\nF. 0.9 for L^m and 0.1 for L^n\nG. 0.7 for L^m and 0.3 for L^n\nH. 0.85 for L^m and 0.15 for L^n\nI. 0.55 for L^m and 0.45 for L^n\nJ. 0.6 for L^m and 0.4 for L^n\n",
+  "target": "G"
+}

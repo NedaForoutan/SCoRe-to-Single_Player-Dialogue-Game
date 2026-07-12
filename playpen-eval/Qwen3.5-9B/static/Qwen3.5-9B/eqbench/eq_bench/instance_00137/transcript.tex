@@ -1,0 +1,131 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `eqbench', experiment `eq\_bench', episode 137 with Qwen3.5{-}9B.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \\ 
+\texttt{Your task is to predict the likely emotional responses of a character in this dialogue:} \\
+\\ 
+\texttt{Jacques: Alessandra, you've been under{-}seasoning the scallops all night. } \\
+\texttt{Alessandra: I've been following the recipe, chef.} \\
+\texttt{Jacques: (Laughs) The recipe? That's your problem, Alessandra. You're a slave to the recipe. You need to feel the food, taste it, not just blindly follow instructions.} \\
+\texttt{Alessandra: I understand that, chef.} \\
+\texttt{Jacques: Do you? Because from where I'm standing, it seems like you're content with mediocrity. } \\
+\texttt{Alessandra: That's not fair, Jacques.} \\
+\texttt{Jacques: Fair? This isn't about fairness, Alessandra. This is about excellence. } \\
+\texttt{Alessandra: I'm doing my best.} \\
+\texttt{Jacques: Your best isn't good enough. Not for this kitchen. Not for me.} \\
+\texttt{Alessandra: I'm not here to please you, Jacques.} \\
+\texttt{Jacques: No, you're here to learn. And part of learning is accepting criticism. } \\
+\texttt{Alessandra: There's a difference between criticism and belittlement, Jacques.} \\
+\texttt{Jacques: (Laughs) Belittlement? Is that what you think this is? } \\
+\texttt{Alessandra: What else would you call it?} \\
+\texttt{Jacques: I call it pushing you to be better. To be more than just a recipe follower.} \\
+\texttt{Alessandra: I don't need to be pushed, Jacques. I need to be respected.} \\
+\texttt{Jacques: (Throws a dish towel at Alessandra) Respect? You think you've earned respect? You're ungrateful. Uncommitted.} \\
+\texttt{Alessandra: (Catches the towel, her eyes welling up with tears) You're wrong, Jacques. I am committed. More than you'll ever know.} \\
+\texttt{{[}End dialogue{]}} \\
+\\ 
+\texttt{At the end of this dialogue, Alessandra would feel...} \\
+\texttt{Defiance} \\
+\texttt{Vindication} \\
+\texttt{Resignation} \\
+\texttt{Despair} \\
+\\ 
+\texttt{Give each of these possible emotions a score from 0{-}10 for the relative intensity that they are likely to be feeling each.} \\
+\\ 
+\texttt{You must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:} \\
+\\ 
+\texttt{Defiance: <score>} \\
+\texttt{Vindication: <score>} \\
+\texttt{Resignation: <score>} \\
+\texttt{Despair: <score>} \\
+\\ 
+\\ 
+\texttt{{[}End of answer{]}} \\
+\\ 
+\texttt{Remember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.} \\
+\\ 
+\texttt{Your answer:} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{Defiance: 8} \\
+\texttt{Vindication: 2} \\
+\texttt{Resignation: 1} \\
+\texttt{Despair: 3} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Defiance: 8} \\
+\texttt{Vindication: 2} \\
+\texttt{Resignation: 1} \\
+\texttt{Despair: 3} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Defiance: 7} \\
+\texttt{Vindication: 0} \\
+\texttt{Resignation: 4} \\
+\texttt{Despair: 6} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = LOSE} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

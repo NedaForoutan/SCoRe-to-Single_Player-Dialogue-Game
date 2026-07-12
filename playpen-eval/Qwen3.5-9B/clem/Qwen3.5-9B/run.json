@@ -1,0 +1,157 @@
+{
+  "clem_version": "3.7.2",
+  "created": "2026-06-20T17:20:19.564896",
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "games": {
+    "imagegame": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/imagegame",
+      "benchmark_start": "2026-06-20T17:20:19.637701",
+      "benchmark_end": "2026-06-20T17:21:32.681554",
+      "duration": "0:01:13.043853",
+      "duration_seconds": 73.043853,
+      "num_instances": 4
+    },
+    "wordle_withclue": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/wordle",
+      "benchmark_start": "2026-06-20T17:21:32.752969",
+      "benchmark_end": "2026-06-20T17:21:49.676973",
+      "duration": "0:00:16.924004",
+      "duration_seconds": 16.924004,
+      "num_instances": 3
+    },
+    "codenames": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/codenames",
+      "benchmark_start": "2026-06-20T17:21:49.861775",
+      "benchmark_end": "2026-06-20T17:21:57.564467",
+      "duration": "0:00:07.702692",
+      "duration_seconds": 7.702692,
+      "num_instances": 13
+    },
+    "matchit_ascii": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/matchit_ascii",
+      "benchmark_start": "2026-06-20T17:21:57.596168",
+      "benchmark_end": "2026-06-20T17:23:19.048921",
+      "duration": "0:01:21.452753",
+      "duration_seconds": 81.452753,
+      "num_instances": 4
+    },
+    "privateshared": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/privateshared",
+      "benchmark_start": "2026-06-20T17:23:19.072932",
+      "benchmark_end": "2026-06-20T17:24:29.773257",
+      "duration": "0:01:10.700325",
+      "duration_seconds": 70.700325,
+      "num_instances": 5
+    },
+    "textmapworld_graphreasoning": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/textmapworld/textmapworld_graphreasoning",
+      "benchmark_start": "2026-06-20T17:24:30.334569",
+      "benchmark_end": "2026-06-20T17:24:48.377821",
+      "duration": "0:00:18.043252",
+      "duration_seconds": 18.043252,
+      "num_instances": 3
+    },
+    "wordle": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/wordle",
+      "benchmark_start": "2026-06-20T17:24:48.402123",
+      "benchmark_end": "2026-06-20T17:25:24.315000",
+      "duration": "0:00:35.912877",
+      "duration_seconds": 35.912877,
+      "num_instances": 3
+    },
+    "guesswhat": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/guesswhat",
+      "benchmark_start": "2026-06-20T17:25:24.344847",
+      "benchmark_end": "2026-06-20T17:25:29.076533",
+      "duration": "0:00:04.731686",
+      "duration_seconds": 4.731686,
+      "num_instances": 6
+    },
+    "textmapworld_specificroom": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/textmapworld/textmapworld_specificroom",
+      "benchmark_start": "2026-06-20T17:25:29.335134",
+      "benchmark_end": "2026-06-20T17:25:30.957818",
+      "duration": "0:00:01.622684",
+      "duration_seconds": 1.622684,
+      "num_instances": 3
+    },
+    "wordle_withcritic": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/wordle",
+      "benchmark_start": "2026-06-20T17:25:30.979380",
+      "benchmark_end": "2026-06-20T17:26:00.219471",
+      "duration": "0:00:29.240091",
+      "duration_seconds": 29.240091,
+      "num_instances": 3
+    },
+    "textmapworld": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/textmapworld/textmapworld_main",
+      "benchmark_start": "2026-06-20T17:26:01.021651",
+      "benchmark_end": "2026-06-20T17:26:16.853317",
+      "duration": "0:00:15.831666",
+      "duration_seconds": 15.831666,
+      "num_instances": 5
+    },
+    "adventuregame": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/adventuregame",
+      "benchmark_start": "2026-06-20T17:26:16.878347",
+      "benchmark_end": "2026-06-20T17:28:41.993655",
+      "duration": "0:02:25.115308",
+      "duration_seconds": 145.115308,
+      "num_instances": 5
+    },
+    "referencegame": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/referencegame",
+      "benchmark_start": "2026-06-20T17:28:42.014309",
+      "benchmark_end": "2026-06-20T17:28:50.346244",
+      "duration": "0:00:08.331935",
+      "duration_seconds": 8.331935,
+      "num_instances": 5
+    },
+    "taboo": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/taboo",
+      "benchmark_start": "2026-06-20T17:28:50.376336",
+      "benchmark_end": "2026-06-20T17:28:55.806761",
+      "duration": "0:00:05.430425",
+      "duration_seconds": 5.430425,
+      "num_instances": 6
+    }
+  }
+}

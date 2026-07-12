@@ -1,0 +1,10 @@
+{
+  "game_id": 45,
+  "input": "\nYour task is to predict the likely emotional responses of a character in this dialogue:\n\nCecilia: You know, your words have power, Brandon. More than you might think.\nBrandon: I'm well aware, Cecilia. It's a critic's job to wield them.\nCecilia: But do you understand the weight of them? The lives they can shatter?\nBrandon: Art is not for the faint-hearted. If you can't handle the critique, you're in the wrong industry.\nCecilia: It's not about handling criticism, Brandon. It's about understanding the soul of the art. You dissect it like a cold, lifeless body on an autopsy table.\nBrandon: And you, Cecilia, romanticize it to the point of delusion. Art is not some sacred, untouchable entity. It's a commodity, like everything else.\nCecilia: That's where you're wrong. Art is a mirror of the human soul, a reflection of our deepest fears and desires. It's not a product to be bought and sold.\nBrandon: And yet, you sell your installations, don't you? How is that different?\nCecilia: I sell my work to survive, not to profit. There's a difference.\n[End dialogue]\n\nAt the end of this dialogue, Cecilia would feel...\nDefensive\nGuilt\nProud\nResentful\n\nGive each of these possible emotions a score from 0-10 for the relative intensity that they are likely to be feeling each.\n\nYou must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:\n\nDefensive: <score>\nGuilt: <score>\nProud: <score>\nResentful: <score>\n\n\n[End of answer]\n\nRemember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.\n\nYour answer:\n",
+  "target": {
+    "Defensive": 8,
+    "Guilt": 0,
+    "Proud": 4,
+    "Resentful": 7
+  }
+}

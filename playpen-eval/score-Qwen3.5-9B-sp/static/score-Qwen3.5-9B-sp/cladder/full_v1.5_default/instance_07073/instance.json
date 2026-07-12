@@ -1,0 +1,5 @@
+{
+  "game_id": 7073,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Jyka has a direct effect on yupt. Yupt has a direct effect on kwox. The overall probability of jyka is 25%. The probability of not jyka and kwox is 71%. The probability of jyka and kwox is 24%. Is the chance of kwox smaller when observing jyka?",
+  "target": "no"
+}

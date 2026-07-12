@@ -1,0 +1,5 @@
+{
+  "game_id": 514,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Appearance has a direct effect on fame. Talent has a direct effect on fame. The overall probability of attractive appearance is 56%. For people considered unattractive, the probability of talent is 9%. For people considered attractive, the probability of talent is 9%. Is talent more likely than lack of talent overall?",
+  "target": "no"
+}

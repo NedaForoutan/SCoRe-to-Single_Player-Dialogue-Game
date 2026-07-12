@@ -1,0 +1,11 @@
+{
+  "game_id": 446,
+  "input": "Hi, I'm looking for two Tamil movies to watch. Please recommend exactly two movies. Separated them by 6 asterisk symbols, like below:\n[Movie 1]\n[Description]\n******\n[Movie 2]\n[Description]\n\nYour entire response should be entirely in Tamil, no other language is allowed, and should not contain any commas. ",
+  "target": {
+    "combination:two_responses": {},
+    "language:response_language": {
+      "language": "ta"
+    },
+    "punctuation:no_comma": {}
+  }
+}

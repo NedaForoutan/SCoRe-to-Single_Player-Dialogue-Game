@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "bbh",
+    "experiment_name": "hyperbaton",
+    "game_id": 155,
+    "player_name": "Player 1",
+    "game_role": "Answerer",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:59:07.461162",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nOrder adjectives correctly in English sentences.\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) rubber terrible ship\n(B) terrible rubber ship\nA: (B)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) repulsive small Brazilian exercise ship\n(B) Brazilian repulsive exercise small ship\nA: (A)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) blue gold wonderful square shoe\n(B) wonderful square blue gold shoe\nA: (B)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) square cardboard old-fashioned Japanese exercise white motorcycle\n(B) old-fashioned square white Japanese cardboard exercise motorcycle\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nOrder adjectives correctly in English sentences.\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) rubber terrible ship\n(B) terrible rubber ship\nA: (B)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) repulsive small Brazilian exercise ship\n(B) Brazilian repulsive exercise small ship\nA: (A)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) blue gold wonderful square shoe\n(B) wonderful square blue gold shoe\nA: (B)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) square cardboard old-fashioned Japanese exercise white motorcycle\n(B) old-fashioned square white Japanese cardboard exercise motorcycle\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n(B)\n\n**Reasoning:**\nThe standard order of adjectives in English follows this sequence:\n1.  **Opinion** (e.g., *old-fashioned*)\n2.  **Size** (e.g., *square*)\n3.  **Age** (e.g., *white* - though often color, here it functions as a descriptor before material/type in this specific context, or potentially age if interpreted differently, but let's look at the other categories) -> Actually, let's re-evaluate the specific adjectives:\n    *   *old-fashioned*: Opinion\n    *   *square*: Size/Shape\n    *   *white*: Color\n    *   *Japanese*: Origin/Nationality\n    *   *cardboard*: Material\n    *   *exercise*: Purpose/Type (often treated as a noun adjunct or specific type)\n\nLet's re-sort based on the standard mnemonic **OSASCOMP** (Opinion, Size, Age, Shape, Color, Origin, Material, Purpose):\n1.  **Opinion**: *old-fashioned*\n2.  **Size/Shape**: *square*\n3.  **Color**: *white*\n4.  **Origin**: *Japanese*\n5.  **Material**: *cardboard*\n6.  **Purpose/Type**: *exercise*\n\nOrder: **old-fashioned** (Opinion) -> **square** (Shape) -> **",
+          "clem_player": {
+            "call_start": "2026-07-06 20:58:56.269627",
+            "call_duration": "0:00:11.191480",
+            "response": "(B)\n\n**Reasoning:**\nThe standard order of adjectives in English follows this sequence:\n1.  **Opinion** (e.g., *old-fashioned*)\n2.  **Size** (e.g., *square*)\n3.  **Age** (e.g., *white* - though often color, here it functions as a descriptor before material/type in this specific context, or potentially age if interpreted differently, but let's look at the other categories) -> Actually, let's re-evaluate the specific adjectives:\n    *   *old-fashioned*: Opinion\n    *   *square*: Size/Shape\n    *   *white*: Color\n    *   *Japanese*: Origin/Nationality\n    *   *cardboard*: Material\n    *   *exercise*: Purpose/Type (often treated as a noun adjunct or specific type)\n\nLet's re-sort based on the standard mnemonic **OSASCOMP** (Opinion, Size, Age, Shape, Color, Origin, Material, Purpose):\n1.  **Opinion**: *old-fashioned*\n2.  **Size/Shape**: *square*\n3.  **Color**: *white*\n4.  **Origin**: *Japanese*\n5.  **Material**: *cardboard*\n6.  **Purpose/Type**: *exercise*\n\nOrder: **old-fashioned** (Opinion) -> **square** (Shape) -> **",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

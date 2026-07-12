@@ -1,0 +1,5 @@
+{
+  "game_id": 863,
+  "input": "Question:\nA three-wire circuit supplies 500 lamps each taking 1/2 ampere; 275 lamps being on one side of the neutral and 225 on the other side, all at a distance of 1,000 feet from a 231- volt three-wire generator. The voltage between the neutral and either outside main is maintained at 115.5 volts at the generator. The outside wires are of No. 0000A.w.g. copper wire and the neutral consists of No. 0 wire. Find the voltage across each set of lamps.\nOptions:\nA. 116 volts across 275 lamps and 122 volts across 225 lamps\nB. 102.5 volts across 275 lamps and 117.5 volts across 225 lamps\nC. 100 volts across 275 lamps and 110 volts across 225 lamps\nD. 137.5 volts across 275 lamps and 112.5 volts across 225 lamps\nE. 108 volts across 275 lamps and 114 volts across 225 lamps\nF. 113 volts across 275 lamps and 117 volts across 225 lamps\nG. 115.5 volts across both sets of lamps\nH. 106.125 volts across 275 lamps and 112.375 volts across 225 lamps\nI. 110 volts across 275 lamps and 120 volts across 225 lamps\nJ. 120 volts across both sets of lamps\n",
+  "target": "H"
+}

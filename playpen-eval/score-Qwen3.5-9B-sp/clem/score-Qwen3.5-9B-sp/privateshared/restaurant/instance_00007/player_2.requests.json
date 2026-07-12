@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "game_name": "privateshared",
+    "experiment_name": "restaurant",
+    "game_id": 7,
+    "player_name": "Player 2",
+    "game_role": "Questioner",
+    "model_name": "programmatic",
+    "round_count": 5,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:39:00.256239",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "Any beverages?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "call": {
+        "timestamp": "2026-07-06T20:39:02.845085",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "What is your choice for the main dish?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "call": {
+        "timestamp": "2026-07-06T20:39:05.349573",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "Any appetizers?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 3,
+      "call": {
+        "timestamp": "2026-07-06T20:39:08.076511",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "Do you also want a salad?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 4,
+      "call": {
+        "timestamp": "2026-07-06T20:39:10.845277",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "Would you like anything for dessert?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    }
+  ]
+}

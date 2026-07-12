@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "bbh",
+    "experiment_name": "web_of_lies",
+    "game_id": 151,
+    "player_name": "Player 1",
+    "game_role": "Answerer",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:32:12.894374",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nEvaluate a random boolean function expressed as a word problem.\n\nQ: Question: Fidel tells the truth. Jerry says Fidel tells the truth. Vina says Jerry tells the truth. Millicent says Vina lies. Raymond says Millicent lies. Does Raymond tell the truth?\nA: Yes\n\nQ: Question: Kristian lies. Millie says Kristian lies. Maybelle says Millie tells the truth. Fidel says Maybelle lies. Leda says Fidel lies. Does Leda tell the truth?\nA: Yes\n\nQ: Question: Kristian tells the truth. Michaela says Kristian lies. Raymond says Michaela tells the truth. Osvaldo says Raymond tells the truth. Jamey says Osvaldo tells the truth. Does Jamey tell the truth?\nA: No\n\nQ: Question: Yoland tells the truth. Gwenn says Yoland tells the truth. Michaela says Gwenn lies. Jamey says Michaela tells the truth. Amberly says Jamey lies. Does Amberly tell the truth?\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nEvaluate a random boolean function expressed as a word problem.\n\nQ: Question: Fidel tells the truth. Jerry says Fidel tells the truth. Vina says Jerry tells the truth. Millicent says Vina lies. Raymond says Millicent lies. Does Raymond tell the truth?\nA: Yes\n\nQ: Question: Kristian lies. Millie says Kristian lies. Maybelle says Millie tells the truth. Fidel says Maybelle lies. Leda says Fidel lies. Does Leda tell the truth?\nA: Yes\n\nQ: Question: Kristian tells the truth. Michaela says Kristian lies. Raymond says Michaela tells the truth. Osvaldo says Raymond tells the truth. Jamey says Osvaldo tells the truth. Does Jamey tell the truth?\nA: No\n\nQ: Question: Yoland tells the truth. Gwenn says Yoland tells the truth. Michaela says Gwenn lies. Jamey says Michaela tells the truth. Amberly says Jamey lies. Does Amberly tell the truth?\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nLet's break down the logic step by step:\n\n1.  **Yoland tells the truth** (Given).\n2.  **Gwenn** says Yoland tells the truth. Since Yoland does tell the truth, Gwenn is stating a fact. Therefore, **Gwenn tells the truth**.\n3.  **Michaela** says Gwenn lies. Since we know Gwenn tells the truth, Michaela's statement is false. Therefore, **Michaela lies**.\n4.  **Jamey** says Michaela tells the truth. Since Michaela lies, Jamey's statement is false. Therefore, **Jamey lies**.\n5.  **Amberly** says Jamey lies. Since we know Jamey lies, Amberly is stating a fact. Therefore, **Amberly tells the truth**.\n\n**Answer:** Yes<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:32:08.342412",
+            "call_duration": "0:00:04.551918",
+            "response": "Let's break down the logic step by step:\n\n1.  **Yoland tells the truth** (Given).\n2.  **Gwenn** says Yoland tells the truth. Since Yoland does tell the truth, Gwenn is stating a fact. Therefore, **Gwenn tells the truth**.\n3.  **Michaela** says Gwenn lies. Since we know Gwenn tells the truth, Michaela's statement is false. Therefore, **Michaela lies**.\n4.  **Jamey** says Michaela tells the truth. Since Michaela lies, Jamey's statement is false. Therefore, **Jamey lies**.\n5.  **Amberly** says Jamey lies. Since we know Jamey lies, Amberly is stating a fact. Therefore, **Amberly tells the truth**.\n\n**Answer:** Yes\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

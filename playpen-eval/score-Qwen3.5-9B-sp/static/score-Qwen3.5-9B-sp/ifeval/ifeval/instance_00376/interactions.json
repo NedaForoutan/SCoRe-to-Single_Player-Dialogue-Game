@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 376,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "score-Qwen3.5-9B-sp"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T21:15:26.692335",
+        "action": {
+          "type": "send message",
+          "content": "Write a funny poem for kids about a product that you would like to sell. The poem should have exactly 6 stanzas. Separated the stanzas using 3 asterisk markers: ***",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:15:26.692346",
+        "action": {
+          "type": "get message",
+          "content": "I have a hat that talks to you,\nWith silly voices, loud and new!\nIt says \"Good morning\" when you wake,\nAnd tells a joke before you take\nA bite of toast or sip of tea,\nThe funniest hat you've ever seen!\n\n***\n\nIt sings a song when you are sad,\nAbout a dancing, happy tad.\nIt hums a tune when you are tired,\nAnd makes your sleepy eyes get wider.\nIt whispers secrets in your ear,\nAbout a dragon in your chair!\n\n***\n\nThe hat can change its color too,\nFrom bright blue sky to sunny view.\nIt turns to green when you eat grass,\nOr pink as strawberries, fast as pass.\nIt flashes red when you are hot,\nAnd glows like stars when you are not!\n\n***\n\nIt tells you stories of the past,\nOf dinosaurs and spacey blast.\nIt knows the history of cats,\nAnd how they chased the mice so fast.\nIt's full of facts and funny lies,\nThat make your tummy do a rise!\n\n***\n\nSo buy my hat, it's cheap and bright,\nIt makes the gloomiest days feel light.\nNo other hat can do this feat,\nOf making every moment sweet.\nIt's magic woven, thread by thread,\nThe best invention ever bred!\n\n***\n\nDon't wait too long to get one now,\nBefore the stock runs out of town!\nMy talking hat is waiting here,\nTo make your world a happy cheer.\nJust put it on and say hello,\nAnd watch the magic start to grow!\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:15:26.692361",
+        "action": {
+          "type": "target",
+          "content": {
+            "length_constraints:number_paragraphs": {
+              "num_paragraphs": 6
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:15:26.692428",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

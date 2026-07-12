@@ -1,0 +1,130 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `eqbench', experiment `eq\_bench', episode 30 with score{-}Qwen3.5{-}9B{-}sp.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \\ 
+\texttt{Your task is to predict the likely emotional responses of a character in this dialogue:} \\
+\\ 
+\texttt{Sophia: Jamal, I've been looking at your design drafts. They're... unconventional.} \\
+\texttt{Jamal: That's one way to put it, Soph. I prefer to call it 'innovative'.} \\
+\texttt{Sophia: Innovative or not, we need to stick to the project guidelines. We can't afford to take risks.} \\
+\texttt{Jamal: Risks? That's what creativity is all about, Sophia. We need to break the mold.} \\
+\texttt{Sophia: This isn't about breaking molds, Jamal. This is about delivering a project on time and within budget.} \\
+\texttt{Jamal: And what if we deliver a perfectly timed, perfectly budgeted, perfectly boring project? What then?} \\
+\texttt{Sophia: We're not here to entertain, Jamal. We're here to work.} \\
+\texttt{Jamal: And who said work can't be entertaining? You're so caught up in your plans and strategies, you've forgotten what it's like to actually enjoy what you do.} \\
+\texttt{Sophia: This isn't about enjoyment. This is about responsibility.} \\
+\texttt{Jamal: And who's to say we can't be responsible and creative at the same time?} \\
+\texttt{Sophia: I'm not saying that, Jamal. I'm saying we need to prioritize.} \\
+\texttt{Jamal: And I'm saying we need to think outside the box.} \\
+\texttt{Sophia: We don't have time for this. I'm going to revise the project plan.} \\
+\texttt{Jamal: And I'm going to continue working on my designs.} \\
+\texttt{Sophia: Fine. But remember, Jamal, if this project fails, it's on you.} \\
+\texttt{Jamal: And if it succeeds, it's on me too, right?} \\
+\texttt{Sophia: We'll see about that.} \\
+\texttt{{[}End dialogue{]}} \\
+\\ 
+\texttt{At the end of this dialogue, Jamal would feel...} \\
+\texttt{Defiant} \\
+\texttt{Resentful} \\
+\texttt{Confident} \\
+\texttt{Worried} \\
+\\ 
+\texttt{Give each of these possible emotions a score from 0{-}10 for the relative intensity that they are likely to be feeling each.} \\
+\\ 
+\texttt{You must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:} \\
+\\ 
+\texttt{Defiant: <score>} \\
+\texttt{Resentful: <score>} \\
+\texttt{Confident: <score>} \\
+\texttt{Worried: <score>} \\
+\\ 
+\\ 
+\texttt{{[}End of answer{]}} \\
+\\ 
+\texttt{Remember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.} \\
+\\ 
+\texttt{Your answer:} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{Defiant: 9} \\
+\texttt{Resentful: 2} \\
+\texttt{Confident: 6} \\
+\texttt{Worried: 3} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Defiant: 9} \\
+\texttt{Resentful: 2} \\
+\texttt{Confident: 6} \\
+\texttt{Worried: 3} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Defiant: 8} \\
+\texttt{Resentful: 3} \\
+\texttt{Confident: 7} \\
+\texttt{Worried: 0} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = LOSE} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

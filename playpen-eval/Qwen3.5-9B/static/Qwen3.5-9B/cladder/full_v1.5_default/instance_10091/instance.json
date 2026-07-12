@@ -1,0 +1,5 @@
+{
+  "game_id": 10091,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Jyka has a direct effect on zory and zuph. Zuph has a direct effect on glimx. Zory has a direct effect on glimx. We know that jyka causes not zuph and zory. zuph and zory causes glimx. We observed an individual is jyka. Would an individual is glimx if zuph instead of not zuph?",
+  "target": "no"
+}

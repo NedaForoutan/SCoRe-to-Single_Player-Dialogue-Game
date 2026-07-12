@@ -1,0 +1,5 @@
+{
+  "game_id": 56,
+  "input": "\"Here comes a perfectly valid argument: First, everyone who is a half-brother of Ronny or a classmate of Sal is not a son of Ronald. Second, it is false that Santo is a son of Ronald. So, necessarily, Santo is a half-brother of Ronny or a classmate of Sal.\"\nIs the argument, given the explicitly stated premises, deductively valid or invalid?\nOptions:\n- valid \n- invalid",
+  "target": "invalid"
+}

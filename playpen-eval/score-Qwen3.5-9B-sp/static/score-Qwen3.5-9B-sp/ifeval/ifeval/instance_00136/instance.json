@@ -1,0 +1,14 @@
+{
+  "game_id": 136,
+  "input": "Write an interesting and funny article about the biology of a banana peel. In your response, the word disappointed should appear at least 2 times, and at least six section should be highlighted with markdown,  i.e *banana peel*.",
+  "target": {
+    "keywords:frequency": {
+      "relation": "at least",
+      "keyword": "disappointed",
+      "frequency": 2
+    },
+    "detectable_format:number_highlighted_sections": {
+      "num_highlights": 6
+    }
+  }
+}

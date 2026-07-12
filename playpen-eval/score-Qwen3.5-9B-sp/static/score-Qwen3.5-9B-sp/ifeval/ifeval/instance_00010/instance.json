@@ -1,0 +1,10 @@
+{
+  "game_id": 10,
+  "input": "Write a blog post with 400 or more words about the benefits of sleeping in a hammock.",
+  "target": {
+    "length_constraints:number_words": {
+      "relation": "at least",
+      "num_words": 400
+    }
+  }
+}

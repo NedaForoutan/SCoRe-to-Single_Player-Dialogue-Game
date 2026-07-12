@@ -1,0 +1,5 @@
+{
+  "game_id": 123,
+  "input": "Sort the following words alphabetically: List: sibyl calligraph goat inverness form threadbare",
+  "target": "calligraph form goat inverness sibyl threadbare"
+}

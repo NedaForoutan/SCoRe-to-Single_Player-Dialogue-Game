@@ -1,0 +1,13 @@
+{
+  "game_id": 457,
+  "input": "create a job description for a clifford blu employee who works at the cash register, and also monitors the shelves for stock level. Use the keyword 'people' and 'skills'. use only lowercase letters.",
+  "target": {
+    "change_case:english_lowercase": {},
+    "keywords:existence": {
+      "keywords": [
+        "people",
+        "skills"
+      ]
+    }
+  }
+}

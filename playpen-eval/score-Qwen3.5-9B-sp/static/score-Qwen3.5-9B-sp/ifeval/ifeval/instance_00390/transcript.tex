@@ -1,0 +1,70 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `ifeval', experiment `ifeval', episode 390 with score{-}Qwen3.5{-}9B{-}sp.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \texttt{Write a creative and persuasive startup pitch for a business that helps people with chronic illnesses find and manage in{-}home care. Your pitch should be less than 7 sentences and contain exactly 1 bullet point in markdown.} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{Imagine a world where chronic illness no longer dictates your freedom, but rather becomes a manageable chapter in your life. Our startup, CareSync, bridges the critical gap between medical need and reliable in{-}home support by leveraging AI{-}driven matching and real{-}time caregiver monitoring. We eliminate the exhausting cycle of endless phone calls and mismatched schedules, ensuring that every patient receives personalized, compassionate care exactly when they need it. By empowering families with transparent data and seamless coordination, we turn anxiety into peace of mind. Here is how we revolutionize the industry:} \\
+\texttt{*   Our proprietary algorithm connects patients with vetted, specialized caregivers within minutes, while providing 24/7 remote oversight to guarantee safety and quality.} \\
+\texttt{Join us in building a future where dignity and independence are the standard for everyone living with chronic conditions.} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                {'length_constraints:number_sentences': {'relation': 'less than', 'num_sentences': 7}, 'detectable_format:number_bullet_lists': {'num_bullets': 1}}
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = WIN} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

@@ -1,0 +1,5 @@
+{
+  "game_id": 702,
+  "input": "Question:\nThe thermic effect of food\n\nOptions:\nA. is not affected by the type of food consumed\nB. is directly related to the amount of food consumed\nC. is always accompanied by a significant increase in body core temperature.\nD. is significantly impacted by the amount of water consumed\nE. is partly related to sympathetic activity stimulation in the postprandial phase\nF. is substantially higher for carbohydrate than for protein\nG. is not attenuated by food malabsorption.\nH. is not influenced by the metabolic rate of the individual\nI. is accompanied by a slight decrease in body core temperature.\nJ. is reduced when consuming a high-fat diet\n",
+  "target": "E"
+}

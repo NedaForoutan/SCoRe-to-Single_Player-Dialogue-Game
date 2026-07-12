@@ -1,0 +1,5 @@
+{
+  "game_id": 597,
+  "input": "Question:\nThe planet Pluto (radius 1180 km) is populated by three species of purple caterpillar. Studies have established the following facts: 1. A line of 5 mauve caterpillars is as long as a line of 7 violet caterpillars. 2. A line of 3 lavender caterpillars and 1 mauve caterpillar is as long as a line of 8 violet caterpillars. 3. A line of 5 lavender caterpillars, 5 mauve caterpillars and 2 violet caterpillars is 1 m long in total. 4.  A lavender caterpillar takes 10 s to crawl the length of a violet caterpillar. 5. Violet and mauve caterpillars both crawl twice as fast as lavender caterpillars. How many years would it take a mauve caterpillar to crawl around the equator of Pluto?\nOptions:\nA. 30.0\nB. 15.0\nC. 25.0\nD. 28.0\nE. 18.0\nF. 20.0\nG. 40.0\nH. 12.0\nI. 35.0\nJ. 23.0\n",
+  "target": "J"
+}

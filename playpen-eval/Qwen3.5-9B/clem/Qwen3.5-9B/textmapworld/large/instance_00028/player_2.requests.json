@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "game_name": "textmapworld",
+    "experiment_name": "large",
+    "game_id": 28,
+    "player_name": "Player 2",
+    "game_role": "PathDescriber",
+    "model_name": "programmatic",
+    "round_count": 19,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:26:05.965601",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: west"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Recreation room. Currently available directions: south, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "call": {
+        "timestamp": "2026-06-20T17:26:06.200855",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: south"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Home gym. Currently available directions: north, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "call": {
+        "timestamp": "2026-06-20T17:26:06.438390",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: east"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Media room. Currently available directions: west. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 3,
+      "call": {
+        "timestamp": "2026-06-20T17:26:06.677549",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: west"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Home gym. Currently available directions: north, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 4,
+      "call": {
+        "timestamp": "2026-06-20T17:26:06.918276",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: north"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Recreation room. Currently available directions: south, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 5,
+      "call": {
+        "timestamp": "2026-06-20T17:26:07.162036",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: east"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Bedroom. Currently available directions: west, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 6,
+      "call": {
+        "timestamp": "2026-06-20T17:26:07.408912",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: east"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Workshop. Currently available directions: west, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 7,
+      "call": {
+        "timestamp": "2026-06-20T17:26:07.656132",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: east"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Utility room. Currently available directions: south, west. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 8,
+      "call": {
+        "timestamp": "2026-06-20T17:26:07.909217",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: south"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Sunroom. Currently available directions: north, south. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 9,
+      "call": {
+        "timestamp": "2026-06-20T17:26:08.160197",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: north"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Utility room. Currently available directions: south, west. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 10,
+      "call": {
+        "timestamp": "2026-06-20T17:26:08.413856",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: west"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Workshop. Currently available directions: west, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 11,
+      "call": {
+        "timestamp": "2026-06-20T17:26:08.675985",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: west"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Bedroom. Currently available directions: west, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 12,
+      "call": {
+        "timestamp": "2026-06-20T17:26:08.934512",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: east"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Workshop. Currently available directions: west, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 13,
+      "call": {
+        "timestamp": "2026-06-20T17:26:09.196720",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: east"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Utility room. Currently available directions: south, west. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 14,
+      "call": {
+        "timestamp": "2026-06-20T17:26:09.460719",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: south"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Sunroom. Currently available directions: north, south. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 15,
+      "call": {
+        "timestamp": "2026-06-20T17:26:09.726594",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: south"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Balcony. Currently available directions: north. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 16,
+      "call": {
+        "timestamp": "2026-06-20T17:26:09.994295",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: north"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Sunroom. Currently available directions: north, south. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 17,
+      "call": {
+        "timestamp": "2026-06-20T17:26:10.266821",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: south"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Balcony. Currently available directions: north. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    }
+  ]
+}

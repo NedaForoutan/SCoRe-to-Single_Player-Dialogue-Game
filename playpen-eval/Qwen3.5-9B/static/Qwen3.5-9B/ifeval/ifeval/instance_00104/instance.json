@@ -1,0 +1,18 @@
+{
+  "game_id": 104,
+  "input": "Compose a poem that has the word \"land\" and \"river\". It should be about nature and love. Also, the word \"forest\" should appear at least 3 times, and be written in English, with all letters lowercased.",
+  "target": {
+    "keywords:frequency": {
+      "relation": "at least",
+      "keyword": "forest",
+      "frequency": 3
+    },
+    "change_case:english_lowercase": {},
+    "keywords:existence": {
+      "keywords": [
+        "land",
+        "river"
+      ]
+    }
+  }
+}

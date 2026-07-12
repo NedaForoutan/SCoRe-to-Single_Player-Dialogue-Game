@@ -1,0 +1,5 @@
+{
+  "game_id": 1143,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Kidney stone size has a direct effect on treatment and recovery. Treatment has a direct effect on recovery. Method 1: We look directly at how treatment correlates with recovery in general. Method 2: We look at this correlation case by case according to kidney stone size. To understand how treatment affects recovery, is it more correct to use the Method 1 than Method 2?",
+  "target": "no"
+}

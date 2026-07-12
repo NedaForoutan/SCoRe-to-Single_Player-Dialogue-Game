@@ -1,0 +1,5 @@
+{
+  "game_id": 1742,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Alice waking up has a direct effect on Alice arriving to school. Traffic has a direct effect on Alice arriving to school. For days when Alice wakes up on time, the probability of arriving to school on time is 46%. For days when Alice wakes up late, the probability of arriving to school on time is 78%. Will waking up late increase the chance of arriving to school on time?",
+  "target": "yes"
+}

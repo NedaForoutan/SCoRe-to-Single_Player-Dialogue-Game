@@ -1,0 +1,5 @@
+{
+  "game_id": 420,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Vaccination status has a direct effect on vaccination reaction and getting smallpox. Getting smallpox has a direct effect on smallpox survival. Vaccination reaction has a direct effect on smallpox survival. Method 1: We look directly at how vaccination status correlates with smallpox survival in general. Method 2: We look at this correlation case by case according to vaccination reaction. To understand how vaccination status affects smallpox survival, is it more correct to use the Method 1 than Method 2?",
+  "target": "yes"
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "game_name": "privateshared",
+    "experiment_name": "letter-number",
+    "game_id": 9,
+    "player_name": "Player 2",
+    "game_role": "Questioner",
+    "model_name": "programmatic",
+    "round_count": 10,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:39:19.521681",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "What number is g?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "call": {
+        "timestamp": "2026-07-06T20:39:23.641038",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "What number is j?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "call": {
+        "timestamp": "2026-07-06T20:39:27.869005",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "What number is b?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 3,
+      "call": {
+        "timestamp": "2026-07-06T20:39:32.130185",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "What number is h?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 4,
+      "call": {
+        "timestamp": "2026-07-06T20:39:36.460564",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "What number is a?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 5,
+      "call": {
+        "timestamp": "2026-07-06T20:39:40.846531",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "What number is i?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 6,
+      "call": {
+        "timestamp": "2026-07-06T20:39:45.221972",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "What number is e?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 7,
+      "call": {
+        "timestamp": "2026-07-06T20:39:49.842207",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "What number is f?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 8,
+      "call": {
+        "timestamp": "2026-07-06T20:39:54.486139",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "What number is c?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 9,
+      "call": {
+        "timestamp": "2026-07-06T20:39:59.248726",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "What is the next request?"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "What number is d?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    }
+  ]
+}

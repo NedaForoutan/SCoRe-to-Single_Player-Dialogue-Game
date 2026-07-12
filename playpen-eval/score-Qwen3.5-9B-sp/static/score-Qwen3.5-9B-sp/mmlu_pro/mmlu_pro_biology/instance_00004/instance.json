@@ -1,0 +1,5 @@
+{
+  "game_id": 4,
+  "input": "Question:\nWhich group is composed entirely of individuals who maintained that species are fixed (i.e., unchanging)?\nOptions:\nA. Aristotle, Darwin, and Lamarck\nB. Aristotle, Lyell, and Darwin\nC. Aristotle, Linnaeus, and Cuvier\nD. Aristotle, Cuvier, and Lamarck\nE. Linnaeus, Darwin, and Lamarck\nF. Linnaeus, Cuvier, and Lamarck\nG. Darwin, Cuvier, and Lamarck\nH. Lyell, Cuvier, and Darwin\nI. Lyell, Linnaeus, and Lamarck\nJ. Lyell, Lamarck, and Darwin\n",
+  "target": "C"
+}

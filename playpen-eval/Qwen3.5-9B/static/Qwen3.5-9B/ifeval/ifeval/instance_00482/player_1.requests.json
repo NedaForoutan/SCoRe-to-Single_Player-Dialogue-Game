@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 482,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:45:22.946839",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nExplain what happens when you sniff a flower to 3rd grade students. Please answer in Finnish, no other language is allowed throughout your answer. Make sure your response contains a title wrapped in double angular brackets, i.e. <<title>>.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nExplain what happens when you sniff a flower to 3rd grade students. Please answer in Finnish, no other language is allowed throughout your answer. Make sure your response contains a title wrapped in double angular brackets, i.e. <<title>>.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n<<Miten hajuhaikara toimii?>>\n\nKun nuuhkaiset kukkaa, tapahtuu jotain erikoista nenässäsi. Kukissa on pieniä, näkymättömiä hiukkasia, jotka kutsutaan hajuhajuiksi. Nämä hiukkaset leijuvat ilmassa kuin pieniä, hajuista pilviä.\n\nKun tuuletat nenääsi kukkaa kohti, nämä hajuhajuista hiukkaset törmäävät nenäsi sisälle. Siellä on erityisiä herkkiä sormia, jotka kutsutaan hajuhermoiksi. Ne ottavat vastaan viestin siitä, mitä hiukkasia olet saanut.\n\nSitten tämä viesti matkaa nopeasti aivoihisi. Aivot ajattelevat heti: \"Tämä on kukka!\" ja ne lähettävät viestin takaisin nenäsi hermoille. Silloin saatat hymyillä, koska tunnet kukkan hajuun. Se on kuin nenäsi ja aivosi puhuisivat keskenään nopealla kielenkielellä!<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:45:16.950766",
+            "call_duration": "0:00:05.996028",
+            "response": "<<Miten hajuhaikara toimii?>>\n\nKun nuuhkaiset kukkaa, tapahtuu jotain erikoista nenässäsi. Kukissa on pieniä, näkymättömiä hiukkasia, jotka kutsutaan hajuhajuiksi. Nämä hiukkaset leijuvat ilmassa kuin pieniä, hajuista pilviä.\n\nKun tuuletat nenääsi kukkaa kohti, nämä hajuhajuista hiukkaset törmäävät nenäsi sisälle. Siellä on erityisiä herkkiä sormia, jotka kutsutaan hajuhermoiksi. Ne ottavat vastaan viestin siitä, mitä hiukkasia olet saanut.\n\nSitten tämä viesti matkaa nopeasti aivoihisi. Aivot ajattelevat heti: \"Tämä on kukka!\" ja ne lähettävät viestin takaisin nenäsi hermoille. Silloin saatat hymyillä, koska tunnet kukkan hajuun. Se on kuin nenäsi ja aivosi puhuisivat keskenään nopealla kielenkielellä!\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

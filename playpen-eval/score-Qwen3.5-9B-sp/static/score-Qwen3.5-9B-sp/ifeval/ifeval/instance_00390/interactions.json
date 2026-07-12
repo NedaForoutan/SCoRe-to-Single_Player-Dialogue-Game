@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 390,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "score-Qwen3.5-9B-sp"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T21:15:34.809525",
+        "action": {
+          "type": "send message",
+          "content": "Write a creative and persuasive startup pitch for a business that helps people with chronic illnesses find and manage in-home care. Your pitch should be less than 7 sentences and contain exactly 1 bullet point in markdown.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:15:34.809535",
+        "action": {
+          "type": "get message",
+          "content": "Imagine a world where chronic illness no longer dictates your freedom, but rather becomes a manageable chapter in your life. Our startup, CareSync, bridges the critical gap between medical need and reliable in-home support by leveraging AI-driven matching and real-time caregiver monitoring. We eliminate the exhausting cycle of endless phone calls and mismatched schedules, ensuring that every patient receives personalized, compassionate care exactly when they need it. By empowering families with transparent data and seamless coordination, we turn anxiety into peace of mind. Here is how we revolutionize the industry:\n*   Our proprietary algorithm connects patients with vetted, specialized caregivers within minutes, while providing 24/7 remote oversight to guarantee safety and quality.\nJoin us in building a future where dignity and independence are the standard for everyone living with chronic conditions.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:15:34.809549",
+        "action": {
+          "type": "target",
+          "content": {
+            "length_constraints:number_sentences": {
+              "relation": "less than",
+              "num_sentences": 7
+            },
+            "detectable_format:number_bullet_lists": {
+              "num_bullets": 1
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:15:34.809762",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

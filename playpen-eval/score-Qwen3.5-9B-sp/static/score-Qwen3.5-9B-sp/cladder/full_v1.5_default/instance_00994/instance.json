@@ -1,0 +1,5 @@
+{
+  "game_id": 994,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Eating citrus has a direct effect on vitmain C. Vitmain C has a direct effect on scurvy. Method 1: We look at how eating citrus correlates with scurvy case by case according to vitmain C. Method 2: We look directly at how eating citrus correlates with scurvy in general. To understand how eating citrus affects scurvy, is it more correct to use the Method 1 than Method 2?",
+  "target": "no"
+}

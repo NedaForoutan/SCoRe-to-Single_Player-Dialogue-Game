@@ -1,0 +1,81 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `ifeval', experiment `ifeval', episode 323 with score{-}Qwen3.5{-}9B{-}sp.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \texttt{Write a cover letter for a job in Ventura that is funny and would be enjoyed by someone named Darius, wrap the entire response in double quotation marks.} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{"Dear Darius,} \\
+\\ 
+\texttt{I am writing to apply for the position in Ventura, a city I believe is the only place on Earth where a job application can be as breezy and sun{-}drenched as the ocean views from the pier. I've heard you're looking for someone who can handle the unique rhythm of life in Ventura, and frankly, I think my resume is the perfect match for your vibe.} \\
+\\ 
+\texttt{First, let's address the elephant in the room: the traffic. I promise to navigate the 101 with the grace of a surfer riding a gentle swell, because I've learned that patience is the only way to beat the morning rush. Second, I bring a level of optimism that rivals the local weather forecast on a perfect July day. Whether we are brainstorming strategies or just people{-}watching from a patio, I guarantee I'll keep the energy high and the coffee flowing.} \\
+\\ 
+\texttt{I know you value authenticity and a good sense of humor, Darius. So, let me be clear: I am not here to just fill a seat; I am here to add a little more sunshine to your team. If you're tired of candidates who talk the talk but can't walk the walk, consider me your new favorite local legend.} \\
+\\ 
+\texttt{Let's grab a coffee (or a cold one from the pier) and see if we click. I'm ready to hit the ground running, or as the locals say, "hit the waves."} \\
+\\ 
+\texttt{Warmly,} \\
+\\ 
+\texttt{{[}Your Name{]}} \\
+\texttt{P.S. I promise I won't try to teach the office dog how to surf, but I might try to teach the team how to appreciate the sunset a little more."} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                {'startend:quotation': {}}
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = WIN} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

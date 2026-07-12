@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "guesswhat",
+    "experiment_name": "Level_2",
+    "game_id": 9,
+    "player_name": "Player 2",
+    "game_role": "Answerer",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:50:50.869005",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nLet’s play a guessing game! Your task is to answer the other player's questions. Based on your knowledge of the word: Lion, respond to the following questions or guesses. Limit your response to only 'yes' or 'no' with no explanation or other words. Never reveal the answer in your response.\n\nYou must reply using the format below and DO NOT ADD ANY TEXT OTHER THAN THIS:\n\nANSWER: <some text>\n\nTarget Word: Lion\n\nQUESTION: Is the target word a type of tree?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nLet’s play a guessing game! Your task is to answer the other player's questions. Based on your knowledge of the word: Lion, respond to the following questions or guesses. Limit your response to only 'yes' or 'no' with no explanation or other words. Never reveal the answer in your response.\n\nYou must reply using the format below and DO NOT ADD ANY TEXT OTHER THAN THIS:\n\nANSWER: <some text>\n\nTarget Word: Lion\n\nQUESTION: Is the target word a type of tree?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nANSWER: no<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 20:50:50.511886",
+            "call_duration": "0:00:00.357089",
+            "response": "ANSWER: no\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 290,
+  "input": "Question:\nSuppose that the junction between two semiconductors can be represented by a barrier of height $2.0 \\mathrm{eV}$ and length $100 \\mathrm{pm}$. Calculate the transmission probability of an electron with energy $1.5 \\mathrm{eV}$.\nOptions:\nA.  0.8\nB. 0.4\nC. 0.7\nD. 0.3\nE. 0.95\nF. 0.9\nG. 0.2\nH. 0.5\nI. 0.1\nJ. 0.6\n",
+  "target": "A"
+}

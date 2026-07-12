@@ -1,0 +1,5 @@
+{
+  "game_id": 6801,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Cwoi has a direct effect on yomx and xevu. Yomx has a direct effect on gwet. Gwet has a direct effect on xevu. Cwoi is unobserved. For those who are not yomx and are not gwet, the probability of xevu is 31%. For those who are not yomx and are gwet, the probability of xevu is 94%. For those who are yomx and are not gwet, the probability of xevu is 31%. For those who are yomx and are gwet, the probability of xevu is 91%. For those who are not yomx, the probability of gwet is 64%. For those who are yomx, the probability of gwet is 8%. For those who are yomx, would it be more likely to see xevu if the individual was not yomx?",
+  "target": "yes"
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 4837,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Ability to speak english has a direct effect on the forest. The smoker has a direct effect on the forest. The overall probability of speaking english is 93%. For people who do not speak english, the probability of the forest on fire is 79%. For people who speak english, the probability of the forest on fire is 65%. Is the forest on fire more likely than the forest not on fire overall?",
+  "target": "yes"
+}

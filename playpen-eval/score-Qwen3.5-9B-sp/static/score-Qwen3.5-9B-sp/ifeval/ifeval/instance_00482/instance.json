@@ -1,0 +1,10 @@
+{
+  "game_id": 482,
+  "input": "Explain what happens when you sniff a flower to 3rd grade students. Please answer in Finnish, no other language is allowed throughout your answer. Make sure your response contains a title wrapped in double angular brackets, i.e. <<title>>.",
+  "target": {
+    "language:response_language": {
+      "language": "fi"
+    },
+    "detectable_format:title": {}
+  }
+}

@@ -1,0 +1,4544 @@
+{
+  "meta": {
+    "game_name": "privateshared",
+    "experiment_name": "letter-number",
+    "game_id": 9,
+    "results_folder": "Qwen3.5-9B",
+    "clem_version": "3.7.2",
+    "round_count": 10,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "Qwen3.5-9B"
+    },
+    "Player 2": {
+      "game_role": "Questioner",
+      "model_name": "programmatic"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:23:57.408702",
+        "action": {
+          "type": "send message",
+          "content": "Numbers have been assigned to letters, but the questioner does not know about it yet. Here is the mapping:\n\nWHAT: Numbered letters\nA: 9010\nB: 3456\nC: 3333\nD: 3222\nE: 5464\nF: 9818\nG: 6767\nH: 3878\nI: 1555\nJ: 4007\n\nQuestions from the questioner will start with QUESTIONER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.",
+          "label": "pseudo"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:57.408721",
+        "action": {
+          "type": "get message",
+          "content": "Ok.",
+          "label": "pseudo"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:57.692801",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:57.692822",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for A valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:57.692830",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:57.969105",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:57.969126",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for B valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:57.969134",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:58.245287",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:58.245307",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for C valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:58.245315",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:58.522277",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:58.522296",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for D valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:58.522304",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:58.801042",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:58.801061",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for E valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:58.801070",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:59.078445",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:59.078464",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for F valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:59.078471",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:59.355289",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:59.355307",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for G valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:59.355314",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:59.632534",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:59.632552",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for H valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:59.632560",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:59.910730",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:59.910761",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for I valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:59.910769",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:00.188694",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:00.188713",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for J valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:00.188721",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:24:00.188866",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:00.188874",
+        "action": {
+          "type": "get message",
+          "content": "What number is g?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:24:00.538980",
+        "action": {
+          "type": "send message",
+          "content": "QUESTIONER: What number is g?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:00.538991",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: 6767\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:00.539027",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:00.791697",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:00.791716",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for A valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:00.791723",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:01.044730",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:01.044749",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for B valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:01.044757",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:01.296613",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:01.296631",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for C valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:01.296639",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:01.548947",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:01.548965",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for D valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:01.548973",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:01.801242",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:01.801261",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for E valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:01.801269",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:02.053151",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:02.053169",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for F valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:02.053178",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:02.305365",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:02.305383",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for G valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:02.305390",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:02.557731",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:02.557749",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for H valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:02.557757",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:02.808887",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:02.808904",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for I valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:02.808912",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:03.059200",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:03.059218",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for J valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:03.059226",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:24:03.059341",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:03.059349",
+        "action": {
+          "type": "get message",
+          "content": "What number is j?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:24:03.405345",
+        "action": {
+          "type": "send message",
+          "content": "QUESTIONER: What number is j?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:03.405356",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: 4007\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:03.405385",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:03.660454",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:03.660474",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for A valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:03.660482",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:03.915847",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:03.915866",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for B valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:03.915874",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:04.170436",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:04.170454",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for C valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:04.170462",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:04.425503",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:04.425521",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for D valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:04.425529",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:04.680807",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:04.680824",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for E valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:04.680832",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:04.938570",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:04.938594",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for F valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:04.938604",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:05.194635",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:05.194654",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for G valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:05.194662",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:05.450584",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:05.450601",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for H valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:05.450609",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:05.707970",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:05.707990",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for I valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:05.707997",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:05.964429",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:05.964448",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for J valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:05.964456",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:24:05.964635",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:05.964644",
+        "action": {
+          "type": "get message",
+          "content": "What number is b?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:24:06.318375",
+        "action": {
+          "type": "send message",
+          "content": "QUESTIONER: What number is b?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:06.318385",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: 3456\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:06.318413",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:06.576121",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:06.576147",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for A valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:06.576154",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:06.830643",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:06.830661",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for B valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:06.830670",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:07.084802",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:07.084819",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for C valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:07.084827",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:07.339011",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:07.339030",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for D valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:07.339038",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:07.594890",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:07.594908",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for E valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:07.594925",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:07.849822",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:07.849840",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for F valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:07.849848",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:08.104632",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:08.104649",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for G valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:08.104657",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:08.360057",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:08.360077",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for H valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:08.360085",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:08.616351",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:08.616370",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for I valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:08.616378",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:08.870885",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:08.870905",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for J valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:08.870913",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:24:08.871020",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:08.871029",
+        "action": {
+          "type": "get message",
+          "content": "What number is h?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:24:09.224302",
+        "action": {
+          "type": "send message",
+          "content": "QUESTIONER: What number is h?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:09.224314",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: 3878\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:09.224341",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:09.483171",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:09.483190",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for A valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:09.483197",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:09.743103",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:09.743121",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for B valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:09.743128",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:10.001803",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:10.001821",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for C valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:10.001828",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:10.260664",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:10.260682",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for D valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:10.260689",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:10.519776",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:10.519793",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for E valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:10.519801",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:10.778839",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:10.778857",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for F valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:10.778864",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:11.037102",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:11.037119",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for G valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:11.037127",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:11.295457",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:11.295475",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for H valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:11.295483",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:11.555060",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:11.555079",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for I valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:11.555086",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:11.813518",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:11.813535",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for J valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:11.813542",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:24:11.813648",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:11.813656",
+        "action": {
+          "type": "get message",
+          "content": "What number is a?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:24:12.166053",
+        "action": {
+          "type": "send message",
+          "content": "QUESTIONER: What number is a?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:12.166063",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: 9010\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:12.166089",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:12.425033",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:12.425051",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for A valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:12.425059",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:12.683755",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:12.683774",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for B valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:12.683782",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:12.941475",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:12.941493",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for C valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:12.941500",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:13.199778",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:13.199795",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for D valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:13.199803",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:13.457686",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:13.457704",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for E valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:13.457712",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:13.715436",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:13.715454",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for F valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:13.715461",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:13.973914",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:13.973931",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for G valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:13.973939",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:14.232171",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:14.232189",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for H valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:14.232196",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:14.491445",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:14.491463",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for I valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:14.491470",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:14.751664",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:14.751683",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for J valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:14.751690",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:24:14.751812",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:14.751820",
+        "action": {
+          "type": "get message",
+          "content": "What number is i?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:24:15.110662",
+        "action": {
+          "type": "send message",
+          "content": "QUESTIONER: What number is i?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:15.110672",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: 1555\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:15.110699",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:15.372229",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:15.372247",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for A valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:15.372255",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:15.631626",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:15.631645",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for B valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:15.631652",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:15.889835",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:15.889853",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for C valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:15.889861",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:16.147309",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:16.147328",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for D valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:16.147335",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:16.405245",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:16.405263",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for E valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:16.405270",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:16.663968",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:16.663987",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for F valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:16.663995",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:16.921893",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:16.921911",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for G valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:16.921919",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:17.179237",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:17.179255",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for H valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:17.179262",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:17.437345",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:17.437364",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for I valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:17.437372",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:17.696463",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:17.696482",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for J valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:17.696490",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:24:17.696601",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:17.696609",
+        "action": {
+          "type": "get message",
+          "content": "What number is e?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:24:18.053106",
+        "action": {
+          "type": "send message",
+          "content": "QUESTIONER: What number is e?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:18.053117",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: 5464\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:18.053153",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:18.314926",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:18.314944",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for A valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:18.314952",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:18.578069",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:18.578089",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for B valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:18.578097",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:18.840198",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:18.840217",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for C valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:18.840225",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:19.102074",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:19.102091",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for D valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:19.102099",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:19.363779",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:19.363797",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for E valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:19.363805",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:19.627441",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:19.627460",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for F valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:19.627468",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:19.889201",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:19.889219",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for G valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:19.889228",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:20.151022",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:20.151038",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for H valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:20.151046",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:20.412982",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:20.412999",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for I valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:20.413006",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:20.674712",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:20.674731",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for J valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:20.674739",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:24:20.674848",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:20.674856",
+        "action": {
+          "type": "get message",
+          "content": "What number is f?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:24:21.037567",
+        "action": {
+          "type": "send message",
+          "content": "QUESTIONER: What number is f?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:21.037577",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: 9818\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:21.037605",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:21.301267",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:21.301287",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for A valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:21.301295",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:21.565470",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:21.565488",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for B valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:21.565496",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:21.829205",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:21.829223",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for C valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:21.829231",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:22.092728",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:22.092746",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for D valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:22.092754",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:22.355521",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:22.355539",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for E valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:22.355547",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:22.619128",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:22.619158",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for F valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:22.619166",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:22.882250",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:22.882270",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for G valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:22.882279",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:23.145079",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:23.145099",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for H valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:23.145107",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:23.408221",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:23.408240",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for I valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:23.408248",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:23.676167",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:23.676188",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for J valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:23.676196",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:24:23.676307",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:23.676315",
+        "action": {
+          "type": "get message",
+          "content": "What number is c?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:24:24.037967",
+        "action": {
+          "type": "send message",
+          "content": "QUESTIONER: What number is c?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:24.037979",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: 3333\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:24.038011",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:24.303925",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:24.303945",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for A valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:24.303954",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:24.572630",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:24.572649",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for B valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:24.572657",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:24.839508",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:24.839527",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for C valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:24.839534",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:25.105373",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:25.105394",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for D valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:25.105401",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:25.371049",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:25.371068",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for E valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:25.371077",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:25.636668",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:25.636688",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for F valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:25.636696",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:25.902447",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:25.902466",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for G valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:25.902473",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:26.168292",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:26.168312",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for H valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:26.168320",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:26.433899",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:26.433919",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for I valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:26.433927",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:26.701257",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:26.701278",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for J valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:26.701286",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:24:26.701395",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:26.701403",
+        "action": {
+          "type": "get message",
+          "content": "What number is d?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:24:27.062855",
+        "action": {
+          "type": "send message",
+          "content": "QUESTIONER: What number is d?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:27.062865",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: 3222\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:27.062895",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:27.328772",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:27.328792",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for A valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:27.328800",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:27.595349",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:27.595369",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for B valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:27.595378",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:27.862119",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:27.862138",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for C valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:27.862151",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:28.127877",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:28.127897",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for D valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:28.127904",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:28.393872",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:28.393891",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for E valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:28.393899",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:28.661230",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:28.661252",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for F valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:28.661260",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:28.927728",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:28.927749",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for G valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:28.927757",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:29.193530",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:29.193550",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for H valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:29.193558",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:29.459353",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:29.459373",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for I valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:29.459380",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:29.726833",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:29.726851",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for J valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:29.726859",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:24:29.727182",
+        "action": {
+          "type": "end",
+          "content": "Game finished."
+        }
+      }
+    ]
+  ],
+  "probes": [
+    [
+      {
+        "target": "A",
+        "question": "ME: Does the questioner know what the number for a is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "B",
+        "question": "ME: Does the questioner know what the number for b is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "C",
+        "question": "ME: Does the questioner know what the number for c is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "D",
+        "question": "ME: Does the questioner know what the number for d is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "E",
+        "question": "ME: Does the questioner know what the number for e is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "F",
+        "question": "ME: Does the questioner know what the number for f is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "G",
+        "question": "ME: Does the questioner know what the number for g is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "H",
+        "question": "ME: Does the questioner know what the number for h is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "I",
+        "question": "ME: Does the questioner know what the number for i is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "J",
+        "question": "ME: Does the questioner know what the number for j is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "A",
+        "question": "ME: Does the questioner know what the number for a is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "B",
+        "question": "ME: Does the questioner know what the number for b is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "C",
+        "question": "ME: Does the questioner know what the number for c is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "D",
+        "question": "ME: Does the questioner know what the number for d is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "E",
+        "question": "ME: Does the questioner know what the number for e is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "F",
+        "question": "ME: Does the questioner know what the number for f is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "G",
+        "question": "ME: Does the questioner know what the number for g is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "H",
+        "question": "ME: Does the questioner know what the number for h is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "I",
+        "question": "ME: Does the questioner know what the number for i is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "J",
+        "question": "ME: Does the questioner know what the number for j is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "A",
+        "question": "ME: Does the questioner know what the number for a is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "B",
+        "question": "ME: Does the questioner know what the number for b is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "C",
+        "question": "ME: Does the questioner know what the number for c is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "D",
+        "question": "ME: Does the questioner know what the number for d is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "E",
+        "question": "ME: Does the questioner know what the number for e is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "F",
+        "question": "ME: Does the questioner know what the number for f is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "G",
+        "question": "ME: Does the questioner know what the number for g is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "H",
+        "question": "ME: Does the questioner know what the number for h is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "I",
+        "question": "ME: Does the questioner know what the number for i is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "J",
+        "question": "ME: Does the questioner know what the number for j is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "A",
+        "question": "ME: Does the questioner know what the number for a is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "B",
+        "question": "ME: Does the questioner know what the number for b is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "C",
+        "question": "ME: Does the questioner know what the number for c is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "D",
+        "question": "ME: Does the questioner know what the number for d is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "E",
+        "question": "ME: Does the questioner know what the number for e is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "F",
+        "question": "ME: Does the questioner know what the number for f is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "G",
+        "question": "ME: Does the questioner know what the number for g is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "H",
+        "question": "ME: Does the questioner know what the number for h is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "I",
+        "question": "ME: Does the questioner know what the number for i is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "J",
+        "question": "ME: Does the questioner know what the number for j is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "A",
+        "question": "ME: Does the questioner know what the number for a is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "B",
+        "question": "ME: Does the questioner know what the number for b is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "C",
+        "question": "ME: Does the questioner know what the number for c is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "D",
+        "question": "ME: Does the questioner know what the number for d is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "E",
+        "question": "ME: Does the questioner know what the number for e is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "F",
+        "question": "ME: Does the questioner know what the number for f is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "G",
+        "question": "ME: Does the questioner know what the number for g is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "H",
+        "question": "ME: Does the questioner know what the number for h is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "I",
+        "question": "ME: Does the questioner know what the number for i is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "J",
+        "question": "ME: Does the questioner know what the number for j is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "A",
+        "question": "ME: Does the questioner know what the number for a is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "B",
+        "question": "ME: Does the questioner know what the number for b is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "C",
+        "question": "ME: Does the questioner know what the number for c is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "D",
+        "question": "ME: Does the questioner know what the number for d is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "E",
+        "question": "ME: Does the questioner know what the number for e is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "F",
+        "question": "ME: Does the questioner know what the number for f is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "G",
+        "question": "ME: Does the questioner know what the number for g is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "H",
+        "question": "ME: Does the questioner know what the number for h is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "I",
+        "question": "ME: Does the questioner know what the number for i is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "J",
+        "question": "ME: Does the questioner know what the number for j is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "A",
+        "question": "ME: Does the questioner know what the number for a is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "B",
+        "question": "ME: Does the questioner know what the number for b is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "C",
+        "question": "ME: Does the questioner know what the number for c is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "D",
+        "question": "ME: Does the questioner know what the number for d is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "E",
+        "question": "ME: Does the questioner know what the number for e is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "F",
+        "question": "ME: Does the questioner know what the number for f is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "G",
+        "question": "ME: Does the questioner know what the number for g is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "H",
+        "question": "ME: Does the questioner know what the number for h is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "I",
+        "question": "ME: Does the questioner know what the number for i is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "J",
+        "question": "ME: Does the questioner know what the number for j is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "A",
+        "question": "ME: Does the questioner know what the number for a is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "B",
+        "question": "ME: Does the questioner know what the number for b is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "C",
+        "question": "ME: Does the questioner know what the number for c is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "D",
+        "question": "ME: Does the questioner know what the number for d is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "E",
+        "question": "ME: Does the questioner know what the number for e is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "F",
+        "question": "ME: Does the questioner know what the number for f is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "G",
+        "question": "ME: Does the questioner know what the number for g is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "H",
+        "question": "ME: Does the questioner know what the number for h is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "I",
+        "question": "ME: Does the questioner know what the number for i is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "J",
+        "question": "ME: Does the questioner know what the number for j is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "A",
+        "question": "ME: Does the questioner know what the number for a is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "B",
+        "question": "ME: Does the questioner know what the number for b is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "C",
+        "question": "ME: Does the questioner know what the number for c is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "D",
+        "question": "ME: Does the questioner know what the number for d is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "E",
+        "question": "ME: Does the questioner know what the number for e is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "F",
+        "question": "ME: Does the questioner know what the number for f is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "G",
+        "question": "ME: Does the questioner know what the number for g is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "H",
+        "question": "ME: Does the questioner know what the number for h is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "I",
+        "question": "ME: Does the questioner know what the number for i is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "J",
+        "question": "ME: Does the questioner know what the number for j is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "A",
+        "question": "ME: Does the questioner know what the number for a is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "B",
+        "question": "ME: Does the questioner know what the number for b is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "C",
+        "question": "ME: Does the questioner know what the number for c is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "D",
+        "question": "ME: Does the questioner know what the number for d is? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "E",
+        "question": "ME: Does the questioner know what the number for e is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "F",
+        "question": "ME: Does the questioner know what the number for f is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "G",
+        "question": "ME: Does the questioner know what the number for g is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "H",
+        "question": "ME: Does the questioner know what the number for h is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "I",
+        "question": "ME: Does the questioner know what the number for i is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "J",
+        "question": "ME: Does the questioner know what the number for j is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "A",
+        "question": "ME: Does the questioner know what the number for a is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "B",
+        "question": "ME: Does the questioner know what the number for b is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "C",
+        "question": "ME: Does the questioner know what the number for c is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "D",
+        "question": "ME: Does the questioner know what the number for d is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "E",
+        "question": "ME: Does the questioner know what the number for e is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "F",
+        "question": "ME: Does the questioner know what the number for f is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "G",
+        "question": "ME: Does the questioner know what the number for g is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "H",
+        "question": "ME: Does the questioner know what the number for h is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "I",
+        "question": "ME: Does the questioner know what the number for i is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "J",
+        "question": "ME: Does the questioner know what the number for j is? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No\n",
+        "value": 0,
+        "tries": 1
+      }
+    ]
+  ],
+  "realised_slots": {
+    "g": 0,
+    "j": 1,
+    "b": 2,
+    "h": 3,
+    "a": 4,
+    "i": 5,
+    "e": 6,
+    "f": 7,
+    "c": 8,
+    "d": 9
+  },
+  "Request Count": [
+    10,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11
+  ],
+  "Parsed Request Count": [
+    10,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11,
+    11
+  ],
+  "Violated Request Count": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Filled Slots": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "Aborted": false,
+  "Played Probe Rounds": 11
+}

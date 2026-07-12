@@ -1,0 +1,5 @@
+{
+  "game_id": 1468,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Husband has a direct effect on wife and alarm clock. Wife has a direct effect on alarm clock. The overall probability of alarm set by husband is 8%. For husbands that don't set the alarm, the probability of ringing alarm is 75%. For husbands that set the alarm, the probability of ringing alarm is 16%. Is ringing alarm more likely than silent alarm overall?",
+  "target": "yes"
+}

@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "game_name": "eqbench",
+    "experiment_name": "eq_bench",
+    "game_id": 143,
+    "results_folder": "Qwen3.5-9B",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "Qwen3.5-9B"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:38:44.798414",
+        "action": {
+          "type": "send message",
+          "content": "\nYour task is to predict the likely emotional responses of a character in this dialogue:\n\nAmelia: I find it amusing, Xarlon, that you claim your civilization is superior, yet you are here, on Earth, seeking dialogue with us.\nXarlon: Superiority is not a matter of isolation, Dr. Singh. It is about understanding, learning, and evolving.\nAmelia: Evolving? Is that what you call it? Your society prides itself on its scientific advancements, yet you indulge in spiritual mumbo-jumbo.\nXarlon: You belittle what you do not understand, Dr. Singh. Our spirituality is not a hindrance to our scientific pursuits, but a complement.\nAmelia: A complement? Spirituality is the antithesis of science. It's unquantifiable, unprovable. It's a crutch for the weak-minded.\nXarlon: And yet, your civilization is rife with conflict, inequality, and suffering. Could it be that your rejection of the intangible has led you astray?\nAmelia: We are not perfect, Xarlon, but we don't pretend to be. We acknowledge our flaws, our mistakes. We learn. We grow.\nXarlon: And yet, your progress is slow. Your planet is dying, your people divided. Is this the result of your 'learning'?\n[End dialogue]\n\nAt the end of this dialogue, Amelia would feel...\nAngry\nDisheartened\nOffended\nApathetic\n\nGive each of these possible emotions a score from 0-10 for the relative intensity that they are likely to be feeling each.\n\nYou must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:\n\nAngry: <score>\nDisheartened: <score>\nOffended: <score>\nApathetic: <score>\n\n\n[End of answer]\n\nRemember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.\n\nYour answer:\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:38:44.798425",
+        "action": {
+          "type": "get message",
+          "content": "Angry: 8\nDisheartened: 4\nOffended: 6\nApathetic: 0\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:38:44.798483",
+        "action": {
+          "type": "parsed",
+          "content": "Angry: 8\nDisheartened: 4\nOffended: 6\nApathetic: 0"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:38:44.798494",
+        "action": {
+          "type": "target",
+          "content": "Angry: 7\nDisheartened: 0\nOffended: 6\nApathetic: 0"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:38:44.798501",
+        "action": {
+          "type": "not exact match",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Parsed Response": {
+    "Angry": 8,
+    "Disheartened": 4,
+    "Offended": 6,
+    "Apathetic": 0
+  },
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

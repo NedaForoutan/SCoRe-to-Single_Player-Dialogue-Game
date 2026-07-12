@@ -1,0 +1,1244 @@
+,game,model,experiment,episode,metric,value
+0,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,Violated Request Count,0.0
+1,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,Parsed Request Count,50.0
+2,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,Request Count,50.0
+3,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,Request Success Ratio,1.0
+4,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,hallucination_count,0.0
+5,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,action_parsing_fail,4.0
+6,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,action_resolution_fail,19.0
+7,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,lark_exception,0.0
+8,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,malformed_command,0.0
+9,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,undefined_action_verb,4.0
+10,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,undefined_action,0.0
+11,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,undefined_repr_str,0.0
+12,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,manipulating_room,0.0
+13,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,undefined_argument_type,0.0
+14,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,taking_from_inventory,0.0
+15,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,other_room_argument,0.0
+16,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,domain_trait_type_mismatch,0.0
+17,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,domain_type_discrepancy,0.0
+18,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,world_state_discrepancy,0.0
+19,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,entity_not_accessible,11.0
+20,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,entity_state_mismatch,0.0
+21,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,entity_trait_mismatch,0.0
+22,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,entity_already_inventory,0.0
+23,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,going_to_current_room,0.0
+24,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,no_exit_to,4.0
+25,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,inventory_limit_exceeded,4.0
+26,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,successful_actions,27.0
+27,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,turn_limit_loss,1.0
+28,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,turns_over_par,
+29,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,turn_ratio,
+30,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,finish_speed,
+31,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,achieved_goal_ratio,0.0
+32,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,Aborted,1.0
+33,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,Success,0.0
+34,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,Lose,0.0
+35,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,Main Score,
+36,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,plan_followed_ratio,0.0
+37,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,plan_average_viability_ratio,0.0
+38,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,bad_plan_follow_ratio,0.0
+39,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,bad_plan_dismiss_ratio,1.0
+40,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,Violated Request Count,0.0
+41,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,Parsed Request Count,7.0
+42,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,Request Count,7.0
+43,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,Request Success Ratio,1.0
+44,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,hallucination_count,1.0
+45,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,action_parsing_fail,0.0
+46,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,action_resolution_fail,2.0
+47,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,lark_exception,0.0
+48,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,malformed_command,0.0
+49,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,undefined_action_verb,0.0
+50,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,undefined_action,0.0
+51,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,undefined_repr_str,0.0
+52,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,manipulating_room,0.0
+53,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,undefined_argument_type,0.0
+54,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,taking_from_inventory,0.0
+55,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,other_room_argument,0.0
+56,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,domain_trait_type_mismatch,0.0
+57,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,domain_type_discrepancy,0.0
+58,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,world_state_discrepancy,0.0
+59,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,entity_not_accessible,1.0
+60,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,entity_state_mismatch,1.0
+61,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,entity_trait_mismatch,0.0
+62,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,entity_already_inventory,0.0
+63,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,going_to_current_room,0.0
+64,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,no_exit_to,0.0
+65,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,inventory_limit_exceeded,0.0
+66,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,successful_actions,5.0
+67,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,turn_limit_loss,0.0
+68,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,turns_over_par,
+69,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,turn_ratio,
+70,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,finish_speed,
+71,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,achieved_goal_ratio,0.3333333333333333
+72,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,Aborted,0.0
+73,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,Success,0.0
+74,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,Lose,1.0
+75,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,Main Score,33.33333333333333
+76,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,plan_followed_ratio,0.0
+77,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,plan_average_viability_ratio,0.0
+78,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,bad_plan_follow_ratio,0.0
+79,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,bad_plan_dismiss_ratio,1.0
+80,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,Violated Request Count,0.0
+81,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,Parsed Request Count,21.0
+82,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,Request Count,21.0
+83,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,Request Success Ratio,1.0
+84,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,hallucination_count,1.0
+85,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,action_parsing_fail,1.0
+86,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,action_resolution_fail,2.0
+87,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,lark_exception,0.0
+88,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,malformed_command,0.0
+89,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,undefined_action_verb,0.0
+90,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,undefined_action,0.0
+91,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,undefined_repr_str,0.0
+92,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,manipulating_room,1.0
+93,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,undefined_argument_type,0.0
+94,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,taking_from_inventory,0.0
+95,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,other_room_argument,0.0
+96,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,domain_trait_type_mismatch,0.0
+97,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,domain_type_discrepancy,0.0
+98,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,world_state_discrepancy,0.0
+99,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,entity_not_accessible,0.0
+100,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,entity_state_mismatch,1.0
+101,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,entity_trait_mismatch,0.0
+102,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,entity_already_inventory,0.0
+103,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,going_to_current_room,0.0
+104,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,no_exit_to,1.0
+105,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,inventory_limit_exceeded,0.0
+106,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,successful_actions,18.0
+107,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,turn_limit_loss,0.0
+108,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,turns_over_par,
+109,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,turn_ratio,
+110,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,finish_speed,
+111,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,achieved_goal_ratio,0.0
+112,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,Aborted,0.0
+113,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,Success,0.0
+114,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,Lose,1.0
+115,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,Main Score,0.0
+116,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,plan_followed_ratio,0.0
+117,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,plan_average_viability_ratio,0.0
+118,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,bad_plan_follow_ratio,0.0
+119,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,bad_plan_dismiss_ratio,1.0
+120,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,Violated Request Count,0.0
+121,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,Parsed Request Count,50.0
+122,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,Request Count,50.0
+123,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,Request Success Ratio,1.0
+124,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,hallucination_count,0.0
+125,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,action_parsing_fail,48.0
+126,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,action_resolution_fail,0.0
+127,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,lark_exception,0.0
+128,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,malformed_command,45.0
+129,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,undefined_action_verb,3.0
+130,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,undefined_action,0.0
+131,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,undefined_repr_str,0.0
+132,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,manipulating_room,0.0
+133,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,undefined_argument_type,0.0
+134,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,taking_from_inventory,0.0
+135,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,other_room_argument,0.0
+136,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,domain_trait_type_mismatch,0.0
+137,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,domain_type_discrepancy,0.0
+138,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,world_state_discrepancy,0.0
+139,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,entity_not_accessible,0.0
+140,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,entity_state_mismatch,0.0
+141,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,entity_trait_mismatch,0.0
+142,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,entity_already_inventory,0.0
+143,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,going_to_current_room,0.0
+144,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,no_exit_to,0.0
+145,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,inventory_limit_exceeded,0.0
+146,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,successful_actions,2.0
+147,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,turn_limit_loss,1.0
+148,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,turns_over_par,
+149,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,turn_ratio,
+150,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,finish_speed,
+151,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,achieved_goal_ratio,0.0
+152,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,Aborted,1.0
+153,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,Success,0.0
+154,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,Lose,0.0
+155,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,Main Score,
+156,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,plan_followed_ratio,0.0
+157,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,plan_average_viability_ratio,0.0
+158,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,bad_plan_follow_ratio,0.0
+159,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,bad_plan_dismiss_ratio,1.0
+160,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,Violated Request Count,0.0
+161,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,Parsed Request Count,100.0
+162,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,Request Count,100.0
+163,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,Request Success Ratio,1.0
+164,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,hallucination_count,0.0
+165,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,action_parsing_fail,0.0
+166,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,action_resolution_fail,49.0
+167,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,lark_exception,0.0
+168,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,malformed_command,0.0
+169,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,undefined_action_verb,0.0
+170,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,undefined_action,0.0
+171,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,undefined_repr_str,0.0
+172,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,manipulating_room,0.0
+173,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,undefined_argument_type,0.0
+174,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,taking_from_inventory,0.0
+175,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,other_room_argument,0.0
+176,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,domain_trait_type_mismatch,11.0
+177,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,domain_type_discrepancy,0.0
+178,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,world_state_discrepancy,0.0
+179,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,entity_not_accessible,3.0
+180,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,entity_state_mismatch,0.0
+181,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,entity_trait_mismatch,0.0
+182,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,entity_already_inventory,14.0
+183,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,going_to_current_room,1.0
+184,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,no_exit_to,0.0
+185,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,inventory_limit_exceeded,19.0
+186,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,successful_actions,51.0
+187,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,turn_limit_loss,1.0
+188,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,turns_over_par,
+189,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,turn_ratio,
+190,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,finish_speed,
+191,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,achieved_goal_ratio,0.0
+192,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,Aborted,1.0
+193,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,Success,0.0
+194,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,Lose,0.0
+195,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,Main Score,
+196,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,plan_followed_ratio,0.0
+197,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,plan_average_viability_ratio,0.0
+198,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,bad_plan_follow_ratio,0.0
+199,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,bad_plan_dismiss_ratio,1.0
+200,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,experiment variable,Word Concreteness
+201,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,experiment name,abstract
+202,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Cluegiver strip words,0
+203,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Guesser strip words,0
+204,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Average Cluegiver Number of Targets,0
+205,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Average Cluegiver Team Precision,0
+206,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Average Cluegiver Team Recall,0.0
+207,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Average Cluegiver Team F1,0
+208,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Average Guesser Number of Guesses,0
+209,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Average Guesser Number of Revealed Words,0
+210,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Average Guesser Number of Unrevealed Guesses,0
+211,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Average Guesser Target Precision,0
+212,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Average Guesser Target Recall,0
+213,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Average Guesser Target F1,0
+214,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Average Guesser Team Precision,0
+215,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Average Guesser Team Recall,0.0
+216,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Average Guesser Team F1,0
+217,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Aborted,1
+218,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Lose,0
+219,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Success,0
+220,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Game ended through assassin,0
+221,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Episode Recall,0.0
+222,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Episode Negative Recall,1.0
+223,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Number of turns,1
+224,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Efficiency,0.0
+225,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Request Count,1
+226,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Parsed Request Count,0
+227,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Violated Request Count,1
+228,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Request Success Ratio,0.0
+229,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Main Score,
+230,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,experiment variable,Word Ambiguity
+231,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,experiment name,ambiguous
+232,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Cluegiver strip words,0
+233,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Guesser strip words,0
+234,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Average Cluegiver Number of Targets,0
+235,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Average Cluegiver Team Precision,0
+236,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Average Cluegiver Team Recall,0.0
+237,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Average Cluegiver Team F1,0
+238,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Average Guesser Number of Guesses,0
+239,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Average Guesser Number of Revealed Words,0
+240,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Average Guesser Number of Unrevealed Guesses,0
+241,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Average Guesser Target Precision,0
+242,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Average Guesser Target Recall,0
+243,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Average Guesser Target F1,0
+244,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Average Guesser Team Precision,0
+245,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Average Guesser Team Recall,0.0
+246,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Average Guesser Team F1,0
+247,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Aborted,1
+248,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Lose,0
+249,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Success,0
+250,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Game ended through assassin,0
+251,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Episode Recall,0.0
+252,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Episode Negative Recall,1.0
+253,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Number of turns,1
+254,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Efficiency,0.0
+255,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Request Count,1
+256,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Parsed Request Count,0
+257,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Violated Request Count,1
+258,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Request Success Ratio,0.0
+259,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Main Score,
+260,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,experiment variable,Word Assignments
+261,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,experiment name,association_difficult
+262,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Cluegiver strip words,0
+263,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Guesser strip words,0
+264,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Average Cluegiver Number of Targets,0
+265,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Average Cluegiver Team Precision,0
+266,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Average Cluegiver Team Recall,0.0
+267,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Average Cluegiver Team F1,0
+268,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Average Guesser Number of Guesses,0
+269,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Average Guesser Number of Revealed Words,0
+270,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Average Guesser Number of Unrevealed Guesses,0
+271,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Average Guesser Target Precision,0
+272,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Average Guesser Target Recall,0
+273,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Average Guesser Target F1,0
+274,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Average Guesser Team Precision,0
+275,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Average Guesser Team Recall,0.0
+276,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Average Guesser Team F1,0
+277,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Aborted,1
+278,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Lose,0
+279,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Success,0
+280,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Game ended through assassin,0
+281,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Episode Recall,0.0
+282,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Episode Negative Recall,1.0
+283,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Number of turns,1
+284,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Efficiency,0.0
+285,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Request Count,1
+286,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Parsed Request Count,0
+287,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Violated Request Count,1
+288,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Request Success Ratio,0.0
+289,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Main Score,
+290,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,experiment variable,Word Assignments
+291,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,experiment name,association_easy
+292,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Cluegiver strip words,0
+293,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Guesser strip words,0
+294,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Average Cluegiver Number of Targets,0
+295,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Average Cluegiver Team Precision,0
+296,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Average Cluegiver Team Recall,0.0
+297,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Average Cluegiver Team F1,0
+298,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Average Guesser Number of Guesses,0
+299,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Average Guesser Number of Revealed Words,0
+300,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Average Guesser Number of Unrevealed Guesses,0
+301,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Average Guesser Target Precision,0
+302,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Average Guesser Target Recall,0
+303,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Average Guesser Target F1,0
+304,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Average Guesser Team Precision,0
+305,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Average Guesser Team Recall,0.0
+306,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Average Guesser Team F1,0
+307,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Aborted,1
+308,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Lose,0
+309,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Success,0
+310,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Game ended through assassin,0
+311,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Episode Recall,0.0
+312,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Episode Negative Recall,1.0
+313,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Number of turns,1
+314,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Efficiency,0.0
+315,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Request Count,1
+316,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Parsed Request Count,0
+317,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Violated Request Count,1
+318,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Request Success Ratio,0.0
+319,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Main Score,
+320,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,experiment variable,Word Concreteness
+321,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,experiment name,concrete
+322,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Cluegiver strip words,0
+323,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Guesser strip words,0
+324,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Average Cluegiver Number of Targets,0
+325,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Average Cluegiver Team Precision,0
+326,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Average Cluegiver Team Recall,0.0
+327,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Average Cluegiver Team F1,0
+328,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Average Guesser Number of Guesses,0
+329,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Average Guesser Number of Revealed Words,0
+330,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Average Guesser Number of Unrevealed Guesses,0
+331,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Average Guesser Target Precision,0
+332,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Average Guesser Target Recall,0
+333,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Average Guesser Target F1,0
+334,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Average Guesser Team Precision,0
+335,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Average Guesser Team Recall,0.0
+336,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Average Guesser Team F1,0
+337,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Aborted,1
+338,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Lose,0
+339,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Success,0
+340,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Game ended through assassin,0
+341,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Episode Recall,0.0
+342,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Episode Negative Recall,1.0
+343,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Number of turns,1
+344,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Efficiency,0.0
+345,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Request Count,1
+346,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Parsed Request Count,0
+347,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Violated Request Count,1
+348,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Request Success Ratio,0.0
+349,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Main Score,
+350,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,experiment variable,Word Frequency
+351,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,experiment name,frequency_high
+352,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Cluegiver strip words,0
+353,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Guesser strip words,0
+354,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Average Cluegiver Number of Targets,0
+355,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Average Cluegiver Team Precision,0
+356,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Average Cluegiver Team Recall,0.0
+357,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Average Cluegiver Team F1,0
+358,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Average Guesser Number of Guesses,0
+359,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Average Guesser Number of Revealed Words,0
+360,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Average Guesser Number of Unrevealed Guesses,0
+361,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Average Guesser Target Precision,0
+362,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Average Guesser Target Recall,0
+363,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Average Guesser Target F1,0
+364,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Average Guesser Team Precision,0
+365,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Average Guesser Team Recall,0.0
+366,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Average Guesser Team F1,0
+367,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Aborted,1
+368,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Lose,0
+369,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Success,0
+370,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Game ended through assassin,0
+371,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Episode Recall,0.0
+372,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Episode Negative Recall,1.0
+373,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Number of turns,1
+374,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Efficiency,0.0
+375,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Request Count,1
+376,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Parsed Request Count,0
+377,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Violated Request Count,1
+378,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Request Success Ratio,0.0
+379,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Main Score,
+380,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,experiment variable,Word Frequency
+381,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,experiment name,frequency_low
+382,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Cluegiver strip words,0
+383,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Guesser strip words,0
+384,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Average Cluegiver Number of Targets,0
+385,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Average Cluegiver Team Precision,0
+386,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Average Cluegiver Team Recall,0.0
+387,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Average Cluegiver Team F1,0
+388,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Average Guesser Number of Guesses,0
+389,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Average Guesser Number of Revealed Words,0
+390,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Average Guesser Number of Unrevealed Guesses,0
+391,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Average Guesser Target Precision,0
+392,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Average Guesser Target Recall,0
+393,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Average Guesser Target F1,0
+394,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Average Guesser Team Precision,0
+395,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Average Guesser Team Recall,0.0
+396,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Average Guesser Team F1,0
+397,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Aborted,1
+398,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Lose,0
+399,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Success,0
+400,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Game ended through assassin,0
+401,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Episode Recall,0.0
+402,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Episode Negative Recall,1.0
+403,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Number of turns,1
+404,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Efficiency,0.0
+405,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Request Count,1
+406,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Parsed Request Count,0
+407,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Violated Request Count,1
+408,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Request Success Ratio,0.0
+409,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Main Score,
+410,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,experiment variable,Opponent Difficulty
+411,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,experiment name,opponent_difficult
+412,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Cluegiver strip words,0
+413,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Guesser strip words,0
+414,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Average Cluegiver Number of Targets,0
+415,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Average Cluegiver Team Precision,0
+416,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Average Cluegiver Team Recall,0.0
+417,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Average Cluegiver Team F1,0
+418,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Average Guesser Number of Guesses,0
+419,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Average Guesser Number of Revealed Words,0
+420,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Average Guesser Number of Unrevealed Guesses,0
+421,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Average Guesser Target Precision,0
+422,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Average Guesser Target Recall,0
+423,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Average Guesser Target F1,0
+424,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Average Guesser Team Precision,0
+425,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Average Guesser Team Recall,0.0
+426,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Average Guesser Team F1,0
+427,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Aborted,1
+428,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Lose,0
+429,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Success,0
+430,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Game ended through assassin,0
+431,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Episode Recall,0.0
+432,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Episode Negative Recall,1.0
+433,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Number of turns,1
+434,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Efficiency,0.0
+435,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Request Count,1
+436,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Parsed Request Count,0
+437,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Violated Request Count,1
+438,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Request Success Ratio,0.0
+439,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Main Score,
+440,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,experiment variable,Opponent Difficulty
+441,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,experiment name,opponent_easy
+442,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Cluegiver strip words,0
+443,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Guesser strip words,0
+444,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Average Cluegiver Number of Targets,0
+445,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Average Cluegiver Team Precision,0
+446,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Average Cluegiver Team Recall,0.0
+447,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Average Cluegiver Team F1,0
+448,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Average Guesser Number of Guesses,0
+449,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Average Guesser Number of Revealed Words,0
+450,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Average Guesser Number of Unrevealed Guesses,0
+451,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Average Guesser Target Precision,0
+452,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Average Guesser Target Recall,0
+453,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Average Guesser Target F1,0
+454,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Average Guesser Team Precision,0
+455,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Average Guesser Team Recall,0.0
+456,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Average Guesser Team F1,0
+457,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Aborted,1
+458,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Lose,0
+459,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Success,0
+460,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Game ended through assassin,0
+461,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Episode Recall,0.0
+462,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Episode Negative Recall,1.0
+463,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Number of turns,1
+464,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Efficiency,0.0
+465,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Request Count,1
+466,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Parsed Request Count,0
+467,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Violated Request Count,1
+468,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Request Success Ratio,0.0
+469,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Main Score,
+470,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,experiment variable,Opponent Difficulty
+471,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,experiment name,opponent_none
+472,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Cluegiver strip words,0
+473,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Guesser strip words,0
+474,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Average Cluegiver Number of Targets,0
+475,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Average Cluegiver Team Precision,0
+476,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Average Cluegiver Team Recall,0.0
+477,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Average Cluegiver Team F1,0
+478,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Average Guesser Number of Guesses,0
+479,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Average Guesser Number of Revealed Words,0
+480,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Average Guesser Number of Unrevealed Guesses,0
+481,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Average Guesser Target Precision,0
+482,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Average Guesser Target Recall,0
+483,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Average Guesser Target F1,0
+484,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Average Guesser Team Precision,0
+485,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Average Guesser Team Recall,0.0
+486,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Average Guesser Team F1,0
+487,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Aborted,1
+488,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Lose,0
+489,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Success,0
+490,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Game ended through assassin,0
+491,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Episode Recall,0.0
+492,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Episode Negative Recall,1.0
+493,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Number of turns,1
+494,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Efficiency,0.0
+495,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Request Count,1
+496,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Parsed Request Count,0
+497,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Violated Request Count,1
+498,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Request Success Ratio,0.0
+499,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Main Score,
+500,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,experiment variable,Risk
+501,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,experiment name,risk_high
+502,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Cluegiver strip words,0
+503,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Guesser strip words,0
+504,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Average Cluegiver Number of Targets,0
+505,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Average Cluegiver Team Precision,0
+506,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Average Cluegiver Team Recall,0.0
+507,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Average Cluegiver Team F1,0
+508,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Average Guesser Number of Guesses,0
+509,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Average Guesser Number of Revealed Words,0
+510,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Average Guesser Number of Unrevealed Guesses,0
+511,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Average Guesser Target Precision,0
+512,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Average Guesser Target Recall,0
+513,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Average Guesser Target F1,0
+514,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Average Guesser Team Precision,0
+515,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Average Guesser Team Recall,0.0
+516,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Average Guesser Team F1,0
+517,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Aborted,1
+518,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Lose,0
+519,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Success,0
+520,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Game ended through assassin,0
+521,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Episode Recall,0.0
+522,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Episode Negative Recall,1.0
+523,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Number of turns,1
+524,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Efficiency,0.0
+525,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Request Count,1
+526,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Parsed Request Count,0
+527,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Violated Request Count,1
+528,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Request Success Ratio,0.0
+529,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Main Score,
+530,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,experiment variable,Risk
+531,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,experiment name,risk_low
+532,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Cluegiver strip words,0
+533,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Guesser strip words,0
+534,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Average Cluegiver Number of Targets,0
+535,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Average Cluegiver Team Precision,0
+536,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Average Cluegiver Team Recall,0.0
+537,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Average Cluegiver Team F1,0
+538,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Average Guesser Number of Guesses,0
+539,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Average Guesser Number of Revealed Words,0
+540,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Average Guesser Number of Unrevealed Guesses,0
+541,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Average Guesser Target Precision,0
+542,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Average Guesser Target Recall,0
+543,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Average Guesser Target F1,0
+544,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Average Guesser Team Precision,0
+545,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Average Guesser Team Recall,0.0
+546,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Average Guesser Team F1,0
+547,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Aborted,1
+548,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Lose,0
+549,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Success,0
+550,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Game ended through assassin,0
+551,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Episode Recall,0.0
+552,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Episode Negative Recall,1.0
+553,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Number of turns,1
+554,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Efficiency,0.0
+555,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Request Count,1
+556,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Parsed Request Count,0
+557,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Violated Request Count,1
+558,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Request Success Ratio,0.0
+559,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Main Score,
+560,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,experiment variable,Word Ambiguity
+561,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,experiment name,unambiguous
+562,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Cluegiver strip words,0
+563,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Guesser strip words,0
+564,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Average Cluegiver Number of Targets,0
+565,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Average Cluegiver Team Precision,0
+566,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Average Cluegiver Team Recall,0.0
+567,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Average Cluegiver Team F1,0
+568,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Average Guesser Number of Guesses,0
+569,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Average Guesser Number of Revealed Words,0
+570,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Average Guesser Number of Unrevealed Guesses,0
+571,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Average Guesser Target Precision,0
+572,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Average Guesser Target Recall,0
+573,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Average Guesser Target F1,0
+574,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Average Guesser Team Precision,0
+575,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Average Guesser Team Recall,0.0
+576,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Average Guesser Team F1,0
+577,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Aborted,1
+578,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Lose,0
+579,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Success,0
+580,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Game ended through assassin,0
+581,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Episode Recall,0.0
+582,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Episode Negative Recall,1.0
+583,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Number of turns,1
+584,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Efficiency,0.0
+585,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Request Count,1
+586,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Parsed Request Count,0
+587,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Violated Request Count,1
+588,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Request Success Ratio,0.0
+589,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Main Score,
+590,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_1,instance_00002,Violated Request Count,1
+591,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_1,instance_00002,Parsed Request Count,0
+592,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_1,instance_00002,Request Count,1
+593,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_1,instance_00002,Request Success Ratio,0.0
+594,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_1,instance_00002,Aborted,1
+595,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_1,instance_00002,Main Score,
+596,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_1,instance_00002,Invalid format guesser response,0
+597,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_1,instance_00002,Invalid format answerer response,1
+598,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_1,instance_00002,Invalid content guesser response,0
+599,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_1,instance_00002,Invalid content answerer response,0
+600,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_2,instance_00007,Violated Request Count,1
+601,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_2,instance_00007,Parsed Request Count,0
+602,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_2,instance_00007,Request Count,1
+603,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_2,instance_00007,Request Success Ratio,0.0
+604,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_2,instance_00007,Aborted,1
+605,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_2,instance_00007,Main Score,
+606,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_2,instance_00007,Invalid format guesser response,0
+607,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_2,instance_00007,Invalid format answerer response,1
+608,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_2,instance_00007,Invalid content guesser response,0
+609,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_2,instance_00007,Invalid content answerer response,0
+610,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_3,instance_00008,Violated Request Count,1
+611,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_3,instance_00008,Parsed Request Count,0
+612,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_3,instance_00008,Request Count,1
+613,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_3,instance_00008,Request Success Ratio,0.0
+614,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_3,instance_00008,Aborted,1
+615,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_3,instance_00008,Main Score,
+616,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_3,instance_00008,Invalid format guesser response,0
+617,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_3,instance_00008,Invalid format answerer response,1
+618,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_3,instance_00008,Invalid content guesser response,0
+619,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_3,instance_00008,Invalid content answerer response,0
+620,guesswhat,score-Qwen3.5-9B-sp,Level_1,instance_00002,Violated Request Count,1
+621,guesswhat,score-Qwen3.5-9B-sp,Level_1,instance_00002,Parsed Request Count,0
+622,guesswhat,score-Qwen3.5-9B-sp,Level_1,instance_00002,Request Count,1
+623,guesswhat,score-Qwen3.5-9B-sp,Level_1,instance_00002,Request Success Ratio,0.0
+624,guesswhat,score-Qwen3.5-9B-sp,Level_1,instance_00002,Aborted,1
+625,guesswhat,score-Qwen3.5-9B-sp,Level_1,instance_00002,Main Score,
+626,guesswhat,score-Qwen3.5-9B-sp,Level_1,instance_00002,Invalid format guesser response,0
+627,guesswhat,score-Qwen3.5-9B-sp,Level_1,instance_00002,Invalid format answerer response,1
+628,guesswhat,score-Qwen3.5-9B-sp,Level_1,instance_00002,Invalid content guesser response,0
+629,guesswhat,score-Qwen3.5-9B-sp,Level_1,instance_00002,Invalid content answerer response,0
+630,guesswhat,score-Qwen3.5-9B-sp,Level_2,instance_00009,Violated Request Count,1
+631,guesswhat,score-Qwen3.5-9B-sp,Level_2,instance_00009,Parsed Request Count,0
+632,guesswhat,score-Qwen3.5-9B-sp,Level_2,instance_00009,Request Count,1
+633,guesswhat,score-Qwen3.5-9B-sp,Level_2,instance_00009,Request Success Ratio,0.0
+634,guesswhat,score-Qwen3.5-9B-sp,Level_2,instance_00009,Aborted,1
+635,guesswhat,score-Qwen3.5-9B-sp,Level_2,instance_00009,Main Score,
+636,guesswhat,score-Qwen3.5-9B-sp,Level_2,instance_00009,Invalid format guesser response,0
+637,guesswhat,score-Qwen3.5-9B-sp,Level_2,instance_00009,Invalid format answerer response,1
+638,guesswhat,score-Qwen3.5-9B-sp,Level_2,instance_00009,Invalid content guesser response,0
+639,guesswhat,score-Qwen3.5-9B-sp,Level_2,instance_00009,Invalid content answerer response,0
+640,guesswhat,score-Qwen3.5-9B-sp,Level_3,instance_00008,Violated Request Count,1
+641,guesswhat,score-Qwen3.5-9B-sp,Level_3,instance_00008,Parsed Request Count,0
+642,guesswhat,score-Qwen3.5-9B-sp,Level_3,instance_00008,Request Count,1
+643,guesswhat,score-Qwen3.5-9B-sp,Level_3,instance_00008,Request Success Ratio,0.0
+644,guesswhat,score-Qwen3.5-9B-sp,Level_3,instance_00008,Aborted,1
+645,guesswhat,score-Qwen3.5-9B-sp,Level_3,instance_00008,Main Score,
+646,guesswhat,score-Qwen3.5-9B-sp,Level_3,instance_00008,Invalid format guesser response,0
+647,guesswhat,score-Qwen3.5-9B-sp,Level_3,instance_00008,Invalid format answerer response,1
+648,guesswhat,score-Qwen3.5-9B-sp,Level_3,instance_00008,Invalid content guesser response,0
+649,guesswhat,score-Qwen3.5-9B-sp,Level_3,instance_00008,Invalid content answerer response,0
+650,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,Precision,
+651,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,Recall,
+652,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,F1,
+653,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,Main Score,
+654,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,Average Changed Cell Count,
+655,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,Average Generated Instruction Length,
+656,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,Average Generated Expression Number of Tokens,
+657,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,Success,0
+658,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,Lose,0
+659,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,Aborted,1
+660,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,Request Count,12
+661,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,Violated Request Count,1
+662,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,Parsed Request Count,11
+663,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,Request Success Ratio,0.9167
+664,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,Precision,65.0
+665,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,Recall,100.0
+666,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,F1,79.0
+667,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,Main Score,79.0
+668,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,Average Changed Cell Count,1.0
+669,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,Average Generated Instruction Length,42.7826
+670,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,Average Generated Expression Number of Tokens,9.0
+671,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,Success,0
+672,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,Lose,1
+673,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,Aborted,0
+674,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,Request Count,140
+675,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,Violated Request Count,0
+676,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,Parsed Request Count,140
+677,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,Request Success Ratio,1.0
+678,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,Precision,100.0
+679,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,Recall,100.0
+680,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,F1,100.0
+681,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,Main Score,100.0
+682,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,Average Changed Cell Count,1.0
+683,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,Average Generated Instruction Length,43.2
+684,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,Average Generated Expression Number of Tokens,9.0
+685,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,Success,1
+686,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,Lose,0
+687,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,Aborted,0
+688,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,Request Count,32
+689,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,Violated Request Count,0
+690,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,Parsed Request Count,32
+691,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,Request Success Ratio,1.0
+692,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,Precision,75.0
+693,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,Recall,100.0
+694,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,F1,86.0
+695,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,Main Score,86.0
+696,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,Average Changed Cell Count,1.0
+697,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,Average Generated Instruction Length,44.0833
+698,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,Average Generated Expression Number of Tokens,9.0
+699,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,Success,0
+700,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,Lose,1
+701,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,Aborted,0
+702,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,Request Count,74
+703,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,Violated Request Count,0
+704,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,Parsed Request Count,74
+705,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,Request Success Ratio,1.0
+706,matchit_ascii,score-Qwen3.5-9B-sp,different_grid,instance_00002,Violated Request Count,0
+707,matchit_ascii,score-Qwen3.5-9B-sp,different_grid,instance_00002,Parsed Request Count,16
+708,matchit_ascii,score-Qwen3.5-9B-sp,different_grid,instance_00002,Request Count,16
+709,matchit_ascii,score-Qwen3.5-9B-sp,different_grid,instance_00002,Aborted,0
+710,matchit_ascii,score-Qwen3.5-9B-sp,different_grid,instance_00002,Success,1
+711,matchit_ascii,score-Qwen3.5-9B-sp,different_grid,instance_00002,Lose,0
+712,matchit_ascii,score-Qwen3.5-9B-sp,different_grid,instance_00002,Main Score,100
+713,matchit_ascii,score-Qwen3.5-9B-sp,different_grid,instance_00002,Player Score,100
+714,matchit_ascii,score-Qwen3.5-9B-sp,same_grid,instance_00002,Violated Request Count,0
+715,matchit_ascii,score-Qwen3.5-9B-sp,same_grid,instance_00002,Parsed Request Count,16
+716,matchit_ascii,score-Qwen3.5-9B-sp,same_grid,instance_00002,Request Count,16
+717,matchit_ascii,score-Qwen3.5-9B-sp,same_grid,instance_00002,Aborted,0
+718,matchit_ascii,score-Qwen3.5-9B-sp,same_grid,instance_00002,Success,1
+719,matchit_ascii,score-Qwen3.5-9B-sp,same_grid,instance_00002,Lose,0
+720,matchit_ascii,score-Qwen3.5-9B-sp,same_grid,instance_00002,Main Score,100
+721,matchit_ascii,score-Qwen3.5-9B-sp,same_grid,instance_00002,Player Score,100
+722,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_1,instance_00002,Violated Request Count,0
+723,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_1,instance_00002,Parsed Request Count,16
+724,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_1,instance_00002,Request Count,16
+725,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_1,instance_00002,Aborted,0
+726,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_1,instance_00002,Success,0
+727,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_1,instance_00002,Lose,1
+728,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_1,instance_00002,Main Score,0
+729,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_1,instance_00002,Player Score,50
+730,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_2,instance_00007,Violated Request Count,0
+731,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_2,instance_00007,Parsed Request Count,16
+732,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_2,instance_00007,Request Count,16
+733,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_2,instance_00007,Aborted,0
+734,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_2,instance_00007,Success,1
+735,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_2,instance_00007,Lose,0
+736,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_2,instance_00007,Main Score,100
+737,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_2,instance_00007,Player Score,100
+738,privateshared,score-Qwen3.5-9B-sp,job-interview,instance_00008,Middle-Accuracy,0.6
+739,privateshared,score-Qwen3.5-9B-sp,job-interview,instance_00008,Accuracy,0.4
+740,privateshared,score-Qwen3.5-9B-sp,job-interview,instance_00008,Kappa,-0.1203319502074689
+741,privateshared,score-Qwen3.5-9B-sp,job-interview,instance_00008,Truncated Kappa,0
+742,privateshared,score-Qwen3.5-9B-sp,job-interview,instance_00008,Slot-Filling-Accuracy,1.0
+743,privateshared,score-Qwen3.5-9B-sp,job-interview,instance_00008,Main Score,0.0
+744,privateshared,score-Qwen3.5-9B-sp,job-interview,instance_00008,Aborted,0
+745,privateshared,score-Qwen3.5-9B-sp,job-interview,instance_00008,Lose,1
+746,privateshared,score-Qwen3.5-9B-sp,job-interview,instance_00008,Success,0
+747,privateshared,score-Qwen3.5-9B-sp,job-interview,instance_00008,Request Count,35
+748,privateshared,score-Qwen3.5-9B-sp,job-interview,instance_00008,Parsed Request Count,35
+749,privateshared,score-Qwen3.5-9B-sp,job-interview,instance_00008,Violated Request Count,0
+750,privateshared,score-Qwen3.5-9B-sp,job-interview,instance_00008,Request Success Ratio,1.0
+751,privateshared,score-Qwen3.5-9B-sp,letter-number,instance_00009,Middle-Accuracy,0.6
+752,privateshared,score-Qwen3.5-9B-sp,letter-number,instance_00009,Accuracy,0.5
+753,privateshared,score-Qwen3.5-9B-sp,letter-number,instance_00009,Kappa,0.0
+754,privateshared,score-Qwen3.5-9B-sp,letter-number,instance_00009,Truncated Kappa,0
+755,privateshared,score-Qwen3.5-9B-sp,letter-number,instance_00009,Slot-Filling-Accuracy,1.0
+756,privateshared,score-Qwen3.5-9B-sp,letter-number,instance_00009,Main Score,0.0
+757,privateshared,score-Qwen3.5-9B-sp,letter-number,instance_00009,Aborted,0
+758,privateshared,score-Qwen3.5-9B-sp,letter-number,instance_00009,Lose,1
+759,privateshared,score-Qwen3.5-9B-sp,letter-number,instance_00009,Success,0
+760,privateshared,score-Qwen3.5-9B-sp,letter-number,instance_00009,Request Count,120
+761,privateshared,score-Qwen3.5-9B-sp,letter-number,instance_00009,Parsed Request Count,120
+762,privateshared,score-Qwen3.5-9B-sp,letter-number,instance_00009,Violated Request Count,0
+763,privateshared,score-Qwen3.5-9B-sp,letter-number,instance_00009,Request Success Ratio,1.0
+764,privateshared,score-Qwen3.5-9B-sp,restaurant,instance_00007,Middle-Accuracy,1.0
+765,privateshared,score-Qwen3.5-9B-sp,restaurant,instance_00007,Accuracy,0.8333333333333334
+766,privateshared,score-Qwen3.5-9B-sp,restaurant,instance_00007,Kappa,0.6666666666666667
+767,privateshared,score-Qwen3.5-9B-sp,restaurant,instance_00007,Truncated Kappa,0.6666666666666667
+768,privateshared,score-Qwen3.5-9B-sp,restaurant,instance_00007,Slot-Filling-Accuracy,0.8
+769,privateshared,score-Qwen3.5-9B-sp,restaurant,instance_00007,Main Score,72.72727272727273
+770,privateshared,score-Qwen3.5-9B-sp,restaurant,instance_00007,Aborted,0
+771,privateshared,score-Qwen3.5-9B-sp,restaurant,instance_00007,Lose,1
+772,privateshared,score-Qwen3.5-9B-sp,restaurant,instance_00007,Success,0
+773,privateshared,score-Qwen3.5-9B-sp,restaurant,instance_00007,Request Count,35
+774,privateshared,score-Qwen3.5-9B-sp,restaurant,instance_00007,Parsed Request Count,35
+775,privateshared,score-Qwen3.5-9B-sp,restaurant,instance_00007,Violated Request Count,0
+776,privateshared,score-Qwen3.5-9B-sp,restaurant,instance_00007,Request Success Ratio,1.0
+777,privateshared,score-Qwen3.5-9B-sp,things-places,instance_00003,Accuracy,
+778,privateshared,score-Qwen3.5-9B-sp,things-places,instance_00003,Kappa,
+779,privateshared,score-Qwen3.5-9B-sp,things-places,instance_00003,Truncated Kappa,
+780,privateshared,score-Qwen3.5-9B-sp,things-places,instance_00003,Slot-Filling-Accuracy,
+781,privateshared,score-Qwen3.5-9B-sp,things-places,instance_00003,Main Score,
+782,privateshared,score-Qwen3.5-9B-sp,things-places,instance_00003,Aborted,1
+783,privateshared,score-Qwen3.5-9B-sp,things-places,instance_00003,Lose,0
+784,privateshared,score-Qwen3.5-9B-sp,things-places,instance_00003,Success,0
+785,privateshared,score-Qwen3.5-9B-sp,things-places,instance_00003,Request Count,5
+786,privateshared,score-Qwen3.5-9B-sp,things-places,instance_00003,Parsed Request Count,0
+787,privateshared,score-Qwen3.5-9B-sp,things-places,instance_00003,Violated Request Count,5
+788,privateshared,score-Qwen3.5-9B-sp,things-places,instance_00003,Request Success Ratio,0.0
+789,privateshared,score-Qwen3.5-9B-sp,travel-booking,instance_00009,Middle-Accuracy,0.8
+790,privateshared,score-Qwen3.5-9B-sp,travel-booking,instance_00009,Accuracy,0.6
+791,privateshared,score-Qwen3.5-9B-sp,travel-booking,instance_00009,Kappa,0.19999999999999996
+792,privateshared,score-Qwen3.5-9B-sp,travel-booking,instance_00009,Truncated Kappa,0.19999999999999996
+793,privateshared,score-Qwen3.5-9B-sp,travel-booking,instance_00009,Slot-Filling-Accuracy,1.0
+794,privateshared,score-Qwen3.5-9B-sp,travel-booking,instance_00009,Main Score,33.33333333333333
+795,privateshared,score-Qwen3.5-9B-sp,travel-booking,instance_00009,Aborted,0
+796,privateshared,score-Qwen3.5-9B-sp,travel-booking,instance_00009,Lose,1
+797,privateshared,score-Qwen3.5-9B-sp,travel-booking,instance_00009,Success,0
+798,privateshared,score-Qwen3.5-9B-sp,travel-booking,instance_00009,Request Count,35
+799,privateshared,score-Qwen3.5-9B-sp,travel-booking,instance_00009,Parsed Request Count,35
+800,privateshared,score-Qwen3.5-9B-sp,travel-booking,instance_00009,Violated Request Count,0
+801,privateshared,score-Qwen3.5-9B-sp,travel-booking,instance_00009,Request Success Ratio,1.0
+802,referencegame,score-Qwen3.5-9B-sp,letter_grids,instance_00012,Generated Expression Length,215
+803,referencegame,score-Qwen3.5-9B-sp,letter_grids,instance_00012,Generated Expression Number of Tokens,39
+804,referencegame,score-Qwen3.5-9B-sp,letter_grids,instance_00012,Aborted at Player 1,0
+805,referencegame,score-Qwen3.5-9B-sp,letter_grids,instance_00012,Aborted at Player 2,0
+806,referencegame,score-Qwen3.5-9B-sp,letter_grids,instance_00012,Request Count,2
+807,referencegame,score-Qwen3.5-9B-sp,letter_grids,instance_00012,Parsed Request Count,2
+808,referencegame,score-Qwen3.5-9B-sp,letter_grids,instance_00012,Violated Request Count,0
+809,referencegame,score-Qwen3.5-9B-sp,letter_grids,instance_00012,Aborted,0
+810,referencegame,score-Qwen3.5-9B-sp,letter_grids,instance_00012,Success,1
+811,referencegame,score-Qwen3.5-9B-sp,letter_grids,instance_00012,Lose,0
+812,referencegame,score-Qwen3.5-9B-sp,letter_grids,instance_00012,Main Score,100
+813,referencegame,score-Qwen3.5-9B-sp,letter_grids,instance_00012,Request Success Ratio,1.0
+814,referencegame,score-Qwen3.5-9B-sp,line_grids_columns,instance_00013,Generated Expression Length,163
+815,referencegame,score-Qwen3.5-9B-sp,line_grids_columns,instance_00013,Generated Expression Number of Tokens,28
+816,referencegame,score-Qwen3.5-9B-sp,line_grids_columns,instance_00013,Aborted at Player 1,0
+817,referencegame,score-Qwen3.5-9B-sp,line_grids_columns,instance_00013,Aborted at Player 2,0
+818,referencegame,score-Qwen3.5-9B-sp,line_grids_columns,instance_00013,Request Count,2
+819,referencegame,score-Qwen3.5-9B-sp,line_grids_columns,instance_00013,Parsed Request Count,2
+820,referencegame,score-Qwen3.5-9B-sp,line_grids_columns,instance_00013,Violated Request Count,0
+821,referencegame,score-Qwen3.5-9B-sp,line_grids_columns,instance_00013,Aborted,0
+822,referencegame,score-Qwen3.5-9B-sp,line_grids_columns,instance_00013,Success,1
+823,referencegame,score-Qwen3.5-9B-sp,line_grids_columns,instance_00013,Lose,0
+824,referencegame,score-Qwen3.5-9B-sp,line_grids_columns,instance_00013,Main Score,100
+825,referencegame,score-Qwen3.5-9B-sp,line_grids_columns,instance_00013,Request Success Ratio,1.0
+826,referencegame,score-Qwen3.5-9B-sp,line_grids_rows,instance_00017,Generated Expression Length,156
+827,referencegame,score-Qwen3.5-9B-sp,line_grids_rows,instance_00017,Generated Expression Number of Tokens,26
+828,referencegame,score-Qwen3.5-9B-sp,line_grids_rows,instance_00017,Aborted at Player 1,0
+829,referencegame,score-Qwen3.5-9B-sp,line_grids_rows,instance_00017,Aborted at Player 2,0
+830,referencegame,score-Qwen3.5-9B-sp,line_grids_rows,instance_00017,Request Count,2
+831,referencegame,score-Qwen3.5-9B-sp,line_grids_rows,instance_00017,Parsed Request Count,2
+832,referencegame,score-Qwen3.5-9B-sp,line_grids_rows,instance_00017,Violated Request Count,0
+833,referencegame,score-Qwen3.5-9B-sp,line_grids_rows,instance_00017,Aborted,0
+834,referencegame,score-Qwen3.5-9B-sp,line_grids_rows,instance_00017,Success,1
+835,referencegame,score-Qwen3.5-9B-sp,line_grids_rows,instance_00017,Lose,0
+836,referencegame,score-Qwen3.5-9B-sp,line_grids_rows,instance_00017,Main Score,100
+837,referencegame,score-Qwen3.5-9B-sp,line_grids_rows,instance_00017,Request Success Ratio,1.0
+838,referencegame,score-Qwen3.5-9B-sp,number_grids,instance_00017,Generated Expression Length,289
+839,referencegame,score-Qwen3.5-9B-sp,number_grids,instance_00017,Generated Expression Number of Tokens,51
+840,referencegame,score-Qwen3.5-9B-sp,number_grids,instance_00017,Aborted at Player 1,0
+841,referencegame,score-Qwen3.5-9B-sp,number_grids,instance_00017,Aborted at Player 2,0
+842,referencegame,score-Qwen3.5-9B-sp,number_grids,instance_00017,Request Count,2
+843,referencegame,score-Qwen3.5-9B-sp,number_grids,instance_00017,Parsed Request Count,2
+844,referencegame,score-Qwen3.5-9B-sp,number_grids,instance_00017,Violated Request Count,0
+845,referencegame,score-Qwen3.5-9B-sp,number_grids,instance_00017,Aborted,0
+846,referencegame,score-Qwen3.5-9B-sp,number_grids,instance_00017,Success,1
+847,referencegame,score-Qwen3.5-9B-sp,number_grids,instance_00017,Lose,0
+848,referencegame,score-Qwen3.5-9B-sp,number_grids,instance_00017,Main Score,100
+849,referencegame,score-Qwen3.5-9B-sp,number_grids,instance_00017,Request Success Ratio,1.0
+850,referencegame,score-Qwen3.5-9B-sp,random_grids,instance_00005,Generated Expression Length,391
+851,referencegame,score-Qwen3.5-9B-sp,random_grids,instance_00005,Generated Expression Number of Tokens,69
+852,referencegame,score-Qwen3.5-9B-sp,random_grids,instance_00005,Aborted at Player 1,0
+853,referencegame,score-Qwen3.5-9B-sp,random_grids,instance_00005,Aborted at Player 2,0
+854,referencegame,score-Qwen3.5-9B-sp,random_grids,instance_00005,Request Count,2
+855,referencegame,score-Qwen3.5-9B-sp,random_grids,instance_00005,Parsed Request Count,2
+856,referencegame,score-Qwen3.5-9B-sp,random_grids,instance_00005,Violated Request Count,0
+857,referencegame,score-Qwen3.5-9B-sp,random_grids,instance_00005,Aborted,0
+858,referencegame,score-Qwen3.5-9B-sp,random_grids,instance_00005,Success,0
+859,referencegame,score-Qwen3.5-9B-sp,random_grids,instance_00005,Lose,1
+860,referencegame,score-Qwen3.5-9B-sp,random_grids,instance_00005,Main Score,0
+861,referencegame,score-Qwen3.5-9B-sp,random_grids,instance_00005,Request Success Ratio,1.0
+862,taboo,score-Qwen3.5-9B-sp,high_en,instance_00010,Violated Request Count,0
+863,taboo,score-Qwen3.5-9B-sp,high_en,instance_00010,Parsed Request Count,1
+864,taboo,score-Qwen3.5-9B-sp,high_en,instance_00010,Request Count,1
+865,taboo,score-Qwen3.5-9B-sp,high_en,instance_00010,Request Success Ratio,1.0
+866,taboo,score-Qwen3.5-9B-sp,high_en,instance_00010,Aborted,0
+867,taboo,score-Qwen3.5-9B-sp,high_en,instance_00010,Success,1
+868,taboo,score-Qwen3.5-9B-sp,high_en,instance_00010,Lose,0
+869,taboo,score-Qwen3.5-9B-sp,high_en,instance_00010,Main Score,100.0
+870,taboo,score-Qwen3.5-9B-sp,high_en,instance_00010,Repetition-Guesser,0
+871,taboo,score-Qwen3.5-9B-sp,high_en,instance_00010,Repetition-Describer,0
+872,taboo,score-Qwen3.5-9B-sp,high_en,instance_00016,Violated Request Count,0
+873,taboo,score-Qwen3.5-9B-sp,high_en,instance_00016,Parsed Request Count,2
+874,taboo,score-Qwen3.5-9B-sp,high_en,instance_00016,Request Count,2
+875,taboo,score-Qwen3.5-9B-sp,high_en,instance_00016,Request Success Ratio,1.0
+876,taboo,score-Qwen3.5-9B-sp,high_en,instance_00016,Aborted,0
+877,taboo,score-Qwen3.5-9B-sp,high_en,instance_00016,Success,1
+878,taboo,score-Qwen3.5-9B-sp,high_en,instance_00016,Lose,0
+879,taboo,score-Qwen3.5-9B-sp,high_en,instance_00016,Main Score,50.0
+880,taboo,score-Qwen3.5-9B-sp,high_en,instance_00016,Repetition-Guesser,0
+881,taboo,score-Qwen3.5-9B-sp,high_en,instance_00016,Repetition-Describer,0
+882,taboo,score-Qwen3.5-9B-sp,low_en,instance_00012,Violated Request Count,0
+883,taboo,score-Qwen3.5-9B-sp,low_en,instance_00012,Parsed Request Count,1
+884,taboo,score-Qwen3.5-9B-sp,low_en,instance_00012,Request Count,1
+885,taboo,score-Qwen3.5-9B-sp,low_en,instance_00012,Request Success Ratio,1.0
+886,taboo,score-Qwen3.5-9B-sp,low_en,instance_00012,Aborted,0
+887,taboo,score-Qwen3.5-9B-sp,low_en,instance_00012,Success,0
+888,taboo,score-Qwen3.5-9B-sp,low_en,instance_00012,Lose,1
+889,taboo,score-Qwen3.5-9B-sp,low_en,instance_00012,Main Score,0
+890,taboo,score-Qwen3.5-9B-sp,low_en,instance_00012,Repetition-Guesser,0
+891,taboo,score-Qwen3.5-9B-sp,low_en,instance_00012,Repetition-Describer,0
+892,taboo,score-Qwen3.5-9B-sp,low_en,instance_00018,Violated Request Count,0
+893,taboo,score-Qwen3.5-9B-sp,low_en,instance_00018,Parsed Request Count,1
+894,taboo,score-Qwen3.5-9B-sp,low_en,instance_00018,Request Count,1
+895,taboo,score-Qwen3.5-9B-sp,low_en,instance_00018,Request Success Ratio,1.0
+896,taboo,score-Qwen3.5-9B-sp,low_en,instance_00018,Aborted,0
+897,taboo,score-Qwen3.5-9B-sp,low_en,instance_00018,Success,1
+898,taboo,score-Qwen3.5-9B-sp,low_en,instance_00018,Lose,0
+899,taboo,score-Qwen3.5-9B-sp,low_en,instance_00018,Main Score,100.0
+900,taboo,score-Qwen3.5-9B-sp,low_en,instance_00018,Repetition-Guesser,0
+901,taboo,score-Qwen3.5-9B-sp,low_en,instance_00018,Repetition-Describer,0
+902,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00007,Violated Request Count,0
+903,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00007,Parsed Request Count,1
+904,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00007,Request Count,1
+905,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00007,Request Success Ratio,1.0
+906,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00007,Aborted,0
+907,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00007,Success,0
+908,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00007,Lose,1
+909,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00007,Main Score,0
+910,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00007,Repetition-Guesser,0
+911,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00007,Repetition-Describer,0
+912,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00010,Violated Request Count,0
+913,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00010,Parsed Request Count,1
+914,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00010,Request Count,1
+915,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00010,Request Success Ratio,1.0
+916,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00010,Aborted,0
+917,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00010,Success,0
+918,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00010,Lose,1
+919,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00010,Main Score,0
+920,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00010,Repetition-Guesser,0
+921,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00010,Repetition-Describer,0
+922,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,Success,1
+923,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,Aborted,0
+924,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,Lose,0
+925,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,moves,18
+926,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,valid_moves,18
+927,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,invalid_moves,0
+928,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,stopped,1
+929,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,turns_limit,0
+930,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,loops,1
+931,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,number_visited,8
+932,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,seen,8
+933,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,efficiency,72.22222222222221
+934,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,exploration,100.0
+935,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,Main Score,83.87096774193547
+936,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,Success,0
+937,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,Aborted,0
+938,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,Lose,1
+939,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,moves,9
+940,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,valid_moves,9
+941,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,invalid_moves,0
+942,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,stopped,1
+943,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,turns_limit,0
+944,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,loops,0
+945,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,number_visited,5
+946,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,seen,7
+947,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,efficiency,66.66666666666666
+948,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,exploration,62.5
+949,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,Main Score,64.51612903225806
+950,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,Success,1
+951,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,Aborted,0
+952,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,Lose,0
+953,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,moves,10
+954,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,valid_moves,10
+955,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,invalid_moves,0
+956,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,stopped,1
+957,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,turns_limit,0
+958,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,loops,0
+959,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,number_visited,6
+960,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,seen,6
+961,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,efficiency,60.0
+962,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,exploration,100.0
+963,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,Main Score,75.0
+964,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,Success,0
+965,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,Aborted,0
+966,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,Lose,1
+967,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,moves,4
+968,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,valid_moves,4
+969,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,invalid_moves,0
+970,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,stopped,1
+971,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,turns_limit,0
+972,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,loops,0
+973,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,number_visited,3
+974,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,seen,5
+975,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,efficiency,50.0
+976,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,exploration,50.0
+977,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,Main Score,50.0
+978,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,Success,1
+979,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,Aborted,0
+980,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,Lose,0
+981,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,moves,6
+982,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,valid_moves,6
+983,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,invalid_moves,0
+984,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,stopped,1
+985,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,turns_limit,0
+986,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,loops,0
+987,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,number_visited,4
+988,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,seen,4
+989,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,efficiency,50.0
+990,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,exploration,100.0
+991,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,Main Score,66.66666666666667
+992,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,Success,0
+993,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,Aborted,0
+994,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,Lose,1
+995,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,moves,6
+996,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,valid_moves,6
+997,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,invalid_moves,0
+998,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,stopped,1
+999,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,turns_limit,0
+1000,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,loops,0
+1001,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,number_visited,4
+1002,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,seen,6
+1003,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,efficiency,50.0
+1004,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,exploration,50.0
+1005,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,graph_similarity,1.3385701848569465
+1006,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,Main Score,50.0
+1007,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,Success,0
+1008,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,Aborted,0
+1009,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,Lose,1
+1010,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,moves,7
+1011,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,valid_moves,7
+1012,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,invalid_moves,0
+1013,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,stopped,1
+1014,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,turns_limit,0
+1015,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,loops,1
+1016,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,number_visited,4
+1017,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,seen,5
+1018,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,efficiency,71.42857142857143
+1019,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,exploration,66.66666666666666
+1020,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,graph_similarity,5.862446150271272
+1021,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,Main Score,68.96551724137932
+1022,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,Success,0
+1023,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,Aborted,0
+1024,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,Lose,1
+1025,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,moves,2
+1026,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,valid_moves,2
+1027,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,invalid_moves,0
+1028,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,stopped,1
+1029,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,turns_limit,0
+1030,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,loops,0
+1031,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,number_visited,2
+1032,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,seen,4
+1033,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,efficiency,0.0
+1034,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,exploration,50.0
+1035,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,graph_similarity,15.17163600424869
+1036,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,Main Score,0.0
+1037,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,Success,1
+1038,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,Aborted,0
+1039,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,Lose,0
+1040,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,moves,1
+1041,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,valid_moves,1
+1042,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,invalid_moves,0
+1043,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,stopped,1
+1044,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,turns_limit,0
+1045,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,loops,0
+1046,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,number_visited,2
+1047,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,seen,3
+1048,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,efficiency,100.0
+1049,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,exploration,25.0
+1050,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,old_benchscore,40.0
+1051,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,Main Score,100
+1052,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,Success,1
+1053,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,Aborted,0
+1054,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,Lose,0
+1055,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,moves,3
+1056,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,valid_moves,3
+1057,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,invalid_moves,0
+1058,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,stopped,1
+1059,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,turns_limit,0
+1060,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,loops,0
+1061,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,number_visited,4
+1062,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,seen,5
+1063,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,efficiency,100.0
+1064,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,exploration,50.0
+1065,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,old_benchscore,66.66666666666667
+1066,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,Main Score,100
+1067,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,Success,1
+1068,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,Aborted,0
+1069,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,Lose,0
+1070,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,moves,0
+1071,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,valid_moves,0
+1072,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,invalid_moves,0
+1073,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,stopped,1
+1074,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,turns_limit,0
+1075,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,loops,0
+1076,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,number_visited,1
+1077,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,seen,3
+1078,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,efficiency,0
+1079,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,exploration,12.5
+1080,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,old_benchscore,0.0
+1081,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,Main Score,100
+1082,wordle,score-Qwen3.5-9B-sp,high_frequency_words_no_clue_no_critic,instance_00007,Aborted,1
+1083,wordle,score-Qwen3.5-9B-sp,high_frequency_words_no_clue_no_critic,instance_00007,Lose,0
+1084,wordle,score-Qwen3.5-9B-sp,high_frequency_words_no_clue_no_critic,instance_00007,Success,0
+1085,wordle,score-Qwen3.5-9B-sp,high_frequency_words_no_clue_no_critic,instance_00007,Request Count,4
+1086,wordle,score-Qwen3.5-9B-sp,high_frequency_words_no_clue_no_critic,instance_00007,Parsed Request Count,3
+1087,wordle,score-Qwen3.5-9B-sp,high_frequency_words_no_clue_no_critic,instance_00007,Violated Request Count,1
+1088,wordle,score-Qwen3.5-9B-sp,high_frequency_words_no_clue_no_critic,instance_00007,Request Success Ratio,0.75
+1089,wordle,score-Qwen3.5-9B-sp,high_frequency_words_no_clue_no_critic,instance_00007,Main Score,
+1090,wordle,score-Qwen3.5-9B-sp,high_frequency_words_no_clue_no_critic,instance_00007,Guess Repetitions,
+1091,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00007,Aborted,1
+1092,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00007,Lose,0
+1093,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00007,Success,0
+1094,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00007,Request Count,4
+1095,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00007,Parsed Request Count,3
+1096,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00007,Violated Request Count,1
+1097,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00007,Request Success Ratio,0.75
+1098,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00007,Main Score,
+1099,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00007,Guess Repetitions,
+1100,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00014,Aborted,1
+1101,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00014,Lose,0
+1102,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00014,Success,0
+1103,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00014,Request Count,3
+1104,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00014,Parsed Request Count,2
+1105,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00014,Violated Request Count,1
+1106,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00014,Request Success Ratio,0.6666666666666666
+1107,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00014,Main Score,
+1108,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00014,Guess Repetitions,
+1109,wordle_withclue,score-Qwen3.5-9B-sp,high_frequency_words_clue_no_critic,instance_00009,Aborted,1
+1110,wordle_withclue,score-Qwen3.5-9B-sp,high_frequency_words_clue_no_critic,instance_00009,Lose,0
+1111,wordle_withclue,score-Qwen3.5-9B-sp,high_frequency_words_clue_no_critic,instance_00009,Success,0
+1112,wordle_withclue,score-Qwen3.5-9B-sp,high_frequency_words_clue_no_critic,instance_00009,Request Count,3
+1113,wordle_withclue,score-Qwen3.5-9B-sp,high_frequency_words_clue_no_critic,instance_00009,Parsed Request Count,2
+1114,wordle_withclue,score-Qwen3.5-9B-sp,high_frequency_words_clue_no_critic,instance_00009,Violated Request Count,1
+1115,wordle_withclue,score-Qwen3.5-9B-sp,high_frequency_words_clue_no_critic,instance_00009,Request Success Ratio,0.6666666666666666
+1116,wordle_withclue,score-Qwen3.5-9B-sp,high_frequency_words_clue_no_critic,instance_00009,Main Score,
+1117,wordle_withclue,score-Qwen3.5-9B-sp,high_frequency_words_clue_no_critic,instance_00009,Guess Repetitions,
+1118,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00011,Aborted,0
+1119,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00011,Lose,0
+1120,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00011,Success,1
+1121,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00011,Request Count,1
+1122,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00011,Parsed Request Count,1
+1123,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00011,Violated Request Count,0
+1124,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00011,Request Success Ratio,1.0
+1125,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00011,Main Score,100.0
+1126,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00011,Guess Repetitions,0
+1127,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00018,Aborted,1
+1128,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00018,Lose,0
+1129,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00018,Success,0
+1130,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00018,Request Count,2
+1131,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00018,Parsed Request Count,1
+1132,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00018,Violated Request Count,1
+1133,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00018,Request Success Ratio,0.5
+1134,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00018,Main Score,
+1135,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00018,Guess Repetitions,
+1136,wordle_withcritic,score-Qwen3.5-9B-sp,high_frequency_words_clue_with_critic,instance_00002,Aborted,0
+1137,wordle_withcritic,score-Qwen3.5-9B-sp,high_frequency_words_clue_with_critic,instance_00002,Lose,0
+1138,wordle_withcritic,score-Qwen3.5-9B-sp,high_frequency_words_clue_with_critic,instance_00002,Success,1
+1139,wordle_withcritic,score-Qwen3.5-9B-sp,high_frequency_words_clue_with_critic,instance_00002,Request Count,3
+1140,wordle_withcritic,score-Qwen3.5-9B-sp,high_frequency_words_clue_with_critic,instance_00002,Parsed Request Count,3
+1141,wordle_withcritic,score-Qwen3.5-9B-sp,high_frequency_words_clue_with_critic,instance_00002,Violated Request Count,0
+1142,wordle_withcritic,score-Qwen3.5-9B-sp,high_frequency_words_clue_with_critic,instance_00002,Request Success Ratio,1.0
+1143,wordle_withcritic,score-Qwen3.5-9B-sp,high_frequency_words_clue_with_critic,instance_00002,Main Score,100.0
+1144,wordle_withcritic,score-Qwen3.5-9B-sp,high_frequency_words_clue_with_critic,instance_00002,Guess Repetitions,0
+1145,wordle_withcritic,score-Qwen3.5-9B-sp,high_frequency_words_clue_with_critic,instance_00002,Repetition-Guesser-On-Critic-Agreement,1.0
+1146,wordle_withcritic,score-Qwen3.5-9B-sp,high_frequency_words_clue_with_critic,instance_00002,Non-Repetition-Guesser-On-Critic-Agreement,0.0
+1147,wordle_withcritic,score-Qwen3.5-9B-sp,high_frequency_words_clue_with_critic,instance_00002,Repetition-Guesser-On-Critic-Disagreement,0
+1148,wordle_withcritic,score-Qwen3.5-9B-sp,high_frequency_words_clue_with_critic,instance_00002,Non-Repetition-Guesser-On-Critic-Disagreement,0
+1149,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00004,Aborted,1
+1150,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00004,Lose,0
+1151,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00004,Success,0
+1152,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00004,Request Count,1
+1153,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00004,Parsed Request Count,0
+1154,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00004,Violated Request Count,1
+1155,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00004,Request Success Ratio,0.0
+1156,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00004,Main Score,
+1157,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00004,Guess Repetitions,
+1158,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00004,Repetition-Guesser-On-Critic-Agreement,
+1159,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00004,Non-Repetition-Guesser-On-Critic-Agreement,
+1160,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00004,Repetition-Guesser-On-Critic-Disagreement,
+1161,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00004,Non-Repetition-Guesser-On-Critic-Disagreement,
+1162,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00019,Aborted,1
+1163,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00019,Lose,0
+1164,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00019,Success,0
+1165,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00019,Request Count,7
+1166,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00019,Parsed Request Count,6
+1167,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00019,Violated Request Count,1
+1168,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00019,Request Success Ratio,0.8571428571428571
+1169,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00019,Main Score,
+1170,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00019,Guess Repetitions,
+1171,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00019,Repetition-Guesser-On-Critic-Agreement,0.0
+1172,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00019,Non-Repetition-Guesser-On-Critic-Agreement,1.0
+1173,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00019,Repetition-Guesser-On-Critic-Disagreement,0.0
+1174,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00019,Non-Repetition-Guesser-On-Critic-Disagreement,1.0
+1175,adventuregame,score-Qwen3.5-9B-sp,home_deliver_three_basic_hard_invlimittwo,instance_00000,Played,0.0
+1176,adventuregame,score-Qwen3.5-9B-sp,new-words_created_basic_hard,instance_00000,Played,1.0
+1177,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_easy_basic_easy,instance_00002,Played,1.0
+1178,adventuregame,score-Qwen3.5-9B-sp,new-words_home-delivery_medium_basic_medium,instance_00002,Played,0.0
+1179,adventuregame,score-Qwen3.5-9B-sp,potion_brewing_basic_undefined,instance_00004,Played,0.0
+1180,codenames,score-Qwen3.5-9B-sp,abstract,instance_00007,Played,0
+1181,codenames,score-Qwen3.5-9B-sp,ambiguous,instance_00001,Played,0
+1182,codenames,score-Qwen3.5-9B-sp,association_difficult,instance_00000,Played,0
+1183,codenames,score-Qwen3.5-9B-sp,association_easy,instance_00009,Played,0
+1184,codenames,score-Qwen3.5-9B-sp,concrete,instance_00004,Played,0
+1185,codenames,score-Qwen3.5-9B-sp,frequency_high,instance_00002,Played,0
+1186,codenames,score-Qwen3.5-9B-sp,frequency_low,instance_00004,Played,0
+1187,codenames,score-Qwen3.5-9B-sp,opponent_difficult,instance_00007,Played,0
+1188,codenames,score-Qwen3.5-9B-sp,opponent_easy,instance_00009,Played,0
+1189,codenames,score-Qwen3.5-9B-sp,opponent_none,instance_00008,Played,0
+1190,codenames,score-Qwen3.5-9B-sp,risk_high,instance_00009,Played,0
+1191,codenames,score-Qwen3.5-9B-sp,risk_low,instance_00008,Played,0
+1192,codenames,score-Qwen3.5-9B-sp,unambiguous,instance_00002,Played,0
+1193,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_1,instance_00002,Played,0
+1194,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_2,instance_00007,Played,0
+1195,guesswhat,score-Qwen3.5-9B-sp,Abs_Level_3,instance_00008,Played,0
+1196,guesswhat,score-Qwen3.5-9B-sp,Level_1,instance_00002,Played,0
+1197,guesswhat,score-Qwen3.5-9B-sp,Level_2,instance_00009,Played,0
+1198,guesswhat,score-Qwen3.5-9B-sp,Level_3,instance_00008,Played,0
+1199,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00002,Played,0
+1200,imagegame,score-Qwen3.5-9B-sp,compact_grids,instance_00019,Played,1
+1201,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00014,Played,1
+1202,imagegame,score-Qwen3.5-9B-sp,random_grids,instance_00016,Played,1
+1203,matchit_ascii,score-Qwen3.5-9B-sp,different_grid,instance_00002,Played,1
+1204,matchit_ascii,score-Qwen3.5-9B-sp,same_grid,instance_00002,Played,1
+1205,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_1,instance_00002,Played,1
+1206,matchit_ascii,score-Qwen3.5-9B-sp,similar_grid_2,instance_00007,Played,1
+1207,privateshared,score-Qwen3.5-9B-sp,job-interview,instance_00008,Played,1
+1208,privateshared,score-Qwen3.5-9B-sp,letter-number,instance_00009,Played,1
+1209,privateshared,score-Qwen3.5-9B-sp,restaurant,instance_00007,Played,1
+1210,privateshared,score-Qwen3.5-9B-sp,things-places,instance_00003,Played,0
+1211,privateshared,score-Qwen3.5-9B-sp,travel-booking,instance_00009,Played,1
+1212,referencegame,score-Qwen3.5-9B-sp,letter_grids,instance_00012,Played,1
+1213,referencegame,score-Qwen3.5-9B-sp,line_grids_columns,instance_00013,Played,1
+1214,referencegame,score-Qwen3.5-9B-sp,line_grids_rows,instance_00017,Played,1
+1215,referencegame,score-Qwen3.5-9B-sp,number_grids,instance_00017,Played,1
+1216,referencegame,score-Qwen3.5-9B-sp,random_grids,instance_00005,Played,1
+1217,taboo,score-Qwen3.5-9B-sp,high_en,instance_00010,Played,1
+1218,taboo,score-Qwen3.5-9B-sp,high_en,instance_00016,Played,1
+1219,taboo,score-Qwen3.5-9B-sp,low_en,instance_00012,Played,1
+1220,taboo,score-Qwen3.5-9B-sp,low_en,instance_00018,Played,1
+1221,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00007,Played,1
+1222,taboo,score-Qwen3.5-9B-sp,medium_en,instance_00010,Played,1
+1223,textmapworld,score-Qwen3.5-9B-sp,large,instance_00028,Played,1
+1224,textmapworld,score-Qwen3.5-9B-sp,large_cycle,instance_00049,Played,1
+1225,textmapworld,score-Qwen3.5-9B-sp,medium,instance_00010,Played,1
+1226,textmapworld,score-Qwen3.5-9B-sp,medium_cycle,instance_00034,Played,1
+1227,textmapworld,score-Qwen3.5-9B-sp,small,instance_00006,Played,1
+1228,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,large,instance_00028,Played,1
+1229,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,medium,instance_00010,Played,1
+1230,textmapworld_graphreasoning,score-Qwen3.5-9B-sp,small,instance_00009,Played,1
+1231,textmapworld_specificroom,score-Qwen3.5-9B-sp,close,instance_00017,Played,1
+1232,textmapworld_specificroom,score-Qwen3.5-9B-sp,far,instance_00027,Played,1
+1233,textmapworld_specificroom,score-Qwen3.5-9B-sp,on,instance_00000,Played,1
+1234,wordle,score-Qwen3.5-9B-sp,high_frequency_words_no_clue_no_critic,instance_00007,Played,0
+1235,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00007,Played,0
+1236,wordle,score-Qwen3.5-9B-sp,medium_frequency_words_no_clue_no_critic,instance_00014,Played,0
+1237,wordle_withclue,score-Qwen3.5-9B-sp,high_frequency_words_clue_no_critic,instance_00009,Played,0
+1238,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00011,Played,1
+1239,wordle_withclue,score-Qwen3.5-9B-sp,medium_frequency_words_clue_no_critic,instance_00018,Played,0
+1240,wordle_withcritic,score-Qwen3.5-9B-sp,high_frequency_words_clue_with_critic,instance_00002,Played,1
+1241,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00004,Played,0
+1242,wordle_withcritic,score-Qwen3.5-9B-sp,medium_frequency_words_clue_with_critic,instance_00019,Played,0

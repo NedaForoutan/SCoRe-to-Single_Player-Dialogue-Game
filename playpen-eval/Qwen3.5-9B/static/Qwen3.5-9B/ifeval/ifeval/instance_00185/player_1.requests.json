@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 185,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:42:25.860532",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite a story from a perspective of a man. Include some conversation in the story. Avoid using the letter i more than twice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite a story from a perspective of a man. Include some conversation in the story. Avoid using the letter i more than twice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nThe rain hammered hard against the roof. Elias stood by the window, watching the gray world blur. He held a cold cup of coffee in his hands.\n\n\"Come on out,\" his wife, Mara, called from the kitchen. \"It's getting late.\"\n\nElias turned slowly. \"I just need a moment.\"\n\nMara walked over, her boots wet with mud. She took the cup from his grip. \"You've been staring at that glass for an hour. Let's go inside.\"\n\nHe sighed, a long, heavy sound. \"I was thinking about the trip. The one we planned for next month.\"\n\nMara smiled softly. \"We can still go. The weather won't stop us.\"\n\n\"But what if it rains then?\" Elias asked, his voice low. \"What if the roads are bad?\"\n\n\"Then we find another way,\" she said firmly. \"We always do.\"\n\nHe looked at her, really looked at her, for the first time in days. The worry in his chest began to fade.\n\n\"You're right,\" he said finally. \"Let's go inside.\"\n\nThey walked toward the door together, leaving the storm behind.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:42:19.868510",
+            "call_duration": "0:00:05.991953",
+            "response": "The rain hammered hard against the roof. Elias stood by the window, watching the gray world blur. He held a cold cup of coffee in his hands.\n\n\"Come on out,\" his wife, Mara, called from the kitchen. \"It's getting late.\"\n\nElias turned slowly. \"I just need a moment.\"\n\nMara walked over, her boots wet with mud. She took the cup from his grip. \"You've been staring at that glass for an hour. Let's go inside.\"\n\nHe sighed, a long, heavy sound. \"I was thinking about the trip. The one we planned for next month.\"\n\nMara smiled softly. \"We can still go. The weather won't stop us.\"\n\n\"But what if it rains then?\" Elias asked, his voice low. \"What if the roads are bad?\"\n\n\"Then we find another way,\" she said firmly. \"We always do.\"\n\nHe looked at her, really looked at her, for the first time in days. The worry in his chest began to fade.\n\n\"You're right,\" he said finally. \"Let's go inside.\"\n\nThey walked toward the door together, leaving the storm behind.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

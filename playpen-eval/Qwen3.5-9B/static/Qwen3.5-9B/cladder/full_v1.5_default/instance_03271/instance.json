@@ -1,0 +1,5 @@
+{
+  "game_id": 3271,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: CEO has a direct effect on director and having visited England. Having visited England has a direct effect on employee. Director has a direct effect on employee. For CEOs who fire employees and have not visited England, the probability of employee being fired is 21%. For CEOs who fire employees and have visited England, the probability of employee being fired is 51%. For CEOs who fire employees and have not visited England, the probability of employee being fired is 35%. For CEOs who fire employees and have visited England, the probability of employee being fired is 66%. The overall probability of CEO's decision to fire the employee is 28%. Will having visited England increase the chance of employee being fired?",
+  "target": "yes"
+}

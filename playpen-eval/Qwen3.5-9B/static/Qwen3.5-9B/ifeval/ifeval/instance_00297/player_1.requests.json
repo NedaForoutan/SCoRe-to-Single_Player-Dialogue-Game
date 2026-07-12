@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 297,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:43:45.186725",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nRewrite the following text so that it is funny to software engineers using notations from the book \"The C Programming Language\": \"The use of the various constructions described in this chapter is one of the most distinctive features of the C programming language.\" Make this sound like it is being said by the president of the United States and capitalize every letter.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nRewrite the following text so that it is funny to software engineers using notations from the book \"The C Programming Language\": \"The use of the various constructions described in this chapter is one of the most distinctive features of the C programming language.\" Make this sound like it is being said by the president of the United States and capitalize every letter.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n\"THE USE OF THE VARIOUS CONSTRUCTIONS DESCRIBED IN THIS CHAPTER IS ONE OF THE MOST DISTINCTIVE FEATURES OF THE C PROGRAMMING LANGUAGE.\"<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:43:44.280851",
+            "call_duration": "0:00:00.905832",
+            "response": "\"THE USE OF THE VARIOUS CONSTRUCTIONS DESCRIBED IN THIS CHAPTER IS ONE OF THE MOST DISTINCTIVE FEATURES OF THE C PROGRAMMING LANGUAGE.\"\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

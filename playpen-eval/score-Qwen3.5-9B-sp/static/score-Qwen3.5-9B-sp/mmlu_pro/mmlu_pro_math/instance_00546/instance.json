@@ -1,0 +1,5 @@
+{
+  "game_id": 546,
+  "input": "Question:\nA farmer wants to know whether a new fertilizer has increased the mean weight of his apples. With the old fertilizer, the mean weight was 4.0 ounces per apple. The farmer decides to test H0: μ = 4.0 ounces versus Ha : μ > 4.0 ounces, at a 5 percent level of significance, where μ = the mean weight of apples using the new fertilizer. The weights of apples are approximately normally distributed. The farmer takes a random sample of 16 apples and computes a mean of 4.3 ounces and a standard deviation of 0.6 ounces. Which of the following gives the p-value for this test?\nOptions:\nA. P(Z > 2)\nB. P(Z < 2)\nC. P(Z > 2) with 16 degrees of freedom\nD. P(t > 2) with 15 degrees of freedom\nE. P(t < 2) with 15 degrees of freedom\nF. P(Z < 1.5)\nG. P(Z > 1.5)\nH. P(t > 1.5) with 15 degrees of freedom\nI. P(t < 2) with 16 degrees of freedom\nJ. P(t < 1.5) with 15 degrees of freedom\n",
+  "target": "D"
+}

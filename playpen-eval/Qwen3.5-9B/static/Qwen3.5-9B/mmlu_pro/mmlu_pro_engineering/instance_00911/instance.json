@@ -1,0 +1,5 @@
+{
+  "game_id": 911,
+  "input": "Question:\nA chamber contains 5 lbm of an ideal gas, initially at a temperature of 100°F. The gas then undergoes a reversible isobaric process during which 500 Btu are added to the gas as heat. Determine the final temperature of the gas, assuming that the following properties of the gas are known. R = 0.0641 Btu/lbm -°R[0.2684 kJ/kg-°K] k = 1.147\nOptions:\nA. 200°F\nB. 400°F\nC. 500°F\nD. 300°F\n",
+  "target": "D"
+}

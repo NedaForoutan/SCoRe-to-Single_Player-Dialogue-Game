@@ -1,0 +1,10 @@
+{
+  "game_id": 212,
+  "input": "Plan a 12-day trip to Italy for professionals in finance, including Rome, Florence, and Venice. Make it in a format of a list with at least one placeholder, such as [address]. The response must be in English and all lowercase letters.",
+  "target": {
+    "detectable_content:number_placeholders": {
+      "num_placeholders": 1
+    },
+    "change_case:english_lowercase": {}
+  }
+}

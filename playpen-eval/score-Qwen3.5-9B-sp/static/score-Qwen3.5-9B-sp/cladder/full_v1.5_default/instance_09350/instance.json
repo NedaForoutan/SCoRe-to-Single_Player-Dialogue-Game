@@ -1,0 +1,5 @@
+{
+  "game_id": 9350,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Jyka has a direct effect on zory and zuph. Zuph has a direct effect on glimx. Zory has a direct effect on glimx. The overall probability of zuph is 34%. The probability of not zuph and glimx is 64%. The probability of zuph and glimx is 28%. Is the chance of glimx smaller when observing zuph?",
+  "target": "yes"
+}

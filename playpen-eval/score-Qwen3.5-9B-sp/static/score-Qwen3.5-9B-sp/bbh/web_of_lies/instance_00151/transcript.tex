@@ -1,0 +1,88 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `bbh', experiment `web\_of\_lies', episode 151 with score{-}Qwen3.5{-}9B{-}sp.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \texttt{Evaluate a random boolean function expressed as a word problem.} \\
+\\ 
+\texttt{Q: Question: Fidel tells the truth. Jerry says Fidel tells the truth. Vina says Jerry tells the truth. Millicent says Vina lies. Raymond says Millicent lies. Does Raymond tell the truth?} \\
+\texttt{A: Yes} \\
+\\ 
+\texttt{Q: Question: Kristian lies. Millie says Kristian lies. Maybelle says Millie tells the truth. Fidel says Maybelle lies. Leda says Fidel lies. Does Leda tell the truth?} \\
+\texttt{A: Yes} \\
+\\ 
+\texttt{Q: Question: Kristian tells the truth. Michaela says Kristian lies. Raymond says Michaela tells the truth. Osvaldo says Raymond tells the truth. Jamey says Osvaldo tells the truth. Does Jamey tell the truth?} \\
+\texttt{A: No} \\
+\\ 
+\texttt{Q: Question: Yoland tells the truth. Gwenn says Yoland tells the truth. Michaela says Gwenn lies. Jamey says Michaela tells the truth. Amberly says Jamey lies. Does Amberly tell the truth?} \\
+\texttt{A:} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{Let's break down the logic step by step:} \\
+\\ 
+\texttt{1.  **Yoland tells the truth** (Given).} \\
+\texttt{2.  **Gwenn** says Yoland tells the truth. Since Yoland does tell the truth, Gwenn's statement is correct. Therefore, **Gwenn tells the truth**.} \\
+\texttt{3.  **Michaela** says Gwenn lies. Since Gwenn tells the truth, Michaela's statement is false. Therefore, **Michaela lies**.} \\
+\texttt{4.  **Jamey** says Michaela tells the truth. Since Michaela lies, Jamey's statement is false. Therefore, **Jamey lies**.} \\
+\texttt{5.  **Amberly** says Jamey lies. Since Jamey does indeed lie, Amberly's statement is correct. Therefore, **Amberly tells the truth**.} \\
+\\ 
+\texttt{**Answer:** Yes} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Target: Yes} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = LOSE} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

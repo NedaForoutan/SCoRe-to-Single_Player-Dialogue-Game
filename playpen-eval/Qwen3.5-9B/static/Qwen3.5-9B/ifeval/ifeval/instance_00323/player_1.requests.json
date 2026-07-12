@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 323,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:43:52.852482",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite a cover letter for a job in Ventura that is funny and would be enjoyed by someone named Darius, wrap the entire response in double quotation marks.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite a cover letter for a job in Ventura that is funny and would be enjoyed by someone named Darius, wrap the entire response in double quotation marks.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n\"Dear Darius,\n\nI am writing to apply for the position in Ventura, a city I believe is the only place on Earth where a job application can be as breezy and sun-drenched as the ocean views from the pier. I've heard you're looking for someone who can handle the unique rhythm of life in Ventura, and frankly, I think my resume is the perfect match for your vibe.\n\nFirst, let's address the elephant in the room: I am not afraid of the wind. In fact, I thrive on it. While others might struggle to keep their hats on during a gust off the coast, I have developed a sophisticated technique of letting the wind do the talking for me. It's a great icebreaker at networking events.\n\nI understand that working in Ventura requires a certain level of adaptability. Whether we are discussing the latest surf conditions, the best taco spot in town, or how to navigate the local traffic without losing your cool, I promise to bring a sense of humor and a willingness to roll with the waves. I'm ready to hit the ground running, or perhaps, the sand running, depending on where the day takes us.\n\nThank you for considering my application. I look forward to the possibility of joining your team and making Ventura even more awesome than it already is.\n\nSincerely,\n\n[Your Name]\"<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:43:46.089393",
+            "call_duration": "0:00:06.763046",
+            "response": "\"Dear Darius,\n\nI am writing to apply for the position in Ventura, a city I believe is the only place on Earth where a job application can be as breezy and sun-drenched as the ocean views from the pier. I've heard you're looking for someone who can handle the unique rhythm of life in Ventura, and frankly, I think my resume is the perfect match for your vibe.\n\nFirst, let's address the elephant in the room: I am not afraid of the wind. In fact, I thrive on it. While others might struggle to keep their hats on during a gust off the coast, I have developed a sophisticated technique of letting the wind do the talking for me. It's a great icebreaker at networking events.\n\nI understand that working in Ventura requires a certain level of adaptability. Whether we are discussing the latest surf conditions, the best taco spot in town, or how to navigate the local traffic without losing your cool, I promise to bring a sense of humor and a willingness to roll with the waves. I'm ready to hit the ground running, or perhaps, the sand running, depending on where the day takes us.\n\nThank you for considering my application. I look forward to the possibility of joining your team and making Ventura even more awesome than it already is.\n\nSincerely,\n\n[Your Name]\"\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

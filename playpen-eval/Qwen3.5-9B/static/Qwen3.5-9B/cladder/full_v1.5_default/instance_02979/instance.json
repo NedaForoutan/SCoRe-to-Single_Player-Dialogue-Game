@@ -1,0 +1,5 @@
+{
+  "game_id": 2979,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Parents' intelligence has a direct effect on parents' social status and child's intelligence. Other unobserved factors has a direct effect on parents' social status and child's intelligence. Parents' social status has a direct effect on child's intelligence. Other unobserved factors is unobserved. We know that intelligent parents and confounder active causes high parental social status. intelligent parents and confounder active and high parental social status causes intelligent child. We observed confounder active. Would the child is intelligent if intelligent parents instead of unintelligent parents?",
+  "target": "yes"
+}

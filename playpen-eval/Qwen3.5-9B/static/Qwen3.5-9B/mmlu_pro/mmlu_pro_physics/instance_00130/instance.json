@@ -1,0 +1,5 @@
+{
+  "game_id": 130,
+  "input": "Question:\nWhat equal positive charges would have to be placed on Earth and on the Moon to neutralize their gravitational attraction?\nOptions:\nA. $3.3 \\times 10^{13} \\mathrm{C}$\nB. $3.5$$10^{13} \\mathrm{C}$\nC. $4.2$$10^{13} \\mathrm{C}$\nD. $1.2 \\times 10^{14} \\mathrm{C}$\nE. $7.8 \\times 10^{13} \\mathrm{C}$\nF. $2.5 \\times 10^{13} \\mathrm{C}$\nG. $8.3 \\times 10^{12} \\mathrm{C}$\nH.  $5.7$$10^{13} \\mathrm{C}$\nI. $9.4 \\times 10^{13} \\mathrm{C}$\n",
+  "target": "H"
+}

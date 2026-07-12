@@ -1,0 +1,14 @@
+{
+  "game_id": 514,
+  "input": "Write an essay on wilderness preservation. Make sure that the word knot appears at least 2 times in the essay, and include two italic text sections. Like: *this is italic text*",
+  "target": {
+    "keywords:frequency": {
+      "relation": "at least",
+      "keyword": "knot",
+      "frequency": 2
+    },
+    "detectable_format:number_highlighted_sections": {
+      "num_highlights": 2
+    }
+  }
+}

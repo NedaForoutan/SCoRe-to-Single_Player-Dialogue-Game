@@ -1,0 +1,5 @@
+{
+  "game_id": 7,
+  "input": "Which statement is sarcastic?\nOptions:\n(A) Yeah. Let's get rid of the trams and build carriages instead\n(B) Yeah. Let's get rid of the trams and build lightrail instead",
+  "target": "(A)"
+}

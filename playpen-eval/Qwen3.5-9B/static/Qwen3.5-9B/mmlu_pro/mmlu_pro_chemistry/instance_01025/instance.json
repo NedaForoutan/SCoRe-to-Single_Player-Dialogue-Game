@@ -1,0 +1,5 @@
+{
+  "game_id": 1025,
+  "input": "Question:\nA gas in two dimensions is enclosed in a rectangular container. Calculate the number of molecular collisions on a unit length of the container.\nOptions:\nA. Z = [(Nc^2) / (π)]\nB. Z = [(Nc) / (2π)]\nC. Z = [2(Nc) / (π)]\nD. Z = [(Nc) / (π)]\nE. Z = [(N/c) / (π)]\nF. Z = [(2Nc) / (π^2)]\nG. Z = [π(Nc) / (2)]\nH. Z = [4(Nc) / (π)]\nI. Z = [(Nc) / (4π)]\nJ. Z = [(N+c) / (π)]\n",
+  "target": "D"
+}

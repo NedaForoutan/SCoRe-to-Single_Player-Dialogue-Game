@@ -1,0 +1,5 @@
+{
+  "game_id": 288,
+  "input": "Question:\nA particle of mass $1.0 \\mathrm{~g}$ is released near the surface of the Earth, where the acceleration of free fall is $g=8.91 \\mathrm{~m} \\mathrm{~s}^{-2}$. What will be its kinetic energy after  $1.0 \\mathrm{~s}$. Ignore air resistance?\nOptions:\nA. 36 $\\mathrm{~mJ}$\nB. 30 $\\mathrm{~mJ}$\nC. 54 $\\mathrm{~mJ}$\nD. 24 $\\mathrm{~mJ}$\nE. 18 $\\mathrm{~mJ}$\nF. 72 $\\mathrm{~mJ}$\nG. 9 $\\mathrm{~mJ}$\nH. 48 $\\mathrm{~mJ}$\nI. 60 $\\mathrm{~mJ}$\nJ. 12 $\\mathrm{~mJ}$\n",
+  "target": "H"
+}

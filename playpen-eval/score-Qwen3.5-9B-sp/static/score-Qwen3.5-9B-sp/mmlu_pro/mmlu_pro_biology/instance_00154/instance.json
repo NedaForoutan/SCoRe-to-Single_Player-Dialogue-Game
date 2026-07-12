@@ -1,0 +1,5 @@
+{
+  "game_id": 154,
+  "input": "Question:\nGenetic variation occurs in bacteria as a result of mutations. This would seem to be the only process giving rise to variation , for bacteria reproduce through binary fission. Design an experiment to support the existence of another process that results in variation.\nOptions:\nA. Artificial genetic modification through genetic engineering techniques\nB. Spontaneous mutation\nC. Recombination of traits through conjugation\nD. Exposure to mutagenic chemicals that induce DNA changes\nE. Genetic drift\nF. Binary fission\n",
+  "target": "C"
+}

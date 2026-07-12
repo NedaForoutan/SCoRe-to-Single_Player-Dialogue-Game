@@ -1,0 +1,5 @@
+{
+  "game_id": 245,
+  "input": "Question:\nWhich expression is another way to show 8 x 6?\nOptions:\nA. (2x4)x6\nB. (24+4)+6\nC. (2+4)x6\nD. (2x4) + 6\nE. (16+16)\n",
+  "target": "A"
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 4867,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Alice waking up has a direct effect on rainfall. Traffic has a direct effect on rainfall. The overall probability of waking up late is 9%. The probability of waking up on time and high rainfall is 53%. The probability of waking up late and high rainfall is 8%. Is the chance of high rainfall smaller when observing waking up late?",
+  "target": "no"
+}

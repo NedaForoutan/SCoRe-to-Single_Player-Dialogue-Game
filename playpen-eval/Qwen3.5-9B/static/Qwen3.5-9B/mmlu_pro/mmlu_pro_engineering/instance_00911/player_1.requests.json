@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "mmlu_pro",
+    "experiment_name": "mmlu_pro_engineering",
+    "game_id": 911,
+    "player_name": "Player 1",
+    "game_role": "Answerer",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:46:40.967718",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nThe following are multiple choice questions (with answers) about engineering. Answer only with \"The answer is (X)\" where X is the correct letter choice.\n\nQuestion:\nA point pole has a strength of 4π * 10^-4 weber. The force in newtons on a point pole of 4π * 1.5 * 10^-4 weber placed at a distance of 10 cm from it will be\nOptions:\nA. 25 N.\nB. 12.5 N.\nC. 15 N.\nD. 10 N.\nE. 7.5 N.\nF. 20 N.\nG. 5 N.\nH. 3.75 N.\nI. N/A\nJ. N/A\nThe answer is (C)\n\nQuestion:\nThe coil of a moving coil meter has 100 turns, is 40 mm long and 30 mm wide. The control torque is 240*10-6 N-m on full scale. If magnetic flux density is 1Wb/m2 range of meter is\nOptions:\nA. 2 mA.\nB. 5 mA.\nC. 1.5 mA.\nD. 0.5 mA.\nE. 6 mA.\nF. 4 mA.\nG. 3 mA.\nH. 1 mA.\nI. 2.5 mA.\nJ. 3.5 mA.\nThe answer is (A)\n\nQuestion:\nIn an SR latch built from NOR gates, which condition is not allowed\nOptions:\nA. S=0, R=2\nB. S=2, R=2\nC. S=1, R=1\nD. S=1, R=-1\nE. S=1, R=2\nF. S=0, R=0\nG. S=2, R=0\nH. S=1, R=0\nI. S=2, R=1\nJ. S=0, R=1\nThe answer is (C)\n\nQuestion:\nTwo long parallel conductors carry 100 A. If the conductors are separated by 20 mm, the force per meter of length of each conductor will be\nOptions:\nA. 100 N.\nB. 0.01 N.\nC. 10 N.\nD. 0.5 N.\nE. 0.001 N.\nF. 5 N.\nG. 1 N.\nH. 50 N.\nI. 0.1 N.\nJ. 0.0001 N.\nThe answer is (I)\n\nQuestion:\nIn a 2 pole lap winding dc machine , the resistance of one conductor is 2Ω and total number of conductors is 100. Find the total resistance\nOptions:\nA. 50Ω\nB. 1Ω\nC. 25Ω\nD. 200Ω\nE. 10Ω\nF. 100Ω\nG. 500Ω\nH. 150Ω\nI. 75Ω\nJ. 20Ω\nThe answer is (A)\n\nQuestion:\nA chamber contains 5 lbm of an ideal gas, initially at a temperature of 100°F. The gas then undergoes a reversible isobaric process during which 500 Btu are added to the gas as heat. Determine the final temperature of the gas, assuming that the following properties of the gas are known. R = 0.0641 Btu/lbm -°R[0.2684 kJ/kg-°K] k = 1.147\nOptions:\nA. 200°F\nB. 400°F\nC. 500°F\nD. 300°F<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nThe following are multiple choice questions (with answers) about engineering. Answer only with \"The answer is (X)\" where X is the correct letter choice.\n\nQuestion:\nA point pole has a strength of 4π * 10^-4 weber. The force in newtons on a point pole of 4π * 1.5 * 10^-4 weber placed at a distance of 10 cm from it will be\nOptions:\nA. 25 N.\nB. 12.5 N.\nC. 15 N.\nD. 10 N.\nE. 7.5 N.\nF. 20 N.\nG. 5 N.\nH. 3.75 N.\nI. N/A\nJ. N/A\nThe answer is (C)\n\nQuestion:\nThe coil of a moving coil meter has 100 turns, is 40 mm long and 30 mm wide. The control torque is 240*10-6 N-m on full scale. If magnetic flux density is 1Wb/m2 range of meter is\nOptions:\nA. 2 mA.\nB. 5 mA.\nC. 1.5 mA.\nD. 0.5 mA.\nE. 6 mA.\nF. 4 mA.\nG. 3 mA.\nH. 1 mA.\nI. 2.5 mA.\nJ. 3.5 mA.\nThe answer is (A)\n\nQuestion:\nIn an SR latch built from NOR gates, which condition is not allowed\nOptions:\nA. S=0, R=2\nB. S=2, R=2\nC. S=1, R=1\nD. S=1, R=-1\nE. S=1, R=2\nF. S=0, R=0\nG. S=2, R=0\nH. S=1, R=0\nI. S=2, R=1\nJ. S=0, R=1\nThe answer is (C)\n\nQuestion:\nTwo long parallel conductors carry 100 A. If the conductors are separated by 20 mm, the force per meter of length of each conductor will be\nOptions:\nA. 100 N.\nB. 0.01 N.\nC. 10 N.\nD. 0.5 N.\nE. 0.001 N.\nF. 5 N.\nG. 1 N.\nH. 50 N.\nI. 0.1 N.\nJ. 0.0001 N.\nThe answer is (I)\n\nQuestion:\nIn a 2 pole lap winding dc machine , the resistance of one conductor is 2Ω and total number of conductors is 100. Find the total resistance\nOptions:\nA. 50Ω\nB. 1Ω\nC. 25Ω\nD. 200Ω\nE. 10Ω\nF. 100Ω\nG. 500Ω\nH. 150Ω\nI. 75Ω\nJ. 20Ω\nThe answer is (A)\n\nQuestion:\nA chamber contains 5 lbm of an ideal gas, initially at a temperature of 100°F. The gas then undergoes a reversible isobaric process during which 500 Btu are added to the gas as heat. Determine the final temperature of the gas, assuming that the following properties of the gas are known. R = 0.0641 Btu/lbm -°R[0.2684 kJ/kg-°K] k = 1.147\nOptions:\nA. 200°F\nB. 400°F\nC. 500°F\nD. 300°F<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nThe answer is (A)<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:46:40.626961",
+            "call_duration": "0:00:00.340722",
+            "response": "The answer is (A)\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

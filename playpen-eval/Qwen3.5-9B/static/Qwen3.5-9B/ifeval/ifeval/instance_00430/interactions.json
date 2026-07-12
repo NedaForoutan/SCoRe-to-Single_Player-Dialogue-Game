@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 430,
+    "results_folder": "Qwen3.5-9B",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:44:46.856060",
+        "action": {
+          "type": "send message",
+          "content": "Suggest two names for a new type of tonic. Include the keyword \"brand\" each time, followed by suggested name in double angular brackets, such as <<American Tonic>>.\n\nFirst repeat the request above word for word without change, then give your answer.\nDo not say any words or characters before repeating the request.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:44:46.856071",
+        "action": {
+          "type": "get message",
+          "content": "Suggest two names for a new type of tonic. Include the keyword \"brand\" each time, followed by suggested name in double angular brackets, such as <<American Tonic>>.\n\nFirst repeat the request above word for word without change, then give your answer.\nDo not say any words or characters before repeating the request.\n\nHere are two name suggestions for your new tonic:\n\n1. This innovative brand offers a refreshing twist with <<Citrus Zest Tonic>>.\n2. Our premium brand defines the category with <<Herbal Revive Tonic>>.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:44:46.856086",
+        "action": {
+          "type": "target",
+          "content": {
+            "combination:repeat_prompt": {
+              "prompt_to_repeat": "Suggest two names for a new type of tonic. Include the keyword \"brand\" each time, followed by suggested name in double angular brackets, such as <<American Tonic>>."
+            },
+            "detectable_format:title": {},
+            "keywords:frequency": {
+              "relation": "at least",
+              "keyword": "brand",
+              "frequency": 2
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:44:46.856271",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

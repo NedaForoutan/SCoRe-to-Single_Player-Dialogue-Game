@@ -1,0 +1,5 @@
+{
+  "game_id": 403,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Vaccination status has a direct effect on vaccination reaction and getting smallpox. Getting smallpox has a direct effect on smallpox survival. Vaccination reaction has a direct effect on smallpox survival. For unvaccinated individuals, the probability of smallpox survival is 39%. For vaccinated individuals, the probability of smallpox survival is 46%. For vaccinated individuals, would it be more likely to see smallpox survival if the person had been vaccinated?",
+  "target": "no"
+}

@@ -1,0 +1,132 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `eqbench', experiment `eq\_bench', episode 40 with score{-}Qwen3.5{-}9B{-}sp.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \\ 
+\texttt{Your task is to predict the likely emotional responses of a character in this dialogue:} \\
+\\ 
+\texttt{Olivia: I found another bottle, dad.} \\
+\texttt{Malcolm: So you've become a detective now, have you?} \\
+\texttt{Olivia: This isn't a joke, dad. You're killing yourself.} \\
+\texttt{Malcolm: Well, at least someone's trying to.} \\
+\texttt{Olivia: That's not funny!} \\
+\texttt{Malcolm: You're right, it's not. But it's easier than facing the truth.} \\
+\texttt{Olivia: And what truth is that, dad? That you're a drunk? That you've wasted your life? That you're a disappointment?} \\
+\texttt{Malcolm: That's a bit harsh, don't you think?} \\
+\texttt{Olivia: No, it's not. It's the truth. And it's about time someone said it.} \\
+\texttt{Malcolm: And you think you're the one to do it? My own daughter?} \\
+\texttt{Olivia: Who else, dad? Who else is left?} \\
+\texttt{Malcolm: I don't need this right now.} \\
+\texttt{Olivia: And when will you need it, dad? When you're on your deathbed? When it's too late?} \\
+\texttt{Malcolm: I said I don't need this!} \\
+\texttt{Olivia: And I don't need a drunk for a father! But here we are!} \\
+\texttt{Malcolm: You ungrateful...} \\
+\texttt{Olivia: What? Ungrateful? For what? For the years of neglect? For the embarrassment? For the fear?} \\
+\texttt{Malcolm: I did the best I could!} \\
+\texttt{Olivia: Your best was never good enough, dad. It never was.} \\
+\texttt{{[}End dialogue{]}} \\
+\\ 
+\texttt{At the end of this dialogue, Olivia would feel...} \\
+\texttt{Empowered} \\
+\texttt{Pity} \\
+\texttt{Guilt} \\
+\texttt{Frustration} \\
+\\ 
+\texttt{Give each of these possible emotions a score from 0{-}10 for the relative intensity that they are likely to be feeling each.} \\
+\\ 
+\texttt{You must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:} \\
+\\ 
+\texttt{Empowered: <score>} \\
+\texttt{Pity: <score>} \\
+\texttt{Guilt: <score>} \\
+\texttt{Frustration: <score>} \\
+\\ 
+\\ 
+\texttt{{[}End of answer{]}} \\
+\\ 
+\texttt{Remember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.} \\
+\\ 
+\texttt{Your answer:} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{Empowered: 2} \\
+\texttt{Pity: 0} \\
+\texttt{Guilt: 0} \\
+\texttt{Frustration: 9} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Empowered: 2} \\
+\texttt{Pity: 0} \\
+\texttt{Guilt: 0} \\
+\texttt{Frustration: 9} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Empowered: 7} \\
+\texttt{Pity: 0} \\
+\texttt{Guilt: 2} \\
+\texttt{Frustration: 8} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = LOSE} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

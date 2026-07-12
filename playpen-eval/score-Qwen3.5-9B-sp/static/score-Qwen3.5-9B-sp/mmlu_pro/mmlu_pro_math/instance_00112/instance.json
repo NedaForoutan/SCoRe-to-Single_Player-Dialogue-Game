@@ -1,0 +1,5 @@
+{
+  "game_id": 112,
+  "input": "Question:\nWhen a patient complains to the doctor about a certain set of symptoms, the doctor diagnoses the patient with Condition A 15% of the time. If a patient with these symptoms is diagnosed with Condition A, he or she is diagnosed with Condition B 70% of the time. A patient with these symptoms that is not diagnosed with Condition A is diagnosed with Condition B 10% of the time. What is the probability that a patient with this set of symptoms will be diagnosed with at least one of these conditions?\nOptions:\nA. 0.80\nB. 0.765\nC. 0.90\nD. 0.70\nE. 0.25\nF. 0.50\nG. 0.15\nH. 0.85\nI. 0.235\nJ. 0.10\n",
+  "target": "I"
+}

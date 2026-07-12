@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "bbh",
+    "experiment_name": "word_sorting",
+    "game_id": 199,
+    "player_name": "Player 1",
+    "game_role": "Answerer",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:29:18.451265",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nSort a list of words.\n\nQ: Sort the following words alphabetically: List: oven costume counterpart\nA: costume counterpart oven\n\nQ: Sort the following words alphabetically: List: hypochlorite ponderosa phone credulity\nA: credulity hypochlorite phone ponderosa\n\nQ: Sort the following words alphabetically: List: newt arson parthia seismography mugho aspect census\nA: arson aspect census mugho newt parthia seismography\n\nQ: Sort the following words alphabetically: List: rowley midshipman saline furl geld locomote exhumation anarchic bstj gradual riddance j liniment pantheist elution profess\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nSort a list of words.\n\nQ: Sort the following words alphabetically: List: oven costume counterpart\nA: costume counterpart oven\n\nQ: Sort the following words alphabetically: List: hypochlorite ponderosa phone credulity\nA: credulity hypochlorite phone ponderosa\n\nQ: Sort the following words alphabetically: List: newt arson parthia seismography mugho aspect census\nA: arson aspect census mugho newt parthia seismography\n\nQ: Sort the following words alphabetically: List: rowley midshipman saline furl geld locomote exhumation anarchic bstj gradual riddance j liniment pantheist elution profess\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nanarchic aspect bstj census elution exhumation furl geld gradual j liniment locomote midshipman mugho newt parthia ponderosa phone professo rowley saline seismography<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:29:17.192483",
+            "call_duration": "0:00:01.258743",
+            "response": "anarchic aspect bstj census elution exhumation furl geld gradual j liniment locomote midshipman mugho newt parthia ponderosa phone professo rowley saline seismography\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

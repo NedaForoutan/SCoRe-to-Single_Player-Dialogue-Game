@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 457,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T21:16:17.584707",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\ncreate a job description for a clifford blu employee who works at the cash register, and also monitors the shelves for stock level. Use the keyword 'people' and 'skills'. use only lowercase letters.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\ncreate a job description for a clifford blu employee who works at the cash register, and also monitors the shelves for stock level. Use the keyword 'people' and 'skills'. use only lowercase letters.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\njob title: cash register associate and stock monitor\n\nwe are looking for a dedicated employee to join our team at clifford blu. in this role, you will interact with people at the cash register to provide friendly service and process transactions accurately. additionally, you will monitor the shelves to ensure stock levels are maintained and products are well-stocked. we value your skills in customer service and inventory management, as these are essential for keeping our store running smoothly. if you enjoy working with people and have the right skills, we would love to hear from you.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 21:16:13.348162",
+            "call_duration": "0:00:04.236501",
+            "response": "job title: cash register associate and stock monitor\n\nwe are looking for a dedicated employee to join our team at clifford blu. in this role, you will interact with people at the cash register to provide friendly service and process transactions accurately. additionally, you will monitor the shelves to ensure stock levels are maintained and products are well-stocked. we value your skills in customer service and inventory management, as these are essential for keeping our store running smoothly. if you enjoy working with people and have the right skills, we would love to hear from you.\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

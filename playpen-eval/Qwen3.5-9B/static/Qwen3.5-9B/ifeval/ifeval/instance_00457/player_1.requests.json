@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 457,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:45:04.989777",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\ncreate a job description for a clifford blu employee who works at the cash register, and also monitors the shelves for stock level. Use the keyword 'people' and 'skills'. use only lowercase letters.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\ncreate a job description for a clifford blu employee who works at the cash register, and also monitors the shelves for stock level. Use the keyword 'people' and 'skills'. use only lowercase letters.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\njob title: clifford blu cashier and stock monitor\n\nwe are looking for a friendly team member to join our store. in this role, you will greet people at the cash register with a smile and handle transactions quickly and accurately. you will also monitor the shelves to ensure products are well-stocked and neatly arranged. success in this position requires strong communication skills and attention to detail. if you enjoy working with people and want to be part of a growing team, we want to hear from you.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:45:02.456522",
+            "call_duration": "0:00:02.533214",
+            "response": "job title: clifford blu cashier and stock monitor\n\nwe are looking for a friendly team member to join our store. in this role, you will greet people at the cash register with a smile and handle transactions quickly and accurately. you will also monitor the shelves to ensure products are well-stocked and neatly arranged. success in this position requires strong communication skills and attention to detail. if you enjoy working with people and want to be part of a growing team, we want to hear from you.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "full_v1.5_default",
+  "meta": {
+    "task": "playschool_cladder",
+    "dataset_path": "clembench-playpen/cladder",
+    "dataset_name": "full_v1.5_default",
+    "test_split": "default",
+    "output_type": "generate_until",
+    "doc_to_text": "You are an expert in causal inference. The following question is not a typical commonsense query, but rather a meticulously designed question created by a professor specializing in causal inference, intended to assess the students' mastery of the course content.\n{{prompt}}\nStart your answer with 'Yes' or 'No', followed by additional reasoning or evidence to support your explanation.",
+    "doc_to_target": "label",
+    "doc_to_choice": "{{['yes', 'no']}}",
+    "generation_kwargs": {
+      "max_gen_toks": 10
+    },
+    "metric_list": [
+      {
+        "metric": "acc",
+        "aggregation": "mean",
+        "higher_is_better": true
+      }
+    ],
+    "metadata": {
+      "version": 0.0
+    }
+  },
+  "initial_prompt": "You are an expert in causal inference. The following question is not a typical commonsense query, but rather a meticulously designed question created by a professor specializing in causal inference, intended to assess the students' mastery of the course content.\n{{prompt}}\nStart your answer with 'Yes' or 'No', followed by additional reasoning or evidence to support your explanation.",
+  "choices": [
+    "yes",
+    "no"
+  ],
+  "timestamp": "2026-06-20T17:46:46.866054",
+  "game_name": "cladder",
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  }
+}

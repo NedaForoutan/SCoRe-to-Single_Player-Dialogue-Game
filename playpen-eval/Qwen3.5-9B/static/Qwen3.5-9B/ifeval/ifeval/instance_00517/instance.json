@@ -1,0 +1,11 @@
+{
+  "game_id": 517,
+  "input": "Blog post from the perspective of a 16 year old girl who is being followed by a stranger. Your response should contain less than 10 sentences and no commas.",
+  "target": {
+    "length_constraints:number_sentences": {
+      "relation": "less than",
+      "num_sentences": 10
+    },
+    "punctuation:no_comma": {}
+  }
+}

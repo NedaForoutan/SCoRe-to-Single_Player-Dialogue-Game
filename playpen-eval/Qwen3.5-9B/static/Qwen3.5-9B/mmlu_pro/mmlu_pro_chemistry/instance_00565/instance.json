@@ -1,0 +1,5 @@
+{
+  "game_id": 565,
+  "input": "Question:\nExample 5-3 shows that a Maclaurin expansion of a Morse potential leads to\n$$\nV(x)=D \\beta^2 x^2+\\cdots\n$$\nGiven that $D=7.31 \\times 10^{-19} \\mathrm{~J} \\cdot$ molecule ${ }^{-1}$ and $\\beta=1.81 \\times 10^{10} \\mathrm{~m}^{-1}$ for $\\mathrm{HCl}$, calculate the force constant of $\\mathrm{HCl}$.\nOptions:\nA. 350$\\mathrm{~N} \\cdot \\mathrm{m}^{-1}$\nB. 450$\\mathrm{~N} \\cdot \\mathrm{m}^{-1}$\nC. 490$\\mathrm{~N} \\cdot \\mathrm{m}^{-1}$\nD. 520$\\mathrm{~N} \\cdot \\mathrm{m}^{-1}$\nE. 392$\\mathrm{~N} \\cdot \\mathrm{m}^{-1}$\nF. 600$\\mathrm{~N} \\cdot \\mathrm{m}^{-1}$\nG. 650$\\mathrm{~N} \\cdot \\mathrm{m}^{-1}$\nH. 530$\\mathrm{~N} \\cdot \\mathrm{m}^{-1}$\nI.  479$\\mathrm{~N} \\cdot \\mathrm{m}^{-1}$ \nJ. 560$\\mathrm{~N} \\cdot \\mathrm{m}^{-1}$\n",
+  "target": "I"
+}

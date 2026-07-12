@@ -1,0 +1,12 @@
+{
+  "game_id": 309,
+  "input": "Can you create a list of mega trends in the tech industry? Wrap your entire response with double quotation marks. Also, make sure the letter o appears at least 25 times in your response.",
+  "target": {
+    "startend:quotation": {},
+    "keywords:letter_frequency": {
+      "let_relation": "at least",
+      "letter": "o",
+      "let_frequency": 25
+    }
+  }
+}

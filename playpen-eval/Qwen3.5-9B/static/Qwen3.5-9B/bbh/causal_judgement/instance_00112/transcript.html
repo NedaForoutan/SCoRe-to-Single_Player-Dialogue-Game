@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <style>
+        /* This CSS is based on a stack overflow answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */ 
+
+* {margin: 0; box-sizing: border-box;}
+
+body {
+  background-color: rgb(157, 152, 150);
+}
+
+.top-info {
+	text-align: center;
+	font: 1.25rem/1.5 sans-serif;
+	display: flex;
+	flex-direction: column;
+	padding: 1.25em;
+	width: 80%;
+  max-width: 1200px;
+	margin: auto;
+	background: #3f3e3e;
+	color: #fff;
+}
+
+.chat {
+  --rad: 1.5rem;
+  --rad-sm: .3rem;
+  font: 1rem/1.5 sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+}
+
+.msg {
+  position: relative;
+  padding: .6rem 1.2rem;
+  margin-inline: 1rem;
+  margin-block: 2rem;
+}
+
+.game-round {
+  padding: 1.5rem 0 1.5rem 0;
+  background-color: #f0f8ff; /* light background for content */
+  position: relative; /* Important to position the badge */
+  border-radius: 1rem;
+  margin: 1rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+/* Badge in top-right corner */
+.game-round::before {
+  content: "Round " attr(data-round);
+  position: absolute;
+  top: .35rem;
+  right: 1.5rem;
+  color: #c4c3c3;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* For fenced code/monospace blocks */
+pre {
+  background: #e0e0e0;
+  border-left: .2rem solid #f36d33;
+  border-radius: .2rem;
+  color: #666;
+  font-family: monospace;
+  line-height: 1.0;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  max-width: 100%;
+  overflow: auto;
+  padding: 0.5rem 0.2rem;
+}/* This CSS is based on a stack overflow answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */
+/* Player colors are assigned according to number of players */
+
+.msg.player-gm {
+  border-radius: var(--rad-sm) var(--rad) var(--rad) var(--rad-sm);
+  color: #fff;
+  margin-right: 30%;
+}
+
+.msg.gm-player {
+  border-radius: var(--rad) var(--rad-sm) var(--rad-sm) var(--rad);
+  background: #c4c3c3;
+  color: #0c0c0c;
+  margin-left: 30%;
+}
+
+.msg.gm-gm {
+  border-radius: var(--rad-sm) var(--rad-sm) var(--rad-sm) var(--rad-sm);
+  background: #f1f1f1;
+  color: #373636;
+  margin-left: 50%;
+  margin-right: 10%;
+  font-size: 0.8rem;
+}
+
+.msg::before {
+  left: 1rem;
+  content: attr(speaker);
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 100%;
+  color: #888;
+  white-space: nowrap;
+}.msg.player-gm.p1 { background: darkseagreen; }
+
+    </style>
+</head>
+<body>
+
+<br/>
+
+<div class="top-info">
+    <p>Interaction Transcript for game 'bbh', experiment 'causal_judgement', episode 112 with Qwen3.5-9B.</p>
+</div>
+
+<br/>
+
+<div class="chat">
+<div class="game-round" data-round="0">
+    <div speaker="GM (Game Master) to Player 1 (Answerer)" class="msg gm-player p1" style="">
+        <p>Answer questions about causal attribution.<br/><br/>Q: How would a typical person answer each of the following questions about causation?<br/>Frank T., had an ongoing dispute with his neighbor over a stretch of land and one day decided to shoot his neighbor in the body. Frank T. had no experience with guns, his hand slipped on the barrel of the gun, and the shot went wild. Nonetheless, the bullet bounced off a large boulder several feet away and hit the neighbor&#x27;s body, causing significant injury. Did Frank T. intentionally shoot his neighbor in the body?<br/>Options:<br/>- Yes<br/>- No<br/>A: No<br/><br/>Q: How would a typical person answer each of the following questions about causation?<br/>Suzy and Billy are working on a project that is very important for our nation&#x27;s security. The boss tells them both: &quot;Be sure that you are here at exactly 9 am. It is absolutely essential that you arrive at that time.&quot; Both Billy and Suzy arrive at 9 am. As it happens, there was a motion detector installed in the room where they arrived. The motion detector was set up to be triggered if at least one person appeared in the room at the same time. So the motion detector went off. Did Billy cause the motion detector to go off?<br/>Options:<br/>- Yes<br/>- No<br/>A: Yes<br/><br/>Q: How would a typical person answer each of the following questions about causation?<br/>George and his sister Lena reunite at their parents&#x27; house for Thanksgiving. Whereas George just got into medical school, Lena is unhappy in her marriage and recently lost her job. Over the course of the day, George and Lena get into a number of heated arguments. Later in the afternoon they play a game of darts. They split the first two games, and the third game is close until the end. Who will win comes down to George&#x27;s last shot. If he hits a high point region, he wins; if he hits a low point region, Lena wins. George thinks of the difficult time Lena is having, and he really wants to let her win. He aims the dart at the low point region. He sets up his shot and the dart lands in the low point region. After his shot, Lena wins the game and is very happy. Did George hit the low point region intentionally?<br/>Options:<br/>- Yes<br/>- No<br/>A: Yes<br/><br/>Q: How would a typical person answer each of the following questions about causation?<br/>Janet is an employee in a factory. Since she works in the maintenance department, she knows how to grease and oil all of the machines in the factory. It is her responsibility to put oil into the machines. Kate is also an employee at the factory. While she works in the human resources department, she knows how to grease and oil all of the machines in the factory. If Janet does not put oil in the machines, it is not Kate&#x27;s responsibility to do so. One day, Janet forgets to put oil in an important machine. Janet noticed that she did not put oil in the machine. Kate did not notice that Janet did not put oil in the machine, and Kate also did not put oil in the machine. The machine broke down a few days later. Did Kate not putting oil in the machine cause it to break down?<br/>Options:<br/>- Yes<br/>- No<br/>A:</p>
+    </div>
+
+    <div speaker="Player 1 (Answerer) to GM (Game Master)" class="msg player-gm p1" style="">
+        <p>No<br/></p>
+    </div>
+
+    <div speaker="Game Master: metadata" class="msg gm-gm" style="">
+        <p>Target: No</p>
+    </div>
+
+    <div speaker="Game Master: wrong answer" class="msg gm-gm" style="">
+        <p>game_result = LOSE</p>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

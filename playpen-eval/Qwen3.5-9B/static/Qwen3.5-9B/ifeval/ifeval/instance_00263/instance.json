@@ -1,0 +1,11 @@
+{
+  "game_id": 263,
+  "input": "Create an itinerary for a 3-day trip to Moscow that uses the word founding less than twice. Don't add anything before and after the JSON code. Your entire output should just contain a JSON code block.",
+  "target": {
+    "keywords:frequency": {
+      "relation": "less than",
+      "keyword": "founding",
+      "frequency": 2
+    }
+  }
+}

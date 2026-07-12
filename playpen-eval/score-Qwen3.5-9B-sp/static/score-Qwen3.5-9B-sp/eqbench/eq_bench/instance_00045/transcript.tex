@@ -1,0 +1,122 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\centering \large Interaction Transcript for game `eqbench', experiment `eq\_bench', episode 45 with score{-}Qwen3.5{-}9B{-}sp.
+\vspace{24pt}
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+    \# & \multicolumn{2}{c}{Player} && \multicolumn{2}{c}{Game Master} \\
+    \hline
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\langle$GM]}}
+                \\ 
+\texttt{Your task is to predict the likely emotional responses of a character in this dialogue:} \\
+\\ 
+\texttt{Cecilia: You know, your words have power, Brandon. More than you might think.} \\
+\texttt{Brandon: I'm well aware, Cecilia. It's a critic's job to wield them.} \\
+\texttt{Cecilia: But do you understand the weight of them? The lives they can shatter?} \\
+\texttt{Brandon: Art is not for the faint{-}hearted. If you can't handle the critique, you're in the wrong industry.} \\
+\texttt{Cecilia: It's not about handling criticism, Brandon. It's about understanding the soul of the art. You dissect it like a cold, lifeless body on an autopsy table.} \\
+\texttt{Brandon: And you, Cecilia, romanticize it to the point of delusion. Art is not some sacred, untouchable entity. It's a commodity, like everything else.} \\
+\texttt{Cecilia: That's where you're wrong. Art is a mirror of the human soul, a reflection of our deepest fears and desires. It's not a product to be bought and sold.} \\
+\texttt{Brandon: And yet, you sell your installations, don't you? How is that different?} \\
+\texttt{Cecilia: I sell my work to survive, not to profit. There's a difference.} \\
+\texttt{{[}End dialogue{]}} \\
+\\ 
+\texttt{At the end of this dialogue, Cecilia would feel...} \\
+\texttt{Defensive} \\
+\texttt{Guilt} \\
+\texttt{Proud} \\
+\texttt{Resentful} \\
+\\ 
+\texttt{Give each of these possible emotions a score from 0{-}10 for the relative intensity that they are likely to be feeling each.} \\
+\\ 
+\texttt{You must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:} \\
+\\ 
+\texttt{Defensive: <score>} \\
+\texttt{Guilt: <score>} \\
+\texttt{Proud: <score>} \\
+\texttt{Resentful: <score>} \\
+\\ 
+\\ 
+\texttt{{[}End of answer{]}} \\
+\\ 
+\texttt{Remember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.} \\
+\\ 
+\texttt{Your answer:} \\
+            }
+        }
+    }
+     \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & \multicolumn{4}{p{0.6\linewidth}}{
+        \cellcolor[rgb]{0.561,0.737,0.561}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[P1$\rangle$GM]}}
+                \texttt{Defensive: 8} \\
+\texttt{Guilt: 2} \\
+\texttt{Proud: 3} \\
+\texttt{Resentful: 4} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Defensive: 8} \\
+\texttt{Guilt: 2} \\
+\texttt{Proud: 3} \\
+\texttt{Resentful: 4} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{Defensive: 8} \\
+\texttt{Guilt: 0} \\
+\texttt{Proud: 4} \\
+\texttt{Resentful: 7} \\
+            }
+        }
+    }
+    & & \\ \\
+
+    \theutterance \stepcounter{utterance}  
+    & & & \multicolumn{2}{p{0.3\linewidth}}{
+        \cellcolor[rgb]{0.9,0.9,0.9}{
+            \makecell[{{p{\linewidth}}}]{
+                \texttt{\tiny{[GM$|$GM]}}
+                \texttt{game\_result = LOSE} \\
+            }
+        }
+    }
+    & & \\ \\
+
+\end{supertabular}
+}
+
+\end{document}

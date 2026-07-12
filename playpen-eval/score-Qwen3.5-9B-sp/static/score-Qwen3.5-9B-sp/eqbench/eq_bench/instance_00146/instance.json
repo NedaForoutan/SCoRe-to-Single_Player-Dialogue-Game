@@ -1,0 +1,10 @@
+{
+  "game_id": 146,
+  "input": "\nYour task is to predict the likely emotional responses of a character in this dialogue:\n\nJackson: Sanchez. Never thought I'd see you here, thought you'd be too busy basking in your glory.\nAlejandro: Riley, always the charmer. I could say the same about you. How's the knee?\nJackson: Better than your conscience, I reckon.\nAlejandro: Ah, the ever-righteous Riley. You think you're the only one who's had to fight for everything?\nJackson: I don't recall stepping on others to get to the top.\nAlejandro: And I don't recall asking for your opinion.\nJackson: You never did. Too busy making a spectacle of yourself.\nAlejandro: And you're too busy playing the victim. \nJackson: I ain't the one parading around with another man's woman.\nAlejandro: And I ain't the one who couldn't keep her.\n[End dialogue]\n\nAt the end of this dialogue, Jackson would feel...\nBetrayed\nEmbarrassed\nGuilt\nApathetic\n\nGive each of these possible emotions a score from 0-10 for the relative intensity that they are likely to be feeling each.\n\nYou must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:\n\nBetrayed: <score>\nEmbarrassed: <score>\nGuilt: <score>\nApathetic: <score>\n\n\n[End of answer]\n\nRemember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.\n\nYour answer:\n",
+  "target": {
+    "Betrayed": 8,
+    "Embarrassed": 6,
+    "Guilt": 0,
+    "Apathetic": 0
+  }
+}

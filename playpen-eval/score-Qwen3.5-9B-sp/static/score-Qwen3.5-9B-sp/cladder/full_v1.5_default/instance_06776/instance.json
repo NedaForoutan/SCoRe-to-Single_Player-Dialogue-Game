@@ -1,0 +1,5 @@
+{
+  "game_id": 6776,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Gwet has a direct effect on yomx and xevu. Yomx has a direct effect on xevu. For those who are not gwet and are not yomx, the probability of xevu is 82%. For those who are not gwet and are yomx, the probability of xevu is 63%. For those who are gwet and are not yomx, the probability of xevu is 36%. For those who are gwet and are yomx, the probability of xevu is 18%. The overall probability of gwet is 41%. Will yomx increase the chance of xevu?",
+  "target": "no"
+}

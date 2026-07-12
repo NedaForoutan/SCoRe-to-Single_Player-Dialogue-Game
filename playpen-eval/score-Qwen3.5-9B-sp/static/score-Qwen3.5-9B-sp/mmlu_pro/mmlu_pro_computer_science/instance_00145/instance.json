@@ -1,0 +1,5 @@
+{
+  "game_id": 145,
+  "input": "Question:\nExplain the TRAILER CARD method of stopping a computer job, i.e., a program.\nOptions:\nA. The Trailer Card method uses a serial number on the first card to stop a program.\nB. The Trailer Card method uses a specific phrase typed into the console to signal the end of a job.\nC. The Trailer Card method requires a specific card to be inserted physically into the computer.\nD. The Trailer Card method involves sending an electronic signal through a network to stop the program.\nE. The Trailer Card method employs a magnetic tape marker to indicate the end of a program.\nF. The Trailer Card method uses a unique number on the last card in the data section of a program card deck to signal the end of a job.\nG. The Trailer Card method utilizes a timer that automatically stops the program after a set duration.\nH. The Trailer Card method involves pressing a designated key on the computer's keyboard to terminate the job.\nI. The Trailer Card method requires the operator to manually switch off the computer to end the job.\nJ. The Trailer Card method uses a special code to pause a program.\n",
+  "target": "F"
+}

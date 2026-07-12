@@ -1,0 +1,5 @@
+{
+  "game_id": 687,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Gender has a direct effect on department competitiveness and admission status. Department competitiveness has a direct effect on admission status. For individuals who are not male and applicants to a non-competitive department, the probability of admission acceptance is 58%. For individuals who are not male and applicants to a competitive department, the probability of admission acceptance is 25%. For individuals who are male and applicants to a non-competitive department, the probability of admission acceptance is 59%. For individuals who are male and applicants to a competitive department, the probability of admission acceptance is 28%. For individuals who are not male, the probability of competitive department is 29%. For individuals who are male, the probability of competitive department is 77%. Does gender positively affect admission status through department competitiveness?",
+  "target": "no"
+}

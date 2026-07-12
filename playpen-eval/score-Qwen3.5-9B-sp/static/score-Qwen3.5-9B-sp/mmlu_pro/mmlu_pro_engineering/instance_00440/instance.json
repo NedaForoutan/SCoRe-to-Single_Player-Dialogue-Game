@@ -1,0 +1,5 @@
+{
+  "game_id": 440,
+  "input": "Question:\nFind f(t) {_\\ast} g(t), where f(t) = t and g(t) = t^2, and the asterisk indicates convolution.\nOptions:\nA. (2t^4 / 3)\nB. (t^4 / 12)\nC. (t^5 / 20)\nD. t^3\nE. (t^4 / 4)\nF. (t^2)\nG. (t^4 / 2)\nH. (t^3 / 3)\nI. (3t^4 / 4)\nJ. (t^5 / 5)\n",
+  "target": "B"
+}

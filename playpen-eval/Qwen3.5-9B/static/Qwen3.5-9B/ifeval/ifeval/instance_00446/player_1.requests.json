@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 446,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:45:02.432639",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nHi, I'm looking for two Tamil movies to watch. Please recommend exactly two movies. Separated them by 6 asterisk symbols, like below:\n[Movie 1]\n[Description]\n******\n[Movie 2]\n[Description]\n\nYour entire response should be entirely in Tamil, no other language is allowed, and should not contain any commas.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nHi, I'm looking for two Tamil movies to watch. Please recommend exactly two movies. Separated them by 6 asterisk symbols, like below:\n[Movie 1]\n[Description]\n******\n[Movie 2]\n[Description]\n\nYour entire response should be entirely in Tamil, no other language is allowed, and should not contain any commas.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nமணிபல்லவம்\nஇது ஒரு வரலாற்றுத் திரைப்படமாகும். இயக்குநர் பாலு மகேந்திரன் இதை இயக்கியுள்ளார்.\n\n******\nபேட்டா\nஇது ஒரு காதல் திரைப்படமாகும். இயக்குநர் பாலா இதை இயக்கியுள்ளார்.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:45:00.206177",
+            "call_duration": "0:00:02.226419",
+            "response": "மணிபல்லவம்\nஇது ஒரு வரலாற்றுத் திரைப்படமாகும். இயக்குநர் பாலு மகேந்திரன் இதை இயக்கியுள்ளார்.\n\n******\nபேட்டா\nஇது ஒரு காதல் திரைப்படமாகும். இயக்குநர் பாலா இதை இயக்கியுள்ளார்.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

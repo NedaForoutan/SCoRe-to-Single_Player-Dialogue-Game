@@ -1,0 +1,5 @@
+{
+  "game_id": 5203,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Encouragement level has a direct effect on studying habit and brown eyes. Studying habit has a direct effect on brown eyes. The overall probability of encouragement is 91%. The probability of discouragement and brown eyes is 7%. The probability of encouragement and brown eyes is 58%. Is the chance of brown eyes larger when observing encouragement?",
+  "target": "no"
+}

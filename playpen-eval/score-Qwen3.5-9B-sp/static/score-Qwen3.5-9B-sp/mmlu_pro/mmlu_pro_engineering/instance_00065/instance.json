@@ -1,0 +1,5 @@
+{
+  "game_id": 65,
+  "input": "Question:\nCompute the heat gained by the room at 80°F from a vertical plate3 ft. wide and 4 ft. high maintained at 115°F.\nOptions:\nA. 550.3 Btu/hr\nB. 684.2 Btu/hr\nC. 596.4 Btu/hr\nD. 712.6 Btu/hr\nE. 739.1 Btu/hr\nF. 678.9 Btu/hr\nG. 503.8 Btu/hr\nH. 625.7 Btu/hr\nI. 485.2 Btu/hr\nJ. 460.5 Btu/hr\n",
+  "target": "C"
+}

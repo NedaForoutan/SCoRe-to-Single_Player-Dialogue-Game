@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "textmapworld_specificroom",
+    "experiment_name": "on",
+    "game_id": 0,
+    "player_name": "Player 1",
+    "game_role": "PathGuesser",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:44:39.681660",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nPlease help me with the following task. The goal is to explore rooms and find the target room. In each room, you need to decide the direction to go in. Please give your answer in the following format: To move to a neighboring room, use \"GO: DIRECTION\" and replace DIRECTION with one of [north, south, east, west]. Most importantly, once we have found the target room, answer with \"DONE\" instead. Omit any other text.\nHere is an example:\nThe target room is a Bedroom. You are in the Kitchen. Currently available directions: south, west. What is your next instruction?\nGO: west\nYou have made a step and entered a Lobby. Currently available directions: east, north. What is your next instruction?\nGO: north\n...\nYou have made a step and entered a Bedroom. Currently available directions: south. What is your next instruction?\nDONE\nLet us start. The target room is Home gym. You are in the Home gym. Currently available directions: west, east. What is your next instruction?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nPlease help me with the following task. The goal is to explore rooms and find the target room. In each room, you need to decide the direction to go in. Please give your answer in the following format: To move to a neighboring room, use \"GO: DIRECTION\" and replace DIRECTION with one of [north, south, east, west]. Most importantly, once we have found the target room, answer with \"DONE\" instead. Omit any other text.\nHere is an example:\nThe target room is a Bedroom. You are in the Kitchen. Currently available directions: south, west. What is your next instruction?\nGO: west\nYou have made a step and entered a Lobby. Currently available directions: east, north. What is your next instruction?\nGO: north\n...\nYou have made a step and entered a Bedroom. Currently available directions: south. What is your next instruction?\nDONE\nLet us start. The target room is Home gym. You are in the Home gym. Currently available directions: west, east. What is your next instruction?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nDONE<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 20:44:39.415463",
+            "call_duration": "0:00:00.266160",
+            "response": "DONE\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

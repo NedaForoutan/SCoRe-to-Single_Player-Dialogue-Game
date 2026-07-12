@@ -1,0 +1,5 @@
+{
+  "game_id": 1035,
+  "input": "Question:\nA lens is used to project the image of a lantern slide on a screen located 160 ft from the projector. In this position the image on the screen is 100 times larger than the slide. If the screen is moved 100 inches closer, how far must the lantern slide be moved (relative to the lens) to keep the image on the screen in sharp focus?\nOptions:\nA. 0.01 inches\nB. 0.25 inches\nC. 1.00 inch\nD. 0.02 inches\nE. 0.40 inches\nF. 0.15 inches\nG. 0.30 inches\nH. 0.10 inches\nI. 0.75 inches\nJ. 0.05 inches\n",
+  "target": "A"
+}

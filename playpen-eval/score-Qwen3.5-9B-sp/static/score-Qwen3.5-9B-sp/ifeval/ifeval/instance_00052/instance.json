@@ -1,0 +1,17 @@
+{
+  "game_id": 52,
+  "input": "Write an essay about how aluminium cans are used in food storage. Don’t forget to include the keywords waste, material and meal. Have more than 30 sentences in your response.",
+  "target": {
+    "keywords:existence": {
+      "keywords": [
+        "waste",
+        "material",
+        "meal"
+      ]
+    },
+    "length_constraints:number_sentences": {
+      "relation": "at least",
+      "num_sentences": 31
+    }
+  }
+}

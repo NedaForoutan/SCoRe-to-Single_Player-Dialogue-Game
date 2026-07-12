@@ -1,0 +1,10 @@
+{
+  "game_id": 53,
+  "input": "Can you give me an example for a journal entry about stress management? Tell me how you come up with the example. Your entire response should contain less than 6 sentences.",
+  "target": {
+    "length_constraints:number_sentences": {
+      "relation": "less than",
+      "num_sentences": 6
+    }
+  }
+}

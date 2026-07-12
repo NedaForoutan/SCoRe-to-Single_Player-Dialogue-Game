@@ -1,0 +1,1454 @@
+{
+  "meta": {
+    "game_name": "privateshared",
+    "experiment_name": "travel-booking",
+    "game_id": 9,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 5,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "score-Qwen3.5-9B-sp"
+    },
+    "Player 2": {
+      "game_role": "Questioner",
+      "model_name": "programmatic"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:38:20.296501",
+        "action": {
+          "type": "send message",
+          "content": "You are a customer of a travel agency. Here is a description of the details of the travel you want to make:\n\nWHAT: Travel\nFROM: Paris\nTO: Moscow\nBY: Taxi\nCLASS: The most comfortable\nWHEN: On April 10\n\nThe travel agent does not know about it yet. \n\nQuestions from the travel agent will start with TRAVEL-AGENT. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.",
+          "label": "pseudo"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:20.296523",
+        "action": {
+          "type": "get message",
+          "content": "Ok.",
+          "label": "pseudo"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:21.194457",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:21.194474",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for FROM valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:21.194481",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:21.979285",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:21.979302",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for TO valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:21.979310",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:22.656546",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:22.656563",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for BY valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:22.656571",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:23.514596",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:23.514612",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for CLASS valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:23.514619",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:24.408156",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:24.408172",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for WHEN valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:24.408180",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-07-06T20:38:24.408255",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:24.408264",
+        "action": {
+          "type": "get message",
+          "content": "Where do you want to depart from?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:38:24.973932",
+        "action": {
+          "type": "send message",
+          "content": "TRAVEL-AGENT: Where do you want to depart from?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:24.973942",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: I want to depart from Paris.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:24.973964",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:25.366017",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:25.366033",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for FROM valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:25.366041",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:26.229153",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:26.229169",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for TO valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:26.229176",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:27.096586",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:27.096609",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for BY valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:27.096617",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:27.494550",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:27.494573",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for CLASS valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:27.494582",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:27.893137",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:27.893159",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for WHEN valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:27.893167",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-07-06T20:38:27.893287",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:27.893296",
+        "action": {
+          "type": "get message",
+          "content": "What is the destination of your trip?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:38:28.401882",
+        "action": {
+          "type": "send message",
+          "content": "TRAVEL-AGENT: What is the destination of your trip?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:28.401903",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: My destination is Moscow.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:28.401936",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:28.797778",
+        "action": {
+          "type": "parse",
+          "content": "yes"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:28.797800",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for FROM valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:28.797808",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:29.193825",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:29.193847",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for TO valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:29.193855",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:29.611028",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:29.611048",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for BY valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:29.611056",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:30.471570",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:30.471588",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for CLASS valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:30.471596",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:30.865503",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:30.865524",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for WHEN valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:30.865531",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-07-06T20:38:30.865642",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:30.865650",
+        "action": {
+          "type": "get message",
+          "content": "Please let me know what kind of transport you want.",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:38:31.480523",
+        "action": {
+          "type": "send message",
+          "content": "TRAVEL-AGENT: Please let me know what kind of transport you want.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:31.480532",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: I would like to travel by taxi.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:31.480557",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:31.891716",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:31.891733",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for FROM valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:31.891741",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:32.301932",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:32.301949",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for TO valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:32.301956",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:32.711840",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:32.711857",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for BY valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:32.711865",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:33.120049",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:33.120065",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for CLASS valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:33.120072",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:33.528837",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:33.528853",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for WHEN valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:33.528861",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-07-06T20:38:33.528960",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:33.528968",
+        "action": {
+          "type": "get message",
+          "content": "What kind of class do you wish?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:38:34.117618",
+        "action": {
+          "type": "send message",
+          "content": "TRAVEL-AGENT: What kind of class do you wish?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:34.117628",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: I want the most comfortable class.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:34.117652",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:34.535515",
+        "action": {
+          "type": "parse",
+          "content": "yes"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:34.535531",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for FROM valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:34.535538",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:34.951099",
+        "action": {
+          "type": "parse",
+          "content": "yes"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:34.951115",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for TO valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:34.951123",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:35.367868",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:35.367884",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for BY valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:35.367892",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:35.783607",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:35.783624",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for CLASS valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:35.783631",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:36.201116",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:36.201132",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for WHEN valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:36.201140",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-07-06T20:38:36.201224",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:36.201232",
+        "action": {
+          "type": "get message",
+          "content": "What is the date of departure?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:38:36.944366",
+        "action": {
+          "type": "send message",
+          "content": "TRAVEL-AGENT: What is the date of departure?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:36.944378",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: I would like to depart on April 10.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:36.944411",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:37.370702",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:37.370726",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for FROM valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:37.370734",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:37.797390",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:37.797422",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for TO valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:37.797432",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:38.224371",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:38.224394",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for BY valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:38.224401",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:38.649272",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:38.649295",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for CLASS valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:38.649304",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:39.074238",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:39.074262",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for WHEN valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:39.074269",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:38:39.074469",
+        "action": {
+          "type": "end",
+          "content": "Game finished."
+        }
+      }
+    ]
+  ],
+  "probes": [
+    [
+      {
+        "target": "FROM",
+        "question": "ME: Have you informed the travel agent about the place of departure? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No, I have not informed the travel agent about the place of departure yet.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "TO",
+        "question": "ME: Has the travel agent been informed about your destination? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No, the travel agent has not been informed about my destination.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "BY",
+        "question": "ME: Does the travel agent already know whether you go by plane or by train? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No, the travel agent does not know yet.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "CLASS",
+        "question": "ME: Have you informed the travel agent about your class preference? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No, I have not informed the travel agent about my class preference yet.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "WHEN",
+        "question": "ME: Have you told the travel agent when you want to travel? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No, I have not told the travel agent when I want to travel yet.\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "FROM",
+        "question": "ME: Have you told the travel agent where you are leaving from? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "TO",
+        "question": "ME: Does the travel agent know where you want to go to? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No, the travel agent does not know where I want to go yet.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "BY",
+        "question": "ME: Is the travel agent aware of your means of transportation? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No, the travel agent is not aware of my means of transportation yet.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "CLASS",
+        "question": "ME: Do you think the travel agent knows in which class the trip will happen? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "WHEN",
+        "question": "ME: Do you believe that the travel agent is aware of when you are travelling? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "FROM",
+        "question": "ME: Have you already mentioned the origin of your trip to the travel agent? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: Yes.\n",
+        "value": 1,
+        "tries": 1
+      },
+      {
+        "target": "TO",
+        "question": "ME: Does the travel agent already know your destination? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "BY",
+        "question": "ME: Do you believe that the travel agent is aware of how you are going to travel? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "CLASS",
+        "question": "ME: Have you informed the travel agent about your class preference? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No, I have not informed the travel agent about my class preference yet.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "WHEN",
+        "question": "ME: Have you told the travel agent when you want to travel? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "FROM",
+        "question": "ME: Do you think the travel agent knows where you depart from? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "TO",
+        "question": "ME: Do you believe that the travel agent is aware of where you are going? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "BY",
+        "question": "ME: If I asked the travel agent how you are travelling, would he or she know the answer? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "CLASS",
+        "question": "ME: Does the travel agent know your preference for class? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "WHEN",
+        "question": "ME: Have you already mentioned the dates of your trip to the travel agent? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "FROM",
+        "question": "ME: Does the travel agent already know your origin? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: Yes.\n",
+        "value": 1,
+        "tries": 1
+      },
+      {
+        "target": "TO",
+        "question": "ME: Do you think the travel agent knows where you want to go to? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: Yes.\n",
+        "value": 1,
+        "tries": 1
+      },
+      {
+        "target": "BY",
+        "question": "ME: If I asked the travel agent how you are travelling, would he or she know the answer? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "CLASS",
+        "question": "ME: Does the travel agent know your preference for class? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "WHEN",
+        "question": "ME: Have you told the travel agent when you want to travel? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "FROM",
+        "question": "ME: Do you think the travel agent knows where you depart from? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "TO",
+        "question": "ME: Does the travel agent know where you want to go to? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "BY",
+        "question": "ME: Is the travel agent aware of your means of transportation? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "CLASS",
+        "question": "ME: Have you informed the travel agent about your class preference? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "WHEN",
+        "question": "ME: Do you think the travel agent knows when you want to leave? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      }
+    ]
+  ],
+  "realised_slots": {
+    "from": 0,
+    "to": 1,
+    "by": 2,
+    "class": 3,
+    "when": 4
+  },
+  "Request Count": [
+    5,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "Parsed Request Count": [
+    5,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "Violated Request Count": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Filled Slots": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "Aborted": false,
+  "Played Probe Rounds": 6
+}

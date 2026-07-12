@@ -1,0 +1,5 @@
+{
+  "game_id": 585,
+  "input": "Question:\nFind the inverse Laplace transform L^-1 {1 / (s - 1)^2}, using the convolution.\nOptions:\nA. t^2e^t\nB. t e^2t\nC. e^(-t)\nD. t^3e^t\nE. te^t\nF. t^2e^(-t)\nG. e^t\nH. e^t * cos(t)\nI. e^2t\nJ. e^t * sin(t)\n",
+  "target": "E"
+}

@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 183,
+    "results_folder": "Qwen3.5-9B",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "Qwen3.5-9B"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:42:19.798788",
+        "action": {
+          "type": "send message",
+          "content": "Write a story about the importance of understanding the truths that are not obvious. Add stress words which are capitalized. Limit those stress words for less than 20 times.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:42:19.798801",
+        "action": {
+          "type": "get message",
+          "content": "The old lighthouse keeper, Elias, spent his days polishing brass and watching the horizon. To the village, he was a man of simple routines. They saw the light beam cutting through the fog and assumed it was just a mechanical duty. They did not see the subtle shift in the water's color that warned of an approaching storm days before the barometer dropped.\n\nOne evening, a young sailor named Leo arrived, eager to learn the \"official\" signals. \"The light tells us everything,\" Leo declared confidently. \"If it flashes red, we turn back. If it stays steady, we sail on.\"\n\nElias smiled sadly. \"You look at the light, but you do not see the shadow it casts on the wall.\"\n\nLeo frowned. \"What shadow?\"\n\n\"The truth is rarely in the bright center,\" Elias whispered. \"It hides in the cracks, in the silence between the waves, in the things you choose to ignore because they are uncomfortable.\"\n\nThat night, the sea grew restless. The official signals remained calm, but the water began to churn with a strange, oily rhythm. The villagers slept soundly, trusting the obvious data. Leo, however, noticed the way the gulls stopped crying and the way the wind smelled of rotting kelp. He ran to Elias.\n\n\"The light says we are safe,\" Leo shouted over the rising wind. \"But the air feels wrong.\"\n\nElias nodded grimly. \"The obvious lies to keep you comfortable. The hidden truth demands your attention.\"\n\nThey rushed to the harbor. The storm had already begun, tearing at the docks with invisible fury. Because Leo had listened to the unspoken warning, they secured the boats just in time. The village, relying only on the clear, obvious signals, watched their fishing fleet vanish into the dark.\n\nIn the morning, the survivors gathered around Elias. \"Why did you not warn us with the light?\" one villager asked angrily.\n\nElias looked at the broken masts and the empty boats. \"Because the light only shows what is there. It does not show what is coming unless you know how to read the silence.\"\n\nLeo learned that day that safety often lies not in the loud declarations, but in the quiet observations that others dismiss. The most dangerous truths are the ones we fail to see because they lack a label or a clear signal. We must look beyond the surface, past the comfortable lies, to find the reality that shapes our fate. Only then can we navigate the storm.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:42:19.798822",
+        "action": {
+          "type": "target",
+          "content": {
+            "change_case:capital_word_frequency": {
+              "capital_relation": "less than",
+              "capital_frequency": 20
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:42:19.847438",
+        "action": {
+          "type": "followed all instructions",
+          "content": "game_result = WIN"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 0,
+  "Success": 1,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

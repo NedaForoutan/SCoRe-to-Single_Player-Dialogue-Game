@@ -1,0 +1,5 @@
+{
+  "game_id": 773,
+  "input": "Question:\nCalculate the minimum power required to cool 100 lb moles / min of air from 550°R to 500°R when the surrounding temperature is 550°R.\nOptions:\nA. - 1600 Btu/min or - 37.7 hp\nB. - 2100 Btu/min or - 49.8 hp\nC. - 1500 Btu/min or - 35.7 hp\nD. - 1300 Btu/min or - 30.8 hp\nE. - 2200 Btu/min or - 52.2 hp\nF. - 1900 Btu/min or - 45.0 hp\nG. - 2000 Btu/min or - 47.4 hp\nH. - 1400 Btu/min or - 33.2 hp\nI. - 1800 Btu/min or - 42.7 hp\nJ. - 1700 Btu/min or - 40.7 hp\n",
+  "target": "A"
+}

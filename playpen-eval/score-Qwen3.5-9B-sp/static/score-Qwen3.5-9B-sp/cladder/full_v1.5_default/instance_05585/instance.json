@@ -1,0 +1,5 @@
+{
+  "game_id": 5585,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Gender has a direct effect on treatment and peanut allergy. Treatment has a direct effect on peanut allergy. For patients who are not male and not receiving treatment, the probability of being allergic to peanuts is 84%. For patients who are not male and receiving treatment, the probability of being allergic to peanuts is 71%. For patients who are male and not receiving treatment, the probability of being allergic to peanuts is 21%. For patients who are male and receiving treatment, the probability of being allergic to peanuts is 3%. The overall probability of male gender is 54%. For patients receiving treatment, would it be more likely to see being allergic to peanuts if the patient had received no treatment?",
+  "target": "yes"
+}

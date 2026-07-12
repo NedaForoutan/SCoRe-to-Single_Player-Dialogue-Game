@@ -1,0 +1,5 @@
+{
+  "game_id": 3466,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Solar eclipse has a direct effect on Alice arriving to school. Traffic has a direct effect on Alice arriving to school. Method 1: We look at how solar eclipse correlates with Alice arriving to school case by case according to traffic. Method 2: We look directly at how solar eclipse correlates with Alice arriving to school in general. To understand how solar eclipse affects Alice arriving to school, is it more correct to use the Method 1 than Method 2?",
+  "target": "no"
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 1442,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Husband has a direct effect on wife and alarm clock. Wife has a direct effect on alarm clock. The overall probability of alarm set by husband is 17%. The probability of alarm not set by husband and ringing alarm is 69%. The probability of alarm set by husband and ringing alarm is 3%. Is the chance of ringing alarm smaller when observing alarm set by husband?",
+  "target": "yes"
+}

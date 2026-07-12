@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "game_name": "textmapworld",
+    "experiment_name": "medium_cycle",
+    "game_id": 34,
+    "player_name": "Player 2",
+    "game_role": "PathDescriber",
+    "model_name": "programmatic",
+    "round_count": 5,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:50:43.668489",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: west"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Laundry room. Currently available directions: south, west, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "call": {
+        "timestamp": "2026-07-06T20:50:44.011311",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: south"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Gallery. Currently available directions: north, west. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "call": {
+        "timestamp": "2026-07-06T20:50:44.358743",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: north"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Laundry room. Currently available directions: south, west, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 3,
+      "call": {
+        "timestamp": "2026-07-06T20:50:44.711314",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "GO: east"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Solarium. Currently available directions: west. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    }
+  ]
+}

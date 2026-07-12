@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 64,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T21:08:26.090393",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite a funny article about why the dinosaurs went extinct and put double quotations marks around your whole response. Include exactly 8 bullet points in your response. The bullet points should be in the form of:\n* This is bullet 1\n* This is bullet 2\n...<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite a funny article about why the dinosaurs went extinct and put double quotations marks around your whole response. Include exactly 8 bullet points in your response. The bullet points should be in the form of:\n* This is bullet 1\n* This is bullet 2\n...<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n\"\n* The asteroid didn't actually hit; it was just a really bad parking job by a rogue meteor that got lost on the way to the moon.\n* Dinosaurs were too busy arguing over who got the last fern to notice the sky turning a suspicious shade of orange.\n* A massive volcanic eruption in Iceland caused a global 'no smoking' policy that the T-Rexes refused to follow, leading to immediate eviction.\n* The climate change was actually just a very enthusiastic group of pterodactyls trying to start a new fashion trend with their wings.\n* Scientists forgot to update the dinosaur operating system, so when the 'Ice Age 2.0' patch dropped, their brains crashed.\n* A giant asteroid made of pure bad luck landed in the middle of the food chain, causing a ripple effect of existential dread.\n* The dinosaurs tried to evolve into humans but got stuck in a loading bar that never finished, leaving them as the ultimate beta testers.\n* In the end, it was all just a really long, very expensive reality show that got cancelled because the audience (us) found the acting too dramatic.\n\"<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 21:08:17.254573",
+            "call_duration": "0:00:08.835779",
+            "response": "\"\n* The asteroid didn't actually hit; it was just a really bad parking job by a rogue meteor that got lost on the way to the moon.\n* Dinosaurs were too busy arguing over who got the last fern to notice the sky turning a suspicious shade of orange.\n* A massive volcanic eruption in Iceland caused a global 'no smoking' policy that the T-Rexes refused to follow, leading to immediate eviction.\n* The climate change was actually just a very enthusiastic group of pterodactyls trying to start a new fashion trend with their wings.\n* Scientists forgot to update the dinosaur operating system, so when the 'Ice Age 2.0' patch dropped, their brains crashed.\n* A giant asteroid made of pure bad luck landed in the middle of the food chain, causing a ripple effect of existential dread.\n* The dinosaurs tried to evolve into humans but got stuck in a loading bar that never finished, leaving them as the ultimate beta testers.\n* In the end, it was all just a really long, very expensive reality show that got cancelled because the audience (us) found the acting too dramatic.\n\"\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

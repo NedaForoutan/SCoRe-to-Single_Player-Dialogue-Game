@@ -1,0 +1,5 @@
+{
+  "game_id": 890,
+  "input": "Question:\nWhich of the following is expected to be the least soluble in water?\nOptions:\nA. Cu(OH)2\nB. Zn(NO3)2\nC. NiSO3\nD. MgCl2\nE. Mn(NO3)2\nF. FeSO4\nG. CrCl3\nH. NaBr\nI. KI\n",
+  "target": "C"
+}

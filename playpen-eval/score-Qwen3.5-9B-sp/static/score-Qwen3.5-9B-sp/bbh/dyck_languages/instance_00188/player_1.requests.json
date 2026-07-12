@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "bbh",
+    "experiment_name": "dyck_languages",
+    "game_id": 188,
+    "player_name": "Player 1",
+    "game_role": "Answerer",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:58:22.644470",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nCorrectly close a Dyck-n word.\n\nQ: Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ { [\nA: ] } ]\n\nQ: Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < > ( ( [ [ ( { } ) [ < > ] ]\nA: ] ) )\n\nQ: Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < [ < [ { < [ ] < { } > > } ] > { { ( ) } { < [ < > ] > }\nA: } ] >\n\nQ: Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( {\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nCorrectly close a Dyck-n word.\n\nQ: Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: [ { [\nA: ] } ]\n\nQ: Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < > ( ( [ [ ( { } ) [ < > ] ]\nA: ] ) )\n\nQ: Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: < [ < [ { < [ ] < { } > > } ] > { { ( ) } { < [ < > ] > }\nA: } ] >\n\nQ: Complete the rest of the sequence, making sure that the parentheses are closed properly. Input: ( {\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n] }<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 20:58:22.349593",
+            "call_duration": "0:00:00.294844",
+            "response": "] }\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

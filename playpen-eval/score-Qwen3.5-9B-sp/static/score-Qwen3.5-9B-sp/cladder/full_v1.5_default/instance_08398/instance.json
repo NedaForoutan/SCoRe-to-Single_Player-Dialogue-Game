@@ -1,0 +1,5 @@
+{
+  "game_id": 8398,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Jyka has a direct effect on hwax. Hwax has a direct effect on lirg. The overall probability of jyka is 14%. The probability of not jyka and lirg is 72%. The probability of jyka and lirg is 12%. Is the chance of lirg smaller when observing jyka?",
+  "target": "no"
+}

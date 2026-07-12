@@ -1,0 +1,5 @@
+{
+  "game_id": 4345,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Maternal smoking status has a direct effect on infant's birth weight and freckles. Health condition has a direct effect on infant's birth weight and freckles. Infant's birth weight has a direct effect on freckles. Health condition is unobserved. Method 1: We look directly at how maternal smoking status correlates with freckles in general. Method 2: We look at this correlation case by case according to infant's birth weight. To understand how maternal smoking status affects freckles, is it more correct to use the Method 1 than Method 2?",
+  "target": "yes"
+}

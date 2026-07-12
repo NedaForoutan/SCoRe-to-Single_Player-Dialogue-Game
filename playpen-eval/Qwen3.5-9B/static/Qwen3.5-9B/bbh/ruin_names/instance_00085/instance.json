@@ -1,0 +1,5 @@
+{
+  "game_id": 85,
+  "input": "Which of the following is a humorous edit of this artist or movie name: 'moonlight'?\nOptions:\n(A) moonligrht\n(B) moonlzght\n(C) moonlights\n(D) goonlight",
+  "target": "(D)"
+}

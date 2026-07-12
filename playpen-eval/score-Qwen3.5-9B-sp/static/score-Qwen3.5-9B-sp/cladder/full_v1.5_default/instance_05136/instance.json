@@ -1,0 +1,5 @@
+{
+  "game_id": 5136,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Unobserved confounders has a direct effect on education level and foot size. Proximity to a college has a direct effect on education level. Education level has a direct effect on foot size. Unobserved confounders is unobserved. The overall probability of college degree or higher is 47%. The probability of high school degree or lower and large feet is 32%. The probability of college degree or higher and large feet is 10%. Is the chance of large feet smaller when observing college degree or higher?",
+  "target": "yes"
+}

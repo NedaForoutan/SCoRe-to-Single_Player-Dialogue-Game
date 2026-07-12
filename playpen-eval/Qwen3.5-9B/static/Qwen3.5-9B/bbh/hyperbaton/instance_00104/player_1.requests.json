@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "bbh",
+    "experiment_name": "hyperbaton",
+    "game_id": 104,
+    "player_name": "Player 1",
+    "game_role": "Answerer",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:32:54.181230",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nOrder adjectives correctly in English sentences.\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) rubber terrible ship\n(B) terrible rubber ship\nA: (B)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) repulsive small Brazilian exercise ship\n(B) Brazilian repulsive exercise small ship\nA: (A)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) blue gold wonderful square shoe\n(B) wonderful square blue gold shoe\nA: (B)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) repulsive normal-size green old-fashioned cardboard surfboard\n(B) repulsive normal-size old-fashioned green cardboard surfboard\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nOrder adjectives correctly in English sentences.\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) rubber terrible ship\n(B) terrible rubber ship\nA: (B)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) repulsive small Brazilian exercise ship\n(B) Brazilian repulsive exercise small ship\nA: (A)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) blue gold wonderful square shoe\n(B) wonderful square blue gold shoe\nA: (B)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) repulsive normal-size green old-fashioned cardboard surfboard\n(B) repulsive normal-size old-fashioned green cardboard surfboard\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n(B)\n\n**Reasoning:**\nThe standard order of adjectives in English follows this sequence:\n1.  **Opinion** (e.g., *repulsive*)\n2.  **Size** (e.g., *normal-size*)\n3.  **Age** (e.g., *old-fashioned*)\n4.  **Shape** (none here)\n5.  **Color** (e.g., *green*)\n6.  **Origin** (none here)\n7.  **Material** (e.g., *cardboard*)\n8.  **Purpose** (none here)\n\nOption (B) follows this sequence correctly: *repulsive* (opinion) → *normal-size* (size) → *old-fashioned* (age) → *green* (color) → *cardboard* (material). Option (A) incorrectly places the color before the age and material.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:32:49.438421",
+            "call_duration": "0:00:04.742768",
+            "response": "(B)\n\n**Reasoning:**\nThe standard order of adjectives in English follows this sequence:\n1.  **Opinion** (e.g., *repulsive*)\n2.  **Size** (e.g., *normal-size*)\n3.  **Age** (e.g., *old-fashioned*)\n4.  **Shape** (none here)\n5.  **Color** (e.g., *green*)\n6.  **Origin** (none here)\n7.  **Material** (e.g., *cardboard*)\n8.  **Purpose** (none here)\n\nOption (B) follows this sequence correctly: *repulsive* (opinion) → *normal-size* (size) → *old-fashioned* (age) → *green* (color) → *cardboard* (material). Option (A) incorrectly places the color before the age and material.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "game_id": 3701,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Education level has a direct effect on skill. Skill has a direct effect on black hair. The overall probability of college degree or higher is 6%. The probability of high school degree or lower and black hair is 25%. The probability of college degree or higher and black hair is 3%. Is the chance of black hair smaller when observing college degree or higher?",
+  "target": "no"
+}

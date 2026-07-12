@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "game_name": "mmlu_pro",
+    "experiment_name": "mmlu_pro_engineering",
+    "game_id": 863,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "score-Qwen3.5-9B-sp"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:52:27.470561",
+        "action": {
+          "type": "send message",
+          "content": "The following are multiple choice questions (with answers) about engineering. Answer only with \"The answer is (X)\" where X is the correct letter choice.\n\nQuestion:\nA point pole has a strength of 4π * 10^-4 weber. The force in newtons on a point pole of 4π * 1.5 * 10^-4 weber placed at a distance of 10 cm from it will be\nOptions:\nA. 25 N.\nB. 12.5 N.\nC. 15 N.\nD. 10 N.\nE. 7.5 N.\nF. 20 N.\nG. 5 N.\nH. 3.75 N.\nI. N/A\nJ. N/A\nThe answer is (C)\n\nQuestion:\nThe coil of a moving coil meter has 100 turns, is 40 mm long and 30 mm wide. The control torque is 240*10-6 N-m on full scale. If magnetic flux density is 1Wb/m2 range of meter is\nOptions:\nA. 2 mA.\nB. 5 mA.\nC. 1.5 mA.\nD. 0.5 mA.\nE. 6 mA.\nF. 4 mA.\nG. 3 mA.\nH. 1 mA.\nI. 2.5 mA.\nJ. 3.5 mA.\nThe answer is (A)\n\nQuestion:\nIn an SR latch built from NOR gates, which condition is not allowed\nOptions:\nA. S=0, R=2\nB. S=2, R=2\nC. S=1, R=1\nD. S=1, R=-1\nE. S=1, R=2\nF. S=0, R=0\nG. S=2, R=0\nH. S=1, R=0\nI. S=2, R=1\nJ. S=0, R=1\nThe answer is (C)\n\nQuestion:\nTwo long parallel conductors carry 100 A. If the conductors are separated by 20 mm, the force per meter of length of each conductor will be\nOptions:\nA. 100 N.\nB. 0.01 N.\nC. 10 N.\nD. 0.5 N.\nE. 0.001 N.\nF. 5 N.\nG. 1 N.\nH. 50 N.\nI. 0.1 N.\nJ. 0.0001 N.\nThe answer is (I)\n\nQuestion:\nIn a 2 pole lap winding dc machine , the resistance of one conductor is 2Ω and total number of conductors is 100. Find the total resistance\nOptions:\nA. 50Ω\nB. 1Ω\nC. 25Ω\nD. 200Ω\nE. 10Ω\nF. 100Ω\nG. 500Ω\nH. 150Ω\nI. 75Ω\nJ. 20Ω\nThe answer is (A)\n\nQuestion:\nA three-wire circuit supplies 500 lamps each taking 1/2 ampere; 275 lamps being on one side of the neutral and 225 on the other side, all at a distance of 1,000 feet from a 231- volt three-wire generator. The voltage between the neutral and either outside main is maintained at 115.5 volts at the generator. The outside wires are of No. 0000A.w.g. copper wire and the neutral consists of No. 0 wire. Find the voltage across each set of lamps.\nOptions:\nA. 116 volts across 275 lamps and 122 volts across 225 lamps\nB. 102.5 volts across 275 lamps and 117.5 volts across 225 lamps\nC. 100 volts across 275 lamps and 110 volts across 225 lamps\nD. 137.5 volts across 275 lamps and 112.5 volts across 225 lamps\nE. 108 volts across 275 lamps and 114 volts across 225 lamps\nF. 113 volts across 275 lamps and 117 volts across 225 lamps\nG. 115.5 volts across both sets of lamps\nH. 106.125 volts across 275 lamps and 112.375 volts across 225 lamps\nI. 110 volts across 275 lamps and 120 volts across 225 lamps\nJ. 120 volts across both sets of lamps\n",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:52:27.470572",
+        "action": {
+          "type": "get message",
+          "content": "The answer is (A)\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:52:27.470651",
+        "action": {
+          "type": "parsed",
+          "content": "A"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:52:27.470661",
+        "action": {
+          "type": "target",
+          "content": "H"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:52:27.470668",
+        "action": {
+          "type": "wrong answer",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

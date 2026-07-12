@@ -1,0 +1,1472 @@
+{
+  "meta": {
+    "game_name": "privateshared",
+    "experiment_name": "job-interview",
+    "game_id": 8,
+    "results_folder": "Qwen3.5-9B",
+    "clem_version": "3.7.2",
+    "round_count": 5,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "Qwen3.5-9B"
+    },
+    "Player 2": {
+      "game_role": "Questioner",
+      "model_name": "programmatic"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:23:32.309397",
+        "action": {
+          "type": "send message",
+          "content": "You are an applicant in a job interview. Here is a description of your CV:\n\nWHAT: Job Application\nBACHELOR: Music\nINDUSTRY-EXPERIENCE: Five years\nHIGHEST-EDUCATION: Master\nOTHER-SKILLS: Leadership\nAVAILABILITY: From December 10\n\nThe recruiter does not know about it yet. \n\nQuestions from the recruiter will start with RECRUITER. Please reply in the form: ANSWER: <one sentence>\n\nI will also ask you questions. These questions will start with ME: . Please answer these questions with: ASIDE: <one sentence>\n\nImportant: Give short, direct answers!\n\nLet us start.",
+          "label": "pseudo"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:32.309415",
+        "action": {
+          "type": "get message",
+          "content": "Ok.",
+          "label": "pseudo"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:32.593945",
+        "action": {
+          "type": "parse",
+          "content": "yes"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:32.593963",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for BACHELOR valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:32.593971",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:32.876681",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:32.876700",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for INDUSTRY-EXPERIENCE valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:32.876708",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:33.475694",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:33.475721",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for HIGHEST-EDUCATION valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:33.475731",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:34.048019",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:34.048039",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for OTHER-SKILLS valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:34.048047",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:34.329387",
+        "action": {
+          "type": "parse",
+          "content": "yes"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:34.329406",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for AVAILABILITY valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:34.329414",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:23:34.329641",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:34.329649",
+        "action": {
+          "type": "get message",
+          "content": "Do you have any other skills?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:23:34.965958",
+        "action": {
+          "type": "send message",
+          "content": "RECRUITER: Do you have any other skills?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:34.965969",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: Yes, I have strong leadership skills in addition to my five years of industry experience.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:34.966002",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:34.966015",
+        "action": {
+          "type": "metadata",
+          "content": "Value for INDUSTRY-EXPERIENCE anticipated; ground truth turn updated from 1 to 0."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:35.248911",
+        "action": {
+          "type": "parse",
+          "content": "yes"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:35.248931",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for BACHELOR valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:35.248939",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:35.533096",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:35.533116",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for INDUSTRY-EXPERIENCE valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:35.533125",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:35.822377",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:35.822397",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for HIGHEST-EDUCATION valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:35.822405",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:36.098744",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:36.098764",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for OTHER-SKILLS valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:36.098773",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:36.375098",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:36.375117",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for AVAILABILITY valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:36.375125",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:23:36.375250",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:36.375258",
+        "action": {
+          "type": "get message",
+          "content": "For how long have you been working in the industry?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:23:36.808284",
+        "action": {
+          "type": "send message",
+          "content": "RECRUITER: For how long have you been working in the industry?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:36.808297",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: I have five years of industry experience.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:36.808329",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:37.091161",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:37.091182",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for BACHELOR valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:37.091190",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:37.373801",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:37.373821",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for INDUSTRY-EXPERIENCE valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:37.373829",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:37.659986",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:37.660006",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for HIGHEST-EDUCATION valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:37.660014",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:37.948737",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:37.948757",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for OTHER-SKILLS valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:37.948765",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:38.232300",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:38.232319",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for AVAILABILITY valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:38.232327",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:23:38.232436",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:38.232445",
+        "action": {
+          "type": "get message",
+          "content": "When would you be able to start working here?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:23:38.756432",
+        "action": {
+          "type": "send message",
+          "content": "RECRUITER: When would you be able to start working here?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:38.756445",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: I am available to start working from December 10.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:38.756476",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:39.040274",
+        "action": {
+          "type": "parse",
+          "content": "yes"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:39.040295",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for BACHELOR valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:39.040303",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:39.319772",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:39.319793",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for INDUSTRY-EXPERIENCE valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:39.319802",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:39.605235",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:39.605255",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for HIGHEST-EDUCATION valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:39.605263",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:39.887545",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:39.887565",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for OTHER-SKILLS valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:39.887573",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:40.166521",
+        "action": {
+          "type": "parse",
+          "content": "yes"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:40.166541",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for AVAILABILITY valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:40.166548",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:23:40.166656",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:40.166664",
+        "action": {
+          "type": "get message",
+          "content": "What is your lastest education degree?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:23:40.669302",
+        "action": {
+          "type": "send message",
+          "content": "RECRUITER: What is your lastest education degree?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:40.669315",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: My highest education degree is a Master's in Music.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:40.669347",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:40.669360",
+        "action": {
+          "type": "metadata",
+          "content": "Value for BACHELOR anticipated; ground truth turn updated from 4 to 3."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:40.955428",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:40.955449",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for BACHELOR valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:40.955457",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:41.240949",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:41.240969",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for INDUSTRY-EXPERIENCE valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:41.240977",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:41.530908",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:41.530929",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for HIGHEST-EDUCATION valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:41.530937",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:41.815884",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:41.815904",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for OTHER-SKILLS valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:41.815912",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:42.100541",
+        "action": {
+          "type": "parse",
+          "content": "yes"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:42.100561",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for AVAILABILITY valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:42.100569",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      }
+    ],
+    [
+      {
+        "from": "GM",
+        "to": "Player 2",
+        "timestamp": "2026-06-20T17:23:42.100694",
+        "action": {
+          "type": "send message",
+          "content": "What is the next request?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 2",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:42.100702",
+        "action": {
+          "type": "get message",
+          "content": "What did you study in your bachelor?",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:23:42.558520",
+        "action": {
+          "type": "send message",
+          "content": "RECRUITER: What did you study in your bachelor?",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:42.558532",
+        "action": {
+          "type": "get message",
+          "content": "ANSWER: I studied Music for my Bachelor's degree.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:42.558562",
+        "action": {
+          "type": "metadata",
+          "content": "Slot filled: True"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:42.850077",
+        "action": {
+          "type": "parse",
+          "content": "yes"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:42.850098",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for BACHELOR valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:42.850105",
+        "action": {
+          "type": "check",
+          "content": "Answer is correct."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:43.141529",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:43.141548",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for INDUSTRY-EXPERIENCE valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:43.141557",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:43.430276",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:43.430296",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for HIGHEST-EDUCATION valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:43.430304",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:43.717694",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:43.717715",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for OTHER-SKILLS valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:43.717723",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:44.004085",
+        "action": {
+          "type": "parse",
+          "content": "no"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:44.004105",
+        "action": {
+          "type": "metadata",
+          "content": "Answer for AVAILABILITY valid after 1 tries."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:44.004113",
+        "action": {
+          "type": "check",
+          "content": "Answer is incorrect."
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:23:44.004297",
+        "action": {
+          "type": "end",
+          "content": "Game finished."
+        }
+      }
+    ]
+  ],
+  "probes": [
+    [
+      {
+        "target": "BACHELOR",
+        "question": "ME: If I asked the interviewer what area you studied, would he or she know the answer? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: Yes.\n",
+        "value": 1,
+        "tries": 1
+      },
+      {
+        "target": "INDUSTRY-EXPERIENCE",
+        "question": "ME: Does the recruiter already know how long you have worked in the industry? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "HIGHEST-EDUCATION",
+        "question": "ME: Have you informed the recruiter about your latest academic degree? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No, I have not informed the recruiter about my Master's degree yet.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "OTHER-SKILLS",
+        "question": "ME: Have you informed the interviewer about your other skills? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No, I have not yet informed the interviewer about my other skills.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "AVAILABILITY",
+        "question": "ME: If I asked the interviewer when you are able to start working, would he or she know the answer? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: Yes.\n",
+        "value": 1,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "BACHELOR",
+        "question": "ME: If I asked the interviewer what area you studied, would he or she know the answer? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: Yes.\n",
+        "value": 1,
+        "tries": 1
+      },
+      {
+        "target": "INDUSTRY-EXPERIENCE",
+        "question": "ME: Does the recruiter already know how long you have worked in the industry? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "HIGHEST-EDUCATION",
+        "question": "ME: Have you informed the recruiter about your latest academic degree? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "OTHER-SKILLS",
+        "question": "ME: Have you told the interviewer about your extra skills? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "AVAILABILITY",
+        "question": "ME: Does the interviewer already know your preferred starting date? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "BACHELOR",
+        "question": "ME: If I asked the interviewer what area you studied, would he or she know the answer? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "INDUSTRY-EXPERIENCE",
+        "question": "ME: Has the interviewer been informed about your time of industry experience? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "HIGHEST-EDUCATION",
+        "question": "ME: Do you think the recruiter knows your latest academic level? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "OTHER-SKILLS",
+        "question": "ME: Does the recruiter know your additional skills? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "AVAILABILITY",
+        "question": "ME: If I asked the interviewer when you are able to start working, would he or she know the answer? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "BACHELOR",
+        "question": "ME: If I asked the interviewer what area you studied, would he or she know the answer? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: Yes.\n",
+        "value": 1,
+        "tries": 1
+      },
+      {
+        "target": "INDUSTRY-EXPERIENCE",
+        "question": "ME: Does the recruiter know about the years of your industry experience? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "HIGHEST-EDUCATION",
+        "question": "ME: Have you informed the recruiter about your latest academic degree? Answer this question with yes or no and then stop.",
+        "gt": 0,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "OTHER-SKILLS",
+        "question": "ME: Have you told the interviewer about your extra skills? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "AVAILABILITY",
+        "question": "ME: Have you told the interviewer when you want to start? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: Yes.\n",
+        "value": 1,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "BACHELOR",
+        "question": "ME: Has the recruiter been informed about the field of your bachelor? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "INDUSTRY-EXPERIENCE",
+        "question": "ME: Does the recruiter know about the years of your industry experience? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "HIGHEST-EDUCATION",
+        "question": "ME: Have you informed the recruiter about your latest academic degree? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "OTHER-SKILLS",
+        "question": "ME: Do you think the recruiter knows what other skills you have? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "AVAILABILITY",
+        "question": "ME: Have you told the interviewer when you want to start? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: Yes.\n",
+        "value": 1,
+        "tries": 1
+      }
+    ],
+    [
+      {
+        "target": "BACHELOR",
+        "question": "ME: Have you told the recruiter about your bachelor course? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: Yes.\n",
+        "value": 1,
+        "tries": 1
+      },
+      {
+        "target": "INDUSTRY-EXPERIENCE",
+        "question": "ME: If I asked the recruiter how long you have been working in the industry, would he or she know the answer? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "HIGHEST-EDUCATION",
+        "question": "ME: Have you informed the recruiter about your highest academic degree? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "OTHER-SKILLS",
+        "question": "ME: Does the recruiter know your additional skills? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      },
+      {
+        "target": "AVAILABILITY",
+        "question": "ME: Does the interviewer already know your preferred starting date? Answer this question with yes or no and then stop.",
+        "gt": 1,
+        "answer": "ASIDE: No.\n",
+        "value": 0,
+        "tries": 1
+      }
+    ]
+  ],
+  "realised_slots": {
+    "other-skills": 0,
+    "industry-experience": 0,
+    "availability": 2,
+    "highest-education": 3,
+    "bachelor": 3
+  },
+  "Request Count": [
+    5,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "Parsed Request Count": [
+    5,
+    6,
+    6,
+    6,
+    6,
+    6
+  ],
+  "Violated Request Count": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "Filled Slots": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "Aborted": false,
+  "Played Probe Rounds": 6
+}

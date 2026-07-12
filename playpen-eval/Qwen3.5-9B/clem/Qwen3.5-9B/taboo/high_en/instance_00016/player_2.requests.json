@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "game_name": "taboo",
+    "experiment_name": "high_en",
+    "game_id": 16,
+    "player_name": "Player 2",
+    "game_role": "WordGuesser",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 2,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:28:51.932968",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are playing a collaborative word guessing game in which you have to guess a target word that another player describes to you.\n\nYou can make one guess at each trial. You win when you guess the target word. You lose when you cannot guess it in 3 tries.\n\nAfter each trial you will get a new hint from the other player which starts with CLUE.\n\nMake your guesses by just saying the word using the following form: GUESS: <a word>\n\nLet us start.\n\n\nCLUE: Where farmers grow crops and children play.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are playing a collaborative word guessing game in which you have to guess a target word that another player describes to you.\n\nYou can make one guess at each trial. You win when you guess the target word. You lose when you cannot guess it in 3 tries.\n\nAfter each trial you will get a new hint from the other player which starts with CLUE.\n\nMake your guesses by just saying the word using the following form: GUESS: <a word>\n\nLet us start.\n\n\nCLUE: Where farmers grow crops and children play.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nGUESS: FARM<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:28:51.632636",
+            "call_duration": "0:00:00.300294",
+            "response": "GUESS: FARM\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "call": {
+        "timestamp": "2026-06-20T17:28:52.732099",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nYou are playing a collaborative word guessing game in which you have to guess a target word that another player describes to you.\n\nYou can make one guess at each trial. You win when you guess the target word. You lose when you cannot guess it in 3 tries.\n\nAfter each trial you will get a new hint from the other player which starts with CLUE.\n\nMake your guesses by just saying the word using the following form: GUESS: <a word>\n\nLet us start.\n\n\nCLUE: Where farmers grow crops and children play.<|im_end|>\n<|im_start|>assistant\nGUESS: FARM<|im_end|>\n<|im_start|>user\nCLUE: It is covered in green and used for sports like soccer.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nYou are playing a collaborative word guessing game in which you have to guess a target word that another player describes to you.\n\nYou can make one guess at each trial. You win when you guess the target word. You lose when you cannot guess it in 3 tries.\n\nAfter each trial you will get a new hint from the other player which starts with CLUE.\n\nMake your guesses by just saying the word using the following form: GUESS: <a word>\n\nLet us start.\n\n\nCLUE: Where farmers grow crops and children play.<|im_end|>\n<|im_start|>assistant\nGUESS: FARM<|im_end|>\n<|im_start|>user\nCLUE: It is covered in green and used for sports like soccer.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nGUESS: FIELD<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:28:52.452492",
+            "call_duration": "0:00:00.279569",
+            "response": "GUESS: FIELD\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

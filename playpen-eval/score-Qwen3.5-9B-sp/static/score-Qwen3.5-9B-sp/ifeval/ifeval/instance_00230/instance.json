@@ -1,0 +1,9 @@
+{
+  "game_id": 230,
+  "input": "Write a template for a workshop on the importance of diversity in the workplace and highlight at least 3 sections with markdown, i.e. *highlighted section*.",
+  "target": {
+    "detectable_format:number_highlighted_sections": {
+      "num_highlights": 3
+    }
+  }
+}

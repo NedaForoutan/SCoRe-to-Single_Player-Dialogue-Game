@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "game_name": "bbh",
+    "experiment_name": "web_of_lies",
+    "game_id": 150,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "score-Qwen3.5-9B-sp"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:57:29.298663",
+        "action": {
+          "type": "send message",
+          "content": "Evaluate a random boolean function expressed as a word problem.\n\nQ: Question: Fidel tells the truth. Jerry says Fidel tells the truth. Vina says Jerry tells the truth. Millicent says Vina lies. Raymond says Millicent lies. Does Raymond tell the truth?\nA: Yes\n\nQ: Question: Kristian lies. Millie says Kristian lies. Maybelle says Millie tells the truth. Fidel says Maybelle lies. Leda says Fidel lies. Does Leda tell the truth?\nA: Yes\n\nQ: Question: Kristian tells the truth. Michaela says Kristian lies. Raymond says Michaela tells the truth. Osvaldo says Raymond tells the truth. Jamey says Osvaldo tells the truth. Does Jamey tell the truth?\nA: No\n\nQ: Question: Elanor tells the truth. Crista says Elanor lies. Vernell says Crista lies. Shalonda says Vernell lies. Teressa says Shalonda lies. Does Teressa tell the truth?\nA:",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:57:29.298675",
+        "action": {
+          "type": "get message",
+          "content": "Let's break down the logic step by step:\n\n1.  **Elanor tells the truth.** (Given as a fact).\n2.  **Crista says Elanor lies.** Since Elanor actually tells the truth, Crista's statement is false. Therefore, **Crista lies**.\n3.  **Vernell says Crista lies.** Since Crista does indeed lie, Vernell's statement is true. Therefore, **Vernell tells the truth**.\n4.  **Shalonda says Vernell lies.** Since Vernell tells the truth, Shalonda's statement is false. Therefore, **Shalonda lies**.\n5.  **Teressa says Shalonda lies.** Since Shalonda does indeed lie, Teressa's statement is true. Therefore, **Teressa tells the truth**.\n\n**Answer:** Yes\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:57:29.298691",
+        "action": {
+          "type": "metadata",
+          "content": "Target: Yes"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:57:29.298698",
+        "action": {
+          "type": "wrong answer",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

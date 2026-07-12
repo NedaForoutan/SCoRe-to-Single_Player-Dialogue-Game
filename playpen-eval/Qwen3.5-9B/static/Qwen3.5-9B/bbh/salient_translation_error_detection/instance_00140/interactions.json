@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "game_name": "bbh",
+    "experiment_name": "salient_translation_error_detection",
+    "game_id": 140,
+    "results_folder": "Qwen3.5-9B",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "Qwen3.5-9B"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-06-20T17:30:33.292653",
+        "action": {
+          "type": "send message",
+          "content": "Detect the type of error in an English translation of a German source sentence.\n\nQ: The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: In der Liste der Baudenkmale in Lenzen (Elbe) sind alle Baudenkmale der brandenburgischen Stadt Lenzen (Elbe) und ihrer Ortsteile aufgelistet.\nTranslation: In the list of architectural monuments in Lenzen all architectural monuments of the Brandenburg city of Lenzen and its districts are listed.\nThe translation contains an error pertaining to\nOptions:\n(A) Modifiers or Adjectives\n(B) Numerical Values\n(C) Negation or Antonyms\n(D) Named Entities\n(E) Dropped Content\n(F) Facts\nA: (D)\n\nQ: The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: Auf dieser Seite sind die Baudenkmäler der oberbayerischen Großen Kreisstadt Landsberg am Lech zusammengestellt.\nTranslation: On this page are compiled the architectural monuments of the town of Landsberg am Lech.\nThe translation contains an error pertaining to\nOptions:\n(A) Modifiers or Adjectives\n(B) Numerical Values\n(C) Negation or Antonyms\n(D) Named Entities\n(E) Dropped Content\n(F) Facts\nA: (E)\n\nQ: The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: Łeba ist eine Kleinstadt und ein Badeort im Powiat Lęborski der polnischen Woiwodschaft Pommern.\nTranslation: Eba is not a small town and seaside resort in the Powiat Léborski county of the Pomeranian Voivodeship of Poland.\nThe translation contains an error pertaining to\nOptions:\n(A) Modifiers or Adjectives\n(B) Numerical Values\n(C) Negation or Antonyms\n(D) Named Entities\n(E) Dropped Content\n(F) Facts\nA: (C)\n\nQ: The following translations from German to English contain a particular error. That error will be one of the following types: Named Entities: An entity (names, places, locations, etc.) is changed to a different entity. Numerical Values: Numerical values (ordinals or cardinals), dates, and/or units are changed. Modifiers or Adjectives: The modifiers and adjectives pertaining to a noun are changed. Negation or Antonyms: Introduce or remove a negation or change comparatives to their antonyms. Facts: Trivial factual errors not pertaining to the above classes are introduced in the translations. Dropped Content: A significant clause in the translation is removed. Please identify that error.  Source: Mosasaurus ist eine Gattung der Mosasaurier, einer ausgestorbenen Familie großer Meeresreptilien aus der Zeit der Oberkreide.\nTranslation: Mosasaurus is a genus of mosasaurs, an living family of large marine reptiles from the Upper Cretaceous period.\nThe translation contains an error pertaining to\nOptions:\n(A) Modifiers or Adjectives\n(B) Numerical Values\n(C) Negation or Antonyms\n(D) Named Entities\n(E) Dropped Content\n(F) Facts\nA:",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:30:33.292666",
+        "action": {
+          "type": "get message",
+          "content": "(A)\n\n**Analysis:**\nThe source text contains the German phrase \"ausgestorbenen Familie\", which translates to \"extinct family\". The translation renders this as \"an living family\".\n- \"ausgestorbenen\" (extinct) is an adjective modifying \"Familie\" (family).\n- \"living\" is an adjective modifying \"family\" in the translation.\n- The change from \"extinct\" to \"living\" alters the descriptive attribute (adjective) of the noun.\n- This fits the definition of **Modifiers or Adjectives**: \"The modifiers and adjectives pertaining to a noun are changed.\"\n\nWhile \"extinct\" and \"living\" are antonyms, the specific error category provided in the prompt for changing the description of a noun is \"Modifiers or Adjectives\". In many error taxonomy datasets (like XNLI or similar translation evaluation sets), changing an adjective to its opposite is often categorized under the adjective modification class unless the schema strictly separates \"Antonyms\" only for negation or comparative structures. However, looking at the options:\n- (C) Negation or Antonyms: Usually refers to adding/removing \"not\" or changing \"big\" to \"small\" in a way that flips truth conditions via negation or direct antonym substitution in a broader sense.\n- (A) Modifiers or Adjectives: Specifically targets the change of the modifier itself.\n\nLet's re-evaluate based on the specific definitions given",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:30:33.292682",
+        "action": {
+          "type": "metadata",
+          "content": "Target: (C)"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-06-20T17:30:33.292689",
+        "action": {
+          "type": "wrong answer",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 92,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:40:26.526897",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nGenerate a forum thread about several people waiting to hear the latest local news. All sentences should be short. Refrain from using any commas. Use placeholders to represent different usernames. Use square brackets for placeholders, like [username1], [username2]. Please include at least 20 placeholders in the thread.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nGenerate a forum thread about several people waiting to hear the latest local news. All sentences should be short. Refrain from using any commas. Use placeholders to represent different usernames. Use square brackets for placeholders, like [username1], [username2]. Please include at least 20 placeholders in the thread.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n[username1] Is the news on yet?\n[username2] I am checking my phone now.\n[username3] The screen is still black.\n[username4] Maybe the server is down.\n[username5] I see nothing on my feed.\n[username6] This feels very strange today.\n[username7] Did anyone get a signal?\n[username8] My connection is acting up.\n[username9] Please share what you see.\n[username10] I am waiting for an update.\n[username11] The clock is ticking slowly.\n[username12] Something big must be happening.\n[username13] I cannot find the story link.\n[username14] Is the site completely offline?\n[username15] I am refreshing the page again.\n[username16] Nothing changes after the refresh.\n[username17] We need answers soon.\n[username18] My friends are asking for news.\n[username19] I am getting very worried now.\n[username20] Please tell us what you know.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:40:20.636153",
+            "call_duration": "0:00:05.890697",
+            "response": "[username1] Is the news on yet?\n[username2] I am checking my phone now.\n[username3] The screen is still black.\n[username4] Maybe the server is down.\n[username5] I see nothing on my feed.\n[username6] This feels very strange today.\n[username7] Did anyone get a signal?\n[username8] My connection is acting up.\n[username9] Please share what you see.\n[username10] I am waiting for an update.\n[username11] The clock is ticking slowly.\n[username12] Something big must be happening.\n[username13] I cannot find the story link.\n[username14] Is the site completely offline?\n[username15] I am refreshing the page again.\n[username16] Nothing changes after the refresh.\n[username17] We need answers soon.\n[username18] My friends are asking for news.\n[username19] I am getting very worried now.\n[username20] Please tell us what you know.\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

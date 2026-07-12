@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 30,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T21:07:35.490210",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite a social media post for students of Islamic history about the hajj pilgrimage. Use all lowercase letters and include the word story at least twice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite a social media post for students of Islamic history about the hajj pilgrimage. Use all lowercase letters and include the word story at least twice.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nfor students of islamic history, the hajj is more than just a ritual; it is a living story that connects us to the prophets of old. every step taken in mecca rewrites the personal story of faith, reminding us that our journey is part of a much larger, timeless narrative.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 21:07:33.087515",
+            "call_duration": "0:00:02.402664",
+            "response": "for students of islamic history, the hajj is more than just a ritual; it is a living story that connects us to the prophets of old. every step taken in mecca rewrites the personal story of faith, reminding us that our journey is part of a much larger, timeless narrative.\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

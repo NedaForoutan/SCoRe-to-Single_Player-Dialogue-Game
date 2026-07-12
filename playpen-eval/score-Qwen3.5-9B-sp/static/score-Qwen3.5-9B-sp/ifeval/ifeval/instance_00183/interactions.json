@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 183,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "score-Qwen3.5-9B-sp"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T21:12:11.022034",
+        "action": {
+          "type": "send message",
+          "content": "Write a story about the importance of understanding the truths that are not obvious. Add stress words which are capitalized. Limit those stress words for less than 20 times.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:12:11.022045",
+        "action": {
+          "type": "get message",
+          "content": "The old clockmaker, Elias, spent his days fixing gears that looked identical to the naked eye. One afternoon, a young apprentice named Leo brought him a broken pocket watch. \"It just stopped,\" Leo said, tapping the casing. \"The spring is fine, the hands move freely.\"\n\nElias took the watch, his eyes narrowing. He didn't look at the face; he looked at the *INSIDE*. While the outer mechanism seemed perfect, a microscopic crack in the mainspring's anchor point had gone unnoticed. It was a flaw so small it was invisible without magnification, yet it was the *ROOT* of the failure.\n\n\"You see the parts,\" Elias whispered, his voice trembling with *FRUSTRATION* as he realized Leo's mistake. \"But you do not see the *HIDDEN* weakness.\"\n\nLeo frowned. \"But everything looks okay from the outside!\"\n\n\"That is the *TRAP*,\" Elias replied, his tone shifting to one of *URGENT* warning. \"Truths are rarely *OBLIVIOUS*. They hide in the shadows of what we assume is *SAFE*. If you only fix what you can *SEE*, you will break it again.\"\n\nElias began to work, his hands moving with *PRECISION*. He replaced the tiny, cracked piece, a task that required patience and a mind open to the *UNSEEN*. When he finally wound the watch, it ticked with a steady, *RHYTHMIC* heartbeat.\n\nLeo watched in *AWE*. \"How did you know?\"\n\nElias smiled, placing the watch back in Leo's palm. \"Because I understood that the *REAL* problem was never the spring itself, but the *FALSE* assumption that a silent watch was a healthy one. The *GREAT* lesson is this: Do not fear the *UNKNOWN*. Seek it out. For the *TRUE* strength lies in knowing what lies beneath the *SURFACE*.\"\n\nLeo nodded, feeling a new *CLARITY* settle over him. He realized that life, like the watch, was full of *SUBTLE* dangers and *DEEP* truths that demanded more than just a glance. He looked at the clockmaker with *RESPECT*, understanding now that *VIGILANCE* was the key to *LASTING* success.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:12:11.022059",
+        "action": {
+          "type": "target",
+          "content": {
+            "change_case:capital_word_frequency": {
+              "capital_relation": "less than",
+              "capital_frequency": 20
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:12:11.051516",
+        "action": {
+          "type": "followed not all instructions",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

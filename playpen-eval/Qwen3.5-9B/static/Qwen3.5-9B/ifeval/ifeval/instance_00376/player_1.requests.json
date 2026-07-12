@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 376,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "Qwen3.5-9B",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:44:27.496248",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nWrite a funny poem for kids about a product that you would like to sell. The poem should have exactly 6 stanzas. Separated the stanzas using 3 asterisk markers: ***<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nWrite a funny poem for kids about a product that you would like to sell. The poem should have exactly 6 stanzas. Separated the stanzas using 3 asterisk markers: ***<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nI have a hat that talks to you,\nWith silly voices, loud and new!\nIt says \"Good morning\" when you wake,\nAnd tells a joke before you take\nA bite of toast or sip of tea,\nThe funniest hat you've ever seen!\n\n***\n\nIt sings a song when you are sad,\nAbout a dancing, happy tad.\nIt hums a tune when you are tired,\nAnd makes your sleepy eyes get wider.\nIt whispers secrets in your ear,\nAbout a dragon in your chair!\n\n***\n\nThe hat can change its color too,\nFrom bright blue sky to sunny view.\nIt turns to green if you are scared,\nOr pink and fluffy, everywhere!\nIt flashes red when you are fast,\nAnd makes the whole room look like cast.\n\n***\n\nYou can ask it riddles, yes, you can,\nIt answers with a funny plan.\n\"Where is my sock?\" you might ask,\n\"It's hiding in your left-hand mask!\"\nIt knows where toys have gone to play,\nAnd helps you find them every day.\n\n***\n\nNo other hat can do this thing,\nTo make your boring day go spring.\nIt tells you stories of the moon,\nAnd how the stars are having a tune.\nIt's perfect for a birthday treat,\nOr just to make your day complete.\n\n***\n\nSo buy my hat and wear it high,\nUnder the vast and open sky!\nIt's the best gift you could ever get,\nTo make your laughter never wet.\nJust say \"Hello\" to start the show,\nAnd watch the magic start to grow!<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-06-20 17:44:18.946179",
+            "call_duration": "0:00:08.550027",
+            "response": "I have a hat that talks to you,\nWith silly voices, loud and new!\nIt says \"Good morning\" when you wake,\nAnd tells a joke before you take\nA bite of toast or sip of tea,\nThe funniest hat you've ever seen!\n\n***\n\nIt sings a song when you are sad,\nAbout a dancing, happy tad.\nIt hums a tune when you are tired,\nAnd makes your sleepy eyes get wider.\nIt whispers secrets in your ear,\nAbout a dragon in your chair!\n\n***\n\nThe hat can change its color too,\nFrom bright blue sky to sunny view.\nIt turns to green if you are scared,\nOr pink and fluffy, everywhere!\nIt flashes red when you are fast,\nAnd makes the whole room look like cast.\n\n***\n\nYou can ask it riddles, yes, you can,\nIt answers with a funny plan.\n\"Where is my sock?\" you might ask,\n\"It's hiding in your left-hand mask!\"\nIt knows where toys have gone to play,\nAnd helps you find them every day.\n\n***\n\nNo other hat can do this thing,\nTo make your boring day go spring.\nIt tells you stories of the moon,\nAnd how the stars are having a tune.\nIt's perfect for a birthday treat,\nOr just to make your day complete.\n\n***\n\nSo buy my hat and wear it high,\nUnder the vast and open sky!\nIt's the best gift you could ever get,\nTo make your laughter never wet.\nJust say \"Hello\" to start the show,\nAnd watch the magic start to grow!\n",
+            "model_name": "Qwen3.5-9B"
+          }
+        }
+      }
+    }
+  ]
+}

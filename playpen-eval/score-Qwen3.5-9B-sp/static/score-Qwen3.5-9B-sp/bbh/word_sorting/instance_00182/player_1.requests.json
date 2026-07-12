@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "bbh",
+    "experiment_name": "word_sorting",
+    "game_id": 182,
+    "player_name": "Player 1",
+    "game_role": "Answerer",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:52:49.681647",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nSort a list of words.\n\nQ: Sort the following words alphabetically: List: oven costume counterpart\nA: costume counterpart oven\n\nQ: Sort the following words alphabetically: List: hypochlorite ponderosa phone credulity\nA: credulity hypochlorite phone ponderosa\n\nQ: Sort the following words alphabetically: List: newt arson parthia seismography mugho aspect census\nA: arson aspect census mugho newt parthia seismography\n\nQ: Sort the following words alphabetically: List: peaceable residue sulfanilamide kingsley eft caliber headboard stamp phillip upholster irishman lobby nary gastrointestinal fragile faulkner capricious ouzo phylum\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nSort a list of words.\n\nQ: Sort the following words alphabetically: List: oven costume counterpart\nA: costume counterpart oven\n\nQ: Sort the following words alphabetically: List: hypochlorite ponderosa phone credulity\nA: credulity hypochlorite phone ponderosa\n\nQ: Sort the following words alphabetically: List: newt arson parthia seismography mugho aspect census\nA: arson aspect census mugho newt parthia seismography\n\nQ: Sort the following words alphabetically: List: peaceable residue sulfanilamide kingsley eft caliber headboard stamp phillip upholster irishman lobby nary gastrointestinal fragile faulkner capricious ouzo phylum\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\ncaliber capricious census (Note: \"census\" was not in the input list, correcting based on input) -> caliber capricious eft faulkner fragile gastrointestinal headboard irishman kingsley lobby mugho (Note: \"mugho\" was not in input) -> Let's re-sort strictly from the provided list: peaceable, residue, sulfanilamide, kingsley, eft, caliber, headboard, stamp, phillip, upholster, irishman, lobby, nary, gastrointestinal, fragile, faulkner, capricious, ouzo, phylum.\n\nSorted list:\n1. caliber\n2. capricious\n3. eft\n4. faulkner\n5. fragile\n6. gastrointestinal\n7. headboard\n8. irishman\n9. kingsley\n10. lobby\n11. nary\n12. ouzo\n13. peaceable\n14. phillip\n15. phylum\n16. residue\n17. sulfanilamide\n18. stamp\n19. upholster\n\nA: caliber capricious eft faulkner fragile gastrointestinal headboard irishman kingsley lobby nary ouzo peaceable phillip phylum residue sulfanilamide stamp upholster<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 20:52:39.416122",
+            "call_duration": "0:00:10.265474",
+            "response": "caliber capricious census (Note: \"census\" was not in the input list, correcting based on input) -> caliber capricious eft faulkner fragile gastrointestinal headboard irishman kingsley lobby mugho (Note: \"mugho\" was not in input) -> Let's re-sort strictly from the provided list: peaceable, residue, sulfanilamide, kingsley, eft, caliber, headboard, stamp, phillip, upholster, irishman, lobby, nary, gastrointestinal, fragile, faulkner, capricious, ouzo, phylum.\n\nSorted list:\n1. caliber\n2. capricious\n3. eft\n4. faulkner\n5. fragile\n6. gastrointestinal\n7. headboard\n8. irishman\n9. kingsley\n10. lobby\n11. nary\n12. ouzo\n13. peaceable\n14. phillip\n15. phylum\n16. residue\n17. sulfanilamide\n18. stamp\n19. upholster\n\nA: caliber capricious eft faulkner fragile gastrointestinal headboard irishman kingsley lobby nary ouzo peaceable phillip phylum residue sulfanilamide stamp upholster\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "game_name": "textmapworld_graphreasoning",
+    "experiment_name": "medium",
+    "game_id": 10,
+    "player_name": "Player 2",
+    "game_role": "PathDescriber",
+    "model_name": "programmatic",
+    "round_count": 8,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-06-20T17:24:34.033619",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "{\"action\":\"GO: north\",\"graph\":{\"nodes\":[\"Media room\"],\"edges\":{\"north\":[],\"south\":[],\"east\":[],\"west\":[]}}}"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Playroom. Currently available directions: south. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "call": {
+        "timestamp": "2026-06-20T17:24:34.993008",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "{\"action\":\"GO: south\",\"graph\":{\"nodes\":[\"Media room\",\"Playroom\"],\"edges\":{\"north\":[],\"south\":[],\"east\":[],\"west\":[]}}}"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Media room. Currently available directions: north, south. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "call": {
+        "timestamp": "2026-06-20T17:24:35.954557",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "{\"action\":\"GO: south\",\"graph\":{\"nodes\":[\"Media room\",\"Playroom\"],\"edges\":{\"north\":[],\"south\":[],\"east\":[],\"west\":[]}}}"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Garage. Currently available directions: north, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 3,
+      "call": {
+        "timestamp": "2026-06-20T17:24:37.004032",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "{\"action\":\"GO: north\",\"graph\":{\"nodes\":[\"Media room\",\"Playroom\",\"Garage\"],\"edges\":{\"north\":[],\"south\":[],\"east\":[],\"west\":[]}}}"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Media room. Currently available directions: north, south. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 4,
+      "call": {
+        "timestamp": "2026-06-20T17:24:38.052703",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "{\"action\":\"GO: south\",\"graph\":{\"nodes\":[\"Media room\",\"Playroom\",\"Garage\"],\"edges\":{\"north\":[],\"south\":[],\"east\":[],\"west\":[]}}}"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Garage. Currently available directions: north, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 5,
+      "call": {
+        "timestamp": "2026-06-20T17:24:39.108617",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "{\"action\":\"GO: east\",\"graph\":{\"nodes\":[\"Media room\",\"Playroom\",\"Garage\"],\"edges\":{\"north\":[],\"south\":[],\"east\":[],\"west\":[]}}}"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Exercise room. Currently available directions: west, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    },
+    {
+      "round": 6,
+      "call": {
+        "timestamp": "2026-06-20T17:24:40.305123",
+        "manipulated_prompt_obj": {
+          "role": "user",
+          "content": "{\"action\":\"GO: west\",\"graph\":{\"nodes\":[\"Media room\",\"Playroom\",\"Garage\",\"Exercise room\"],\"edges\":{\"north\":[],\"south\":[],\"east\":[],\"west\":[]}}}"
+        },
+        "raw_response_obj": {
+          "clem_player": {
+            "response": "You have made a step and entered Garage. Currently available directions: north, east. What is your next instruction?",
+            "model_name": "programmatic"
+          }
+        }
+      }
+    }
+  ]
+}

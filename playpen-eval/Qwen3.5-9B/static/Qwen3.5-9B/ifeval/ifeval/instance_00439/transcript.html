@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <style>
+        /* This CSS is based on a stack overflow answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */ 
+
+* {margin: 0; box-sizing: border-box;}
+
+body {
+  background-color: rgb(157, 152, 150);
+}
+
+.top-info {
+	text-align: center;
+	font: 1.25rem/1.5 sans-serif;
+	display: flex;
+	flex-direction: column;
+	padding: 1.25em;
+	width: 80%;
+  max-width: 1200px;
+	margin: auto;
+	background: #3f3e3e;
+	color: #fff;
+}
+
+.chat {
+  --rad: 1.5rem;
+  --rad-sm: .3rem;
+  font: 1rem/1.5 sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+}
+
+.msg {
+  position: relative;
+  padding: .6rem 1.2rem;
+  margin-inline: 1rem;
+  margin-block: 2rem;
+}
+
+.game-round {
+  padding: 1.5rem 0 1.5rem 0;
+  background-color: #f0f8ff; /* light background for content */
+  position: relative; /* Important to position the badge */
+  border-radius: 1rem;
+  margin: 1rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+/* Badge in top-right corner */
+.game-round::before {
+  content: "Round " attr(data-round);
+  position: absolute;
+  top: .35rem;
+  right: 1.5rem;
+  color: #c4c3c3;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+/* For fenced code/monospace blocks */
+pre {
+  background: #e0e0e0;
+  border-left: .2rem solid #f36d33;
+  border-radius: .2rem;
+  color: #666;
+  font-family: monospace;
+  line-height: 1.0;
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  max-width: 100%;
+  overflow: auto;
+  padding: 0.5rem 0.2rem;
+}/* This CSS is based on a stack overflow answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */
+/* Player colors are assigned according to number of players */
+
+.msg.player-gm {
+  border-radius: var(--rad-sm) var(--rad) var(--rad) var(--rad-sm);
+  color: #fff;
+  margin-right: 30%;
+}
+
+.msg.gm-player {
+  border-radius: var(--rad) var(--rad-sm) var(--rad-sm) var(--rad);
+  background: #c4c3c3;
+  color: #0c0c0c;
+  margin-left: 30%;
+}
+
+.msg.gm-gm {
+  border-radius: var(--rad-sm) var(--rad-sm) var(--rad-sm) var(--rad-sm);
+  background: #f1f1f1;
+  color: #373636;
+  margin-left: 50%;
+  margin-right: 10%;
+  font-size: 0.8rem;
+}
+
+.msg::before {
+  left: 1rem;
+  content: attr(speaker);
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 100%;
+  color: #888;
+  white-space: nowrap;
+}.msg.player-gm.p1 { background: darkseagreen; }
+
+    </style>
+</head>
+<body>
+
+<br/>
+
+<div class="top-info">
+    <p>Interaction Transcript for game 'ifeval', experiment 'ifeval', episode 439 with Qwen3.5-9B.</p>
+</div>
+
+<br/>
+
+<div class="chat">
+<div class="game-round" data-round="0">
+    <div speaker="GM (Game Master) to Player 1 (InstructionFollower)" class="msg gm-player p1" style="">
+        <p>Students are travelling to UCI for 3 days. Create a hilarious itinerary for them. Do not use the word &#x27;university&#x27;. Your entire response should have exactly 4 paragraphs.  Separate paragraphs with the markdown divider: ***</p>
+    </div>
+
+    <div speaker="Player 1 (InstructionFollower) to GM (Game Master)" class="msg player-gm p1" style="">
+        <p>Welcome to the ultimate three-day survival guide for your intergalactic expedition to the campus of the University of California, Irvine, where the only thing more confusing than the parking situation is the sheer number of palm trees trying to outshine the sun. On Day One, you will immediately attempt to navigate the labyrinthine streets of the Student Union while wearing sunglasses indoors because the AC is set to &quot;Arctic Blast&quot; and nobody wants to be seen sweating. You will spend your morning trying to find a vending machine that actually dispenses snacks instead of just chewing gum and existential dread, followed by an afternoon of getting lost in the library stacks until you accidentally become a human bookmark for a very confused professor.<br/><br/>***<br/><br/>Day Two is dedicated to the sacred ritual of the &quot;Great Food Hunt,&quot; where you must locate the cafeteria line that isn&#x27;t currently serving a mystery meat dish that looks suspiciously like a gray rock. You will gather in the quad to debate the philosophical implications of whether a taco is a sandwich, all while dodging frisbees thrown by students who are trying to practice their aim for the upcoming intramural games. If you are lucky, you might catch a glimpse of the mascot, a creature so large and fluffy that it could easily be mistaken for a cloud that decided to take a nap in the middle of the quad, which will surely confuse your GPS and make you question your life choices.<br/><br/>***<br/><br/>By Day Three, the group will have reached a state of zen-like exhaustion, having successfully avoided every single scheduled class and instead spent hours exploring the art galleries and pretending to understand modern sculpture. You will attempt to leave the premises by taking the shuttle bus, only to realize that the driver speaks a language that sounds like a mix of French and static noise, forcing you to communicate entirely through exaggerated hand gestures and thumbs-up signs. As you board the bus, you will collectively agree that the journey back home will be the highlight of your trip, simply because you will finally be able to sleep in your own bed without the constant hum of distant laughter echoing through the halls.<br/><br/>***<br/><br/>In conclusion, this three-day adventure has proven that the true essence of higher education is not about learning facts, but rather about mastering the art of not getting hit by a golf ball on the green and figuring out how to use the copy machine without setting it on fire. You have survived the palm trees, the confusing signage, and the endless quest for caffeine, emerging as legends of the campus who will forever be remembered for their ability to laugh at the absurdity of it all. Pack your bags, because while you may have learned nothing new, you have definitely learned exactly how to survive a day in paradise without losing your mind.<br/></p>
+    </div>
+
+    <div speaker="Game Master: target" class="msg gm-gm" style="">
+        <p>{&#x27;length_constraints:number_paragraphs&#x27;: {&#x27;num_paragraphs&#x27;: 4}, &#x27;keywords:forbidden_words&#x27;: {&#x27;forbidden_words&#x27;: [&#x27;university&#x27;]}}</p>
+    </div>
+
+    <div speaker="Game Master: followed not all instructions" class="msg gm-gm" style="">
+        <p>game_result = LOSE</p>
+    </div>
+</div>
+</div>
+
+</body>
+</html>

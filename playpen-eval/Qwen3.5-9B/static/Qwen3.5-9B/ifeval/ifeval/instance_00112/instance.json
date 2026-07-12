@@ -1,0 +1,12 @@
+{
+  "game_id": 112,
+  "input": "What's a good way to ask Sonia out? Please reply with exactly 4 paragraphs and separate each paragraph with two new lines. Put double quotation marks around your entire response. The very first paragraph must start with the word \"weekend\".",
+  "target": {
+    "length_constraints:nth_paragraph_first_word": {
+      "num_paragraphs": 4,
+      "first_word": "weekend",
+      "nth_paragraph": 1
+    },
+    "startend:quotation": {}
+  }
+}

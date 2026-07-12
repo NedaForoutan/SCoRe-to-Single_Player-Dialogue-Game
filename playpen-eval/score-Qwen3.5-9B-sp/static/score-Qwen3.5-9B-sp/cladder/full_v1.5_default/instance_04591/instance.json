@@ -1,0 +1,5 @@
+{
+  "game_id": 4591,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Having a brother has a direct effect on wife and alarm clock. Wife has a direct effect on alarm clock. The overall probability of having a brother is 1%. The probability of not having a brother and ringing alarm is 64%. The probability of having a brother and ringing alarm is 0%. Is the chance of ringing alarm larger when observing having a brother?",
+  "target": "no"
+}

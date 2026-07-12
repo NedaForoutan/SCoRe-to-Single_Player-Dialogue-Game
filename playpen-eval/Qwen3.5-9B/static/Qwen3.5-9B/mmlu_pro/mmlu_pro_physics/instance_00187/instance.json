@@ -1,0 +1,5 @@
+{
+  "game_id": 187,
+  "input": "Question:\nWhat is the minimum escape velocity of a spacecraft from the moon?\nOptions:\nA. 2100 $\\mathrm{~m} / \\mathrm{s}$\nB. 2470 $\\mathrm{~m} / \\mathrm{s}$\nC. 2600 $\\mathrm{~m} / \\mathrm{s}$\nD.  2380$\\mathrm{~m} / \\mathrm{s}$ \nE. 3300 $\\mathrm{~m} / \\mathrm{s}$\nF. 1750 $\\mathrm{~m} / \\mathrm{s}$\nG. 1900 $\\mathrm{~m} / \\mathrm{s}$\nH. 2850 $\\mathrm{~m} / \\mathrm{s}$\nI. 2025 $\\mathrm{~m} / \\mathrm{s}$\nJ. 1520 $\\mathrm{~m} / \\mathrm{s}$\n",
+  "target": "D"
+}

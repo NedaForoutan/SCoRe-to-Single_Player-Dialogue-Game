@@ -1,0 +1,72 @@
+{
+  "name": "eq_bench",
+  "meta": {
+    "task": "playschool_eq_bench",
+    "dataset_path": "pbevan11/EQ-Bench",
+    "output_type": "generate_until",
+    "validation_split": "validation",
+    "doc_to_text": "prompt",
+    "doc_to_target": "reference_answer_fullscale",
+    "generation_kwargs": {
+      "do_sample": false,
+      "temperature": 0.0,
+      "max_gen_toks": 80
+    },
+    "metric_list": [
+      {
+        "metric": "eqbench",
+        "aggregation": "mean",
+        "higher_is_better": true
+      },
+      {
+        "metric": "percent_parseable",
+        "aggregation": "mean",
+        "higher_is_better": true
+      }
+    ],
+    "metadata": {
+      "version": 2.1
+    }
+  },
+  "timestamp": "2026-06-20T17:38:24.947493",
+  "game_name": "eqbench",
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "game_id": 101,
+  "input": "\nYour task is to predict the likely emotional responses of a character in this dialogue:\n\nElijah: So, you just decided to kill off Amelia, just like that?\nJefferson: It wasn't \"just like that,\" Elijah. It was a carefully considered decision.\nElijah: Carefully considered? She was the heart of your story. She was the reason I fell in love with your books!\nJefferson: And she still is. Her death doesn't erase her existence.\nElijah: But it erases her future! You took that away from her, from us.\nJefferson: I didn't take anything away, Elijah. It's a story. It's fiction.\nElijah: Fiction impacts reality, Jefferson. You of all people should know that.\nJefferson: And I do. But it's my story to tell. My reality to create.\nElijah: Your reality? What about the readers? Don't we have a say?\nJefferson: A say? No. An interpretation? Yes.\nElijah: Interpretation? Is that what you call it when you rip our hearts out?\nJefferson: It's not about ripping hearts out. It's about evoking emotion.\n[End dialogue]\n\nAt the end of this dialogue, Elijah would feel...\nEmpathetic\nIndignant\nMollified\nUninterested\n\nGive each of these possible emotions a score from 0-10 for the relative intensity that they are likely to be feeling each.\n\nYou must output in the following format, including headings (of course, you should give your own scores), with no additional commentary:\n\nEmpathetic: <score>\nIndignant: <score>\nMollified: <score>\nUninterested: <score>\n\n\n[End of answer]\n\nRemember: zero is a valid score, meaning they are likely not feeling that emotion. You must score at least one emotion > 0.\n\nYour answer:\n",
+  "target": {
+    "Empathetic": 0,
+    "Indignant": 8,
+    "Mollified": 0,
+    "Uninterested": 0
+  }
+}

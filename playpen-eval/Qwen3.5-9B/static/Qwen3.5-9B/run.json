@@ -1,0 +1,85 @@
+{
+  "clem_version": "3.7.2",
+  "created": "2026-06-20T17:29:09.808228",
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "Qwen3.5-9B",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "Qwen/Qwen3.5-9B",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "games": {
+    "bbh": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/static/bbh",
+      "benchmark_start": "2026-06-20T17:29:09.872181",
+      "benchmark_end": "2026-06-20T17:38:24.889270",
+      "duration": "0:09:15.017089",
+      "duration_seconds": 555.017089,
+      "num_instances": 128
+    },
+    "eqbench": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/static/eqbench",
+      "benchmark_start": "2026-06-20T17:38:24.929814",
+      "benchmark_end": "2026-06-20T17:38:52.175215",
+      "duration": "0:00:27.245401",
+      "duration_seconds": 27.245401,
+      "num_instances": 34
+    },
+    "ifeval": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/static/ifeval",
+      "benchmark_start": "2026-06-20T17:38:52.219417",
+      "benchmark_end": "2026-06-20T17:46:04.525656",
+      "duration": "0:07:12.306239",
+      "duration_seconds": 432.306239,
+      "num_instances": 54
+    },
+    "mmlu_pro": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/static/mmlu_pro",
+      "benchmark_start": "2026-06-20T17:46:04.613729",
+      "benchmark_end": "2026-06-20T17:46:46.804665",
+      "duration": "0:00:42.190936",
+      "duration_seconds": 42.190936,
+      "num_instances": 113
+    },
+    "cladder": {
+      "game_path": "/sc/home/valha.mmesh/playpen-work/clembench/static/cladder",
+      "benchmark_start": "2026-06-20T17:46:46.849496",
+      "benchmark_end": "2026-06-20T17:59:09.242726",
+      "duration": "0:12:22.393230",
+      "duration_seconds": 742.39323,
+      "num_instances": 101
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 114,
+    "player_name": "Player 1",
+    "game_role": "InstructionFollower",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T21:09:39.581120",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nI really love the album called Lilith. I want to introduce it to my friend Luheng. Draft an email for it. Add a postscript to your response that starts with P.S.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 1280,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nI really love the album called Lilith. I want to introduce it to my friend Luheng. Draft an email for it. Add a postscript to your response that starts with P.S.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nSubject: You have to hear this album: Lilith\n\nHi Luheng,\n\nI hope you're having a great week!\n\nI've been listening to the album *Lilith* on repeat lately, and I immediately thought of you. The atmosphere in this record is just incredible—it blends haunting melodies with deep, introspective lyrics that really stick with you. I feel like the production really captures a specific kind of emotional depth that you'd appreciate, especially the way the instruments layer over each other to create such a rich soundscape.\n\nI'd love to sit down with you sometime and listen to it together, or even just hop on a call to discuss the tracks if you're free. Let me know what you think when you get a chance to check it out!\n\nBest,\n\n[Your Name]\n\nP.S. If you haven't already, make sure to pay special attention to the third track; the bridge in that song is absolutely mesmerizing.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 21:09:32.225927",
+            "call_duration": "0:00:07.355150",
+            "response": "Subject: You have to hear this album: Lilith\n\nHi Luheng,\n\nI hope you're having a great week!\n\nI've been listening to the album *Lilith* on repeat lately, and I immediately thought of you. The atmosphere in this record is just incredible—it blends haunting melodies with deep, introspective lyrics that really stick with you. I feel like the production really captures a specific kind of emotional depth that you'd appreciate, especially the way the instruments layer over each other to create such a rich soundscape.\n\nI'd love to sit down with you sometime and listen to it together, or even just hop on a call to discuss the tracks if you're free. Let me know what you think when you get a chance to check it out!\n\nBest,\n\n[Your Name]\n\nP.S. If you haven't already, make sure to pay special attention to the third track; the bridge in that song is absolutely mesmerizing.\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

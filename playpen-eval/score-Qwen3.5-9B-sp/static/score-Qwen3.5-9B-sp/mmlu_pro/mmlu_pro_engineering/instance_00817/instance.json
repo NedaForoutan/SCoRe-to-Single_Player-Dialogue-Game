@@ -1,0 +1,5 @@
+{
+  "game_id": 817,
+  "input": "Question:\nThe shaft of a centrifugal pump is supported by a 180° centralpartial journal bearing 3 in. in diameter and 6 in. long. The clearance between the shaft and the bearing is 0.003 in. For lubrication SAE 20 oil is used and the minimum oil thicknessis 0.002 in. The shaft rotates at 1000 rpm and the bearingis subjected to a pressure of 50 psi based on the projectedarea of the journal. Evaluate the average temperatureof the oil film and the power developed due to friction.\nOptions:\nA. 165°F, 0.088\nB. 145°F, 0.115\nC. 140°F, 0.120\nD. 150°F, 0.110\nE. 160°F, 0.0943\nF. 170°F, 0.085\nG. 175°F, 0.080\nH. 180°F, 0.105\nI. 190°F, 0.075\nJ. 155°F, 0.099\n",
+  "target": "E"
+}

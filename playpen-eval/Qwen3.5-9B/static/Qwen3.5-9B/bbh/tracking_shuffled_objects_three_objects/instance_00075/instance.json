@@ -1,0 +1,5 @@
+{
+  "game_id": 75,
+  "input": "Alice, Bob, and Claire are holding a white elephant gift exchange. At the start of the event, they are each holding a present of a different color: Alice has a pink ball, Bob has a yellow present, and Claire has a orange ball.\nAs the event progresses, pairs of people swap gifts. First, Bob and Claire swap their gifts. Then, Alice and Claire swap their gifts. Finally, Bob and Claire swap their gifts. At the end of the event, Bob has the\nOptions:\n(A) pink ball\n(B) yellow present\n(C) orange ball",
+  "target": "(A)"
+}

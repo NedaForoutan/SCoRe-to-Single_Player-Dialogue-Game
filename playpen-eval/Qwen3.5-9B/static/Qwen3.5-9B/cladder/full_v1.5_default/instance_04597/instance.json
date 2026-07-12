@@ -1,0 +1,5 @@
+{
+  "game_id": 4597,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Having a brother has a direct effect on wife and alarm clock. Wife has a direct effect on alarm clock. For people who do not have a brother and wives that don't set the alarm, the probability of ringing alarm is 88%. For people who do not have a brother and wives that set the alarm, the probability of ringing alarm is 45%. For people who have a brother and wives that don't set the alarm, the probability of ringing alarm is 58%. For people who have a brother and wives that set the alarm, the probability of ringing alarm is 13%. For people who do not have a brother, the probability of alarm set by wife is 9%. For people who have a brother, the probability of alarm set by wife is 64%. Does having a brother negatively affect alarm clock through wife?",
+  "target": "yes"
+}

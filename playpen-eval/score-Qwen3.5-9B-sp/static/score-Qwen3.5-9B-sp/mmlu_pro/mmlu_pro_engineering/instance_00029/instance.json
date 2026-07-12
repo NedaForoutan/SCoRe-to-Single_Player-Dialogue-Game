@@ -1,0 +1,5 @@
+{
+  "game_id": 29,
+  "input": "Question:\nConsider an air-filled rectangular waveguide whoseaandb dimensionsare 0.9 and 0.4 in., respectively. Find (a)thecutoff frequency of the dominant mode and also that ofthe next higher-order mode, and (b)theattenuation factor associated with the next higher-ordermode at a frequency midway between the two cutofffrequencies.\nOptions:\nA. 5 GHz, 11 GHz, 210Np/m\nB. 7 GHz, 14 GHz, 190Np/m\nC. 7.5 GHz, 15 GHz, 195Np/m\nD. 5.75 GHz, 11.5 GHz, 220Np/m\nE. 6 GHz, 13 GHz, 180Np/m\nF. 5.5 GHz, 12 GHz, 200Np/m\nG. 6.75 GHz, 13.5 GHz, 185Np/m\nH. 6.1 GHz, 12.2 GHz, 170Np/m\nI. 6.25 GHz, 12.5 GHz, 175Np/m\nJ. 6.56 GHz, 13.1 GHz, 181Np/m\n",
+  "target": "J"
+}

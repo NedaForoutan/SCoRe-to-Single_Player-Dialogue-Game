@@ -1,0 +1,5 @@
+{
+  "game_id": 8089,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Kwox has a direct effect on kwoz. Swoq has a direct effect on kwoz. The overall probability of kwox is 1%. For those who are not kwox, the probability of kwoz is 47%. For those who are kwox, the probability of kwoz is 92%. Is kwoz less likely than not kwoz overall?",
+  "target": "yes"
+}

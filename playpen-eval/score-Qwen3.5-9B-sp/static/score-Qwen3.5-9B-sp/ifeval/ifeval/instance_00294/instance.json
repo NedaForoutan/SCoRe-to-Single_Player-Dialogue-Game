@@ -1,0 +1,7 @@
+{
+  "game_id": 294,
+  "input": "Write an email to your friend about what triggers you. Make sure to wrap the entire email in double quotation marks.",
+  "target": {
+    "startend:quotation": {}
+  }
+}

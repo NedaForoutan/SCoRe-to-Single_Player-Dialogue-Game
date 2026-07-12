@@ -1,0 +1,5 @@
+{
+  "game_id": 202,
+  "input": "Question:\nCongress has embarked on another round of expansionary fiscal policy to boost employment and get reelected. As chair of the central bank how would you reduce the \"crowding-out\" effect and what macroeconomic problem might your policy exacerbate?\nOptions:\nA. Buy government securities risking a recessionary gap\nB. Increase the discount rate risking deflation\nC. Sell less government securities risking deflation\nD. Increase the reserve ratio risking the devaluation of the dollar\nE. Lower the reserve ratio risking a devaluation of the dollar\nF. Decrease the reserve ratio risking inflation\nG. Sell government securities risking inflation\nH. Lower the discount rate risking inflation\nI. Buy more government securities risking hyperinflation\nJ. Increase government spending risking a budget deficit\n",
+  "target": "H"
+}

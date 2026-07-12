@@ -1,0 +1,5 @@
+{
+  "game_id": 324,
+  "input": "Question:\nHow long is a single term in the US Senate?\nOptions:\nA. five years\nB. three years\nC. ten years\nD. two years\nE. six years\nF. seven years\nG. twelve years\nH. eight years\nI. four years\nJ. one year\n",
+  "target": "E"
+}

@@ -1,0 +1,9 @@
+{
+  "game_id": 255,
+  "input": "what do you call an excluded scientist who is asked to stay home? Please finish your answer with a postscript starting with P.P.S",
+  "target": {
+    "detectable_content:postscript": {
+      "postscript_marker": "P.P.S"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "game_id": 51,
+  "input": "Can you elaborate on the following text: \"Increased axle weight increased the damage to the road\"? Your response must contain a title wrapped in double angular brackets, i.e. <<title>>. Use less than 5 sentences.",
+  "target": {
+    "detectable_format:title": {},
+    "length_constraints:number_sentences": {
+      "relation": "less than",
+      "num_sentences": 5
+    }
+  }
+}

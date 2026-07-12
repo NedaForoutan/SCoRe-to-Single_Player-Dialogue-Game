@@ -1,0 +1,92 @@
+{
+  "name": "web_of_lies",
+  "meta": {
+    "dataset_path": "lukaemon/bbh",
+    "output_type": "generate_until",
+    "test_split": "test",
+    "doc_to_target": "{{target}}",
+    "metric_list": [
+      {
+        "metric": "exact_match",
+        "aggregation": "mean",
+        "higher_is_better": true
+      }
+    ],
+    "generation_kwargs": {
+      "until": [
+        "</s>",
+        "Q",
+        "\n\n"
+      ],
+      "do_sample": false,
+      "temperature": 0.0
+    },
+    "num_fewshot": 3,
+    "metadata": {
+      "version": 2.0
+    },
+    "dataset_name": "web_of_lies",
+    "description": "Evaluate a random boolean function expressed as a word problem.\n\n",
+    "doc_to_text": "Q: {{input}}\nA:",
+    "fewshot_config": {
+      "sampler": "first_n",
+      "samples": [
+        {
+          "input": "Question: Fidel tells the truth. Jerry says Fidel tells the truth. Vina says Jerry tells the truth. Millicent says Vina lies. Raymond says Millicent lies. Does Raymond tell the truth?",
+          "target": "Yes"
+        },
+        {
+          "input": "Question: Kristian lies. Millie says Kristian lies. Maybelle says Millie tells the truth. Fidel says Maybelle lies. Leda says Fidel lies. Does Leda tell the truth?",
+          "target": "Yes"
+        },
+        {
+          "input": "Question: Kristian tells the truth. Michaela says Kristian lies. Raymond says Michaela tells the truth. Osvaldo says Raymond tells the truth. Jamey says Osvaldo tells the truth. Does Jamey tell the truth?",
+          "target": "No"
+        }
+      ]
+    },
+    "task": "playschool_bbh_fewshot_web_of_lies"
+  },
+  "initial_prompt": "Evaluate a random boolean function expressed as a word problem.\n\nQ: Question: Fidel tells the truth. Jerry says Fidel tells the truth. Vina says Jerry tells the truth. Millicent says Vina lies. Raymond says Millicent lies. Does Raymond tell the truth?\nA: Yes\n\nQ: Question: Kristian lies. Millie says Kristian lies. Maybelle says Millie tells the truth. Fidel says Maybelle lies. Leda says Fidel lies. Does Leda tell the truth?\nA: Yes\n\nQ: Question: Kristian tells the truth. Michaela says Kristian lies. Raymond says Michaela tells the truth. Osvaldo says Raymond tells the truth. Jamey says Osvaldo tells the truth. Does Jamey tell the truth?\nA: No\n\nQ: {{input}}\nA:",
+  "timestamp": "2026-07-06T20:57:22.441124",
+  "game_name": "bbh",
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "game_id": 390,
+  "input": "Write a creative and persuasive startup pitch for a business that helps people with chronic illnesses find and manage in-home care. Your pitch should be less than 7 sentences and contain exactly 1 bullet point in markdown.",
+  "target": {
+    "length_constraints:number_sentences": {
+      "relation": "less than",
+      "num_sentences": 7
+    },
+    "detectable_format:number_bullet_lists": {
+      "num_bullets": 1
+    }
+  }
+}

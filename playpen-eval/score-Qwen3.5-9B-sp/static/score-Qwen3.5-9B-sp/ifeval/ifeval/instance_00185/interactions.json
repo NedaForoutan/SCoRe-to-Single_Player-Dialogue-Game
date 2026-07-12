@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "game_name": "ifeval",
+    "experiment_name": "ifeval",
+    "game_id": 185,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "InstructionFollower",
+      "model_name": "score-Qwen3.5-9B-sp"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T21:12:21.973511",
+        "action": {
+          "type": "send message",
+          "content": "Write a story from a perspective of a man. Include some conversation in the story. Avoid using the letter i more than twice.",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:12:21.973523",
+        "action": {
+          "type": "get message",
+          "content": "The rain hammered hard against the roof. Elias stood by the window, watching the gray world blur. He held a cold cup of coffee in his hands.\n\n\"Come inside, Tom,\" Elias said, turning to the door. \"It's freezing out there.\"\n\nTom shivered, pulling his coat tighter. \"Just a quick walk. The air clears the head.\"\n\nElias sighed. \"You've been walking for hours. You look pale.\"\n\nTom stepped into the warm room and shook the water from his boots. \"I felt fine until now. My legs feel heavy.\"\n\nElias moved to the stove and lit a fire. \"Sit down. We need to talk about the job. The boss called this morning.\"\n\nTom sat on the edge of the chair, looking tired. \"What did he say?\"\n\n\"He wants you to leave. The project is done.\"\n\nTom stared at the flames. \"Done? But we started last week.\"\n\nElias poured two mugs of hot tea. \"Time moves fast. You should rest now.\"\n\nTom took the mug, his hands trembling slightly. \"I don't know what to do next.\"\n\nElias placed a hand on his shoulder. \"We'll figure it out. Together.\"\n\nTom nodded slowly, finally feeling the warmth spread through his chest. \"Thank you, Elias.\"\n\nOutside, the storm began to fade, leaving only a soft mist.\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:12:21.973538",
+        "action": {
+          "type": "target",
+          "content": {
+            "keywords:letter_frequency": {
+              "let_relation": "less than",
+              "letter": "i",
+              "let_frequency": 3
+            }
+          }
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T21:12:21.973627",
+        "action": {
+          "type": "followed not all instructions",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

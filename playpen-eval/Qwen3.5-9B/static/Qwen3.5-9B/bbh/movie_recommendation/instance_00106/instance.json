@@ -1,0 +1,5 @@
+{
+  "game_id": 106,
+  "input": "Find a movie similar to The Fugitive, Interview with the Vampire The Vampire Chronicles, The Mask, The Lion King:\nOptions:\n(A) Babe\n(B) The House\n(C) Saving Santa\n(D) Experimenter",
+  "target": "(A)"
+}

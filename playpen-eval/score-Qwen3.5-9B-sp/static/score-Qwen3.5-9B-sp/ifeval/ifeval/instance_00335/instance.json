@@ -1,0 +1,10 @@
+{
+  "game_id": 335,
+  "input": "Write a proposal for a research project on the impact of the liberian civil war on the country's economy. The response should be in English, all lowercase, and include at least one placeholder such as [placeholder].",
+  "target": {
+    "change_case:english_lowercase": {},
+    "detectable_content:number_placeholders": {
+      "num_placeholders": 1
+    }
+  }
+}

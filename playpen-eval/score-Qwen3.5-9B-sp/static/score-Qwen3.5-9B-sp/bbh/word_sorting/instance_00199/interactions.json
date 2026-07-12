@@ -1,0 +1,108 @@
+{
+  "meta": {
+    "game_name": "bbh",
+    "experiment_name": "word_sorting",
+    "game_id": 199,
+    "results_folder": "score-Qwen3.5-9B-sp",
+    "clem_version": "3.7.2",
+    "round_count": 1,
+    "completed": true
+  },
+  "player_models": {
+    "0": {
+      "model_spec": {
+        "model_name": "score-Qwen3.5-9B-sp",
+        "backend": "huggingface_local",
+        "context_size": "262k",
+        "huggingface_id": "/sc/home/valha.mmesh/playpen-work/models/score_Qwen3.5-9B_singleplayer_final/final_merged",
+        "languages": [
+          "en",
+          "zh"
+        ],
+        "license": {
+          "name": "Apache 2.0",
+          "url": "https://apache.org"
+        },
+        "lookup_source": "/sc/home/valha.mmesh/playpen-work/model_registry.json",
+        "model_config": {
+          "premade_chat_template": true,
+          "eos_to_cull": "<\\|im_end\\|>",
+          "chat_template_kwargs": {
+            "enable_thinking": false
+          },
+          "multimodality": {
+            "single_image": true,
+            "multiple_images": true,
+            "audio": false,
+            "video": true
+          }
+        },
+        "open_weight": true,
+        "parameters": "9B",
+        "release_date": "2026-02-24"
+      },
+      "gen_args": {
+        "temperature": 0.0,
+        "max_tokens": 300
+      }
+    }
+  },
+  "players": {
+    "GM": {
+      "game_role": "Game Master",
+      "model_name": "programmatic"
+    },
+    "Player 1": {
+      "game_role": "Answerer",
+      "model_name": "score-Qwen3.5-9B-sp"
+    }
+  },
+  "turns": [
+    [
+      {
+        "from": "GM",
+        "to": "Player 1",
+        "timestamp": "2026-07-06T20:52:51.454463",
+        "action": {
+          "type": "send message",
+          "content": "Sort a list of words.\n\nQ: Sort the following words alphabetically: List: oven costume counterpart\nA: costume counterpart oven\n\nQ: Sort the following words alphabetically: List: hypochlorite ponderosa phone credulity\nA: credulity hypochlorite phone ponderosa\n\nQ: Sort the following words alphabetically: List: newt arson parthia seismography mugho aspect census\nA: arson aspect census mugho newt parthia seismography\n\nQ: Sort the following words alphabetically: List: rowley midshipman saline furl geld locomote exhumation anarchic bstj gradual riddance j liniment pantheist elution profess\nA:",
+          "label": "context"
+        }
+      },
+      {
+        "from": "Player 1",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:52:51.454474",
+        "action": {
+          "type": "get message",
+          "content": "anarchic aspect bstj census elution exhumation furl geld gradual j liniment locomote midshipman mugho newt parthia ponderosa phone professo rowley saline seismography\n",
+          "label": "response"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:52:51.454488",
+        "action": {
+          "type": "metadata",
+          "content": "Target: anarchic bstj elution exhumation furl geld gradual j liniment locomote midshipman pantheist profess riddance rowley saline"
+        }
+      },
+      {
+        "from": "GM",
+        "to": "GM",
+        "timestamp": "2026-07-06T20:52:51.454494",
+        "action": {
+          "type": "wrong answer",
+          "content": "game_result = LOSE"
+        }
+      }
+    ]
+  ],
+  "Aborted": 0,
+  "Lose": 1,
+  "Success": 0,
+  "Request Count": 1,
+  "Parsed Request Count": 1,
+  "Violated Request Count": 0
+}

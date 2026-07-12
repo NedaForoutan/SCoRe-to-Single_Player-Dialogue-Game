@@ -1,0 +1,18 @@
+{
+  "game_id": 54,
+  "input": "Take the text below as a starting point, and make it a complete article: \"You may have to meet with a helper to work out a parenting plan. The first would be to estimate how many time you have everyday for parenting, and is that enough....\"\nAvoid using the following keywords: sleep, cook, feed\nMention the keyword 'schedule' for more than 5 times.",
+  "target": {
+    "keywords:forbidden_words": {
+      "forbidden_words": [
+        "sleep",
+        "cook",
+        "feed"
+      ]
+    },
+    "keywords:frequency": {
+      "relation": "at least",
+      "keyword": "schedule",
+      "frequency": 6
+    }
+  }
+}

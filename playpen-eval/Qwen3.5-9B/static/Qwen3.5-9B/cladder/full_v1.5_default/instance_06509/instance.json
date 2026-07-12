@@ -1,0 +1,5 @@
+{
+  "game_id": 6509,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Muvy has a direct effect on kwox and kwoz. Kwox has a direct effect on swoq. Swoq has a direct effect on kwoz. Muvy is unobserved. The overall probability of kwox is 28%. The probability of not kwox and kwoz is 65%. The probability of kwox and kwoz is 21%. Is the chance of kwoz smaller when observing kwox?",
+  "target": "yes"
+}

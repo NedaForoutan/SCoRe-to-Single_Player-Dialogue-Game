@@ -1,0 +1,5 @@
+{
+  "game_id": 4979,
+  "input": "Imagine a self-contained, hypothetical world with only the following conditions, and without any unmentioned factors or causal relationships: Vaccination status has a direct effect on vaccination reaction and getting smallpox. Getting smallpox has a direct effect on black hair. Vaccination reaction has a direct effect on black hair. For unvaccinated individuals, the probability of black hair is 27%. For vaccinated individuals, the probability of black hair is 37%. Will vaccination decrease the chance of black hair?",
+  "target": "no"
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "game_name": "bbh",
+    "experiment_name": "hyperbaton",
+    "game_id": 148,
+    "player_name": "Player 1",
+    "game_role": "Answerer",
+    "model_name": "score-Qwen3.5-9B-sp",
+    "round_count": 1,
+    "completed": true
+  },
+  "calls": [
+    {
+      "round": 0,
+      "call": {
+        "timestamp": "2026-07-06T20:58:48.999018",
+        "manipulated_prompt_obj": {
+          "inputs": "<|im_start|>user\nOrder adjectives correctly in English sentences.\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) rubber terrible ship\n(B) terrible rubber ship\nA: (B)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) repulsive small Brazilian exercise ship\n(B) Brazilian repulsive exercise small ship\nA: (A)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) blue gold wonderful square shoe\n(B) wonderful square blue gold shoe\nA: (B)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) cardboard ridiculous old-fashioned cat\n(B) ridiculous old-fashioned cardboard cat\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n",
+          "max_new_tokens": 300,
+          "temperature": 0.0
+        },
+        "raw_response_obj": {
+          "response": "<|im_start|>user\nOrder adjectives correctly in English sentences.\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) rubber terrible ship\n(B) terrible rubber ship\nA: (B)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) repulsive small Brazilian exercise ship\n(B) Brazilian repulsive exercise small ship\nA: (A)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) blue gold wonderful square shoe\n(B) wonderful square blue gold shoe\nA: (B)\n\nQ: Which sentence has the correct adjective order:\nOptions:\n(A) cardboard ridiculous old-fashioned cat\n(B) ridiculous old-fashioned cardboard cat\nA:<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\n(A)\n\n**Reasoning:**\nThe standard order of adjectives in English follows this sequence:\n1.  **Opinion** (e.g., ridiculous)\n2.  **Size** (none here)\n3.  **Age** (e.g., old-fashioned)\n4.  **Shape** (none here)\n5.  **Color** (none here)\n6.  **Origin** (none here)\n7.  **Material** (e.g., cardboard)\n8.  **Purpose** (none here)\n\nApplying this to the options:\n*   (A) **ridiculous** (Opinion) + **old-fashioned** (Age) + **cardboard** (Material) + cat. This follows the correct rule.\n*   (B) **cardboard** (Material) + **ridiculous** (Opinion)... This is incorrect because material comes after opinion.<|im_end|>\n<|endoftext|>",
+          "clem_player": {
+            "call_start": "2026-07-06 20:58:41.524045",
+            "call_duration": "0:00:07.474916",
+            "response": "(A)\n\n**Reasoning:**\nThe standard order of adjectives in English follows this sequence:\n1.  **Opinion** (e.g., ridiculous)\n2.  **Size** (none here)\n3.  **Age** (e.g., old-fashioned)\n4.  **Shape** (none here)\n5.  **Color** (none here)\n6.  **Origin** (none here)\n7.  **Material** (e.g., cardboard)\n8.  **Purpose** (none here)\n\nApplying this to the options:\n*   (A) **ridiculous** (Opinion) + **old-fashioned** (Age) + **cardboard** (Material) + cat. This follows the correct rule.\n*   (B) **cardboard** (Material) + **ridiculous** (Opinion)... This is incorrect because material comes after opinion.\n",
+            "model_name": "score-Qwen3.5-9B-sp"
+          }
+        }
+      }
+    }
+  ]
+}

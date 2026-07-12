@@ -1,0 +1,79 @@
+{
+  "meta": {},
+  "players": {},
+  "turn scores": {
+    "0": {
+      "efficient_move": 1
+    },
+    "1": {
+      "efficient_move": 0
+    },
+    "2": {
+      "efficient_move": 0
+    },
+    "3": {
+      "efficient_move": 0
+    },
+    "4": {
+      "efficient_move": 1
+    },
+    "5": {
+      "efficient_move": 1
+    },
+    "6": {
+      "efficient_move": 1
+    },
+    "7": {
+      "efficient_move": 1
+    },
+    "8": {
+      "efficient_move": 1
+    },
+    "9": {
+      "efficient_move": 0
+    },
+    "10": {
+      "efficient_move": 1
+    },
+    "11": {
+      "efficient_move": 1
+    },
+    "12": {
+      "efficient_move": 0
+    },
+    "13": {
+      "efficient_move": 0
+    },
+    "14": {
+      "efficient_move": 0
+    },
+    "15": {
+      "efficient_move": 1
+    },
+    "16": {
+      "efficient_move": 0
+    },
+    "17": {
+      "efficient_move": 0
+    },
+    "18": {
+      "efficient_move": 1
+    }
+  },
+  "episode scores": {
+    "Aborted": 1,
+    "Success": 0,
+    "Lose": 0,
+    "moves": NaN,
+    "valid_moves": NaN,
+    "invalid_moves": NaN,
+    "stopped": NaN,
+    "turns_limit": NaN,
+    "loops": NaN,
+    "number_visited": NaN,
+    "seen": NaN,
+    "efficiency": NaN,
+    "exploration": NaN,
+    "Main Score": NaN
+  }
+}
