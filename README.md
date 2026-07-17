@@ -43,8 +43,8 @@ The model is trained on five PLAYPEN single-player games:
 
 |          Model       | ClemScore | StatScore |
 |----------------------|----------:|----------:|
-| Qwen3.5-9B           |   35.20   |    53.98  |
-| **SCoRe-Qwen3.5-9B** | **41.18** | **54.35** |
+| Qwen3.5-9B           |   41.18   | **54.35** |
+| **SCoRe-Qwen3.5-9B** | **43.31** |   52.71   |
 
 The SCoRe fine-tuned model
 
